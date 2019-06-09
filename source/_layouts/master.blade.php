@@ -44,8 +44,8 @@
         <header class="flex items-center shadow bg-white border-b mb-8 py-2 sticky pin-t" role="banner">
             <div class="container flex items-center justify-between max-w-4xl mx-auto px-4">
                 <div class="flex items-center">
-                    <a href="/" title="{{ $page->siteName }} home" class="inline-flex items-center">
-                        <img src="/assets/img/icon-book.svg" class="h-5 w-5 mr-2" alt="stack icon">
+                    <a href="{{ $page->baseUrl }}" title="{{ $page->siteName }} home" class="inline-flex items-center">
+                        <img src="{{ $page->baseUrl }}/assets/img/icon-book.svg" class="h-5 w-5 mr-2" alt="stack icon">
                         <span class="text-lg md:text-2xl text-teal-darkest font-semibold hover:text-teal-dark my-0 pr-4">{{ $page->siteName }}</span>
                     </a>
                 </div>
