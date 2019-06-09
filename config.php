@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'baseUrl' => 'http://localhost:8000',
+    'baseUrl' => '',
     'production' => false,
     'siteName' => 'DinoMatic Docs',
     'siteDescription' => 'WordPress Themes and Plugins',

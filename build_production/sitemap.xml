@@ -1,163 +1,158 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
  <url>
-  <loc>https://avetyan.net/docs/build/docs</loc>
-  <lastmod>2019-06-09T10:12:06+00:00</lastmod>
+  <loc>https://docs.dinomatic.com/docs</loc>
+  <lastmod>2019-06-09T10:29:04+00:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
-  <loc>https://avetyan.net/docs/build/docs/akurai</loc>
-  <lastmod>2019-06-09T10:12:06+00:00</lastmod>
+  <loc>https://docs.dinomatic.com/docs/akurai</loc>
+  <lastmod>2019-06-09T10:29:04+00:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
-  <loc>https://avetyan.net/docs/build/docs/akurai/blocks-shortcodes</loc>
-  <lastmod>2019-06-09T10:12:06+00:00</lastmod>
+  <loc>https://docs.dinomatic.com/docs/akurai/blocks-shortcodes</loc>
+  <lastmod>2019-06-09T10:29:04+00:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
-  <loc>https://avetyan.net/docs/build/docs/akurai/child-theme</loc>
-  <lastmod>2019-06-09T10:12:06+00:00</lastmod>
+  <loc>https://docs.dinomatic.com/docs/akurai/child-theme</loc>
+  <lastmod>2019-06-09T10:29:04+00:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
-  <loc>https://avetyan.net/docs/build/docs/akurai/creating-review-pages</loc>
-  <lastmod>2019-06-09T10:12:06+00:00</lastmod>
+  <loc>https://docs.dinomatic.com/docs/akurai/creating-review-pages</loc>
+  <lastmod>2019-06-09T10:29:04+00:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
-  <loc>https://avetyan.net/docs/build/docs/akurai/customizations</loc>
-  <lastmod>2019-06-09T10:12:06+00:00</lastmod>
+  <loc>https://docs.dinomatic.com/docs/akurai/customizations</loc>
+  <lastmod>2019-06-09T10:29:04+00:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
-  <loc>https://avetyan.net/docs/build/docs/akurai/installation</loc>
-  <lastmod>2019-06-09T10:12:06+00:00</lastmod>
+  <loc>https://docs.dinomatic.com/docs/akurai/installation</loc>
+  <lastmod>2019-06-09T10:29:04+00:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
-  <loc>https://avetyan.net/docs/build/docs/akurai/page-templates</loc>
-  <lastmod>2019-06-09T10:12:06+00:00</lastmod>
+  <loc>https://docs.dinomatic.com/docs/akurai/page-templates</loc>
+  <lastmod>2019-06-09T10:29:04+00:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
-  <loc>https://avetyan.net/docs/build/docs/akurai/registration</loc>
-  <lastmod>2019-06-09T10:12:06+00:00</lastmod>
+  <loc>https://docs.dinomatic.com/docs/akurai/registration</loc>
+  <lastmod>2019-06-09T10:29:04+00:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
-  <loc>https://avetyan.net/docs/build/docs/akurai/review-page-blocks</loc>
-  <lastmod>2019-06-09T10:12:06+00:00</lastmod>
+  <loc>https://docs.dinomatic.com/docs/akurai/review-page-blocks</loc>
+  <lastmod>2019-06-09T10:29:04+00:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
-  <loc>https://avetyan.net/docs/build/docs/akurai/widget-areas</loc>
-  <lastmod>2019-06-09T10:12:06+00:00</lastmod>
+  <loc>https://docs.dinomatic.com/docs/akurai/widget-areas</loc>
+  <lastmod>2019-06-09T10:29:04+00:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
-  <loc>https://avetyan.net/docs/build/docs/akurai/widgets</loc>
-  <lastmod>2019-06-09T10:12:06+00:00</lastmod>
+  <loc>https://docs.dinomatic.com/docs/akurai/widgets</loc>
+  <lastmod>2019-06-09T10:29:04+00:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
-  <loc>https://avetyan.net/docs/build/docs/kemoku</loc>
-  <lastmod>2019-06-09T10:12:06+00:00</lastmod>
+  <loc>https://docs.dinomatic.com/docs/kemoku</loc>
+  <lastmod>2019-06-09T10:29:04+00:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
-  <loc>https://avetyan.net/docs/build/docs/kemoku/blocks</loc>
-  <lastmod>2019-06-09T10:12:06+00:00</lastmod>
+  <loc>https://docs.dinomatic.com/docs/kemoku/blocks</loc>
+  <lastmod>2019-06-09T10:29:04+00:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
-  <loc>https://avetyan.net/docs/build/docs/kemoku/installation</loc>
-  <lastmod>2019-06-09T10:12:06+00:00</lastmod>
+  <loc>https://docs.dinomatic.com/docs/kemoku/installation</loc>
+  <lastmod>2019-06-09T10:29:04+00:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
-  <loc>https://avetyan.net/docs/build/docs/kemoku/registration</loc>
-  <lastmod>2019-06-09T10:12:06+00:00</lastmod>
+  <loc>https://docs.dinomatic.com/docs/kemoku/registration</loc>
+  <lastmod>2019-06-09T10:29:04+00:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
-  <loc>https://avetyan.net/docs/build/docs/kemoku/review-pages</loc>
-  <lastmod>2019-06-09T10:12:06+00:00</lastmod>
+  <loc>https://docs.dinomatic.com/docs/kemoku/review-pages</loc>
+  <lastmod>2019-06-09T10:29:04+00:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
-  <loc>https://avetyan.net/docs/build/docs/kemoku/settings</loc>
-  <lastmod>2019-06-09T10:12:06+00:00</lastmod>
+  <loc>https://docs.dinomatic.com/docs/kemoku/settings</loc>
+  <lastmod>2019-06-09T10:29:04+00:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
-  <loc>https://avetyan.net/docs/build/docs/kemoku/shortcodes</loc>
-  <lastmod>2019-06-09T10:12:06+00:00</lastmod>
+  <loc>https://docs.dinomatic.com/docs/kemoku/shortcodes</loc>
+  <lastmod>2019-06-09T10:29:04+00:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
-  <loc>https://avetyan.net/docs/build/docs/nonaki</loc>
-  <lastmod>2019-06-09T10:12:06+00:00</lastmod>
+  <loc>https://docs.dinomatic.com/docs/nonaki</loc>
+  <lastmod>2019-06-09T10:29:04+00:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
-  <loc>https://avetyan.net/docs/build/docs/nonaki/installation</loc>
-  <lastmod>2019-06-09T10:12:06+00:00</lastmod>
+  <loc>https://docs.dinomatic.com/docs/nonaki/installation</loc>
+  <lastmod>2019-06-09T10:29:04+00:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
-  <loc>https://avetyan.net/docs/build/docs/nonaki/using-plugin</loc>
-  <lastmod>2019-06-09T10:12:06+00:00</lastmod>
+  <loc>https://docs.dinomatic.com/docs/nonaki/using-plugin</loc>
+  <lastmod>2019-06-09T10:29:04+00:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
-  <loc>https://avetyan.net/docs/build/docs/sikika</loc>
-  <lastmod>2019-06-09T10:12:06+00:00</lastmod>
+  <loc>https://docs.dinomatic.com/docs/sikika</loc>
+  <lastmod>2019-06-09T10:29:04+00:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
-  <loc>https://avetyan.net/docs/build/docs/sikika/amp</loc>
-  <lastmod>2019-06-09T10:12:06+00:00</lastmod>
+  <loc>https://docs.dinomatic.com/docs/sikika/amp</loc>
+  <lastmod>2019-06-09T10:29:04+00:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
-  <loc>https://avetyan.net/docs/build/docs/sikika/child-theme</loc>
-  <lastmod>2019-06-09T10:12:06+00:00</lastmod>
+  <loc>https://docs.dinomatic.com/docs/sikika/child-theme</loc>
+  <lastmod>2019-06-09T10:29:04+00:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
-  <loc>https://avetyan.net/docs/build/docs/sikika/customizations</loc>
-  <lastmod>2019-06-09T10:12:06+00:00</lastmod>
+  <loc>https://docs.dinomatic.com/docs/sikika/customizations</loc>
+  <lastmod>2019-06-09T10:29:04+00:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
-  <loc>https://avetyan.net/docs/build/docs/sikika/installation</loc>
-  <lastmod>2019-06-09T10:12:06+00:00</lastmod>
+  <loc>https://docs.dinomatic.com/docs/sikika/installation</loc>
+  <lastmod>2019-06-09T10:29:04+00:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
-  <loc>https://avetyan.net/docs/build/docs/sikika/page-templates</loc>
-  <lastmod>2019-06-09T10:12:06+00:00</lastmod>
+  <loc>https://docs.dinomatic.com/docs/sikika/page-templates</loc>
+  <lastmod>2019-06-09T10:29:04+00:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
-  <loc>https://avetyan.net/docs/build/docs/sikika/widget-areas</loc>
-  <lastmod>2019-06-09T10:12:06+00:00</lastmod>
+  <loc>https://docs.dinomatic.com/docs/sikika/widget-areas</loc>
+  <lastmod>2019-06-09T10:29:04+00:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
-  <loc>https://avetyan.net/docs/build/favicon.png</loc>
-  <lastmod>2019-06-09T10:12:06+00:00</lastmod>
+  <loc>https://docs.dinomatic.com/favicon.png</loc>
+  <lastmod>2019-06-09T10:29:04+00:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
-  <loc>https://avetyan.net/docs/build/favicon.svg</loc>
-  <lastmod>2019-06-09T10:12:06+00:00</lastmod>
-  <changefreq>daily</changefreq>
- </url>
- <url>
-  <loc>https://avetyan.net/docs/build</loc>
-  <lastmod>2019-06-09T10:12:06+00:00</lastmod>
+  <loc>https://docs.dinomatic.com</loc>
+  <lastmod>2019-06-09T10:29:04+00:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
 </urlset>

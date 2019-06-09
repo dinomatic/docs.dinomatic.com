@@ -1,7 +1,6 @@
 <?php
 
 return [
-    'baseUrl' => 'https://avetyan.net/docs/build',
-    'baseDir' => 'docs/build',
+    'baseUrl' => 'https://docs.dinomatic.com',
     'production' => true,
 ];

@@ -1,6 +1,6 @@
 <?php
 
 return [
-    'baseUrl' => 'https://dev.dinomatic.com/kb',
+    'baseUrl' => 'https://docs.dinomatic.com',
     'production' => false,
 ];

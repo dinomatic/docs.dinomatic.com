@@ -31,21 +31,16 @@
 
         @stack('meta')
 
-        <script>
-        const baseUrl = "{{ $page->baseUrl }}"
-        const baseDir = "{{ $page->baseDir }}"
-        </script>
-
         <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,300i,400,400i,700,700i,800,800i" rel="stylesheet">
-        <link rel="stylesheet" href="{{ $page->baseUrl }}{{ mix('css/main.css', 'assets/build') }}">
+        <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
     </head>
 
     <body class="flex flex-col justify-between min-h-screen text-grey-darker leading-normal font-sans">
         <header class="flex items-center shadow bg-white border-b mb-8 py-2 sticky pin-t" role="banner">
             <div class="container flex items-center justify-between max-w-4xl mx-auto px-4">
                 <div class="flex items-center">
-                    <a href="{{ $page->baseUrl }}" title="{{ $page->siteName }} home" class="inline-flex items-center">
-                        <img src="{{ $page->baseUrl }}/assets/img/icon-book.svg" class="h-5 w-5 mr-2" alt="stack icon">
+                    <a href="/" title="{{ $page->siteName }} home" class="inline-flex items-center">
+                        <img src="/assets/img/icon-book.svg" class="h-5 w-5 mr-2" alt="stack icon">
                         <span class="text-lg md:text-2xl text-teal-darkest font-semibold hover:text-teal-dark my-0 pr-4">{{ $page->siteName }}</span>
                     </a>
                 </div>
@@ -62,7 +57,7 @@
             @yield('body')
         </main>
 
-        <script src="{{ $page->baseUrl }}{{ mix('js/main.js', 'assets/build') }}"></script>
+        <script src="{{ mix('js/main.js', 'assets/build') }}"></script>
 
         @stack('scripts')
     </body>
