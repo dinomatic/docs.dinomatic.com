@@ -37,7 +37,7 @@
   const images = docContent.querySelectorAll('img')
   if (images.length > 0) {
     images.forEach((image) => {
-      image.src = `${baseUrl}/${image.src}`
+      image.src = image.src.replace('assets', '${baseDir}/assets')
       image.classList.add('shadow-lg')
     })
   }
