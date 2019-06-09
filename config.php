@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'baseUrl' => 'https://dinomatic.com/kb',
+    'baseUrl' => 'http://localhost:8000',
     'production' => false,
     'siteName' => 'DinoMatic Docs',
     'siteDescription' => 'WordPress Themes and Plugins',

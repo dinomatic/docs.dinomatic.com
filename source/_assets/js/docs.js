@@ -36,7 +36,10 @@
 
   const images = docContent.querySelectorAll('img')
   if (images.length > 0) {
-    images.forEach((image) => image.classList.add('shadow-lg'))
+    images.forEach((image) => {
+      image.src = `${baseUrl}/${image.src}`
+      image.classList.add('shadow-lg')
+    })
   }
 
   docContent.querySelectorAll('a')
