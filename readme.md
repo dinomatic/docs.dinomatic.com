@@ -26,6 +26,6 @@ git add . && git commit -m "Build for Deploy"
 # git subtree push to deploy branch
 git subtree push --prefix build_production/ origin deploy
 
-# pull changes on the server
-git pull
+# pull changes on the server or set up a webhook
+# - FORGE HANDLES THIS
 ```

@@ -41,7 +41,7 @@
 
   docContent.querySelectorAll('a')
     .forEach(link => {
-      if (!link.href.includes('localhost')) {
+      if (!link.href.includes('docs.dinomatic.com')) {
         link.setAttribute('target', '_blank')
       }
     })
