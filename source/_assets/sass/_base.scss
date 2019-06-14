@@ -10,6 +10,7 @@ a {
 
     &:hover {
         @apply .text-teal-darker;
+        transition: color 0.5s;
     }
 }
 
