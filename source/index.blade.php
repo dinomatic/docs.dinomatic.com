@@ -11,8 +11,6 @@
 <section class="container max-w-4xl mx-auto p-8">
     <h3 class="text-3xl font-black mb-4">Documentations</h3>
 
-    {{-- <hr class="block my-8 border lg:hidden"> --}}
-
     <div class="flex flex-wrap items-center -mx-4">
 
         <h4 class="px-4 text-xl text-blue-darkest mb-8 mt-0 w-full sm:w-1/2 md:w-1/4">
@@ -49,8 +47,6 @@
 <section class="container max-w-4xl mx-auto p-8">
     <h3 class="text-3xl font-black mb-4">Demos</h3>
 
-    {{-- <hr class="block my-8 border lg:hidden"> --}}
-
     <div class="flex flex-wrap items-center -mx-4">
 
         <h4 class="px-4 text-xl text-blue-darkest mb-8 mt-0 flex items-center w-full sm:w-1/2 md:w-1/4">
@@ -85,15 +81,20 @@
 </section>
 
 <section class="container max-w-4xl mx-auto p-8">
-    <h3 class="text-3xl font-black mb-4">Support</h3>
-
-    {{-- <hr class="block my-8 border lg:hidden"> --}}
+    <h3 class="text-3xl font-black mb-4">Links</h3>
 
     <div class="flex flex-wrap items-center -mx-4">
         <h4 class="px-4 text-xl text-blue-darkest mb-8 mt-0 flex items-center w-full sm:w-1/2 md:w-1/4">
             <div class="w-full p-4 flex items-center border-b border-teal">
                 <img src="/assets/img/icon-terminal.svg" class="h-8 w-8 mr-4" alt="Support">
                 <a class="uppercase text-grey-dark font-light" href="https://dinomatic.com/account">Get <br class="hidden md:block lg:hidden" />Support</a>
+            </div>
+        </h4>
+
+        <h4 class="px-4 text-xl text-blue-darkest mb-8 mt-0 flex items-center w-full sm:w-1/2 md:w-1/4">
+            <div class="w-full p-4 flex items-center border-b border-teal">
+                <img src="/assets/img/icon-terminal.svg" class="h-8 w-8 mr-4" alt="Contact">
+                <a class="uppercase text-grey-dark font-light" href="https://dinomatic.com/contect">Get in <br class="hidden md:block lg:hidden" />Touch</a>
             </div>
         </h4>
 

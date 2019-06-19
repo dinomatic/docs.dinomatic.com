@@ -46,4 +46,4 @@ There's no sidebar used.
 
 ### Next Step
 
-[Widget Areas](/docs/akurai/widget-areas)
+[Widget Areas](/docs/akurai/homepage-templates)

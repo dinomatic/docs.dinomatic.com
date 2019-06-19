@@ -11,6 +11,16 @@ In your WordPress dashboard you will find a new menu item called **Reviews** rig
 
 ---
 
+## Review Page Hero
+
+All review pages have a hero section at the top to display information about the sportsbook such as the logo, ratings, bonus, etc.
+
+### Hero Styles
+
+You can customize the hero to display in 1 or 2 coulmns. Also you can choose to display the pahe heading (`h1` tag) below or above the hero. You can make this changes in [Customizer &#8594; Review Options](/docs/akurai/customizations#review-options).
+
+![akurai-review-hero](/assets/images/akurai/akurai-review-heros.png)
+
 ## Review Fields
 
 Besides adding your review title and content as usual, you’ll find **Review Fields** section below page content. Here you can define properties for each review. The fields are in separate sections and have descriptions to make it easy for you to fill them in. These properties are used all over the website, please make sure to fill them in.
