@@ -94,7 +94,7 @@
         <h4 class="px-4 text-xl text-blue-darkest mb-8 mt-0 flex items-center w-full sm:w-1/2 md:w-1/4">
             <div class="w-full p-4 flex items-center border-b border-teal">
                 <img src="/assets/img/icon-terminal.svg" class="h-8 w-8 mr-4" alt="Contact">
-                <a class="uppercase text-grey-dark font-light" href="https://dinomatic.com/contect">Get in <br class="hidden md:block lg:hidden" />Touch</a>
+                <a class="uppercase text-grey-dark font-light" href="https://dinomatic.com/contact">Get in <br class="hidden md:block lg:hidden" />Touch</a>
             </div>
         </h4>
 
