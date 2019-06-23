@@ -40,7 +40,27 @@ At the right side panel you can click on **Switch to Preview** to preview the ta
 ### Reviews Table Shortcode
 
 ```html
-[table reviews="comma separated list of review page ids" terms="none|short|long"]
+[table reviews="comma separated list of review page ids" terms="none|short|long|ajax"]
+```
+
+### Extended Table Block
+
+![akurai-blocks-table](/assets/images/akurai/akurai-blocks-table.png)
+
+To add a new table simply click on the **+** (Add block) sign and select **Reviews Table** in **Akurai Blocks** section.
+
+In the content editor a new table edit section will appear. Click **Add Review** to add as many reviews as you want and at the bottom select how to display the terms and conditions.
+
+![akurai-blocks-editor-table](/assets/images/akurai/akurai-blocks-editor-table.png)
+
+At the right side panel you can click on **Switch to Preview** to preview the table in your editor.
+
+> Note that the preview may differ a little from the actual table as some WordPress and other plugin styles may be affecting it.
+
+### Extended Table Shortcode
+
+```html
+[table_extended reviews="comma separated list of review page ids" terms="none|short|long|ajax"]
 ```
 
 ### Reviews Grid Block
@@ -60,7 +80,7 @@ At the right side panel you can click on **Switch to Preview** to preview the gi
 ### Reviews Grid Shortcode
 
 ```html
-[grid reviews="comma separated list of review page ids" terms="none|short|long"]
+[grid reviews="comma separated list of review page ids" terms="none|short|long|ajax"]
 ```
 
 ### Reviews List Block
