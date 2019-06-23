@@ -45,13 +45,13 @@ At the right side panel you can click on **Switch to Preview** to preview the ta
 
 ### Extended Table Block
 
-![akurai-blocks-table](/assets/images/akurai/akurai-blocks-table.png)
+![akurai-blocks-table-extended](/assets/images/akurai/akurai-blocks-table-extended.png)
 
 To add a new table simply click on the **+** (Add block) sign and select **Reviews Table** in **Akurai Blocks** section.
 
 In the content editor a new table edit section will appear. Click **Add Review** to add as many reviews as you want and at the bottom select how to display the terms and conditions.
 
-![akurai-blocks-editor-table](/assets/images/akurai/akurai-blocks-editor-table.png)
+![akurai-blocks-editor-table-extended](/assets/images/akurai/akurai-blocks-editor-table-extended.png)
 
 At the right side panel you can click on **Switch to Preview** to preview the table in your editor.
 
