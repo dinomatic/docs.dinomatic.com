@@ -38,6 +38,7 @@ return [
             'Review Pages' => 'docs/kemoku/review-pages',
             'Blocks' => 'docs/kemoku/blocks',
             'Shortcodes' => 'docs/kemoku/shortcodes',
+            'Widgets' => 'docs/kemoku/widgets',
             'Settings' => 'docs/kemoku/settings',
         ],
     ],

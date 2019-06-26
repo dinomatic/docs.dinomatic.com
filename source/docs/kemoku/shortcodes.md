@@ -30,6 +30,8 @@ Here are the shortcodes available in Kemoku plugin you can use in all pages:
 [sb_grid ids="6, 9" style="no-terms"]
 ```
 
+> You can use the Grid shortcode in sidebars as well.
+
 ### Review Page Shortcodes
 
 Here are the shortcodes available in Kemoku plugin you can use in review pages:
@@ -58,6 +60,7 @@ Generate the shortcode with a couple of mouse clicks, copy and paste the result 
 
 ![Kemoku Shortcode Generator](/assets/images/kemoku/kemoku-shortcode-generator.png)
 
+
 ### Next step
 
-[Plugin Shortcodes](/docs/shortcodes)
+[Plugin Widgets](/docs/kemoku/widgets)

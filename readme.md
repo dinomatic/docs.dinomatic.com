@@ -14,7 +14,7 @@ npm run dev
 ## Deploy
 
 ```bash
-# complie assets
+# compile assets
 npm run production
 
 # build for production

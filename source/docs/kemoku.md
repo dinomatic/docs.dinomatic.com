@@ -40,4 +40,4 @@ Also make sure to check out all [Sikia Demos](https://dinomatic.com/demos/sikika
 
 ### Next step
 
-[Theme Installation](/docs/kemoku/installation)
+[Plugin Installation](/docs/kemoku/installation)
