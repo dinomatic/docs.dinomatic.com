@@ -40,7 +40,7 @@ At the right side panel you can click on **Switch to Preview** to preview the ta
 ### Reviews Table Shortcode
 
 ```html
-[table reviews="comma separated list of review page ids" terms="none|short|long|ajax"]
+[table reviews="comma separated list of review page ids" terms="none|short|long|ajax|ajax-hover"]
 ```
 
 ### Extended Table Block
@@ -60,7 +60,7 @@ At the right side panel you can click on **Switch to Preview** to preview the ta
 ### Extended Table Shortcode
 
 ```html
-[table_extended reviews="comma separated list of review page ids" terms="none|short|long|ajax"]
+[table_extended reviews="comma separated list of review page ids" terms="none|short|long|ajax|ajax-hover"]
 ```
 
 ### Reviews Grid Block
@@ -80,7 +80,7 @@ At the right side panel you can click on **Switch to Preview** to preview the gi
 ### Reviews Grid Shortcode
 
 ```html
-[grid reviews="comma separated list of review page ids" terms="none|short|long|ajax"]
+[grid reviews="comma separated list of review page ids" terms="none|short|long|ajax|ajax-hover"]
 ```
 
 ### Reviews List Block

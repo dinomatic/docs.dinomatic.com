@@ -36,6 +36,10 @@ Here are 4 demos for you:
 
 Also make sure to check out all [Sikia Demos](https://dinomatic.com/demos/sikika) as they are using Kemoku plugin as well.
 
+### Changelog
+
+Find the full changelog [here](https://dinomatic.com/plugins/kemoku/changelog).
+
 ---
 
 ### Next step

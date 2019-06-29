@@ -24,8 +24,12 @@ Recommended versions are **WordPress 5.2** and **PHP 7**.
 
 Also make sure your host has the minimum requirements to run WordPress and PHP `max_upload_size` is more than 2MB.
 
+### Changelog
+
+Find the full changelog [here](https://dinomatic.com/plugins/nonaki/changelog).
+
 ---
 
 ### Next step
 
-[Theme Installation](/docs/kemoku/installation)
+[Plugin Installation](/docs/kemoku/installation)

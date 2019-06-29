@@ -34,6 +34,10 @@ Here are 4 demos for you:
 3. [Demo #3](https://dinomatic.com/demos/akurai/three)
 4. [Demo #4](https://dinomatic.com/demos/akurai/four)
 
+### Changelog
+
+Find the full changelog [here](https://dinomatic.com/themes/akurai/changelog).
+
 ---
 
 ### Next step
