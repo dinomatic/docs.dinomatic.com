@@ -25,7 +25,7 @@ Besides the default WordPress widgets, 2 sportsbook widgets are available for yo
 
 ### Reviews Widget
 
-Add the `Akurai Reviews Widget` to the widget area of your chioce.
+Add the `Akurai Reviews Widget` to the widget area of your choice.
 Add a widget title, select whether to display the sportsbook terms of not, choose the sportsbooks you want to display from the dropdown lists and click `Save`.
 
 You can display up to 10 review.
@@ -36,9 +36,9 @@ This is what it looks like on the front-end.
 
 ![Akurai Reviews Widget](/assets/images/akurai/akurai-widget-reviews.png)
 
-### Signle Review Widget
+### Single Review Widget
 
-Add the `Akurai Signle Reviews Widget` to the widget area of your chioce.
+Add the `Akurai Single Reviews Widget` to the widget area of your choice.
 Add a widget title, choose the sportsbook you want to display from the dropdown list and click `Save`.
 
 ![Akurai Reviews Widget](/assets/images/akurai/akurai-widget-review-dashboard.png)
@@ -49,4 +49,4 @@ This is what it looks like on the front-end.
 
 ### Nest step
 
-[Theme Customizations](/docs/akurai/customizations)
+[Theme Customizations](/docs/akurai/customizations/)

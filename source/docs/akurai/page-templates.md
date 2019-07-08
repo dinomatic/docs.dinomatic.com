@@ -24,7 +24,7 @@ There are 3 page templates available for displaying **Pages** in your website.
 ### Default Template
 
 The default template layout has the content area on the left and the sidebar on the right.
-The sidebar used in default templates is called **Main Disebar**.
+The sidebar used in default templates is called **Main Sidebar**.
 
 ![Akurai Default Template](/assets/images/akurai/akurai-template-right-sidebar.png)
 
@@ -46,4 +46,4 @@ There's no sidebar used.
 
 ### Next Step
 
-[Widget Areas](/docs/akurai/homepage-templates)
+[Widget Areas](/docs/akurai/homepage-templates/)

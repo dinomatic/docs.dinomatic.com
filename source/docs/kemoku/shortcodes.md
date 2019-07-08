@@ -63,4 +63,4 @@ Generate the shortcode with a couple of mouse clicks, copy and paste the result 
 
 ### Next step
 
-[Plugin Widgets](/docs/kemoku/widgets)
+[Plugin Widgets](/docs/kemoku/widgets/)

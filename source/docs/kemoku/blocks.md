@@ -53,8 +53,8 @@ You can also use **Review CTA** block, add the block, adjust the settings and it
 
 ### Blocks vs Shortcodes
 
-You can use all the blocks as shortcodes as well. Check out [Shortcodes](/docs/kemoku/shortcodes) for more information.
+You can use all the blocks as shortcodes as well. Check out [Shortcodes](/docs/kemoku/shortcodes/) for more information.
 
 ### Next step
 
-[Plugin Shortcodes](/docs/kemoku/shortcodes)
+[Plugin Shortcodes](/docs/kemoku/shortcodes/)

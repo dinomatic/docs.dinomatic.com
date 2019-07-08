@@ -32,4 +32,4 @@ Please make sure your server meets the minimum system requirements and download 
 
 ### Next step
 
-[Page Templates](/docs/sikika/page-templates)
+[Page Templates](/docs/sikika/page-templates/)

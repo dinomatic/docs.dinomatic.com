@@ -25,11 +25,11 @@ There are 5 review blocks available for you to use in review pages:
 
 ![akurai-review-blocks](/assets/images/akurai/akurai-review-blocks.png)
 
-All the 5 blocks require no configuration, all you need is to just add them to the content by clicking on the block name. The information is populated from [Review Fields](/docs/akurai/creating-review-pages) that you need to have filled in beforehand.
+All the 5 blocks require no configuration, all you need is to just add them to the content by clicking on the block name. The information is populated from [Review Fields](/docs/akurai/creating-review-pages/) that you need to have filled in beforehand.
 
 ### Shortcodes
 
-The same blocks are also available to use in [Review Page Sidebars](/docs/akurai/widget-areas) via shortcodes. Here’s the formats:
+The same blocks are also available to use in [Review Page Sidebars](/docs/akurai/widget-areas/) via shortcodes. Here’s the formats:
 
 - `[info]`
 - `[offer]`
@@ -55,4 +55,4 @@ Here's what the blocks look like in review page sidebars.
 
 ### Next Step
 
-[Blocks & Shortcodes](/docs/akurai/blocks-shortcodes)
+[Blocks & Shortcodes](/docs/akurai/blocks-shortcodes/)

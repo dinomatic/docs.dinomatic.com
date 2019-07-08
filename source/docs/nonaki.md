@@ -32,4 +32,4 @@ Find the full changelog [here](https://dinomatic.com/plugins/nonaki/changelog).
 
 ### Next step
 
-[Plugin Installation](/docs/kemoku/installation)
+[Plugin Installation](/docs/nonaki/installation/)

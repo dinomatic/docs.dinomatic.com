@@ -14,7 +14,7 @@ In admin dashboard visit **Appearance** &#8594; **Customize** select the options
 
 Below is the main WordPress Customizer view showing all the options you can customize.
 
-Also you can find the cuztomizer options and values for the [theme main demo](https://dinomatic.com/demos/akurai/one).
+Also you can find the customizer options and values for the [theme main demo](https://dinomatic.com/demos/akurai/one).
 
 ![Theme Customizations](/assets/images/akurai/akurai-customizations.png)
 
@@ -66,4 +66,4 @@ Also you can find the cuztomizer options and values for the [theme main demo](ht
 
 ### Next Step
 
-[Child Theme](/docs/akurai/child-theme)
+[Child Theme](/docs/akurai/child-theme/)

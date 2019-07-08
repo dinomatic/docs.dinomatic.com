@@ -49,7 +49,7 @@ Here are some examples of what you can layout the top section of the homepage wi
 
 ### Default Template with Grid or Table
 
-If you don't need to use the **Hero** and **Hero Full Screen** tamplates, you can still add a grid or a table at the top of the front page using the [Customizer &#8594; Homepage Settings](/docs/akurai/customizations#homepage-settings).
+If you don't need to use the **Hero** and **Hero Full Screen** templates, you can still add a grid or a table at the top of the front page using the [Customizer &#8594; Homepage Settings](/docs/akurai/customizations/#homepage-settings).
 
 ![Akurai No Sidebar Template](/assets/images/akurai/homepage/home-grid.png)
 
@@ -59,4 +59,4 @@ If you don't need to use the **Hero** and **Hero Full Screen** tamplates, you ca
 
 ### Next Step
 
-[Widget Areas](/docs/akurai/widget-areas)
+[Widget Areas](/docs/akurai/widget-areas/)

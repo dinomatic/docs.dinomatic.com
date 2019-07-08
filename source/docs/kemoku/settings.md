@@ -7,7 +7,7 @@ section: content
 
 # Plugin Settings
 
-To customise the plugin options visit **Sportsbooks** &#8594; **Settings** in your WordPress Dashboard where you can define all plugin options.
+To customize the plugin options visit **Sportsbooks** &#8594; **Settings** in your WordPress Dashboard where you can define all plugin options.
 
 ---
 
@@ -16,7 +16,7 @@ To customise the plugin options visit **Sportsbooks** &#8594; **Settings** in yo
 All of default plugin settings are defined in this page. Take your time to go over each field and set the value you need.
 If you find a field name unclear, click the **info** icon for detailed information.
 
-> Please note that if you make changes and after that change the coloe theme, all your changes will be lost. It's recommeded to choose the color theme first.
+> Please note that if you make changes and after that change the color theme, all your changes will be lost. It's recommended to choose the color theme first.
 
 ### General Settings
 

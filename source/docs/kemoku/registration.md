@@ -39,4 +39,4 @@ At this point you’re all set up to start using the plugin.
 
 ### Next step
 
-[Review Pages](/docs/kemoku/review-pages)
+[Review Pages](/docs/kemoku/review-pages/)

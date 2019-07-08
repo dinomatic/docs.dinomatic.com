@@ -30,4 +30,4 @@ Here are the widgets available in Kemoku plugin that you can use:
 
 ### Next step
 
-[Plugin Settings](/docs/kemoku/settings)
+[Plugin Settings](/docs/kemoku/settings/)

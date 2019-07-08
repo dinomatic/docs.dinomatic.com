@@ -17,7 +17,7 @@ All review pages have a hero section at the top to display information about the
 
 ### Hero Styles
 
-You can customize the hero to display in 1 or 2 coulmns. Also you can choose to display the pahe heading (`h1` tag) below or above the hero. You can make this changes in [Customizer &#8594; Review Options](/docs/akurai/customizations#review-options).
+You can customize the hero to display in 1 or 2 columns. Also you can choose to display the page heading (`h1` tag) below or above the hero. You can make this changes in [Customizer &#8594; Review Options](/docs/akurai/customizations/#review-options).
 
 ![akurai-review-hero](/assets/images/akurai/akurai-review-heros.png)
 
@@ -42,7 +42,7 @@ The name, image and affiliate URL are used in all shortcodes, blocks, widgets an
 
 ![akurai-review-fields-bonus](/assets/images/akurai/akurai-review-fields-bonus.png)
 
-Bonus fields are for defining sportsbook bonuses. You can deifne an optional **Shortcode Bonus** if you want to display a different or differently formatted bonus in shortcodes.
+Bonus fields are for defining sportsbook bonuses. You can define an optional **Shortcode Bonus** if you want to display a different or differently formatted bonus in shortcodes.
 
 ### Ratings Fields
 
@@ -50,7 +50,7 @@ Bonus fields are for defining sportsbook bonuses. You can deifne an optional **S
 
 First you define the main sportsbook rating which is used all over the website n shortcodes, widgets, etc.
 
-The second part for **Ratings** is where you define different ratings to display in review pages **Ratings** block/shortode.
+The second part for **Ratings** is where you define different ratings to display in review pages **Ratings** block/shortcode.
 
 ### Terms Fields
 
@@ -80,7 +80,7 @@ Define deposit and withdrawal methods provided by the sportsbook and display the
 
 ![akurai-review-fields-offer](/assets/images/akurai/akurai-review-fields-offer.png)
 
-Define the mian offers of the sportsbook such as sportsbook, casino, poker, etc. and their bonuses and display them in `Offer` block (or `[offer]` shortcode) in review pages.
+Define the main offers of the sportsbook such as sportsbook, casino, poker, etc. and their bonuses and display them in `Offer` block (or `[offer]` shortcode) in review pages.
 
 ### Related Reviews
 
@@ -92,4 +92,4 @@ You can choose to display related reviews section at the end of each review page
 
 ### Next step
 
-[Review Page Blocks](/docs/akurai/review-page-blocks)
+[Review Page Blocks](/docs/akurai/review-page-blocks/)

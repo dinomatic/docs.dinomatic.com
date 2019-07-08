@@ -185,4 +185,4 @@ At the right side panel you can click on **Switch to Preview** to preview the sl
 
 ### Next Step
 
-[Page Templates](/docs/akurai/page-templates)
+[Page Templates](/docs/akurai/page-templates/)

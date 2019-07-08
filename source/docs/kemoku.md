@@ -44,4 +44,4 @@ Find the full changelog [here](https://dinomatic.com/plugins/kemoku/changelog).
 
 ### Next step
 
-[Plugin Installation](/docs/kemoku/installation)
+[Plugin Installation](/docs/kemoku/installation/)

@@ -45,9 +45,8 @@ return [
     'Nonaki Plugin' => [
         'url' => 'docs/nonaki',
         'children' => [
-            'Getting Started' => 'docs/nonaki/getting-started',
             'Installation' => 'docs/nonaki/installation',
-            'Using Plugin' => 'docs/nonaki/using-plugin',
+            'Using The Plugin' => 'docs/nonaki/using-plugin',
         ],
     ],
 ];

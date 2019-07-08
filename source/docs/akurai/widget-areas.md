@@ -32,15 +32,15 @@ There are 7 widget areas available:
 ### Left Sidebar
 
 **Left Sidebar** is displayed on pages with the **Left Sidebar** page template.
-Here you can add different [widgets](/docs/akurai/widgets) if you want to.
+Here you can add different [widgets](/docs/akurai/widgets/) if you want to.
 
 ### Review Page Sidebar
 
 **Review Page Sidebar** is displayed on review pages where you can add review page blocks via shortcodes.
 
-For example, the **Sportsbbook Info** shortcode, all you need to do is add the shortcode to the widget body and add an optional widget title. You can use other [review page shortcodes](/docs/akurai/review-page-blocks) the same way.
+For example, the **Sportsbook Info** shortcode, all you need to do is add the shortcode to the widget body and add an optional widget title. You can use other [review page shortcodes](/docs/akurai/review-page-blocks/) the same way.
 
-![Spportsbook Info Table](/assets/images/akurai/akurai-widget-info.png)
+![Sportsbook Info Table](/assets/images/akurai/akurai-widget-info.png)
 
 ### Footer Widgets
 
@@ -53,4 +53,4 @@ You can use both default WordPress widgets as well as Akurai Sportsbook widgets 
 
 ### Next step
 
-[Theme Widgets](/docs/akurai/widgets)
+[Theme Widgets](/docs/akurai/widgets/)

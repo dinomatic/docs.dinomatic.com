@@ -59,4 +59,4 @@ Define **Sportsbook Info** for the sportsbook and display it in your content thr
 
 ### Next Step
 
-[Plugin Blocks](/docs/kemoku/blocks)
+[Plugin Blocks](/docs/kemoku/blocks/)

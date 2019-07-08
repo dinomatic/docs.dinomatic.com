@@ -42,4 +42,4 @@ Find the full changelog [here](https://dinomatic.com/themes/sikika/changelog).
 
 ### Next step
 
-[Theme Installation](/docs/sikika/installation)
+[Theme Installation](/docs/sikika/installation/)

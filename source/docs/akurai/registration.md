@@ -28,4 +28,4 @@ You can get your product key from your [DinoMatic account](https://dinomatic.com
 
 ### Next step
 
-[Creating Review Pages](/docs/akurai/creating-review-pages)
+[Creating Review Pages](/docs/akurai/creating-review-pages/)

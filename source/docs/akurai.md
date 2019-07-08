@@ -42,4 +42,4 @@ Find the full changelog [here](https://dinomatic.com/themes/akurai/changelog).
 
 ### Next step
 
-[Theme Installation](/docs/akurai/installation)
+[Theme Installation](/docs/akurai/installation/)
