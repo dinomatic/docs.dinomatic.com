@@ -38,7 +38,7 @@ This is what it looks like on the front-end.
 
 ### Single Review Widget
 
-Add the `Akurai Single Reviews Widget` to the widget area of your choice.
+Add the `Akurai Single Review Widget` to the widget area of your choice.
 Add a widget title, choose the sportsbook you want to display from the dropdown list and click `Save`.
 
 ![Akurai Reviews Widget](/assets/images/akurai/akurai-widget-review-dashboard.png)

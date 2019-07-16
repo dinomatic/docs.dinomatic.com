@@ -11,7 +11,7 @@ return [
 
     // versions
     'versions' => [
-        'akurai' => '1.0.5',
+        'akurai' => '1.0.6',
         'sikika' => '1.0.0',
         'kemoku' => '1.0.2',
         'nonaki' => '1.0.1',

@@ -100,7 +100,7 @@ At the right side panel you can click on **Switch to Preview** to preview the li
 ### Reviews List Shortcode
 
 ```html
-[list reviews="comma separated list of review page ids" terms="none|short|long"]
+[list reviews="comma separated list of review page ids" terms="none|ajax-hover"]
 ```
 
 ### Review Offer Block
