@@ -6,6 +6,7 @@ return [
         'children' => [
             'Installation' => 'docs/akurai/installation',
             'Theme Registration' => 'docs/akurai/registration',
+            'Review Page Slug' => 'docs/akurai/setting-review-page-slug',
             'Creating Review Pages' => 'docs/akurai/creating-review-pages',
             'Review Page Blocks' => 'docs/akurai/review-page-blocks',
             'Blocks & Shortcodes' => 'docs/akurai/blocks-shortcodes',
