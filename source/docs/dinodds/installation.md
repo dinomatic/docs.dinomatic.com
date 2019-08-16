@@ -31,3 +31,7 @@ Please make sure your server meets the minimum [system requirements](/docs/dinod
 6. Visit WordPress dashboard &#8594; Plugins and activate the plugin
 
 ---
+
+### Next step
+
+[Plugin Setup](/docs/dinodds/plugin-setup/)

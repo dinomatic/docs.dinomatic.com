@@ -43,17 +43,25 @@ return [
             'Settings' => 'docs/kemoku/settings',
         ],
     ],
+    'DinOdds Plugin' => [
+        'url' => 'docs/dinodds',
+        'children' => [
+            'Installation' => 'docs/dinodds/installation',
+            'Plugin Setup' => 'docs/dinodds/plugin-setup',
+            'Plugin Settings' => 'docs/dinodds/plugin-settings',
+            'Plugin Shortcodes' => 'docs/dinodds/plugin-shortcodes',
+            'Affiliate Settings' => 'docs/dinodds/affiliate-settings',
+            'Feed Updates' => 'docs/dinodds/feed-updates',
+            'Plugin Updates' => 'docs/dinodds/plugin-updates',
+            'DinoFeeds API' => 'docs/dinodds/api',
+            'Scheduling' => 'docs/dinodds/scheduling',
+        ],
+    ],
     'Nonaki Plugin' => [
         'url' => 'docs/nonaki',
         'children' => [
             'Installation' => 'docs/nonaki/installation',
             'Using The Plugin' => 'docs/nonaki/using-plugin',
-        ],
-    ],
-    'DinOdds Plugin' => [
-        'url' => 'docs/dinodds',
-        'children' => [
-            'Installation' => 'docs/dinodds/installation',
         ],
     ],
 ];
