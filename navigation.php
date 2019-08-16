@@ -50,4 +50,10 @@ return [
             'Using The Plugin' => 'docs/nonaki/using-plugin',
         ],
     ],
+    'DinOdds Plugin' => [
+        'url' => 'docs/dinodds',
+        'children' => [
+            'Installation' => 'docs/dinodds/installation',
+        ],
+    ],
 ];

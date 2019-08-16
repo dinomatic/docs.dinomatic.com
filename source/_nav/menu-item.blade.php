@@ -1,4 +1,4 @@
-<li class="list-reset {{ 0 === $level ? 'mb-8 pl-0' : 'pl-2' }}">
+<li class="list-reset {{ 0 === $level ? 'mb-8 pl-0 level-0' : 'pl-2' }}">
     @if ($url = is_string($item) ? $item : $item->url)
         {{-- Menu item with URL--}}
         <a href="{{ $page->url($url) }}"

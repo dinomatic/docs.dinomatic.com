@@ -1,4 +1,4 @@
-.nav-menu {
+nav.nav-menu {
     @apply .-mt-12;
     @apply .-mx-8;
     @apply .bg-grey-lighter;
@@ -7,17 +7,21 @@
     @apply .pt-8;
     @apply .px-4;
     @apply .shadow;
-    @apply .w-auto;
+    @apply .w-full;
+    @apply .z-20;
 
     @screen lg {
+        top: 86px;
+        height: calc(100vh - 86px);
         @apply .-mx-4;
-        @apply .bg-transparent;
-        @apply .block;
-        @apply .border-b-0;
-        @apply .mt-1;
+        @apply .mt-0;
+        @apply .mb-0;
         @apply .pl-0;
         @apply .px-0;
+        @apply .bg-transparent;
         @apply .shadow-none;
+        @apply .border-b-0;
+        @apply .block;
         @apply .w-1/4;
     }
 }

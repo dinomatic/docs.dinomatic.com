@@ -7,7 +7,8 @@
 @section('body')
 <section class="container max-w-4xl mx-auto px-6 md:px-8 py-4">
     <div class="flex flex-col lg:flex-row items-start">
-        <nav id="js-nav-menu" class="nav-menu hidden lg:max-w-sidebar lg:block">
+        <nav id="js-nav-menu" class="nav-menu hidden lg:max-w-sidebar lg:block opacity-0
+            sticky pin-t h-screen overflow-y-scroll">
             @include('_nav.menu', ['items' => $page->navigation])
         </nav>
 

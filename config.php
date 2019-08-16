@@ -15,6 +15,7 @@ return [
         'sikika' => '1.0.0',
         'kemoku' => '1.0.2',
         'nonaki' => '1.0.2',
+        'dinodds' => '1.0.0',
     ],
 
     // helpers
