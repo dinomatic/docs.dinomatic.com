@@ -28,11 +28,12 @@
         <link rel="icon" href="https://docs.dinomatic.com/favicon.png">
 
         
-        <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,300i,400,400i,700,700i,800,800i" rel="stylesheet">
-        <link rel="stylesheet" href="/assets/build/css/main.css?id=4643f75af891f0453f29">
+        <link href="https://fonts.googleapis.com/css?family=Rubik:400,700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="/assets/build/css/main.css?id=e146607bce91cfa860f6">
     </head>
 
     <body class="flex flex-col justify-between min-h-screen text-grey-darker leading-normal font-sans">
+        <a href="#content" class="screen-reader-text">Skip to content</a>
         <header class="flex items-center shadow bg-white border-b mb-8 py-2 sticky pin-t" role="banner">
             <div class="container flex items-center justify-between max-w-4xl mx-auto px-4">
                 <div class="flex items-center">
@@ -65,7 +66,7 @@
 
         </header>
 
-        <main role="main" class="w-full flex-auto">
+        <main id="main" role="main" class="w-full flex-auto">
             <section class="container max-w-4xl mx-auto px-6 md:px-8 py-4">
     <div class="flex flex-col lg:flex-row items-start">
         <nav id="js-nav-menu" class="nav-menu hidden lg:max-w-sidebar lg:block opacity-0
@@ -352,6 +353,99 @@
     </li>
             <li class="list-reset mb-8 pl-0 level-0">
             
+        <a href="/docs/dinodds"
+            class="lvl0   font-bold uppercase text-black nav-menu__item hover:text-black"
+        >
+            DinOdds Plugin
+        </a>
+    
+            
+        <ul class="list-reset my-0">
+            <li class="list-reset pl-2">
+            
+        <a href="/docs/dinodds/api"
+            class="lvl1    nav-menu__item hover:text-black"
+        >
+            DinoFeeds API
+        </a>
+    
+    </li>
+            <li class="list-reset pl-2">
+            
+        <a href="/docs/dinodds/installation"
+            class="lvl1    nav-menu__item hover:text-black"
+        >
+            Installation
+        </a>
+    
+    </li>
+            <li class="list-reset pl-2">
+            
+        <a href="/docs/dinodds/plugin-setup"
+            class="lvl1    nav-menu__item hover:text-black"
+        >
+            Plugin Setup
+        </a>
+    
+    </li>
+            <li class="list-reset pl-2">
+            
+        <a href="/docs/dinodds/plugin-settings"
+            class="lvl1    nav-menu__item hover:text-black"
+        >
+            Plugin Settings
+        </a>
+    
+    </li>
+            <li class="list-reset pl-2">
+            
+        <a href="/docs/dinodds/plugin-shortcodes"
+            class="lvl1    nav-menu__item hover:text-black"
+        >
+            Plugin Shortcodes
+        </a>
+    
+    </li>
+            <li class="list-reset pl-2">
+            
+        <a href="/docs/dinodds/affiliate-settings"
+            class="lvl1    nav-menu__item hover:text-black"
+        >
+            Affiliate Settings
+        </a>
+    
+    </li>
+            <li class="list-reset pl-2">
+            
+        <a href="/docs/dinodds/feed-updates"
+            class="lvl1    nav-menu__item hover:text-black"
+        >
+            Feed Updates
+        </a>
+    
+    </li>
+            <li class="list-reset pl-2">
+            
+        <a href="/docs/dinodds/scheduling"
+            class="lvl1    nav-menu__item hover:text-black"
+        >
+            Scheduling
+        </a>
+    
+    </li>
+            <li class="list-reset pl-2">
+            
+        <a href="/docs/dinodds/plugin-updates"
+            class="lvl1    nav-menu__item hover:text-black"
+        >
+            Plugin Updates
+        </a>
+    
+    </li>
+    </ul>
+    </li>
+            <li class="list-reset mb-8 pl-0 level-0">
+            
         <a href="/docs/nonaki"
             class="lvl0   font-bold uppercase text-black nav-menu__item hover:text-black"
         >
@@ -380,31 +474,10 @@
     </li>
     </ul>
     </li>
-            <li class="list-reset mb-8 pl-0 level-0">
-            
-        <a href="/docs/dinodds"
-            class="lvl0   font-bold uppercase text-black nav-menu__item hover:text-black"
-        >
-            DinOdds Plugin
-        </a>
-    
-            
-        <ul class="list-reset my-0">
-            <li class="list-reset pl-2">
-            
-        <a href="/docs/dinodds/installation"
-            class="lvl1    nav-menu__item hover:text-black"
-        >
-            Installation
-        </a>
-    
-    </li>
-    </ul>
-    </li>
     </ul>
         </nav>
 
-        <div id="docs-content" class="w-full flex-1 break-words p-8 md:mx-8" v-pre>
+        <div id="content" class="w-full flex-1 break-words p-8 md:mx-8" data-docs="true" v-pre>
             <h1>Sikika Child Theme</h1>
 <p>If you need for any reason to do any modifications to the theme files, the recommended approach would be using child themes. Learn how to <a href="https://dinomatic.com/posts/how-to-create-wordpress-child-themes">create WordPress child themes</a> and download the child theme for Sikika.</p>        </div>
 
@@ -418,7 +491,7 @@
 </section>
         </main>
 
-        <script src="/assets/build/js/main.js?id=c6168c734b552c2a7b76"></script>
+        <script src="/assets/build/js/main.js?id=225b8b6920a591663118"></script>
 
         <script>
     const navMenu = {
