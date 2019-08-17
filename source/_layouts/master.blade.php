@@ -31,11 +31,12 @@
 
         @stack('meta')
 
-        <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,300i,400,400i,700,700i,800,800i" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Rubik:400,700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
     </head>
 
     <body class="flex flex-col justify-between min-h-screen text-grey-darker leading-normal font-sans">
+        <a href="#content" class="screen-reader-text">Skip to content</a>
         <header class="flex items-center shadow bg-white border-b mb-8 py-2 sticky pin-t" role="banner">
             <div class="container flex items-center justify-between max-w-4xl mx-auto px-4">
                 <div class="flex items-center">
@@ -53,7 +54,7 @@
             @yield('nav-toggle')
         </header>
 
-        <main role="main" class="w-full flex-auto">
+        <main id="main" role="main" class="w-full flex-auto">
             @yield('body')
         </main>
 

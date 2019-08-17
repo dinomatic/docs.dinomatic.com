@@ -75,16 +75,6 @@ h3 {
     @apply .font-normal;
     @apply .text-3xl;
 }
-#docs-content {
-    h3 {
-        &::before {
-            @apply .block;
-            @apply .h-16;
-            @apply .-mt-16;
-            content: '';
-        }
-    }
-}
 
 h4 {
     @apply .font-normal;

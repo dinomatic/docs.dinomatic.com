@@ -1,7 +1,7 @@
 import { createEl } from './base'
 
 (() => {
-  const docContent = document.getElementById('docs-content')
+  const docContent = document.querySelector('[data-docs="true"]')
   if (!docContent) return
 
   // PAGE NAV

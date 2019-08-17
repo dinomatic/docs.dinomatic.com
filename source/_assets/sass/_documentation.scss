@@ -1,1 +1,28 @@
 // Add your custom styles here
+.heading--3 {
+  @apply text-3xl font-normal mb-4;
+}
+.heading--4 {
+  @apply py-4 pr-4 pl-4 text-xl text-blue-darkest mb-4 mt-0;
+
+  @screen md {
+      @apply pr-8 pl-0;
+  }
+}
+.heading--4 a {
+  @apply pb-4 uppercase text-grey-dark flex items-center border-b border-teal;
+}
+.heading--4 img {
+  @apply h-8 w-8 mr-4;
+}
+
+[data-docs="true"] {
+  h3 {
+    &::before {
+      @apply .block;
+      @apply .h-16;
+      @apply .-mt-16;
+      content: '';
+    }
+  }
+}
