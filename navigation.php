@@ -14,6 +14,7 @@ return [
             'Homepage Templates' => 'docs/akurai/homepage-templates',
             'Widget Areas' => 'docs/akurai/widget-areas',
             'Widgets' => 'docs/akurai/widgets',
+            'Breadcrumbs' => 'docs/akurai/breadcrumbs',
             'Theme Customizations' => 'docs/akurai/customizations',
             'Theme Updates' => 'docs/akurai/updates',
             'Child Theme' => 'docs/akurai/child-theme',

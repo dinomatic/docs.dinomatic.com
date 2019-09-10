@@ -49,4 +49,4 @@ This is what it looks like on the front-end.
 
 ### Nest step
 
-[Theme Customizations](/docs/akurai/customizations/)
+[Breadcrumbs](/docs/akurai/breadcrumbs/)
