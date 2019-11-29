@@ -1,0 +1,32 @@
+---
+title: Hello Cookie Plugin
+description: Getting Started with Hello Cookie Plugin
+extends: _layouts.documentation
+section: content
+---
+
+# Hello Cookie Plugin
+
+Hello Cookie is a simple and lightweight cookie consent notice plugin for WordPress websites.
+
+---
+
+## Getting Started
+
+It's easy to get started with Hello Cookie. Follow the documentations to install the plugin and adjust the settings.
+
+### Requirements
+
+Before getting started make sure you have all the requirements met.
+
+To use the plugin, you must be running **WordPress 5.0** and **PHP 7.0** or higher.
+
+### Changelog
+
+Find the full changelog [here](https://dinomatic.com/plugins/hello-cookie/changelog).
+
+---
+
+### Next step
+
+[Plugin Installation](/docs/hello-cookie/installation/)

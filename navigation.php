@@ -42,6 +42,7 @@ return [
             'Shortcodes' => 'docs/kemoku/shortcodes',
             'Widgets' => 'docs/kemoku/widgets',
             'Settings' => 'docs/kemoku/settings',
+            'Plugin Updates' => 'docs/kemoku/plugin-updates',
         ],
     ],
     'DinOdds Plugin' => [
@@ -63,6 +64,15 @@ return [
         'children' => [
             'Installation' => 'docs/nonaki/installation',
             'Using The Plugin' => 'docs/nonaki/using-plugin',
+            'Plugin Updates' => 'docs/nonaki/plugin-updates',
+        ],
+    ],
+    'Hello Cookie Plugin' => [
+        'url' => 'docs/hello-cookie',
+        'children' => [
+            'Installation' => 'docs/hello-cookie/installation',
+            'Using The Plugin' => 'docs/hello-cookie/using-plugin',
+            'Plugin Updates' => 'docs/hello-cookie/plugin-updates',
         ],
     ],
 ];

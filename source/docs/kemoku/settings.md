@@ -41,3 +41,9 @@ If you find a field name unclear, click the **info** icon for detailed informati
 ### Color Theme
 
 ![Kemoku Plugin Settings](/assets/images/kemoku/kemoku-settings-theme.png)
+
+---
+
+### Next step
+
+[Plugin Updates](/docs/kemoku/plugin-updates/)

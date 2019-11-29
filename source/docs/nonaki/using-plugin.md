@@ -38,3 +38,9 @@ To generate and copy link URLs and Tags, click on the green link icon, adjust op
 You can customize the link tag by adding the link anchor text, `target` and `rel` attributes, as well as `class` and `id`.
 
 ![Nonaki settings](/assets/images/nonaki/nonaki-links.png)
+
+---
+
+### Next step
+
+[Plugin Updates](/docs/nonaki/plugin-updates/)

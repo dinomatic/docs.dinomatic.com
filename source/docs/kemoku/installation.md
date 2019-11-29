@@ -17,7 +17,7 @@ Please make sure your server meets the minimum [system requirements](/docs/kemok
 
 ### Install through WordPress Dashboard
 
-1. Visit WordPress dashboard &#8594; Plugins and click `Add New` and `Upload Plugin` afther that
+1. Visit WordPress dashboard &#8594; Plugins and click `Add New` and `Upload Plugin` after that
 2. Click `Choose File`, select the plugin file `kemoku.zip` and click `Install Now`
 3. Activate the plugin
 
