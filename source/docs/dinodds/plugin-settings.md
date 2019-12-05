@@ -19,12 +19,12 @@ Your plugin data is available to you at the beginning of the settings page, wher
 
 In settings page you can:
 
-1. [Generate shortcodes](#)
-2. [Set affiliate settings](#)
-3. [Update feed manually](#)
+1. [Generate shortcodes](/docs/dinodds/plugin-shortcodes/)
+2. [Set affiliate settings](/docs/dinodds/affiliate-settings/)
+3. [Update feeds manually](/docs/dinodds/feed-updates/)
 
 ---
 
 ### Next step
 
-[Shortcode Generator](/docs/dinodds/plugin-shortcodes)
+[Shortcode Generator](/docs/dinodds/plugin-shortcodes/)
