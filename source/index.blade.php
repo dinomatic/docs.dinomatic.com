@@ -122,7 +122,7 @@
         </h4>
 
         <h4 class="heading--secondary">
-            <a href="https://dinomatic.com/account" class="text-grey">
+            <a href="https://dinomatic.com/account/tickets" class="text-grey">
                 <img src="/assets/img/icon-terminal.svg" alt="Support">
                 Get Support
             </a>

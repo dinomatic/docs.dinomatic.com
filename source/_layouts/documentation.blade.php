@@ -20,7 +20,24 @@
             <h4 class="mb-8 font-bold text-grey text-lg pb-1 border-b inline-block">
                 {{ strtoupper($page->product($page)) }} v{{ $page->version($page) }}
             </h4>
-            <div id="page-menu-wrapper"></div>
+
+            <div id="page-menu-wrapper" class="mb-8"></div>
+
+            <h5 class="font-bold">Links</h5>
+            <ul class="pl-0">
+                <li class="mb-2 ml-2 text-sm">
+                    <a href="https://dinomatic.com/posts">Blog Posts</a>
+                </li>
+                <li class="mb-2 ml-2 text-sm">
+                    <a href="https://dinomatic.com/affiliates">Become an Affiliate</a>
+                </li>
+                <li class="mb-2 ml-2 text-sm">
+                    <a href="https://dinomatic.com/posts/wordpress-hosting">WordPress Hosting</a>
+                </li>
+                <li class="mb-2 ml-2 text-sm">
+                    <a href="https://dinomatic.com/web-development">Web Development Services</a>
+                </li>
+            </ul>
         </nav>
     </div>
 </section>
