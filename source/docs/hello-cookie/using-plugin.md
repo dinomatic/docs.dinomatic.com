@@ -22,7 +22,7 @@ Plugin Main settings include options like notice bar text content, button and li
 
 ### Hello Cookie Styles
 
-Plugin styles include options like font, background colors, button and link colors, etc.
+Plugin styles include options like bar position, content alignment, text and background colors, button and link colors, etc.
 
 ![Hello Cookie style settings](/assets/images/hello-cookie/hello-cookie-styles.png)
 
