@@ -42,6 +42,10 @@ There's no sidebar used.
 
 ![Akurai No Sidebar Template](/assets/images/akurai/akurai-template-no-sidebar.png)
 
+### Templates with Heros
+
+Since version 1.1.2, you can use Hero templates for regular pages as well. They were initially intended to be used as front pages only, however now you can use them for any landing page on your website. Check them out [here](/docs/akurai/homepage-templates).
+
 ---
 
 ### Next Step

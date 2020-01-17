@@ -21,6 +21,13 @@ There are 2 specific homepage templates available for displaying the **Front Pag
 
 ![Akurai Page Templates](/assets/images/akurai/homepage/home-templates.png)
 
+
+---
+
+## SINCE VERSION 1.1.2 YOU CAN USE THESE TEMPLATES FOR REGULAR PAGES AS WELL.
+
+---
+
 ### Homepage Hero Template
 
 To use the **Homepage Hero Template** select it in templates list and you'll have the Hero options below the content editor. Fill in the fields, adjust them and save the changes.
