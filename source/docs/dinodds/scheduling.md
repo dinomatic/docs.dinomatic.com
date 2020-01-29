@@ -105,4 +105,4 @@ And that's all, now your WordPress scheduled tasks will run at the frequency you
 
 ### Next step
 
-[Plugin Updates](/docs/dinodds/plugin-updates/)
+[Changing Colors](/docs/dinodds/colors/)

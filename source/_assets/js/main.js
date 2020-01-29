@@ -5,11 +5,11 @@ import hljs from 'highlight.js/lib/highlight'
 hljs.registerLanguage('bash', require('highlight.js/lib/languages/bash'))
 hljs.registerLanguage('php', require('highlight.js/lib/languages/php'))
 hljs.registerLanguage('html', require('highlight.js/lib/languages/xml'))
+hljs.registerLanguage('css', require('highlight.js/lib/languages/css'))
 document.querySelectorAll('pre code').forEach((block) => {
   hljs.highlightBlock(block)
 })
 
-// hljs.registerLanguage('css', require('highlight.js/lib/languages/css'));
 // hljs.registerLanguage('javascript', require('highlight.js/lib/languages/javascript'));
 // hljs.registerLanguage('markdown', require('highlight.js/lib/languages/markdown'));
 // hljs.registerLanguage('scss', require('highlight.js/lib/languages/scss'));

@@ -56,6 +56,7 @@ return [
             'Affiliate Settings' => 'docs/dinodds/affiliate-settings',
             'Feed Updates' => 'docs/dinodds/feed-updates',
             'Scheduling' => 'docs/dinodds/scheduling',
+            'Changing Colors' => 'docs/dinodds/colors',
             'Plugin Updates' => 'docs/dinodds/plugin-updates',
         ],
     ],
