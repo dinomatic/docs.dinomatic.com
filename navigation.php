@@ -20,6 +20,23 @@ return [
             'Child Theme' => 'docs/akurai/child-theme',
         ],
     ],
+    'Spinoko Theme' => [
+        'url' => 'docs/spinoko',
+        'children' => [
+            'Installation' => 'docs/spinoko/installation',
+            'Theme Registration' => 'docs/spinoko/registration',
+            'Casino Page Slug' => 'docs/spinoko/setting-casino-page-slug',
+            'Creating Casino Pages' => 'docs/spinoko/creating-casino-pages',
+            'Casino Page Blocks' => 'docs/spinoko/casino-page-blocks',
+            'Casino Page Templates' => 'docs/spinoko/casino-page-templates',
+            'Theme Blocks' => 'docs/spinoko/blocks',
+            'Page Templates' => 'docs/spinoko/page-templates',
+            'Widgets' => 'docs/spinoko/widgets',
+            'Theme Customizations' => 'docs/spinoko/customizations',
+            'Theme Updates' => 'docs/spinoko/updates',
+            'Child Theme' => 'docs/spinoko/child-theme',
+        ],
+    ],
     'Sikika Theme' => [
         'url' => 'docs/sikika',
         'children' => [

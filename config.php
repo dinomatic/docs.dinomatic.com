@@ -17,6 +17,7 @@ return [
         'nonaki'  => '1.0.2',
         'dinodds' => '1.2.0',
         'hello-cookie' => '1.0.1',
+        'spinoko' => '1.0.0'
     ],
 
     // helpers
