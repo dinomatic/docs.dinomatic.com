@@ -24,7 +24,7 @@ npm run production
 git add . && git commit -m "Build for Deploy"
 
 # git subtree push to deploy branch
-git subtree push --prefix build_production/ origin deploy
+git subtree push --prefix build_production/ origin docs
 
 # pull changes on the server or set up a webhook
 # - FORGE HANDLES THIS
