@@ -13,7 +13,7 @@ You can install the plugin either through WordPress dashboard (recommended) or v
 
 ## Before Installation
 
-Please make sure your server meets the minimum [system requirements](/docs/kemoku/) and download the plugin file from your [DinoMatic account](https://dinomatic.com/account).
+Please make sure your server meets the minimum [system requirements](/docs/kemoku/#requirements) and download the plugin file from your [DinoMatic account](https://dinomatic.com/account).
 
 ### Install through WordPress Dashboard
 
