@@ -15,9 +15,9 @@ return [
         'sikika'       => '1.0.1',
         'spinoko'      => '1.0.0',
         'kemoku'       => '1.0.6',
-        'nonaki'       => '1.0.3',
         'dinodds'      => '1.2.0',
-        'hello-cookie' => '1.0.1',
+        'nonaki'       => '1.0.3',
+        'hello-cookie' => '1.0.2',
     ],
 
     // helpers
