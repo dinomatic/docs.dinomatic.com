@@ -26,7 +26,7 @@ Besides the default WordPress widgets, 2 sportsbook widgets are available for yo
 ### Reviews Widget
 
 Add the `Akurai Reviews Widget` to the widget area of your choice.
-Add a widget title, select whether to display the sportsbook terms of not, choose the sportsbooks you want to display from the dropdown lists and click `Save`.
+Add a widget title, select whether to display the review terms of conditions or not, whether the logo image links the review page or the affiliate website, choose the reviews you want to display from the dropdown lists and click `Save`.
 
 You can display up to 10 review.
 
@@ -39,7 +39,7 @@ This is what it looks like on the front-end.
 ### Single Review Widget
 
 Add the `Akurai Single Review Widget` to the widget area of your choice.
-Add a widget title, choose the sportsbook you want to display from the dropdown list and click `Save`.
+Add a widget title, adjust settings: how to display terms and conditions and the review page link, choose the review you want to display from the dropdown list and click `Save`.
 
 ![Akurai Reviews Widget](/assets/images/akurai/akurai-widget-review-dashboard.png)
 
