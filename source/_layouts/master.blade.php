@@ -1,14 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        @if ($page->production)
-            <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-            })(window,document,'script','dataLayer','GTM-WTLPPT5');</script>
-        @endif
-
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -61,5 +53,19 @@
         <script src="{{ mix('js/main.js', 'assets/build') }}"></script>
 
         @stack('scripts')
+
+        @if ($page->production)
+        <script>
+        (function(f, a, t, h, o, m){
+            a[h]=a[h]||function(){(a[h].q=a[h].q||[]).push(arguments)};
+            o=f.createElement('script'),
+            m=f.getElementsByTagName('script')[0];
+            o.async=1; o.src=t; o.id='fathom-script';
+            m.parentNode.insertBefore(o,m)
+        })(document, window, 'https://cdn.usefathom.com/tracker.js', 'fathom');
+        fathom('set', 'siteId', 'PGGZQLHA');
+        fathom('trackPageview');
+        </script>
+        @endif
     </body>
 </html>
