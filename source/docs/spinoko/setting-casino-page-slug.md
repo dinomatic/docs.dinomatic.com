@@ -20,6 +20,8 @@ You can set the casino page slug to whatever string you need if you're not happy
 
 ![Set Review Page Slug](/assets/images/spinoko/spinoko-casino-page-slug.png)
 
+After changing the slug make sure to visit permalinks page to avoid 404 pages.
+
 ---
 
 ### Next step

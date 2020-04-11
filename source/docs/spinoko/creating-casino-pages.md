@@ -15,7 +15,9 @@ This page describes casino specific fields, for casino page templates, please fo
 
 ### Casino Fields
 
-Besides adding the casino title and content as usual, you’ll find Casino Fields section below the page content. Here you can define properties for each casino. The fields are in separate sections and have descriptions to make it easy for you to fill them in. These properties are used all over the website, please make sure to fill them in.
+Besides adding the casino title and content as usual, you’ll find Casino Fields section below the page content. Here you can define properties for each casino.
+
+Casino fields are in separate sections and have descriptions to make it easy for you to fill them in. These properties are used all over the website, please make sure to complete them.
 
 ![Spinoko Casino Fields](/assets/images/spinoko/spinoko-casino-fields.png)
 

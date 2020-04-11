@@ -33,6 +33,7 @@ return [
             'Page Templates' => 'docs/spinoko/page-templates',
             'Widgets' => 'docs/spinoko/widgets',
             'Theme Customizations' => 'docs/spinoko/customizations',
+            'AMP Support' => 'docs/spinoko/amp',
             'Theme Updates' => 'docs/spinoko/updates',
             'Child Theme' => 'docs/spinoko/child-theme',
         ],

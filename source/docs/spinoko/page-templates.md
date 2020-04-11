@@ -34,8 +34,16 @@ Here are a couple of examples of pages using the cover template:
 
 ![spinoko-page-template-cover-no-image](/assets/images/spinoko/spinoko-page-template-cover-no-image.png)
 
+Cover page templates have a couple of options:
+
+- Add a cover background image
+- Add a subtitle (a h2 tag right below h1)
+- Display 3 column reviews block
+
+You can use combinations of the above options to generate different page styles.
+
 ---
 
 ### Next Step
 
-[Widget Areas](/docs/spinoko/homepage-templates/)
+[Widgets](/docs/spinoko/widgets/)
