@@ -19,7 +19,7 @@
         <title>DinoMatic Docs | Scheduling</title>
 
         <link rel="home" href="https://docs.dinomatic.com">
-        <link rel="icon" href="https://docs.dinomatic.com/favicon.png">
+        <link rel="icon" href="https://docs.dinomatic.com/favicon.svg">
 
         
         <link href="https://fonts.googleapis.com/css?family=Rubik:400,700&display=swap" rel="stylesheet">
@@ -677,50 +677,81 @@
 
         <div id="content" class="w-full flex-1 break-words p-8 md:mx-8" data-docs="true" v-pre>
             <h1>Scheduling</h1>
+
 <p>Find out how the feed updates work and how to set up cron jobs.</p>
+
 <h2>About scheduling</h2>
+
 <p>In order to display the latest odds feeds, your website needs to pull the data from DinoFeeds API periodically. This is done by DinOdds plugin automatically. However, there are some caveats we'll discuss below.</p>
+
 <p>But before that, let's define cron and cron jobs:</p>
+
 <blockquote>
-<p><strong>Cron</strong> is used to schedule commands or scripts (tasks) on Linux servers at a specified time and date.</p>
-<p>A <strong>cron job</strong> is the task itself.</p>
+  <p><strong>Cron</strong> is used to schedule commands or scripts (tasks) on Linux servers at a specified time and date.</p>
+  
+  <p>A <strong>cron job</strong> is the task itself.</p>
 </blockquote>
+
 <p>For example, I can use cron to schedule a database backup on my server every day at 8:00AM - this would be a cron job. Another example could be deleting temporary files, etc.</p>
+
 <h3>WordPress Cron Jobs</h3>
-<p>WordPress has its own &quot;cron system&quot; called WP-Cron:</p>
+
+<p>WordPress has its own "cron system" called WP-Cron:</p>
+
 <blockquote>
-<p>WP-Cron is how WordPress handles scheduling time-based tasks in WordPress. Several WordPress core features, such as checking for updates and publishing scheduled post, utilize WP-Cron.</p>
+  <p>WP-Cron is how WordPress handles scheduling time-based tasks in WordPress. Several WordPress core features, such as checking for updates and publishing scheduled post, utilize WP-Cron.</p>
 </blockquote>
+
 <p>It is a workaround developed by WordPress and it has some very useful features, however it is run on every page load and <strong>only when a page load occurs</strong>.</p>
+
 <p>This is the main issue that we're concerned about now. This means that WP-Cron won't run if there's no page load. For example, if your plugin has a scheduled feeds update task at 3:00PM and there's no page load until 3:40PM, feeds won't be updated by then.</p>
+
 <p>First of all, I wouldn't like to rely on a page visit to update my feeds, also it may take a while and delay the page load. There might be other issues as well.</p>
-<p>Ok, to solve this, we need to:</p>
-<ol>
-<li>disable WP-Cron</li>
-<li>use system cron jobs to periodically call WP-Cron</li>
-</ol>
+
+<p>Ok, to solve this, we need to:
+1. disable WP-Cron
+2. use system cron jobs to periodically call WP-Cron</p>
+
 <p>This ensures that no matter what WP-Cron will be called periodically and WP scheduled tasks will run on time. One of those tasks in updating the feeds.</p>
+
 <h3>Disable WP-Cron</h3>
+
 <p>To do this, open your <code>wp-config.php</code> file (it is in your website's root directory), add the following line and save it. And we're done here, WP-Cron is disabled.</p>
-<pre><code class="language-php">define( 'DISABLE_WP_CRON', true );</code></pre>
+
+<pre><code class="language-php">define( 'DISABLE_WP_CRON', true );
+</code></pre>
+
 <p>Make sure you add the line before <code>/* That's all, stop editing! Happy blogging. */</code> line.</p>
+
 <h3>Set up System Cron Jobs</h3>
+
 <p>So, we need to schedule a command that will ping our website and call WP-Cron periodically. You can choose whatever frequency you want, I suggest one hour and that's what I use.</p>
+
 <h4>Command:</h4>
+
 <p>Here's the command that we need to schedule:</p>
-<pre><code class="language-bash">wget --delete-after https://MYDOMAIN.com/wp-cron.php</code></pre>
+
+<pre><code class="language-bash">wget --delete-after https://MYDOMAIN.com/wp-cron.php
+</code></pre>
+
 <p>Make sure to replace <code>MYDOMAIN.com</code> with your actual domain name.</p>
-<p>You can set up cron jobs:</p>
-<ul>
-<li>using a user interface provided by your host</li>
-<li>using command line</li>
-</ul>
+
+<p>You can set up cron jobs:
+- using a user interface provided by your host
+- using command line</p>
+
 <h4>Using user interface</h4>
+
 <p>Usually hosts provide a user interface for scheduling tasks and they usually are called <strong>Cron Jobs</strong>. In your hosting control panel look for cron jobs or scheduler and follow the instructions on how to set them up. In most cases you'll have to select a frequency and paste the command.</p>
-<p>If you're having difficulties finding or scheduling tasks on a particular system, a Google search like this &quot;how to create cron jobs in cpanel&quot; may help.</p>
+
+<p>If you're having difficulties finding or scheduling tasks on a particular system, a Google search like this "how to create cron jobs in cpanel" may help.</p>
+
 <h4>Using command line</h4>
+
 <p>You'll need <code>ssh</code> access and some knowledge about using the command line. If you're not comfortable with it, I'd suggest you either use a visual interface if available or contact your host to assist you.</p>
+
 <p>Steps:</p>
+
 <pre><code class="language-bash"># connect to server, if prompted with a password, enter it
 ssh USER@HOST
 
@@ -736,12 +767,19 @@ crontab -e
 # you can change 0 to a different number (&lt; 60)
 
 # to run it every 30 minutes, use this
-*/30 * * * * wget --delete-after https://MYDOMAIN.com/wp-cron.php</code></pre>
+*/30 * * * * wget --delete-after https://MYDOMAIN.com/wp-cron.php
+</code></pre>
+
 <p>Make sure to replace <code>MYDOMAIN.com</code> with your actual domain name.</p>
+
 <p>And that's all, now your WordPress scheduled tasks will run at the frequency you defined regardless page load.</p>
+
 <hr />
+
 <h3>Next step</h3>
-<p><a href="/docs/dinodds/colors/">Changing Colors</a></p>        </div>
+
+<p><a href="/docs/dinodds/colors/">Changing Colors</a></p>
+        </div>
 
         <nav id="js-page-menu" class="page-menu hidden py-8 lg:w-48 lg:max-w-sidebar lg:block sticky" style="top: 4rem;">
             <h4 class="mb-8 font-bold text-grey text-lg pb-1 border-b inline-block">
