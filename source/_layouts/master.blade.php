@@ -19,7 +19,7 @@
         <title>{{ $page->siteName }}{{ $page->title ? ' | ' . $page->title : '' }}</title>
 
         <link rel="home" href="{{ $page->baseUrl }}">
-        <link rel="icon" href="{{ $page->baseUrl }}/favicon.png">
+        <link rel="icon" href="{{ $page->baseUrl }}/favicon.svg">
 
         @stack('meta')
 

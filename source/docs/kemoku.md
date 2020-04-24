@@ -20,7 +20,7 @@ It's easy to get started with Kemoku. Follow the documentations to install the p
 Before getting started make sure you have all the requirements met.
 
 To use the plugin, you must be running **WordPress 4.8** or higher and **PHP 5.6** or higher.
-Recommended versions are **WordPress 5.2** and **PHP 7**.
+Recommended versions are **WordPress 5.4** and **PHP 7**.
 
 Also make sure your host has the minimum requirements to run WordPress and PHP `max_upload_size` is more than 2MB.
 

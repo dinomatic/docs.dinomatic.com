@@ -19,7 +19,7 @@
         <title>DinoMatic Docs | Changing Colors</title>
 
         <link rel="home" href="https://docs.dinomatic.com">
-        <link rel="icon" href="https://docs.dinomatic.com/favicon.png">
+        <link rel="icon" href="https://docs.dinomatic.com/favicon.svg">
 
         
         <link href="https://fonts.googleapis.com/css?family=Rubik:400,700&display=swap" rel="stylesheet">
@@ -677,10 +677,15 @@
 
         <div id="content" class="w-full flex-1 break-words p-8 md:mx-8" data-docs="true" v-pre>
             <h1>Changing Colors</h1>
+
 <p>Find out how to change the odds table colors to better fit your website design.</p>
+
 <h3>Table Colors</h3>
+
 <p>Table colors are selected as neutral as possible to fit as many as website styles as possible without any changes. However, if you need you can customize them easily.</p>
+
 <p>All colors used correspond to CSS custom properties:</p>
+
 <pre><code class="language-css">.df-odds {
   --color-settings__bg: #4A5568;   /* settings dropdown background color */
   --color-settings__text: #FFFFFF; /* settings dropdown text color */
@@ -689,21 +694,34 @@
   --color-time: #E2E8F0;           /* time column background color */
   --color-away: #F7FAFC;           /* away row background color */
   --color-home: #EDF2F7;           /* home row background color */
-}</code></pre>
+}
+</code></pre>
+
 <p>You can overwrite any of the values by copying them into your theme's <strong>Additional CSS</strong> section (<code>Appearance &#8594; Customizer &#8594; Additional CSS</code>).
 No need to copy all the properties, only the ones you want to change.</p>
-<p>For example, to change the &quot;date&quot; color copy only:</p>
+
+<p>For example, to change the "date" color copy only:</p>
+
 <pre><code class="language-css">.df-odds {
   --color-date: #CBCBCB;
-}</code></pre>
+}
+</code></pre>
+
 <h3>Font Color</h3>
+
 <p>Font color of the table is inherited from your theme styles, whatever the font color of the table's parent container is, it will be inherited. To overwrite it, add the below rule:</p>
+
 <pre><code class="language-css">.df-odds {
   color: #111; /* change this to any color you want */
-}</code></pre>
+}
+</code></pre>
+
 <hr />
+
 <h3>Next step</h3>
-<p><a href="/docs/dinodds/plugin-updates/">Plugin Updates</a></p>        </div>
+
+<p><a href="/docs/dinodds/plugin-updates/">Plugin Updates</a></p>
+        </div>
 
         <nav id="js-page-menu" class="page-menu hidden py-8 lg:w-48 lg:max-w-sidebar lg:block sticky" style="top: 4rem;">
             <h4 class="mb-8 font-bold text-grey text-lg pb-1 border-b inline-block">
