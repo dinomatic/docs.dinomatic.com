@@ -4,19 +4,19 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <meta name="description" content="DinoFeeds API Settings">
+        <meta name="description" content="Spinoko Theme Navigation Menus">
 
         <meta property="og:site_name" content="DinoMatic Docs"/>
-        <meta property="og:title" content="API Settings | DinoMatic Docs"/>
-        <meta property="og:description" content="DinoFeeds API Settings"/>
-        <meta property="og:url" content="https://docs.dinomatic.com/docs/dinodds/api"/>
+        <meta property="og:title" content="Theme Navigation Menus | DinoMatic Docs"/>
+        <meta property="og:description" content="Spinoko Theme Navigation Menus"/>
+        <meta property="og:url" content="https://docs.dinomatic.com/docs/spinoko/navigation"/>
         <meta property="og:image" content="https://docs.dinomatic.com/assets/img/logo.png"/>
         <meta property="og:type" content="website"/>
 
         <meta name="twitter:image:alt" content="DinoMatic Docs">
         <meta name="twitter:card" content="summary_large_image">
 
-        <title>DinoMatic Docs | API Settings</title>
+        <title>DinoMatic Docs | Theme Navigation Menus</title>
 
         <link rel="home" href="https://docs.dinomatic.com">
         <link rel="icon" href="https://docs.dinomatic.com/favicon.svg">
@@ -207,7 +207,7 @@
             <li class="list-reset mb-8 pl-0 level-0">
             
         <a href="/docs/spinoko"
-            class="lvl0   font-bold uppercase text-black nav-menu__item hover:text-black"
+            class="lvl0 lvl0-active  font-bold uppercase text-black nav-menu__item hover:text-black"
         >
             Spinoko Theme
         </a>
@@ -289,7 +289,7 @@
             <li class="list-reset pl-2">
             
         <a href="/docs/spinoko/navigation"
-            class="lvl1    nav-menu__item hover:text-black"
+            class="lvl1  active font-semibold text-teal  nav-menu__item hover:text-black"
         >
             Navigation Menus
         </a>
@@ -504,7 +504,7 @@
             <li class="list-reset mb-8 pl-0 level-0">
             
         <a href="/docs/dinodds"
-            class="lvl0 lvl0-active  font-bold uppercase text-black nav-menu__item hover:text-black"
+            class="lvl0   font-bold uppercase text-black nav-menu__item hover:text-black"
         >
             DinOdds Plugin
         </a>
@@ -514,7 +514,7 @@
             <li class="list-reset pl-2">
             
         <a href="/docs/dinodds/api"
-            class="lvl1  active font-semibold text-teal  nav-menu__item hover:text-black"
+            class="lvl1    nav-menu__item hover:text-black"
         >
             DinoFeeds API
         </a>
@@ -685,43 +685,346 @@
         </nav>
 
         <div id="content" class="w-full flex-1 break-words p-8 md:mx-8" data-docs="true" v-pre>
-            <h1>DinoFeeds API</h1>
+            <h1>Spinoko Navigation Menus</h1>
 
-<p>By purchasing any DinOdds package, you get access to DinoFeeds API.</p>
+<p>Spinoko has multiple navigation menus and you can even add one on your own. Learn more and how to do that below.</p>
 
-<h3>About the API</h3>
+<h2>Navigation Menus</h2>
 
-<p>DinoFeeds API has been developed to provide an easy solution for displaying betting odds feeds on WordPress websites, specifically through DinOdds plugin.</p>
-
-<h3>API Settings</h3>
-
-<p>You can control the API settings through your <a href="https://dinomatic.com/account">DinoMatic account</a>.</p>
-
-<p><img src="/assets/images/dinodds/subscription.png" alt="DinOdds Subscription" /></p>
-
-<p>Find the subscription you need and click on <strong>Plugin Settings</strong> button, a popup with a form will appear where you can adjust your settings.</p>
-
-<p><img src="/assets/images/dinodds/subscription-details.png" alt="DinOdds Subscription Details" /></p>
-
-<h4>Notes:</h4>
+<p>By default Spinoko has 2 navigation menus:</p>
 
 <ol>
-<li>You can always change the settings for your subscription</li>
-<li>You can select to pull data for only the leagues and the sportsbooks you want</li>
-<li>If a league is out of season, or you don't promote a sportsbook, it's recommended to skip them,
-otherwise, you'll have additional <strong>unused</strong> data stored in your database</li>
+<li>Header navigation</li>
+<li>Footer navigation</li>
 </ol>
+
+<p>However, you can <a href="#additional-navigation">add an additional nav menu</a> to the site header if you want.</p>
+
+<h3>Header Navigation</h3>
+
+<p>Header navigation is the primary navigation menu of the theme and it's a hamburger menu, by default closed on all screens regardless of the screen size.</p>
+
+<h3>Footer Navigation</h3>
+
+<p>Footer navigation is an optional navigation menu and it's right above the copyright text in the theme footer area.</p>
+
+<h3>Additional Navigation</h3>
+
+<p>If you for some reason want to have a traditional navigation menu on site header you can do so following the steps below. This is what it looks like:</p>
+
+<p><img src="/assets/images/spinoko/spinoko-additional-navigation.png" alt="spinoko additional nav menu" /></p>
+
+<p>You can either <strong>download a child theme</strong> that already contains all the code you need or you can follow along to <strong>add changes manually</strong> if you already have a child theme installed.</p>
+
+<h4>🔽 Download the child theme</h4>
+
+<p>Download the child theme containing all the changes you need to add the additional nav menu <a href="https://github.com/dinomatic/spinoko-child/archive/nav-menus.zip">here</a>.
+Just rename the folder <code>spinoko-child-master</code> to <code>spinoko-child</code> and upload it to your WordPress server <code>wp-content/themes</code> directory. Learn more about <a href="https://dinomatic.com/posts/how-to-create-wordpress-child-themes">using child themes</a>.</p>
+
+<h4>👩‍💻 Adding changes manually</h4>
+
+<p>We're going to use a child theme to add our functions and styles, so I assume you have a child theme installed and it included the below files:</p>
+
+<pre><code>spinoko-child/
+  |- functions.php
+  |- style.css
+</code></pre>
+
+<h4>Step 1️: Adding nav related functions</h4>
+
+<p>Create a new file in the child theme root directory called <code>spinoko-additional-navigation.php</code> and paste this into it:</p>
+
+<pre><code class="language-php">&lt;?php
+/**
+ * Spinoko additional navigation.
+ *
+ * @package Spinoko Child
+ */
+
+if ( ! function_exists( 'spinoko_register_additional_nav_menu' ) ) {
+    /**
+     * Register additional nav menu.
+     *
+     * @return void
+     */
+    function spinoko_register_additional_nav_menu() {
+
+        register_nav_menus( array(
+            'menu-additional' =&gt; esc_html__( 'Additional', 'spinoko' ),
+        ) );
+    }
+    add_action( 'after_setup_theme', 'spinoko_register_additional_nav_menu' );
+}
+
+if ( ! function_exists( 'spinoko_display_additional_nav_menu' ) ) {
+    /**
+     * Display the additional nav menu.
+     *
+     * @return void
+     */
+    function spinoko_display_additional_nav_menu() {
+        ?&gt;
+
+        &lt;nav class="additional-navigation"&gt;
+
+        &lt;?php
+        wp_nav_menu( array(
+            'theme_location' =&gt; 'menu-additional',
+            'menu_id'        =&gt; 'additional-menu',
+            'menu_class'     =&gt; 'additional-menu flex items-center justify-end px-4',
+        ) );
+        ?&gt;
+
+        &lt;/nav&gt;
+        &lt;?php
+    }
+    add_action( 'spinoko_header', 'spinoko_display_additional_nav_menu', 12 );
+}
+</code></pre>
+
+<p>The first function <code>spinoko_register_additional_nav_menu</code> registers the nav menu and the second one <code>spinoko_display_additional_nav_menu</code> makes it display before the search icon on the site header using theme hooks. I don't think you need to change anything there.</p>
+
+<h4>Step 2️: Adding nav menu styles</h4>
+
+<p>Let's add styles. Open your <code>style.css</code> file and append the below styles to it. Looks like a lot of stuff, but don't wprry, explanations are below.</p>
+
+<pre><code class="language-css">/** ADDITIONAL NAVIGATION **/
+.additional-menu {
+  /**
+   * 💁 adjust colors below, use any color value
+   * or leave unchanged for default values
+   **/
+  --color-links: var(--color-light);
+  --color-links-hover: var(--color-link);
+  --color-submenu-bg: var(--color-dark);
+
+  /**
+   * 💁 use inline-block to enable icons next to parent menu items
+   * or none to disable it, no quotes
+   **/
+  --icon-display: inline-block;
+
+  display: none;
+}
+
+.site-header .site-search {
+  padding-right: 1rem;
+}
+
+@media (min-width: 1024px) {
+  .additional-menu {
+    display: flex;
+  }
+
+  /**
+   * 💁 remove 2 below rules if you want to keep main (hamburger) navigation
+   * with the additional one on large screens
+   **/
+  .main-navigation {
+    display: none;
+  }
+
+  .site-header .site-search {
+    padding-right: 0;
+  }
+}
+
+.additional-menu&gt;li {
+  position: relative;
+  padding: 0 0.5rem;
+}
+
+.additional-menu li a {
+  color: var(--color-links);
+  transition: all .3s ease-in-out;
+}
+
+.additional-menu li:hover&gt;a,
+.additional-menu li a:hover {
+  color: var(--color-links-hover);
+}
+
+.additional-menu ul {
+  position: absolute;
+  top: calc(100% + 2rem);
+  right: 9999rem;
+  width: 12rem;
+  z-index: 1;
+  opacity: 0;
+  padding: 0.5rem 0;
+  background: var(--color-submenu-bg);
+  border-radius: 0.4rem;
+  transform: translateY(0.6rem);
+  transition: opacity 0.15s linear, transform 0.15s linear, right 0s 0.15s;
+}
+
+.additional-menu li.menu-item-has-children:hover&gt;ul,
+.additional-menu li.menu-item-has-children:focus&gt;ul {
+  right: 0;
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 0.15s linear, transform 0.15s linear;
+}
+
+.additional-menu ul::before,
+.additional-menu ul::after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 100%;
+}
+
+.additional-menu ul::before {
+  height: 2rem;
+  left: 0;
+  right: 0;
+}
+
+.additional-menu ul::after {
+  border: 0.8rem solid transparent;
+  border-bottom-color: var(--color-submenu-bg);
+  right: 1.8rem;
+}
+
+.additional-menu ul a {
+  display: block;
+  width: 100%;
+  padding: .25rem 1rem;
+  color: inherit;
+}
+
+.additional-menu ul li.menu-item-has-children&gt;a {
+  padding-right: 4.5rem;
+}
+
+.additional-menu li.menu-item-has-children&gt;a:after {
+  content: '';
+  display: var(--icon-display);
+  width: 0.25rem;
+  margin-left: 0.25rem;
+  padding-bottom: 2px;
+  border-top: 0.25rem solid var(--color-links);
+  border-bottom: 0 none;
+  border-right: 0.25rem solid transparent;
+  border-left: 0.25rem solid transparent;
+  transition: border 0.15s ease-in-out;
+}
+
+.additional-menu li.menu-item-has-children:hover&gt;a:after {
+  border-top-color: var(--color-links-hover);
+}
+
+.additional-menu ul ul {
+  top: 0;
+}
+
+.additional-menu ul li.menu-item-has-children:hover&gt;ul,
+.additional-menu ul li.menu-item-has-children:focus&gt;ul {
+  right: calc(100% + 2rem);
+}
+
+.additional-menu ul ul::before {
+  top: 0;
+  bottom: 0;
+  right: -2rem;
+  left: auto;
+  width: 2rem;
+  height: auto;
+}
+
+.additional-menu ul ul::after {
+  top: 0.75rem;
+  bottom: auto;
+  right: -1.6rem;
+  border-bottom-color: transparent;
+  border-left-color: var(--color-submenu-bg);
+}
+</code></pre>
+
+<p>You can adjust any styles the way you want if you're familiar with CSS. But even if not, there are 3 main places where you can easily change stuff, look for this icon 💁 in <code>styles.css</code>. Here's what they do:</p>
+
+<ol>
+<li>You can adjust link colors and sub menu background color by just adding the color values.
+If you're happy with the defaults, just leave them as they are:</li>
+</ol>
+
+<pre><code class="language-css">  /**
+   * 💁 adjust colors below, use any color value
+   * or leave unchanged for default values
+   **/
+  --color-links: var(--color-light);
+  --color-links-hover: var(--color-link);
+  --color-submenu-bg: var(--color-dark);
+</code></pre>
+
+<p>This is if I wanted to change them:</p>
+
+<pre><code class="language-css">  --color-links: green; /** now the links will be green **/
+  --color-links-hover: var(--color-link); /** this one I decided not to change **/
+  --color-submenu-bg: #000; /** and sub menus should be black **/
+</code></pre>
+
+<ol start="2">
+<li>You can display small "icons" next to menu items that have sub menus.
+By default it is set to display, change <code>inline-block</code> to <code>none</code> to disable them</li>
+</ol>
+
+<pre><code class="language-css">  /**
+   * 💁 use inline-block to enable icons next to parent menu items
+   * or none to disable it, no quotes
+   **/
+  --icon-display: inline-block;
+</code></pre>
+
+<p>If I wanted to disable them:</p>
+
+<pre><code class="language-css">  --icon-display: none;
+</code></pre>
+
+<ol start="3">
+<li>You can still display the main hamburger menu along with this new one.
+To do so you need to remove the following rules/lines.</li>
+</ol>
+
+<pre><code class="language-css">  /**
+   * 💁 remove 2 below rules if you want to keep main (hamburger) navigation
+   * with the additional one on large screens
+   **/
+  .main-navigation {
+    display: none;
+  }
+
+  .site-header .site-search {
+    padding-right: 0;
+  }
+</code></pre>
+
+<p>Once you're done with style changes, save the file and let's move on.</p>
+
+<h4>Step 3: Include the nav functions file</h4>
+
+<p>Now that the styles are done let's include the file we created at Step 1. At the end of the <code>functions.php</code> add the following lines:</p>
+
+<pre><code class="language-php">/**
+ * Additional header navigation menu.
+ */
+require_once get_stylesheet_directory() . '/spinoko-additional-navigation.php';
+</code></pre>
+
+<h4>Step 4: Create Menu in WP</h4>
+
+<p>The code related part is over, the nav menu is added to the theme. Now go to Customizer in your WordPress dashboard &#8594; Menus and create a new menu (or use an existing one) to add it Additional menu location. Once you're happy with the results, publish the changes and it's done.</p>
 
 <hr />
 
-<h3>Next step</h3>
+<h3>Next Step</h3>
 
-<p><a href="/docs/dinodds/installation/">Plugin Installation</a></p>
+<p><a href="/docs/spinoko/widgets/">Widgets</a></p>
         </div>
 
         <nav id="js-page-menu" class="page-menu hidden py-8 lg:w-48 lg:max-w-sidebar lg:block sticky" style="top: 4rem;">
             <h4 class="mb-8 font-bold text-grey text-lg pb-1 border-b inline-block">
-                DINODDS v1.2.0
+                SPINOKO v1.0.2
             </h4>
 
             <div id="page-menu-wrapper" class="mb-8"></div>

@@ -34,4 +34,4 @@ This is what it looks like on the front-end.
 
 ### Nest step
 
-[Breadcrumbs](/docs/spinoko/breadcrumbs/)
+[Theme Customizations](/docs/spinoko/customizations/)

@@ -31,6 +31,7 @@ return [
             'Casino Page Templates' => 'docs/spinoko/casino-page-templates',
             'Theme Blocks' => 'docs/spinoko/blocks',
             'Page Templates' => 'docs/spinoko/page-templates',
+            'Navigation Menus' => 'docs/spinoko/navigation',
             'Widgets' => 'docs/spinoko/widgets',
             'Theme Customizations' => 'docs/spinoko/customizations',
             'AMP Support' => 'docs/spinoko/amp',
