@@ -1,5 +1,6 @@
 import './docs'
 import './nav'
+import './search'
 import hljs from 'highlight.js/lib/highlight'
 
 hljs.registerLanguage('bash', require('highlight.js/lib/languages/bash'))

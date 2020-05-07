@@ -3,10 +3,14 @@
 use Illuminate\Support\Str;
 
 return [
-    'baseUrl' => '',
+    'baseUrl' => 'http://localhost:3000',
     'production' => false,
     'siteName' => 'DinoMatic Docs',
     'siteDescription' => 'WordPress Themes and Plugins',
+
+    // Algolia
+    'docsearchApiKey' => '282a8b7296516311cfb7d24f86755ce4',
+    'docsearchIndexName' => '0Z42WONKV9',
 
     // navigation menu
     'navigation' => require_once('navigation.php'),
@@ -23,9 +27,7 @@ return [
     ],
 
     // helpers
-    'isActive' => function ($page, $path) {
-        return Str::endsWith(trimPath($page->getPath()), trimPath($path));
-    },
+    'isActive' => fn ($page, $path) => Str::endsWith(trimPath($page->getPath()), trimPath($path)),
     'isActiveParent' => function ($page, $menuItem) {
         if (is_object($menuItem) && $menuItem->children) {
             return $menuItem->children->contains(function ($child) use ($page) {
@@ -33,14 +35,7 @@ return [
             });
         }
     },
-    'url' => function ($page, $path) {
-        return Str::startsWith($path, 'http') ? $path : '/' . trimPath($path);
-    },
-    'product' => function($page) {
-        $paths = explode('/', $page->getPath());
-        return $paths[2];
-    },
-    'version' => function ($page) {
-        return $page->versions[$page->product($page)];
-    }
+    'url' => fn($page, $path) => Str::startsWith($path, 'http') ? $path : '/' . trimPath($path),
+    'product' => fn($page) => $paths = explode('/', $page->getPath())[2],
+    'version' => fn($page) => $page->versions[$page->product($page)]
 ];
