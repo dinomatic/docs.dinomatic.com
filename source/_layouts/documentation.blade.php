@@ -16,7 +16,7 @@
             @yield('content')
         </div>
 
-        <nav id="js-page-menu" class="page-menu hidden py-8 lg:w-48 lg:max-w-sidebar lg:block sticky" style="top: 4rem;">
+        <nav id="js-page-menu" class="page-menu hidden py-8 lg:w-48 lg:max-w-sidebar lg:block" style="top: 4rem;">
             <h4 class="mb-8 font-bold text-grey text-lg pb-1 border-b inline-block">
                 {{ strtoupper($page->product($page)) }} v{{ $page->version($page) }}
             </h4>
