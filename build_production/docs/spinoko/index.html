@@ -23,23 +23,46 @@
 
         
         <link href="https://fonts.googleapis.com/css?family=Rubik:400,700&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="/assets/build/css/main.css?id=0bc08550f24f8492abbf">
+        <link rel="stylesheet" href="/assets/build/css/main.css?id=cc6433a70edbb481fd32">
     </head>
 
     <body class="flex flex-col justify-between min-h-screen text-grey-darker leading-normal font-sans">
         <a href="#content" class="screen-reader-text">Skip to content</a>
         <header class="flex items-center shadow bg-white border-b mb-8 py-2 sticky pin-t" role="banner">
             <div class="container flex items-center justify-between max-w-4xl mx-auto px-4">
-                <div class="flex items-center">
+                <div class="flex items-center flex-no-shrink">
                     <a href="/" title="DinoMatic Docs home" class="inline-flex items-center text-teal-darkest hover:text-teal-darker">
                         <img src="/assets/img/icon-book.svg" class="h-5 w-5 mr-2" alt="stack icon">
                         <span class="text-lg md:text-2xl font-semibold my-0 pr-4">DinoMatic Docs</span>
                     </a>
                 </div>
 
-                <div class="pr-16 hidden md:block">
-                    <a href="https://dinomatic.com">DinoMatic.com</a>
-                </div>
+                <button
+    title="Start searching"
+    type="button"
+    class="flex md:hidden bg-grey-lightest hover:bg-blue-lightest justify-center items-center border border-grey rounded-full focus:outline-none h-10 px-3"
+    onclick="searchInput.toggle()"
+>
+    <img src="/assets/img/magnifying-glass.svg" alt="search icon" class="h-4 w-4 max-w-none">
+</button>
+
+<div id="js-search-input" class="docsearch-input__wrapper hidden md:block">
+    <label for="search" class="hidden">Search</label>
+
+    <input
+        id="docsearch-input"
+        class="docsearch-input relative block h-10 transition-fast w-full lg:w-1/2 xl:w-1/3 bg-grey-lightest outline-none rounded-full text-grey-darker border border-grey focus:border-blue-light ml-auto px-4 pb-0"
+        name="docsearch"
+        type="text"
+        placeholder="Search (press / to focus)"
+    >
+
+    <button
+        class="md:hidden absolute pin-t pin-r h-full font-light text-3xl text-blue hover:text-blue-dark focus:outline-none -mt-px pr-7"
+        onclick="searchInput.toggle()"
+    >&times;</button>
+</div>
+
             </div>
 
                 <button class="flex justify-center items-center bg-teal border border-teal h-10 mr-4 px-5 rounded-full lg:hidden focus:outline-none"
@@ -730,6 +753,9 @@
             <h5 class="font-bold">Links</h5>
             <ul class="pl-0">
                 <li class="mb-2 ml-2 text-sm">
+                    <a href="https://dinomatic.com">DinoMatic.com</a>
+                </li>
+                <li class="mb-2 ml-2 text-sm">
                     <a href="https://dinomatic.com/posts">Blog Posts</a>
                 </li>
                 <li class="mb-2 ml-2 text-sm">
@@ -747,7 +773,7 @@
 </section>
         </main>
 
-        <script src="/assets/build/js/main.js?id=444d93ef27ae3e561119"></script>
+        <script src="/assets/build/js/main.js?id=6d75185449e7db0e7cd8"></script>
 
         <script>
     const navMenu = {
@@ -761,7 +787,24 @@
         },
     }
 </script>
+            <script type="text/javascript">
+            docsearch({
+                apiKey: 'a9bd13669dfc9cd2dc6f455bc0b6903d',
+                indexName: 'dinomatic',
+                inputSelector: '#docsearch-input',
+                debug: false
+            })
 
+            const searchInput = {
+                toggle() {
+                    const menu = document.getElementById('js-search-input')
+                    menu.classList.toggle('hidden')
+                    menu.classList.toggle('md:block')
+                    document.getElementById('docsearch-input').focus()
+                }
+            }
+        </script>
+    
                 <script>
         (function(f, a, t, h, o, m){
             a[h]=a[h]||function(){(a[h].q=a[h].q||[]).push(arguments)};
@@ -773,5 +816,7 @@
         fathom('set', 'siteId', 'PGGZQLHA');
         fathom('trackPageview');
         </script>
-            </body>
+        
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css" />
+    </body>
 </html>

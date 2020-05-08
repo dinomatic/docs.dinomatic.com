@@ -15,7 +15,7 @@
         class="docsearch-input relative block h-10 transition-fast w-full lg:w-1/2 xl:w-1/3 bg-grey-lightest outline-none rounded-full text-grey-darker border border-grey focus:border-blue-light ml-auto px-4 pb-0"
         name="docsearch"
         type="text"
-        placeholder="Search"
+        placeholder="Search (press / to focus)"
     >
 
     <button
@@ -31,16 +31,16 @@
                 apiKey: '{{ $page->docsearchApiKey }}',
                 indexName: '{{ $page->docsearchIndexName }}',
                 inputSelector: '#docsearch-input',
-                debug: false // Set debug to true if you want to inspect the dropdown
-            });
+                debug: false
+            })
 
             const searchInput = {
                 toggle() {
-                    const menu = document.getElementById('js-search-input');
-                    menu.classList.toggle('hidden');
-                    menu.classList.toggle('md:block');
-                    document.getElementById('docsearch-input').focus();
-                },
+                    const menu = document.getElementById('js-search-input')
+                    menu.classList.toggle('hidden')
+                    menu.classList.toggle('md:block')
+                    document.getElementById('docsearch-input').focus()
+                }
             }
         </script>
     @endif

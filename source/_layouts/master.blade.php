@@ -36,8 +36,6 @@
                         <img src="/assets/img/icon-book.svg" class="h-5 w-5 mr-2" alt="stack icon">
                         <span class="text-lg md:text-2xl font-semibold my-0 pr-4">{{ $page->siteName }}</span>
                     </a>
-
-                    <a href="https://dinomatic.com" class="hidden md:block">DinoMatic.com ➶</a>
                 </div>
 
                 @include('_nav.search-input')
@@ -67,5 +65,7 @@
         fathom('trackPageview');
         </script>
         @endif
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css" />
     </body>
 </html>

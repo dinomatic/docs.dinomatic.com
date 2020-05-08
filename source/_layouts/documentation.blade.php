@@ -26,6 +26,9 @@
             <h5 class="font-bold">Links</h5>
             <ul class="pl-0">
                 <li class="mb-2 ml-2 text-sm">
+                    <a href="https://dinomatic.com">DinoMatic.com</a>
+                </li>
+                <li class="mb-2 ml-2 text-sm">
                     <a href="https://dinomatic.com/posts">Blog Posts</a>
                 </li>
                 <li class="mb-2 ml-2 text-sm">

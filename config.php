@@ -9,8 +9,8 @@ return [
     'siteDescription' => 'WordPress Themes and Plugins',
 
     // Algolia
-    'docsearchApiKey' => '282a8b7296516311cfb7d24f86755ce4',
-    'docsearchIndexName' => '0Z42WONKV9',
+    'docsearchApiKey' => 'a9bd13669dfc9cd2dc6f455bc0b6903d',
+    'docsearchIndexName' => 'dinomatic',
 
     // navigation menu
     'navigation' => require_once('navigation.php'),
