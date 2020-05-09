@@ -53,3 +53,7 @@ svg {
     }
   }
 }
+
+#content img {
+  @apply .block;
+}

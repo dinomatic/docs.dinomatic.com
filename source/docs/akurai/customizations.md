@@ -20,47 +20,74 @@ Also you can find the customizer options and values for the [theme main demo](ht
 
 ### Site Identity
 
+This is the standard Site Identity section where you can upload your logo and favicon, set site title and tagline.
+
 ![customizer-site-identity](/assets/images/akurai/customizer/site-identity.png)
 
 ### Colors
+
+Define main theme colors here.
 
 ![customizer-color-options](/assets/images/akurai/customizer/colors.png)
 
 ### Homepage Settings
 
+Choose to display a static page ot recent posts as your homepage. If you choose a static page, you can also add a table/grid at the top of it which you can configure here.
+
 ![customizer-homepage-settings](/assets/images/akurai/customizer/homepage-settings.png)
 
 ### Header Options
+
+Header options such as colors, navigation menu styles, header layout and positioning.
 
 ![customizer-header-options](/assets/images/akurai/customizer/header-options.png)
 
 ### Footer Options
 
+Footer colors and copyright text.
+
 ![customizer-footer-options](/assets/images/akurai/customizer/footer-options.png)
 
 ### Font Options
+
+Website font family. You can choose a system default font or one from Google CDN.
 
 ![customizer-font-options](/assets/images/akurai/customizer/font-options.png)
 
 ### Section Options
 
+Here you define what Akurai sections look like and it'll affect almost everything including blocks and shortcodes.
+
 ![customizer-section-options](/assets/images/akurai/customizer/section-options.png)
 
 ### Link Options
+
+Define link colors and `rel` and `target` attributes.
 
 ![customizer-link-options](/assets/images/akurai/customizer/link-options.png)
 
 ### Button Options
 
+Theme button options such as colors, font styles, as well as hover effects and other styles.
+
 ![customizer-button-options](/assets/images/akurai/customizer/button-options.png)
 
 ### Review Options
 
+A plenty of options related to reviews and review pages. You can specify Hero & Related Reviews section text contents, choose Hero layout, whether to display a featured image on review pages, as well as specify review logo sizes for better performance and rendering.
+
 ![customizer-review-options](/assets/images/akurai/customizer/review-options.png)
+![customizer-review-options-2](/assets/images/akurai/customizer/review-options-2.png)
 
 ### Shortcode Options
 
+Specify shortcode options such as anchor texts and the number of review stars.
+
 ![customizer-shortcode-options](/assets/images/akurai/customizer/shortcode-options.png)
+
+### Breadcrumbs Options
+
+Read more about breadcrumbs [here](/docs/akurai/breadcrumbs)
 
 ---
 

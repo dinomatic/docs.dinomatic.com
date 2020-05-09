@@ -88,6 +88,10 @@ Define the main offers of the sportsbook such as sportsbook, casino, poker, etc.
 
 You can choose to display related reviews section at the end of each review page. For that you need to select at least 1 (max 3) other review pages.
 
+### Review Snippet
+
+For all your review pages Akurai generates **Review Snippet Structured data** (schema.org) markup. The rating value used is the "Overall Rating" field from [Rating Fields](#ratings-fields) section. It is generated automatically so you don't need to do anything. You can test your pages [here](https://search.google.com/structured-data/testing-tool).
+
 ---
 
 ### Next step

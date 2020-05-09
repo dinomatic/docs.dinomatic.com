@@ -20,9 +20,17 @@
     }
   })
 
-  document.addEventListener('keydown', function (e) {
-    if (e.keyCode === 27 && e.target === searchInput) {
+  searchInput.addEventListener('keydown', function (e) {
+    if (e.keyCode === 27) {
       searchInput.blur()
     }
   })
+
+  searchInput.addEventListener('focus', () => {
+    toggleZIndex(true)
+  })
+  searchInput.addEventListener('blur', () => {
+    toggleZIndex(false)
+  })
+  const toggleZIndex = on => document.getElementById('js-page-menu').style.zIndex = on ? -1 : 0
 })()

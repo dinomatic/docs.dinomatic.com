@@ -127,11 +127,17 @@ At the right side panel you can click on **Switch to Preview** to preview the of
 
 ![akurai-blocks-posts](/assets/images/akurai/akurai-blocks-posts.png)
 
+Check out [Akurai Demos](https://dinomatic.com/demos/akurai) for more styles.
+
 To add a new posts block simply click on the **+** (Add block) sign and select **Recent Posts** in **Akurai Blocks** section.
 
 In the content editor a new recent posts edit section will appear. Select the number of posts to display and the post excerpt length. Or you can leave them blank for default values: 6 posts and 40 words.
 
 You can also select a category to filter the posts or leave it blank to display posts from all categories.
+
+`💁 since version 2.0`
+
+You can also choose a block style and specify whether to lazy load post thumbnails or not.
 
 ![akurai-blocks-editor-posts](/assets/images/akurai/akurai-blocks-editor-posts.png)
 
@@ -145,6 +151,10 @@ At the right side panel you can click on **Switch to Preview** to preview the po
 [posts count="6" words="40"]
 or
 [posts count="6" words="40" cat_id="1"]
+
+💁 since version 2.0
+[posts count="3" style="no_excerpt"]
+[posts lazy="false"]
 ```
 
 ### FAQs Block
@@ -155,7 +165,14 @@ To add a new FAQs block simply click on the **+** (Add block) sign and select **
 
 In the content editor a new FAQs edit section will appear. For each one add the question and the answer and clack `Add New` to add a new FAQ item.
 
+`💁 since version 2.0`
+
+By default schema.org markup for FAQ rich snippets will be included in all your FAQ blocks, however you can disable them if you need to.
+
+> Note that you can include only one markup on a page. If you have multiple FAQ blocks on a single, please enable this for one of them only.
+
 ![akurai-blocks-editor-faqs](/assets/images/akurai/akurai-blocks-editor-faqs.png)
+![akurai-blocks-editor-faqs-schema-org-markup](/assets/images/akurai/akurai-blocks-editor-faqs-schema-org-markup.png)
 
 At the right side panel you can click on **Switch to Preview** to preview the FAQs block in your editor.
 
@@ -180,6 +197,18 @@ The second part is where you define the slides and their contents. For each slid
 At the right side panel you can click on **Switch to Preview** to preview the slider block in your editor.
 
 > Note that the preview may differ a little from the actual block as some WordPress and other plugin styles may be affecting it.
+
+### Lazy Image Block
+
+`💁 since version 2.0`
+
+To add a new lazy image simply click on the **+** (Add block) sign and select **Lazy Image** in **Akurai Blocks** section.
+
+![akurai-blocks-lazy-image](/assets/images/akurai/akurai-blocks-editor-lazy-image.png)
+
+Select or upload an image, set the alt text and you're ready.
+You can specify any CSS class names you want to add to the `img` tag
+Also select the shape of the image, whether it's wide, tall or square. This helps reserve space similar to the image and not cause document "rearrangement".
 
 ---
 

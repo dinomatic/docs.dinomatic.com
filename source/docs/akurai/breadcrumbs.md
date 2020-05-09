@@ -27,9 +27,9 @@ Akurai doesn't enforce users to have a parent page for review pages, however you
 
 By default breadcrumbs for posts pages includes categories, however you can add blog page as well. Just make sure to check the box _Include blog page in posts breadcrumbs_.
 
-### Structured Data
+### Schema.org markup
 
-Akurai also includes structured data markup for [breadcrumbs](https://developers.google.com/search/docs/data-types/breadcrumb) out of the box, so you don't need to do anything.
+Akurai also includes structured data (schema.org) markup for [breadcrumbs](https://developers.google.com/search/docs/data-types/breadcrumb) out of the box, so you don't need to do anything.
 
 > **Do not enable breadcrumbs option in Yoast, as you'll end up having duplicate markup.**
 

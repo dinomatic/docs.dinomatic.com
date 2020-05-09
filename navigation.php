@@ -16,6 +16,7 @@ return [
             'Widgets' => 'docs/akurai/widgets',
             'Breadcrumbs' => 'docs/akurai/breadcrumbs',
             'Theme Customizations' => 'docs/akurai/customizations',
+            'AMP Support' => 'docs/akurai/amp',
             'Theme Updates' => 'docs/akurai/updates',
             'Child Theme' => 'docs/akurai/child-theme',
         ],

@@ -29,7 +29,7 @@
 
     <body class="flex flex-col justify-between min-h-screen text-grey-darker leading-normal font-sans">
         <a href="#content" class="screen-reader-text">Skip to content</a>
-        <header class="flex items-center shadow bg-white border-b mb-8 py-2 sticky pin-t" role="banner">
+        <header class="flex items-center justify-between shadow bg-white border-b mb-8 py-2 sticky pin-t" role="banner">
             <div class="container flex items-center justify-between max-w-4xl mx-auto px-4">
                 <div class="flex items-center flex-no-shrink">
                     <a href="/" title="{{ $page->siteName }} home" class="inline-flex items-center text-teal-darkest hover:text-teal-darker">
