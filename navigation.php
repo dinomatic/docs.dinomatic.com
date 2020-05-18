@@ -38,6 +38,7 @@ return [
             'AMP Support' => 'docs/spinoko/amp',
             'Theme Updates' => 'docs/spinoko/updates',
             'Child Theme' => 'docs/spinoko/child-theme',
+            'How To ...' => 'docs/spinoko/how-to',
         ],
     ],
     'Sikika Theme' => [

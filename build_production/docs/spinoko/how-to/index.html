@@ -4,19 +4,19 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <meta name="description" content="Spinoko Theme Installation">
+        <meta name="description" content="How To ...">
 
         <meta property="og:site_name" content="DinoMatic Docs"/>
-        <meta property="og:title" content="Installation | DinoMatic Docs"/>
-        <meta property="og:description" content="Spinoko Theme Installation"/>
-        <meta property="og:url" content="https://docs.dinomatic.com/docs/spinoko/installation"/>
+        <meta property="og:title" content="How To ... | DinoMatic Docs"/>
+        <meta property="og:description" content="How To ..."/>
+        <meta property="og:url" content="https://docs.dinomatic.com/docs/spinoko/how-to"/>
         <meta property="og:image" content="https://docs.dinomatic.com/assets/img/logo.png"/>
         <meta property="og:type" content="website"/>
 
         <meta name="twitter:image:alt" content="DinoMatic Docs">
         <meta name="twitter:card" content="summary_large_image">
 
-        <title>DinoMatic Docs | Installation</title>
+        <title>DinoMatic Docs | How To ...</title>
 
         <link rel="home" href="https://docs.dinomatic.com">
         <link rel="icon" href="https://docs.dinomatic.com/favicon.svg">
@@ -249,7 +249,7 @@
             <li class="list-reset pl-2">
             
         <a href="/docs/spinoko/installation"
-            class="lvl1  active font-semibold text-teal  nav-menu__item hover:text-black"
+            class="lvl1    nav-menu__item hover:text-black"
         >
             Installation
         </a>
@@ -375,7 +375,7 @@
             <li class="list-reset pl-2">
             
         <a href="/docs/spinoko/how-to"
-            class="lvl1    nav-menu__item hover:text-black"
+            class="lvl1  active font-semibold text-teal  nav-menu__item hover:text-black"
         >
             How To ...
         </a>
@@ -726,40 +726,26 @@
         </nav>
 
         <div id="content" class="w-full flex-1 break-words p-8 md:mx-8" data-docs="true" v-pre>
-            <h1>Theme Installation</h1>
+            <h1>How To ...</h1>
 
-<p>You can install the theme either through WordPress dashboard (recommended) or via FTP.</p>
+<h3>How To Create a Header Navigation Menu</h3>
 
-<hr />
-
-<h2>Before Installation</h2>
-
-<p>Please make sure your server meets the minimum system requirements and download the theme file from your <a href="https://dinomatic.com/account">DinoMatic account</a>.</p>
-
-<h3>Install through WordPress Dashboard</h3>
-
-<ol>
-<li>Visit WordPress dashboard &#8594; Themes and click <code>Add New</code> and <code>Upload Theme</code> after that</li>
-<li>Click <code>Choose File</code>, select the theme file <code>spinoko.zip</code> and click <code>Install Now</code></li>
-<li>Activate the theme</li>
-</ol>
-
-<h3>Install via FTP</h3>
-
-<ol>
-<li>Log in to your server with your FTP credentials, using an FTP client, cPanel or similar</li>
-<li>Navigate to <code>themes</code> directory from your WordPress website root</li>
-<li>Upload the theme file <code>spinoko.zip</code> to <code>themes</code> directory</li>
-<li>Unzip the archive, you'll have a directory <code>spinoko</code> in themes</li>
-<li>Remove the <code>spinoko.zip</code> file</li>
-<li>Visit WordPress dashboard &#8594; Themes and activate the theme</li>
-</ol>
+<p>Detailed description of Spinoko nav menus and a guide on how to create one can be found <a href="/docs/spinoko/navigation">here</a>.</p>
 
 <hr />
 
-<h3>Next step</h3>
+<h3>How To Use Custom Payment Icons</h3>
 
-<p><a href="/docs/spinoko/registration/">Theme Registration</a></p>
+<p>Spinoko comes wth carefully chosen payment icons that both look nice on the page are optimal for performance. You can add your own icons by following the steps below.</p>
+
+<p><strong>The SVG icon</strong>: You need to use an SVG (Scalable Vector Graphics) files for icons. <code>.png .jpg .gif</code> etc. common image formats will not work.</p>
+
+<p><strong>The file name</strong>: The filename should be the lowercase version of the payment method and should not contain spaces. For example: for <strong>American Express</strong> payment method you'd have a file called <code>american-express.svg</code>.</p>
+
+<p><strong>The Directory</strong>: You need to use a <a href="/docs/spinoko/child-theme">child theme</a> for this to avoid future update conflicts.
+In your child theme's root directory create a directories: <code>assets/icons/payments/</code> and add the icon to the payments directory.</p>
+
+<hr />
         </div>
 
         <nav id="js-page-menu" class="page-menu hidden py-8 lg:w-48 lg:max-w-sidebar lg:block sticky" style="top: 4rem;">
