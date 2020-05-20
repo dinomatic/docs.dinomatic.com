@@ -19,11 +19,15 @@ All colors used correspond to CSS custom properties:
 .df-odds {
   --color-settings__bg: #4A5568;   /* settings dropdown background color */
   --color-settings__text: #FFFFFF; /* settings dropdown text color */
+
   --color-bookie: #CBD5E0;         /* bookie logo background color */
   --color-date: #CBD5E0;           /* date row background color */
   --color-time: #E2E8F0;           /* time column background color */
   --color-away: #F7FAFC;           /* away row background color */
   --color-home: #EDF2F7;           /* home row background color */
+
+  --color-arrow__bg: #CBD5E0;      /* left & right arrows background color */
+  --color-arrow__text: #111;       /* left & right arrows icon color */
 }
 ```
 

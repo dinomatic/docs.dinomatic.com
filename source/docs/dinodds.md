@@ -19,8 +19,7 @@ It's easy to get started with DinOdds. Follow the documentations to install and 
 
 Before getting started make sure you have all the requirements met.
 
-To use the plugin, you must be running **WordPress 4.8** or higher and **PHP 5.6** or higher.
-Recommended versions are **WordPress 5.4** and **PHP 7**.
+To use the plugin, you must be running **WordPress 4.8** or higher (recommended **5.4**) and **PHP 7** (recommended **7.4**).
 
 Also make sure your host has the minimum requirements to run WordPress and PHP `max_upload_size` is more than 2MB.
 
