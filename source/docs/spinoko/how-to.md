@@ -28,7 +28,7 @@ In your child theme's root directory create a directories: `assets/icons/payment
 
 ### How To Change Table Sorting Keys
 
-By default Spinoko adds 5 tables sorting keys/buttons:
+By default Spinoko adds 5 table sorting keys/buttons:
 
 1. Name (alphabetically)
 2. Year (of establishment)
@@ -36,16 +36,17 @@ By default Spinoko adds 5 tables sorting keys/buttons:
 4. Bonus amount
 5. Bonus percentage
 
-All the above fields are pn casino pages to be filled in.
+All the above fields are in casino edit pages to be filled in.
 
-If you want to change the keys, add the following to your child theme's `functions.php` file.
+💁 If you just need to change the labels, you can do so by visiting **Customizer** &#8594; **Strings** in your WP dashboard.
 
-It currently includes the 5 default keys, remove the ones you don't need and also provide your own texts for buttons by changing the default values.
+To change the keys, use the following function and modify it in your child theme's `functions.php` file.
 
 ```php
 function spinoko__change_table_sort_keys() {
 
     return array(
+        'default'          => __( 'X', 'spinoko' ),
         'alpha'            => __( 'Name', 'spinoko' ),
         'year'             => __( 'Year', 'spinoko' ),
         'rating'           => __( 'Rating', 'spinoko' ),
@@ -56,18 +57,36 @@ function spinoko__change_table_sort_keys() {
 add_filter( 'spinoko_table_sorting_keys', 'spinoko__change_table_sort_keys' );
 ```
 
-For example, ig you need only `name` and `year` keys, and you want to change **Year** to **Year established** the function would look like this:
+It currently includes the 5 sort keys + a default/reset key, remove the ones you don't need and also provide your own labels for buttons by changing the default values.
+
+For example, if you need only `name` and `year` keys, and you want to change **Year** to **Year established** the function would look like this:
 
 
 ```php
 function spinoko__change_table_sort_keys() {
 
     return array(
-        'alpha' => __( 'Name', 'spinoko' ),
-        'year'  => __( 'Year established', 'spinoko' ),
+        'default' => __( 'X', 'spinoko' ),
+        'alpha'   => __( 'Name', 'spinoko' ),
+        'year'    => __( 'Year established', 'spinoko' ),
     );
 }
 add_filter( 'spinoko_table_sorting_keys', 'spinoko__change_table_sort_keys' );
+```
+
+**Disable reset** - if you want to disable the **default/reset** option, remove the line `'default' => __( 'X', 'spinoko' ),` as well.
+
+**Change order** - if you want to move the **default/reset** button to the end, or change the order of the buttons, you can do it here by changing the order of `'key' => 'Label'` pairs:
+
+```php
+function spinoko__change_table_sort_keys() {
+
+    return array(
+        'rating'  => __( 'Rating', 'spinoko' ),
+        'alpha'   => __( 'Name', 'spinoko' ),
+        'default' => __( 'Reset', 'spinoko' ),
+    );
+}
 ```
 
 ---

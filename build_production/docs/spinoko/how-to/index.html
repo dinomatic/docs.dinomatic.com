@@ -23,7 +23,7 @@
 
         
         <link href="https://fonts.googleapis.com/css?family=Rubik:400,700&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="/assets/build/css/main.css?id=8cd170b136f6beef1ee9">
+        <link rel="stylesheet" href="/assets/build/css/main.css?id=3495caf24d47e4b704a2">
     </head>
 
     <body class="flex flex-col justify-between min-h-screen text-grey-darker leading-normal font-sans">
@@ -758,7 +758,7 @@ In your child theme's root directory create a directories: <code>assets/icons/pa
 
 <h3>How To Change Table Sorting Keys</h3>
 
-<p>By default Spinoko adds 5 tables sorting keys/buttons:</p>
+<p>By default Spinoko adds 5 table sorting keys/buttons:</p>
 
 <ol>
 <li>Name (alphabetically)</li>
@@ -768,15 +768,16 @@ In your child theme's root directory create a directories: <code>assets/icons/pa
 <li>Bonus percentage</li>
 </ol>
 
-<p>All the above fields are pn casino pages to be filled in.</p>
+<p>All the above fields are in casino edit pages to be filled in.</p>
 
-<p>If you want to change the keys, add the following to your child theme's <code>functions.php</code> file.</p>
+<p>💁 If you just need to change the labels, you can do so by visiting <strong>Customizer</strong> &#8594; <strong>Strings</strong> in your WP dashboard.</p>
 
-<p>It currently includes the 5 default keys, remove the ones you don't need and also provide your own texts for buttons by changing the default values.</p>
+<p>To change the keys, use the following function and modify it in your child theme's <code>functions.php</code> file.</p>
 
 <pre><code class="language-php">function spinoko__change_table_sort_keys() {
 
     return array(
+        'default'          =&gt; __( 'X', 'spinoko' ),
         'alpha'            =&gt; __( 'Name', 'spinoko' ),
         'year'             =&gt; __( 'Year', 'spinoko' ),
         'rating'           =&gt; __( 'Rating', 'spinoko' ),
@@ -787,16 +788,33 @@ In your child theme's root directory create a directories: <code>assets/icons/pa
 add_filter( 'spinoko_table_sorting_keys', 'spinoko__change_table_sort_keys' );
 </code></pre>
 
-<p>For example, ig you need only <code>name</code> and <code>year</code> keys, and you want to change <strong>Year</strong> to <strong>Year established</strong> the function would look like this:</p>
+<p>It currently includes the 5 sort keys + a default/reset key, remove the ones you don't need and also provide your own labels for buttons by changing the default values.</p>
+
+<p>For example, if you need only <code>name</code> and <code>year</code> keys, and you want to change <strong>Year</strong> to <strong>Year established</strong> the function would look like this:</p>
 
 <pre><code class="language-php">function spinoko__change_table_sort_keys() {
 
     return array(
-        'alpha' =&gt; __( 'Name', 'spinoko' ),
-        'year'  =&gt; __( 'Year established', 'spinoko' ),
+        'default' =&gt; __( 'X', 'spinoko' ),
+        'alpha'   =&gt; __( 'Name', 'spinoko' ),
+        'year'    =&gt; __( 'Year established', 'spinoko' ),
     );
 }
 add_filter( 'spinoko_table_sorting_keys', 'spinoko__change_table_sort_keys' );
+</code></pre>
+
+<p><strong>Disable reset</strong> - if you want to disable the <strong>default/reset</strong> option, remove the line <code>'default' =&gt; __( 'X', 'spinoko' ),</code> as well.</p>
+
+<p><strong>Change order</strong> - if you want to move the <strong>default/reset</strong> button to the end, or change the order of the buttons, you can do it here by changing the order of <code>'key' =&gt; 'Label'</code> pairs:</p>
+
+<pre><code class="language-php">function spinoko__change_table_sort_keys() {
+
+    return array(
+        'rating'  =&gt; __( 'Rating', 'spinoko' ),
+        'alpha'   =&gt; __( 'Name', 'spinoko' ),
+        'default' =&gt; __( 'Reset', 'spinoko' ),
+    );
+}
 </code></pre>
 
 <hr />

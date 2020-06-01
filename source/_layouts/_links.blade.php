@@ -10,11 +10,20 @@
         </h4>
 
         <h4 class="heading--secondary">
+            <a href="https://dinomatic.com" class="text-grey">
+                <img src="/assets/img/icon-terminal.svg" alt="DinoMatic.com">
+                DinoMatic.com
+            </a>
+        </h4>
+
+        <h4 class="heading--secondary">
             <a href="https://dinomatic.com/account/tickets" class="text-grey">
                 <img src="/assets/img/icon-terminal.svg" alt="Support">
                 Get Support
             </a>
         </h4>
+
+        <h4 class="heading--secondary"></h4>
 
         <h4 class="heading--secondary">
             <a href="https://dinomatic.com/contact" class="text-grey">
