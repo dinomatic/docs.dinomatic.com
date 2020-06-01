@@ -31,7 +31,10 @@ There are other blocks that are available in casino pages only: [Casino Page Blo
 
 To add a new table simply click on the **+** (Add block) sign and select **Casinos Table** in **Spinoko Blocks** section.
 
-In the content editor a new table edit section will appear. Click **Add Casino** to add as many casinos as you want. Select the style from the dropdown menu and whether to lazy load images or not, which if you don't have any particular reason to turn off is better for performance to leave it on.
+In the content editor a new table edit section will appear. Click **Add Casino** to add as many casinos as you want.
+Select the style from the dropdown menu and whether to lazy load images or not, which if you don't have any particular reason to turn off is better for performance to leave it on.
+
+You can also enable **table sorting** for your tables regardless of their styles. It will add 5 buttons on top of the table to sort by: Name, Year, Rating, Bonus, Bonus %. You can customize the button texts in **Customizer** &#8594; **Strings** and you can change which buttons to display by following [these steps](/docs/spinoko/how-to#how-to-change-table-sorting-keys).
 
 ![spinoko-blocks-table-admin](/assets/images/spinoko/spinoko-blocks-table-admin.png)
 

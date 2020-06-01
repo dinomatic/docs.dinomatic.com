@@ -25,3 +25,49 @@ Spinoko comes wth carefully chosen payment icons that both look nice on the page
 In your child theme's root directory create a directories: `assets/icons/payments/` and add the icon to the payments directory.
 
 ---
+
+### How To Change Table Sorting Keys
+
+By default Spinoko adds 5 tables sorting keys/buttons:
+
+1. Name (alphabetically)
+2. Year (of establishment)
+3. Rating
+4. Bonus amount
+5. Bonus percentage
+
+All the above fields are pn casino pages to be filled in.
+
+If you want to change the keys, add the following to your child theme's `functions.php` file.
+
+It currently includes the 5 default keys, remove the ones you don't need and also provide your own texts for buttons by changing the default values.
+
+```php
+function spinoko__change_table_sort_keys() {
+
+    return array(
+        'alpha'            => __( 'Name', 'spinoko' ),
+        'year'             => __( 'Year', 'spinoko' ),
+        'rating'           => __( 'Rating', 'spinoko' ),
+        'bonus_amount'     => __( 'Bonus', 'spinoko' ),
+        'bonus_percentage' => __( 'Bonus %', 'spinoko' ),
+    );
+}
+add_filter( 'spinoko_table_sorting_keys', 'spinoko__change_table_sort_keys' );
+```
+
+For example, ig you need only `name` and `year` keys, and you want to change **Year** to **Year established** the function would look like this:
+
+
+```php
+function spinoko__change_table_sort_keys() {
+
+    return array(
+        'alpha' => __( 'Name', 'spinoko' ),
+        'year'  => __( 'Year established', 'spinoko' ),
+    );
+}
+add_filter( 'spinoko_table_sorting_keys', 'spinoko__change_table_sort_keys' );
+```
+
+---

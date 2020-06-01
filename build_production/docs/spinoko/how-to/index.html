@@ -23,7 +23,7 @@
 
         
         <link href="https://fonts.googleapis.com/css?family=Rubik:400,700&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="/assets/build/css/main.css?id=7b6f8d6787c87550bf32">
+        <link rel="stylesheet" href="/assets/build/css/main.css?id=8cd170b136f6beef1ee9">
     </head>
 
     <body class="flex flex-col justify-between min-h-screen text-grey-darker leading-normal font-sans">
@@ -755,11 +755,56 @@
 In your child theme's root directory create a directories: <code>assets/icons/payments/</code> and add the icon to the payments directory.</p>
 
 <hr />
+
+<h3>How To Change Table Sorting Keys</h3>
+
+<p>By default Spinoko adds 5 tables sorting keys/buttons:</p>
+
+<ol>
+<li>Name (alphabetically)</li>
+<li>Year (of establishment)</li>
+<li>Rating</li>
+<li>Bonus amount</li>
+<li>Bonus percentage</li>
+</ol>
+
+<p>All the above fields are pn casino pages to be filled in.</p>
+
+<p>If you want to change the keys, add the following to your child theme's <code>functions.php</code> file.</p>
+
+<p>It currently includes the 5 default keys, remove the ones you don't need and also provide your own texts for buttons by changing the default values.</p>
+
+<pre><code class="language-php">function spinoko__change_table_sort_keys() {
+
+    return array(
+        'alpha'            =&gt; __( 'Name', 'spinoko' ),
+        'year'             =&gt; __( 'Year', 'spinoko' ),
+        'rating'           =&gt; __( 'Rating', 'spinoko' ),
+        'bonus_amount'     =&gt; __( 'Bonus', 'spinoko' ),
+        'bonus_percentage' =&gt; __( 'Bonus %', 'spinoko' ),
+    );
+}
+add_filter( 'spinoko_table_sorting_keys', 'spinoko__change_table_sort_keys' );
+</code></pre>
+
+<p>For example, ig you need only <code>name</code> and <code>year</code> keys, and you want to change <strong>Year</strong> to <strong>Year established</strong> the function would look like this:</p>
+
+<pre><code class="language-php">function spinoko__change_table_sort_keys() {
+
+    return array(
+        'alpha' =&gt; __( 'Name', 'spinoko' ),
+        'year'  =&gt; __( 'Year established', 'spinoko' ),
+    );
+}
+add_filter( 'spinoko_table_sorting_keys', 'spinoko__change_table_sort_keys' );
+</code></pre>
+
+<hr />
         </div>
 
         <nav id="js-page-menu" class="page-menu hidden py-8 lg:w-48 lg:max-w-sidebar lg:block sticky" style="top: 4rem;">
             <h4 class="mb-8 font-bold text-grey text-lg pb-1 border-b inline-block">
-                SPINOKO v1.0.3
+                SPINOKO v1.0.4
             </h4>
 
             <div id="page-menu-wrapper" class="mb-8"></div>
