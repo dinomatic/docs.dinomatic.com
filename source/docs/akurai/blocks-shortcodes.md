@@ -210,6 +210,26 @@ Select or upload an image, set the alt text and you're ready.
 You can specify any CSS class names you want to add to the `img` tag
 Also select the shape of the image, whether it's wide, tall or square. This helps reserve space similar to the image and not cause document "rearrangement".
 
+### Links Group Block
+
+`💁 since version 2.0.1`
+
+![akurai-blocks-lazy-image](/assets/images/akurai/akurai-blocks-links-group.png)
+
+To add a new links group simply click on the **+** (Add block) sign and select **Links Group** in **Akurai Blocks** section.
+
+
+Select the links that can be posts, pages or reviews. If you want you can overwrite the titles and featured images.
+At the bottom, adjust the column count (2, 3, 4), whether the blog is contained in a section or not, rounded or straight image borders to fit with your website styles and finally you can disable the captions/titles.
+
+You can use this for posts, pages, reviews or as a mix of all, as you find it useful.
+
+![akurai-blocks-lazy-image](/assets/images/akurai/akurai-blocks-editor-links-group.png)
+
+At the right side panel you can click on Switch to Preview to preview the slider block in your editor.
+
+> Note that the preview may differ a little from the actual block as some WordPress and other plugin styles may be affecting it.
+
 ---
 
 ### Next Step

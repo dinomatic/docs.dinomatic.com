@@ -79,6 +79,15 @@ A plenty of options related to reviews and review pages. You can specify Hero & 
 ![customizer-review-options](/assets/images/akurai/customizer/review-options.png)
 ![customizer-review-options-2](/assets/images/akurai/customizer/review-options-2.png)
 
+### Posts Options
+
+Several options related to posts, blog and archive pages.
+First of all, you can disable featured images on single post pages. You can disable post meta data above the content (author, date) and below it (categories, tags, comments count) - this will affect not only single posts, but also blog page and archive pages such as category and tag pages.
+
+You can also customize the layout of the blog page, by choosing to display it in a 2 column grid.
+
+![customizer-posts-options](/assets/images/akurai/customizer/posts-options.png)
+
 ### Shortcode Options
 
 Specify shortcode options such as anchor texts and the number of review stars.
