@@ -74,6 +74,14 @@ All casino review options are here, you can set your affiliate links `rel` and `
 
 ![Theme Customizations](/assets/images/spinoko/spinoko-customizer-reviews.png)
 
+### Page Options
+
+You can adjust here different options regarding different types of pages.
+
+**Archive pages**: You can set a template for archive pages such as category, tag, author pages, as well as choose a style and word count to display single posts on the mentioned pages.
+
+![Theme Customizations](/assets/images/spinoko/spinoko-customizer-pages.png)
+
 
 ### Strings
 

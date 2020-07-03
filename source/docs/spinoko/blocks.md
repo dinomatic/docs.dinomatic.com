@@ -34,6 +34,8 @@ To add a new table simply click on the **+** (Add block) sign and select **Casin
 In the content editor a new table edit section will appear. Click **Add Casino** to add as many casinos as you want.
 Select the style from the dropdown menu and whether to lazy load images or not, which if you don't have any particular reason to turn off is better for performance to leave it on.
 
+Casino Table block offers you multiple styles and options. You can display tables with default or compact layout, and you can display terms as a popover, as a link or as a plain text.
+
 You can also enable **table sorting** for your tables regardless of their styles. It will add 5 buttons on top of the table to sort by: Name, Year, Rating, Bonus, Bonus %. You can customize the button texts in **Customizer** &#8594; **Strings** and you can change which buttons to display by following [these steps](/docs/spinoko/how-to#how-to-change-table-sorting-keys).
 
 ![spinoko-blocks-table-admin](/assets/images/spinoko/spinoko-blocks-table-admin.png)
@@ -49,6 +51,8 @@ At the right side panel you can click on **Switch to Preview** to preview the ta
 To add a new gird simply click on the **+** (Add block) sign and select **Casinos Grid** in **Spinoko Blocks** section.
 
 In the content editor a new gird edit section will appear. Click **Add Casino** to add as many casinos. Select the number of columns and whether to lazy load images or not, which if you don't have any particular reason to turn off is better for performance to leave it on.
+
+Casino Grid block offers you multiple options for terms and conditions, you can display them as a popover, as a link or as a plain text.
 
 ![spinoko-blocks-grid-admin](/assets/images/spinoko/spinoko-blocks-grid-admin.png)
 
