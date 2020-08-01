@@ -38,6 +38,8 @@ Casino Table block offers you multiple styles and options. You can display table
 
 You can also enable **table sorting** for your tables regardless of their styles. It will add 5 buttons on top of the table to sort by: Name, Year, Rating, Bonus, Bonus %. You can customize the button texts in **Customizer** &#8594; **Strings** and you can change which buttons to display by following [these steps](/docs/spinoko/how-to#how-to-change-table-sorting-keys).
 
+`💁 since version 1.0.6` you can enable **Highlight First Casino** option and choose the highlight color (by default it's the theme primary color) and add an optional label to the 2st casino.
+
 ![spinoko-blocks-table-admin](/assets/images/spinoko/spinoko-blocks-table-admin.png)
 
 At the right side panel you can click on **Switch to Preview** to preview the table in your editor.

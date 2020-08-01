@@ -87,7 +87,7 @@ You can adjust here different options regarding different types of pages.
 
 There are different strings such as button or review link anchor texts, headings and labels, etc. that you may want to change. You can find all of them in **Strings** section.
 
-![Theme Customizations](/assets/images/spinoko/spinoko-customizer-reviews.png)
+![Theme Customizations](/assets/images/spinoko/spinoko-customizer-strings.png)
 
 ---
 
