@@ -66,7 +66,7 @@ If you need to embed some scripts to your page, you can do it in **Additional Sc
 ![Theme Customizations](/assets/images/spinoko/spinoko-customizer-scripts.png)
 
 - Add scripts only if they are necessary.
-- You need to include the `&lt;script&gt; ... &lt;/script&gt;` tags
+- You need to include the `<script> ... </script>` tags
 
 ### Review Options
 

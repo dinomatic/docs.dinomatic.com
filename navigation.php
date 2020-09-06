@@ -19,6 +19,7 @@ return [
             'AMP Support' => 'docs/akurai/amp',
             'Theme Updates' => 'docs/akurai/updates',
             'Child Theme' => 'docs/akurai/child-theme',
+            'How To ...' => 'docs/akurai/how-to',
         ],
     ],
     'Spinoko Theme' => [
