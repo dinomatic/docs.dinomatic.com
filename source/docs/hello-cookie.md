@@ -19,7 +19,7 @@ It's easy to get started with Hello Cookie. Follow the documentations to install
 
 Before getting started make sure you have all the requirements met.
 
-To use the plugin, you must be running **WordPress 5.0** and **PHP 7.0** or higher. Recommended **WordPress 5.4** and **PHP 7.4**
+To use the plugin, you must be running **WordPress 5.0** and **PHP 7.0** or higher. Recommended **WordPress 5.5** and **PHP 7.4**
 
 ### Changelog
 
