@@ -38,7 +38,10 @@
                     <a href="https://dinomatic.com/posts/wordpress-hosting">WordPress Hosting</a>
                 </li>
                 <li class="mb-2 ml-2 text-sm">
-                    <a href="https://dinomatic.com/web-development">Web Development Services</a>
+                    <a href="https://dinomatic.com/services/web-development">Web Development Services</a>
+                </li>
+                <li class="mb-2 ml-2 text-sm">
+                    <a href="https://dinomatic.com/services/speedup">SpeedUp Installing Your Themes & Plugins</a>
                 </li>
             </ul>
         </nav>

@@ -30,3 +30,9 @@ Moreover, you can choose to display banners:
 **Page content area** is the main content area + the sidebar.
 
 You can also decide whether to display the banners or not on different **post types** (posts or pages) and on the homepage.
+
+---
+
+### Next step
+
+[AMP Support](/docs/sikika/amp/)

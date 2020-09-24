@@ -11,3 +11,9 @@ Theme customizations are made through native WordPress Customizer.
 In admin dashboard visit **Appearance** &#8594; **Customize** select the options group you want to customize and make the required changes.
 
 ![Theme Customizations](/assets/images/sikika/sikika-customizations.png)
+
+---
+
+### Next step
+
+[Banners](/docs/sikika/banners/)

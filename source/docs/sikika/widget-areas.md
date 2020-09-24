@@ -30,3 +30,9 @@ If you're using [Kemoku Sportsbook Reviews Plugin](https://dinomatic.com/plugins
 You can define the sidebars in **Theme Customizer** &#8594; **Sidebars** options and assign sidebars for different page types.
 
 ![Sikika Sidebars](/assets/images/sikika/sikika-sidebars.png)
+
+---
+
+### Next step
+
+[Theme Customizations](/docs/sikika/customizations/)

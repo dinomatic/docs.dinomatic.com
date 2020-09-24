@@ -26,6 +26,15 @@ Here's an example of a page using the default template:
 
 ### Cover Template
 
+When you choose "Page Cover" as a template in "Page Attributes" section, right below that a new section appears called "Cover Page Template Fields".
+Here you can add a subtitle and choose whether to display casinos on the page cover or not.
+
+With this template chosen, your Featured image will be set as a background image for the cover area and the page title will be displayed on top of that.
+
+![spinoko-page-template-cover-admin](/assets/images/spinoko/spinoko-page-cover-template.png)
+
+
+
 Here are a couple of examples of pages using the cover template:
 
 ![spinoko-page-template-cover](/assets/images/spinoko/spinoko-page-template-cover.jpeg)

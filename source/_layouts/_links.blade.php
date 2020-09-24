@@ -46,5 +46,12 @@
             </a>
         </h4>
 
+        <h4 class="heading--secondary">
+            <a href="https://dinomatic.com/services" class="text-grey">
+                <img src="/assets/img/icon-terminal.svg" alt="WordPress Services">
+                WordPress Services
+            </a>
+        </h4>
+
     </article>
 </section>
