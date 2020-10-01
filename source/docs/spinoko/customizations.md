@@ -36,7 +36,7 @@ Adjust global theme styles here and they will change the look and feel of your w
 
 ### Fonts
 
-Select the font family and base font size for your website.
+Select the font family and base font size for your website. Language specific font families (such as Arabic, Chinese, etc.) are also included.
 
 ![Theme Customizations](/assets/images/spinoko/spinoko-customizer-fonts.png)
 

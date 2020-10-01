@@ -752,6 +752,37 @@
 
 <hr />
 
+<h3>How To Remove Labels from Archive Page Titles</h3>
+
+<p>By default in any WordPress installation archive page titles contain a label plus the it's name/title, for example a page title for a category "Bonuses" is "Category: Bonuses" and the same if for tags, authors, etc.</p>
+
+<p>If you want to remove those labels and just have the actual titles only, add the below function to your <a href="/docs/spinoko/child-theme">child theme</a>'s <code>functions.php</code> file.</p>
+
+<pre><code class="language-php">/**
+ * Removes labels (category, tag, author) from archive page titles.
+ */
+function spinoko_child_archive_titles( $title ) {
+
+    if ( is_category() ) {
+
+        $title = single_cat_title( '', false );
+
+    } elseif ( is_tag() ) {
+
+        $title = single_tag_title( '', false );
+
+    } elseif ( is_author() ) {
+
+        $title = get_the_author();
+    }
+
+    return $title;
+}
+add_filter( 'get_the_archive_title', 'spinoko_child_archive_titles' );
+</code></pre>
+
+<hr />
+
 <h3>How To Use Custom Payment Icons</h3>
 
 <p>Spinoko comes wth carefully chosen payment icons that both look nice on the page are optimal for performance. You can add your own icons by following the steps below.</p>
@@ -831,7 +862,7 @@ add_filter( 'spinoko_table_sorting_keys', 'spinoko__change_table_sort_keys' );
 
         <nav id="js-page-menu" class="page-menu hidden py-8 lg:w-48 lg:max-w-sidebar lg:block sticky" style="top: 4rem;">
             <h4 class="mb-8 font-bold text-grey text-lg pb-1 border-b inline-block">
-                SPINOKO v1.0.7
+                SPINOKO v1.0.8
             </h4>
 
             <div id="page-menu-wrapper" class="mb-8"></div>

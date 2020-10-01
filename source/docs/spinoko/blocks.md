@@ -36,9 +36,11 @@ Select the style from the dropdown menu and whether to lazy load images or not, 
 
 Casino Table block offers you multiple styles and options. You can display tables with default or compact layout, and you can display terms as a popover, as a link or as a plain text.
 
-You can also enable **table sorting** for your tables regardless of their styles. It will add 5 buttons on top of the table to sort by: Name, Year, Rating, Bonus, Bonus %. You can customize the button texts in **Customizer** &#8594; **Strings** and you can change which buttons to display by following [these steps](/docs/spinoko/how-to#how-to-change-table-sorting-keys).
+`💁 since version 1.0.4` you can also enable **table sorting** for your tables regardless of their styles. It will add 5 buttons on top of the table to sort by: Name, Year, Rating, Bonus, Bonus %. You can customize the button texts in **Customizer** &#8594; **Strings** and you can change which buttons to display by following [these steps](/docs/spinoko/how-to#how-to-change-table-sorting-keys).
 
 `💁 since version 1.0.6` you can enable **Highlight First Casino** option and choose the highlight color (by default it's the theme primary color) and add an optional label to the 2st casino.
+
+`💁 since version 1.0.8` you can enable **Limit Casinos and Display a Load More Button** option and select how many casinos to display initially. This option will hide the rest of the casinos and add a "Load more Casinos" button below the table. When a user clicks on the button the rest of the casinos are displayed as well.
 
 ![spinoko-blocks-table-admin](/assets/images/spinoko/spinoko-blocks-table-admin.png)
 
