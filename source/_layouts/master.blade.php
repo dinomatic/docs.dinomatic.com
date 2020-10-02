@@ -53,7 +53,7 @@
         @stack('scripts')
 
         @if ($page->production)
-        <script src="https://chimpanzee.dinomatic.com/script.js" site="JWEKWDLH" defer></script>
+        <script async defer data-domain="docs.dinomatic.com" src="https://plausible.io/js/plausible.js"></script>
         @endif
 
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css" />
