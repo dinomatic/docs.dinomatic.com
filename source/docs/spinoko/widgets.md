@@ -32,6 +32,6 @@ This is what it looks like on the front-end.
 
 ---
 
-### Nest step
+### Next step
 
 [Theme Customizations](/docs/spinoko/customizations/)

@@ -32,6 +32,6 @@ Simply select the desired options and the shortcode will be generated for you, c
 
 ---
 
-### Nest step
+### Next step
 
 [Affiliate Settings](/docs/dinodds/affiliate-settings/)

@@ -47,6 +47,6 @@ This is what it looks like on the front-end.
 
 ![Akurai Reviews Widget](/assets/images/akurai/akurai-widget-review.png)
 
-### Nest step
+### Next step
 
 [Breadcrumbs](/docs/akurai/breadcrumbs/)
