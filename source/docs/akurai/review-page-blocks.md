@@ -32,7 +32,7 @@ All the 5 blocks require no configuration, all you need is to just add them to t
 The same blocks are also available to use in [Review Page Sidebars](/docs/akurai/widget-areas/) via shortcodes. Here’s the formats:
 
 - `[info]`
-- `[offer]`
+- `[offers]`
 - `[pros_cons]`
 - `[banking]`
 - `[ratings]`

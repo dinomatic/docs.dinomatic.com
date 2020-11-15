@@ -42,6 +42,10 @@ Casino Table block offers you multiple styles and options. You can display table
 
 `💁 since version 1.0.8` you can enable **Limit Casinos and Display a Load More Button** option and select how many casinos to display initially. This option will hide the rest of the casinos and add a "Load more Casinos" button below the table. When a user clicks on the button the rest of the casinos are displayed as well.
 
+`💁 since version 2.0.0` you can add **Casinos Games** and **Casino Countries** to tables.
+
+`💁 since version 2.0.0` you can enable **table filtering** for your tables regardless of their styles. Casinos can be filtered by Country, Game, Game Provider, Payment Method, License.
+
 ![spinoko-blocks-table-admin](/assets/images/spinoko/spinoko-blocks-table-admin.png)
 
 At the right side panel you can click on **Switch to Preview** to preview the table in your editor.

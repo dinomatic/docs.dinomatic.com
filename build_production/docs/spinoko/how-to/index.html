@@ -858,11 +858,92 @@ add_filter( 'spinoko_table_sorting_keys', 'spinoko__change_table_sort_keys' );
 </code></pre>
 
 <hr />
+
+<h3>How To Change (Translate) Country Names</h3>
+
+<p>By default Spinoko uses <a href="https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2">ISO 3166</a> country names and two-letter codes. These names are quite long and you may want to change them, for example, instead of "<em>United Kingdom of Great Britain and Northern Ireland</em>" you may want to use just "<em>United Kingdom</em>".</p>
+
+<p>Also, you can use this method to display country names in a different language.</p>
+
+<p>To change the names, you need to use the following filter in your child theme's <code>functions.php</code> file:</p>
+
+<pre><code class="language-php">function spinoko__change_country_names( $countries ) {
+
+    $countries['gb'] = 'United Kingdom';
+    $countries['us'] = 'USA';
+
+    return $countries;
+}
+add_filter( 'spinoko_country_custom_names', 'spinoko__change_country_names' );
+</code></pre>
+
+<p>For translation, use the same filter and add the country names in your language, for example:</p>
+
+<pre><code class="language-php">// Spanish
+$countries['de'] = 'Alemania';
+$countries['nl'] = 'Países Bajos';
+</code></pre>
+
+<p>Use any country code (lower case) from the above mentioned ISO 3166 list and customize the country names by adding as many lines as you want:</p>
+
+<pre><code class="language-php">$countries['TWO-TETTER-CODE'] = 'COUNTRY-NAME';
+</code></pre>
+
+<p>You don't have to change/translate all the country names, do so for just the ones you need.</p>
+
+<hr />
+
+<h3>How To Change Table Filters</h3>
+
+<p>By default you can filter casinos by:</p>
+
+<ul>
+<li>Country</li>
+<li>Game</li>
+<li>Game Provider</li>
+<li>Payment Method</li>
+<li>License</li>
+</ul>
+
+<p>By using <code>spinoko_table_filters_keys</code> filter you can remove any key or change their names.</p>
+
+<p>To change a name:</p>
+
+<pre><code class="language-php">function spinoko__change_table_filters( $filters ) {
+
+    $filters['games'] = 'Casino Games';
+
+    return $filters;
+}
+add_filter( 'spinoko_table_filters_keys', 'spinoko__change_table_filters' );
+</code></pre>
+
+<p>To remove a key:</p>
+
+<pre><code class="language-php">function spinoko__change_table_filters( $filters ) {
+
+    return array_filter( $filters, fn ( $filter ) =&gt; $filter !== 'games', ARRAY_FILTER_USE_KEY );
+}
+add_filter( 'spinoko_table_filters_keys', 'spinoko__change_table_filters' );
+</code></pre>
+
+<p>In general, <code>$filters</code> is a PHP array and you can modify it the way you want. Here's the default array:</p>
+
+<pre><code class="language-php">$filter = array(
+    'countries'       =&gt; __( 'Countries', 'spinoko' ),
+    'games'           =&gt; __( 'Games', 'spinoko' ),
+    'game_providers'  =&gt; __( 'Game Providers', 'spinoko' ),
+    'payment_methods' =&gt; __( 'Payment Methods', 'spinoko' ),
+    'licenses'        =&gt; __( 'Licenses', 'spinoko' ),
+);
+</code></pre>
+
+<hr />
         </div>
 
         <nav id="js-page-menu" class="page-menu hidden py-8 lg:w-48 lg:max-w-sidebar lg:block sticky" style="top: 4rem;">
             <h4 class="mb-8 font-bold text-grey text-lg pb-1 border-b inline-block">
-                SPINOKO v1.0.8
+                SPINOKO v2.0.0
             </h4>
 
             <div id="page-menu-wrapper" class="mb-8"></div>

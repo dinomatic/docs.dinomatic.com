@@ -13,9 +13,11 @@ Spinoko theme comes with built-in casino page blocks that you can use to easily 
 
 ## Using Blocks
 
-There are 3 blocks available for you to use in casino pages:
+There are 5 blocks available for you to use in casino pages:
 
 - Casino Ratings
+- Casino Games
+- Casino Countries
 - Casino Payments
 - Casino CTA
 
@@ -26,6 +28,26 @@ There are 3 blocks available for you to use in casino pages:
 To add a new ratings block simply click on the **+** (Add block) sign and select **Casino Ratings** in **Spinoko Blocks** section.
 
 No further configuration is required, just make sure to fill in **Ratings** fields in Casino Fields.
+
+
+### Casino Games Block
+
+![spinoko-blocks-casino-games](/assets/images/spinoko/spinoko-blocks-casino-games.png)
+
+To add a new games block simply click on the **+** (Add block) sign and select **Casino Games** in **Spinoko Blocks** section.
+
+You can also choose to display the casino logo with an affiliate link next to game icons.
+
+![spinoko-blocks-casino-games-admin](/assets/images/spinoko/spinoko-blocks-casino-games-admin.png)
+
+
+### Casino Countries Block
+
+![spinoko-blocks-casino-countries](/assets/images/spinoko/spinoko-blocks-casino-countries.png)
+
+To add a new countries block simply click on the **+** (Add block) sign and select **Casino Countries** in **Spinoko Blocks** section.
+
+No further configuration is required, just make sure to fill in **Payments** fields in Casino Fields.
 
 
 ### Casino Payments Block
