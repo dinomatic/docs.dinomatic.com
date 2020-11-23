@@ -762,11 +762,14 @@
 <li>Ratings</li>
 <li>Banking</li>
 <li>Offers</li>
+<li>Bonus List</li>
 </ul>
 
 <p><img src="/assets/images/akurai/akurai-review-blocks.png" alt="akurai-review-blocks" /></p>
 
-<p>All the 5 blocks require no configuration, all you need is to just add them to the content by clicking on the block name. The information is populated from <a href="/docs/akurai/creating-review-pages/">Review Fields</a> that you need to have filled in beforehand.</p>
+<p>The 5 blocks, except Bonus List, require no configuration, all you need is to just add them to the content by clicking on the block name. The information is populated from <a href="/docs/akurai/creating-review-pages/">Review Fields</a> that you need to have filled in beforehand.</p>
+
+<p>For Bonus List block you need to specify bonuses and their names, as well as optional heading and button texts.</p>
 
 <h3>Shortcodes</h3>
 
@@ -774,11 +777,17 @@
 
 <ul>
 <li><code>[info]</code></li>
-<li><code>[offers]</code></li>
 <li><code>[pros_cons]</code></li>
-<li><code>[banking]</code></li>
 <li><code>[ratings]</code></li>
+<li><code>[banking]</code></li>
+<li><code>[offers]</code></li>
+<li><code>[bonus_list]</code></li>
 </ul>
+
+<p>For <code>[bonus_list]</code> shortcode here's how too specify bonuses:</p>
+
+<pre><code>[bonus_list bonus_1="1st BONUS" bonus_2="2nd BONUS" bonus_3="" bonus_4="" bonus_5=""]
+</code></pre>
 
 <h3>Blocks in Content Area</h3>
 
@@ -805,7 +814,7 @@
 
         <nav id="js-page-menu" class="page-menu hidden py-8 lg:w-48 lg:max-w-sidebar lg:block sticky" style="top: 4rem;">
             <h4 class="mb-8 font-bold text-grey text-lg pb-1 border-b inline-block">
-                AKURAI v2.0.3
+                AKURAI v2.0.4
             </h4>
 
             <div id="page-menu-wrapper" class="mb-8"></div>
