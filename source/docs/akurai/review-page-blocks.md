@@ -22,20 +22,30 @@ There are 5 review blocks available for you to use in review pages:
 - Ratings
 - Banking
 - Offers
+- Bonus List
 
 ![akurai-review-blocks](/assets/images/akurai/akurai-review-blocks.png)
 
-All the 5 blocks require no configuration, all you need is to just add them to the content by clicking on the block name. The information is populated from [Review Fields](/docs/akurai/creating-review-pages/) that you need to have filled in beforehand.
+The 5 blocks, except Bonus List, require no configuration, all you need is to just add them to the content by clicking on the block name. The information is populated from [Review Fields](/docs/akurai/creating-review-pages/) that you need to have filled in beforehand.
+
+For Bonus List block you need to specify bonuses and their names, as well as optional heading and button texts.
+
 
 ### Shortcodes
 
 The same blocks are also available to use in [Review Page Sidebars](/docs/akurai/widget-areas/) via shortcodes. Here’s the formats:
 
 - `[info]`
-- `[offers]`
 - `[pros_cons]`
-- `[banking]`
 - `[ratings]`
+- `[banking]`
+- `[offers]`
+- `[bonus_list]`
+
+For `[bonus_list]` shortcode here's how too specify bonuses:
+```
+[bonus_list bonus_1="1st BONUS" bonus_2="2nd BONUS" bonus_3="" bonus_4="" bonus_5=""]
+```
 
 ### Blocks in Content Area
 
