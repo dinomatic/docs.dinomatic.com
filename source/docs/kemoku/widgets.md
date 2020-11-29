@@ -20,6 +20,14 @@ Here are the widgets available in Kemoku plugin that you can use:
 
 ![kemoku-widgets](/assets/images/kemoku/kemoku-widgets.png)
 
+
+
+`💁 since version 1.0.8` you can choose to:
+
+- display terms and conditions in full,
+- just a short notice
+- or skip them at all.
+
 ### Single Sportsbook Widget
 
 ![kemoku-single-sportsbook-widget](/assets/images/kemoku/kemoku-single-sportsbook-widget.png)
