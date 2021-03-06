@@ -76,6 +76,8 @@ Theme button options such as colors, font styles, as well as hover effects and o
 
 A plenty of options related to reviews and review pages. You can specify Hero & Related Reviews section text contents, choose Hero layout, whether to display a featured image on review pages, as well as specify review logo sizes for better performance and rendering.
 
+You can also enable/disable review/rating snippets (schema.org) markup for review pages, and adjust review author options.
+
 ![customizer-review-options](/assets/images/akurai/customizer/review-options.png)
 ![customizer-review-options-2](/assets/images/akurai/customizer/review-options-2.png)
 

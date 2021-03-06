@@ -1,6 +1,6 @@
 svg {
   &.banner {
-    @apply absolute pin-t;
+    @apply absolute top-0;
     z-index: -1;
   }
 }
@@ -25,12 +25,12 @@ svg {
   a {
     transition: all 0.4s ease-in-out;
     &:hover {
-      @apply bg-grey-lightest;
+      @apply bg-gray-100;
     }
   }
 
   span {
-    @apply bg-grey-darkest text-white;
+    @apply bg-gray-800 text-white;
   }
 }
 .heading--secondary {
@@ -46,14 +46,14 @@ svg {
 [data-docs="true"] {
   h3 {
     &::before {
-      @apply .block;
-      @apply .h-16;
-      @apply .-mt-16;
+      @apply block;
+      @apply h-16;
+      @apply -mt-16;
       content: '';
     }
   }
 }
 
 #content img {
-  @apply .block;
+  @apply block;
 }

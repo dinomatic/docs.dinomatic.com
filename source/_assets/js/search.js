@@ -8,20 +8,20 @@
   window.docsearch = require('docsearch.js')
 
   document.addEventListener('keydown', function (e) {
-    if (e.keyCode === 191) {
+    if (e.code === 'Slash') {
       e.preventDefault()
     }
   })
 
   document.addEventListener('keyup', function (e) {
-    if (e.keyCode === 191) {
+    if (e.code === 'Slash') {
       e.preventDefault()
       searchInput.focus()
     }
   })
 
   searchInput.addEventListener('keydown', function (e) {
-    if (e.keyCode === 27) {
+    if (e.code === 'Escape') {
       searchInput.blur()
     }
   })

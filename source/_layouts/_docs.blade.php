@@ -1,4 +1,4 @@
-<section class="container max-w-4xl mx-auto mb-16 px-4 py-16 border-b border-grey-lightest docs">
+<section class="container max-w-container mx-auto mb-16 px-4 py-16 border-b border-gray-100 docs">
 
     <div class="flex flex-wrap justify-end -mx-2">
 

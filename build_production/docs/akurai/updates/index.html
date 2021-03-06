@@ -23,15 +23,16 @@
 
         
         <link href="https://fonts.googleapis.com/css?family=Rubik:400,700&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="/assets/build/css/main.css?id=7efbb0805135499cc5af">
+        <link rel="stylesheet" href="/assets/build/css/main.css?id=e08167a47ea7478aa236">
     </head>
 
-    <body class="flex flex-col justify-between min-h-screen text-grey-darker leading-normal font-sans">
+    <body class="flex flex-col justify-between min-h-screen bg-white text-gray-500 leading-normal font-sans">
         <a href="#content" class="screen-reader-text">Skip to content</a>
-        <header class="flex items-center justify-between shadow bg-white border-b mb-8 py-2 sticky pin-t z-10" role="banner">
-            <div class="container flex items-center justify-between max-w-4xl mx-auto px-4">
-                <div class="flex items-center flex-no-shrink">
-                    <a href="/" title="DinoMatic Docs home" class="inline-flex items-center text-teal-darkest hover:text-teal-darker">
+
+        <header class="flex items-center justify-between shadow bg-white border-b mb-8 py-2 sticky top-0 z-10" role="banner">
+            <div class="container flex items-center justify-between max-w-container mx-auto px-4">
+                <div class="flex items-center flex-shrink-0">
+                    <a href="/" title="DinoMatic Docs home" class="inline-flex items-center text-teal-900 hover:text-teal-900">
                         <img src="/assets/img/icon-book.svg" class="h-5 w-5 mr-2" alt="stack icon">
                         <span class="text-lg md:text-2xl font-semibold my-0 pr-4">DinoMatic Docs</span>
                     </a>
@@ -40,7 +41,7 @@
                 <button
     title="Start searching"
     type="button"
-    class="flex md:hidden bg-grey-lightest hover:bg-blue-lightest justify-center items-center border border-grey rounded-full focus:outline-none h-10 px-3"
+    class="flex md:hidden bg-gray-100 hover:bg-blue-100 justify-center items-center border border-gray-300 rounded-full focus:outline-none h-10 px-3"
     onclick="searchInput.toggle()"
 >
     <img src="/assets/img/magnifying-glass.svg" alt="search icon" class="h-4 w-4 max-w-none">
@@ -51,21 +52,21 @@
 
     <input
         id="docsearch-input"
-        class="docsearch-input relative block h-10 transition-fast w-full lg:w-1/2 xl:w-1/3 bg-grey-lightest outline-none rounded-full text-grey-darker border border-grey focus:border-blue-light ml-auto px-4 pb-0"
+        class="docsearch-input relative block h-10 transition-fast w-full lg:w-1/2 xl:w-1/3 bg-gray-100 outline-none rounded-full text-gray-700 border border-gray-300 focus:border-blue-300 ml-auto px-4 pb-0"
         name="docsearch"
         type="text"
         placeholder="Search (press / to focus)"
     >
 
     <button
-        class="md:hidden absolute pin-t pin-r h-full font-light text-3xl text-blue hover:text-blue-dark focus:outline-none -mt-px pr-7"
+        class="md:hidden absolute pin-t pin-r h-full font-light text-3xl text-blue-500 hover:text-blue-700 focus:outline-none -mt-px pr-7"
         onclick="searchInput.toggle()"
     >&times;</button>
 </div>
 
             </div>
 
-                <button class="flex justify-center items-center bg-teal border border-teal h-10 mr-4 px-5 rounded-full lg:hidden focus:outline-none"
+                <button class="flex justify-center items-center bg-teal-500 border border-teal-500 h-10 mr-4 px-5 rounded-full lg:hidden focus:outline-none"
     onclick="navMenu.toggle()"
 >
     <svg id="js-nav-menu-show" xmlns="http://www.w3.org/2000/svg"
@@ -84,160 +85,160 @@
         </header>
 
         <main id="main" role="main" class="w-full flex-auto">
-            <section class="container max-w-4xl mx-auto px-6 md:px-8 py-4">
+            <section class="container max-w-container mx-auto px-6 md:px-8 py-4">
     <div class="flex flex-col lg:flex-row items-start">
         <nav id="js-nav-menu" class="nav-menu hidden lg:max-w-sidebar lg:block opacity-0
-            sticky pin-t h-screen overflow-y-scroll">
-            <ul class="list-reset my-0">
-            <li class="list-reset mb-8 pl-0 level-0">
+            sticky top-0 h-screen overflow-y-scroll">
+            <ul class="list-none my-0">
+            <li class="mb-8 pl-0 level-0">
             
         <a href="/docs/akurai"
-            class="lvl0 lvl0-active  font-bold uppercase text-black nav-menu__item hover:text-black"
+            class="lvl0 lvl0-active  font-bold uppercase text-black nav-menu__item dark:text-white hover:text-black dark:hover:text-gray-300"
         >
             Akurai Theme
         </a>
     
             
-        <ul class="list-reset my-0">
-            <li class="list-reset pl-2">
+        <ul class="list-none my-0">
+            <li class="pl-2">
             
         <a href="/docs/akurai/installation"
-            class="lvl1    nav-menu__item hover:text-black"
+            class="lvl1    nav-menu__item dark:text-white hover:text-black dark:hover:text-gray-300"
         >
             Installation
         </a>
     
     </li>
-            <li class="list-reset pl-2">
+            <li class="pl-2">
             
         <a href="/docs/akurai/registration"
-            class="lvl1    nav-menu__item hover:text-black"
+            class="lvl1    nav-menu__item dark:text-white hover:text-black dark:hover:text-gray-300"
         >
             Theme Registration
         </a>
     
     </li>
-            <li class="list-reset pl-2">
+            <li class="pl-2">
             
         <a href="/docs/akurai/setting-review-page-slug"
-            class="lvl1    nav-menu__item hover:text-black"
+            class="lvl1    nav-menu__item dark:text-white hover:text-black dark:hover:text-gray-300"
         >
             Review Page Slug
         </a>
     
     </li>
-            <li class="list-reset pl-2">
+            <li class="pl-2">
             
         <a href="/docs/akurai/creating-review-pages"
-            class="lvl1    nav-menu__item hover:text-black"
+            class="lvl1    nav-menu__item dark:text-white hover:text-black dark:hover:text-gray-300"
         >
             Creating Review Pages
         </a>
     
     </li>
-            <li class="list-reset pl-2">
+            <li class="pl-2">
             
         <a href="/docs/akurai/review-page-blocks"
-            class="lvl1    nav-menu__item hover:text-black"
+            class="lvl1    nav-menu__item dark:text-white hover:text-black dark:hover:text-gray-300"
         >
             Review Page Blocks
         </a>
     
     </li>
-            <li class="list-reset pl-2">
+            <li class="pl-2">
             
         <a href="/docs/akurai/blocks-shortcodes"
-            class="lvl1    nav-menu__item hover:text-black"
+            class="lvl1    nav-menu__item dark:text-white hover:text-black dark:hover:text-gray-300"
         >
             Blocks &amp; Shortcodes
         </a>
     
     </li>
-            <li class="list-reset pl-2">
+            <li class="pl-2">
             
         <a href="/docs/akurai/page-templates"
-            class="lvl1    nav-menu__item hover:text-black"
+            class="lvl1    nav-menu__item dark:text-white hover:text-black dark:hover:text-gray-300"
         >
             Page Templates
         </a>
     
     </li>
-            <li class="list-reset pl-2">
+            <li class="pl-2">
             
         <a href="/docs/akurai/homepage-templates"
-            class="lvl1    nav-menu__item hover:text-black"
+            class="lvl1    nav-menu__item dark:text-white hover:text-black dark:hover:text-gray-300"
         >
             Homepage Templates
         </a>
     
     </li>
-            <li class="list-reset pl-2">
+            <li class="pl-2">
             
         <a href="/docs/akurai/widget-areas"
-            class="lvl1    nav-menu__item hover:text-black"
+            class="lvl1    nav-menu__item dark:text-white hover:text-black dark:hover:text-gray-300"
         >
             Widget Areas
         </a>
     
     </li>
-            <li class="list-reset pl-2">
+            <li class="pl-2">
             
         <a href="/docs/akurai/widgets"
-            class="lvl1    nav-menu__item hover:text-black"
+            class="lvl1    nav-menu__item dark:text-white hover:text-black dark:hover:text-gray-300"
         >
             Widgets
         </a>
     
     </li>
-            <li class="list-reset pl-2">
+            <li class="pl-2">
             
         <a href="/docs/akurai/breadcrumbs"
-            class="lvl1    nav-menu__item hover:text-black"
+            class="lvl1    nav-menu__item dark:text-white hover:text-black dark:hover:text-gray-300"
         >
             Breadcrumbs
         </a>
     
     </li>
-            <li class="list-reset pl-2">
+            <li class="pl-2">
             
         <a href="/docs/akurai/customizations"
-            class="lvl1    nav-menu__item hover:text-black"
+            class="lvl1    nav-menu__item dark:text-white hover:text-black dark:hover:text-gray-300"
         >
             Theme Customizations
         </a>
     
     </li>
-            <li class="list-reset pl-2">
+            <li class="pl-2">
             
         <a href="/docs/akurai/amp"
-            class="lvl1    nav-menu__item hover:text-black"
+            class="lvl1    nav-menu__item dark:text-white hover:text-black dark:hover:text-gray-300"
         >
             AMP Support
         </a>
     
     </li>
-            <li class="list-reset pl-2">
+            <li class="pl-2">
             
         <a href="/docs/akurai/updates"
-            class="lvl1  active font-semibold text-teal  nav-menu__item hover:text-black"
+            class="lvl1  active font-semibold text-teal-500 dark:text-teal-500  nav-menu__item dark:text-white hover:text-black dark:hover:text-gray-300"
         >
             Theme Updates
         </a>
     
     </li>
-            <li class="list-reset pl-2">
+            <li class="pl-2">
             
         <a href="/docs/akurai/child-theme"
-            class="lvl1    nav-menu__item hover:text-black"
+            class="lvl1    nav-menu__item dark:text-white hover:text-black dark:hover:text-gray-300"
         >
             Child Theme
         </a>
     
     </li>
-            <li class="list-reset pl-2">
+            <li class="pl-2">
             
         <a href="/docs/akurai/how-to"
-            class="lvl1    nav-menu__item hover:text-black"
+            class="lvl1    nav-menu__item dark:text-white hover:text-black dark:hover:text-gray-300"
         >
             How To ...
         </a>
@@ -245,146 +246,146 @@
     </li>
     </ul>
     </li>
-            <li class="list-reset mb-8 pl-0 level-0">
+            <li class="mb-8 pl-0 level-0">
             
         <a href="/docs/spinoko"
-            class="lvl0   font-bold uppercase text-black nav-menu__item hover:text-black"
+            class="lvl0   font-bold uppercase text-black nav-menu__item dark:text-white hover:text-black dark:hover:text-gray-300"
         >
             Spinoko Theme
         </a>
     
             
-        <ul class="list-reset my-0">
-            <li class="list-reset pl-2">
+        <ul class="list-none my-0">
+            <li class="pl-2">
             
         <a href="/docs/spinoko/installation"
-            class="lvl1    nav-menu__item hover:text-black"
+            class="lvl1    nav-menu__item dark:text-white hover:text-black dark:hover:text-gray-300"
         >
             Installation
         </a>
     
     </li>
-            <li class="list-reset pl-2">
+            <li class="pl-2">
             
         <a href="/docs/spinoko/registration"
-            class="lvl1    nav-menu__item hover:text-black"
+            class="lvl1    nav-menu__item dark:text-white hover:text-black dark:hover:text-gray-300"
         >
             Theme Registration
         </a>
     
     </li>
-            <li class="list-reset pl-2">
+            <li class="pl-2">
             
         <a href="/docs/spinoko/setting-casino-page-slug"
-            class="lvl1    nav-menu__item hover:text-black"
+            class="lvl1    nav-menu__item dark:text-white hover:text-black dark:hover:text-gray-300"
         >
             Casino Page Slug
         </a>
     
     </li>
-            <li class="list-reset pl-2">
+            <li class="pl-2">
             
         <a href="/docs/spinoko/creating-casino-pages"
-            class="lvl1    nav-menu__item hover:text-black"
+            class="lvl1    nav-menu__item dark:text-white hover:text-black dark:hover:text-gray-300"
         >
             Creating Casino Pages
         </a>
     
     </li>
-            <li class="list-reset pl-2">
+            <li class="pl-2">
             
         <a href="/docs/spinoko/casino-page-blocks"
-            class="lvl1    nav-menu__item hover:text-black"
+            class="lvl1    nav-menu__item dark:text-white hover:text-black dark:hover:text-gray-300"
         >
             Casino Page Blocks
         </a>
     
     </li>
-            <li class="list-reset pl-2">
+            <li class="pl-2">
             
         <a href="/docs/spinoko/casino-page-templates"
-            class="lvl1    nav-menu__item hover:text-black"
+            class="lvl1    nav-menu__item dark:text-white hover:text-black dark:hover:text-gray-300"
         >
             Casino Page Templates
         </a>
     
     </li>
-            <li class="list-reset pl-2">
+            <li class="pl-2">
             
         <a href="/docs/spinoko/blocks"
-            class="lvl1    nav-menu__item hover:text-black"
+            class="lvl1    nav-menu__item dark:text-white hover:text-black dark:hover:text-gray-300"
         >
             Theme Blocks
         </a>
     
     </li>
-            <li class="list-reset pl-2">
+            <li class="pl-2">
             
         <a href="/docs/spinoko/page-templates"
-            class="lvl1    nav-menu__item hover:text-black"
+            class="lvl1    nav-menu__item dark:text-white hover:text-black dark:hover:text-gray-300"
         >
             Page Templates
         </a>
     
     </li>
-            <li class="list-reset pl-2">
+            <li class="pl-2">
             
         <a href="/docs/spinoko/navigation"
-            class="lvl1    nav-menu__item hover:text-black"
+            class="lvl1    nav-menu__item dark:text-white hover:text-black dark:hover:text-gray-300"
         >
             Navigation Menus
         </a>
     
     </li>
-            <li class="list-reset pl-2">
+            <li class="pl-2">
             
         <a href="/docs/spinoko/widgets"
-            class="lvl1    nav-menu__item hover:text-black"
+            class="lvl1    nav-menu__item dark:text-white hover:text-black dark:hover:text-gray-300"
         >
             Widgets
         </a>
     
     </li>
-            <li class="list-reset pl-2">
+            <li class="pl-2">
             
         <a href="/docs/spinoko/customizations"
-            class="lvl1    nav-menu__item hover:text-black"
+            class="lvl1    nav-menu__item dark:text-white hover:text-black dark:hover:text-gray-300"
         >
             Theme Customizations
         </a>
     
     </li>
-            <li class="list-reset pl-2">
+            <li class="pl-2">
             
         <a href="/docs/spinoko/amp"
-            class="lvl1    nav-menu__item hover:text-black"
+            class="lvl1    nav-menu__item dark:text-white hover:text-black dark:hover:text-gray-300"
         >
             AMP Support
         </a>
     
     </li>
-            <li class="list-reset pl-2">
+            <li class="pl-2">
             
         <a href="/docs/spinoko/updates"
-            class="lvl1    nav-menu__item hover:text-black"
+            class="lvl1    nav-menu__item dark:text-white hover:text-black dark:hover:text-gray-300"
         >
             Theme Updates
         </a>
     
     </li>
-            <li class="list-reset pl-2">
+            <li class="pl-2">
             
         <a href="/docs/spinoko/child-theme"
-            class="lvl1    nav-menu__item hover:text-black"
+            class="lvl1    nav-menu__item dark:text-white hover:text-black dark:hover:text-gray-300"
         >
             Child Theme
         </a>
     
     </li>
-            <li class="list-reset pl-2">
+            <li class="pl-2">
             
         <a href="/docs/spinoko/how-to"
-            class="lvl1    nav-menu__item hover:text-black"
+            class="lvl1    nav-menu__item dark:text-white hover:text-black dark:hover:text-gray-300"
         >
             How To ...
         </a>
@@ -392,83 +393,83 @@
     </li>
     </ul>
     </li>
-            <li class="list-reset mb-8 pl-0 level-0">
+            <li class="mb-8 pl-0 level-0">
             
         <a href="/docs/sikika"
-            class="lvl0   font-bold uppercase text-black nav-menu__item hover:text-black"
+            class="lvl0   font-bold uppercase text-black nav-menu__item dark:text-white hover:text-black dark:hover:text-gray-300"
         >
             Sikika Theme
         </a>
     
             
-        <ul class="list-reset my-0">
-            <li class="list-reset pl-2">
+        <ul class="list-none my-0">
+            <li class="pl-2">
             
         <a href="/docs/sikika/installation"
-            class="lvl1    nav-menu__item hover:text-black"
+            class="lvl1    nav-menu__item dark:text-white hover:text-black dark:hover:text-gray-300"
         >
             Installation
         </a>
     
     </li>
-            <li class="list-reset pl-2">
+            <li class="pl-2">
             
         <a href="/docs/sikika/page-templates"
-            class="lvl1    nav-menu__item hover:text-black"
+            class="lvl1    nav-menu__item dark:text-white hover:text-black dark:hover:text-gray-300"
         >
             Page Templates
         </a>
     
     </li>
-            <li class="list-reset pl-2">
+            <li class="pl-2">
             
         <a href="/docs/sikika/widget-areas"
-            class="lvl1    nav-menu__item hover:text-black"
+            class="lvl1    nav-menu__item dark:text-white hover:text-black dark:hover:text-gray-300"
         >
             Widget Areas
         </a>
     
     </li>
-            <li class="list-reset pl-2">
+            <li class="pl-2">
             
         <a href="/docs/sikika/customizations"
-            class="lvl1    nav-menu__item hover:text-black"
+            class="lvl1    nav-menu__item dark:text-white hover:text-black dark:hover:text-gray-300"
         >
             Theme Customizations
         </a>
     
     </li>
-            <li class="list-reset pl-2">
+            <li class="pl-2">
             
         <a href="/docs/sikika/banners"
-            class="lvl1    nav-menu__item hover:text-black"
+            class="lvl1    nav-menu__item dark:text-white hover:text-black dark:hover:text-gray-300"
         >
             Banners
         </a>
     
     </li>
-            <li class="list-reset pl-2">
+            <li class="pl-2">
             
         <a href="/docs/sikika/amp"
-            class="lvl1    nav-menu__item hover:text-black"
+            class="lvl1    nav-menu__item dark:text-white hover:text-black dark:hover:text-gray-300"
         >
             AMP Support
         </a>
     
     </li>
-            <li class="list-reset pl-2">
+            <li class="pl-2">
             
         <a href="/docs/sikika/updates"
-            class="lvl1    nav-menu__item hover:text-black"
+            class="lvl1    nav-menu__item dark:text-white hover:text-black dark:hover:text-gray-300"
         >
             Theme Updates
         </a>
     
     </li>
-            <li class="list-reset pl-2">
+            <li class="pl-2">
             
         <a href="/docs/sikika/child-theme"
-            class="lvl1    nav-menu__item hover:text-black"
+            class="lvl1    nav-menu__item dark:text-white hover:text-black dark:hover:text-gray-300"
         >
             Child Theme
         </a>
@@ -476,83 +477,83 @@
     </li>
     </ul>
     </li>
-            <li class="list-reset mb-8 pl-0 level-0">
+            <li class="mb-8 pl-0 level-0">
             
         <a href="/docs/kemoku"
-            class="lvl0   font-bold uppercase text-black nav-menu__item hover:text-black"
+            class="lvl0   font-bold uppercase text-black nav-menu__item dark:text-white hover:text-black dark:hover:text-gray-300"
         >
             Kemoku Plugin
         </a>
     
             
-        <ul class="list-reset my-0">
-            <li class="list-reset pl-2">
+        <ul class="list-none my-0">
+            <li class="pl-2">
             
         <a href="/docs/kemoku/installation"
-            class="lvl1    nav-menu__item hover:text-black"
+            class="lvl1    nav-menu__item dark:text-white hover:text-black dark:hover:text-gray-300"
         >
             Installation
         </a>
     
     </li>
-            <li class="list-reset pl-2">
+            <li class="pl-2">
             
         <a href="/docs/kemoku/registration"
-            class="lvl1    nav-menu__item hover:text-black"
+            class="lvl1    nav-menu__item dark:text-white hover:text-black dark:hover:text-gray-300"
         >
             Plugin Registration
         </a>
     
     </li>
-            <li class="list-reset pl-2">
+            <li class="pl-2">
             
         <a href="/docs/kemoku/review-pages"
-            class="lvl1    nav-menu__item hover:text-black"
+            class="lvl1    nav-menu__item dark:text-white hover:text-black dark:hover:text-gray-300"
         >
             Review Pages
         </a>
     
     </li>
-            <li class="list-reset pl-2">
+            <li class="pl-2">
             
         <a href="/docs/kemoku/blocks"
-            class="lvl1    nav-menu__item hover:text-black"
+            class="lvl1    nav-menu__item dark:text-white hover:text-black dark:hover:text-gray-300"
         >
             Blocks
         </a>
     
     </li>
-            <li class="list-reset pl-2">
+            <li class="pl-2">
             
         <a href="/docs/kemoku/shortcodes"
-            class="lvl1    nav-menu__item hover:text-black"
+            class="lvl1    nav-menu__item dark:text-white hover:text-black dark:hover:text-gray-300"
         >
             Shortcodes
         </a>
     
     </li>
-            <li class="list-reset pl-2">
+            <li class="pl-2">
             
         <a href="/docs/kemoku/widgets"
-            class="lvl1    nav-menu__item hover:text-black"
+            class="lvl1    nav-menu__item dark:text-white hover:text-black dark:hover:text-gray-300"
         >
             Widgets
         </a>
     
     </li>
-            <li class="list-reset pl-2">
+            <li class="pl-2">
             
         <a href="/docs/kemoku/settings"
-            class="lvl1    nav-menu__item hover:text-black"
+            class="lvl1    nav-menu__item dark:text-white hover:text-black dark:hover:text-gray-300"
         >
             Settings
         </a>
     
     </li>
-            <li class="list-reset pl-2">
+            <li class="pl-2">
             
         <a href="/docs/kemoku/plugin-updates"
-            class="lvl1    nav-menu__item hover:text-black"
+            class="lvl1    nav-menu__item dark:text-white hover:text-black dark:hover:text-gray-300"
         >
             Plugin Updates
         </a>
@@ -560,101 +561,101 @@
     </li>
     </ul>
     </li>
-            <li class="list-reset mb-8 pl-0 level-0">
+            <li class="mb-8 pl-0 level-0">
             
         <a href="/docs/dinodds"
-            class="lvl0   font-bold uppercase text-black nav-menu__item hover:text-black"
+            class="lvl0   font-bold uppercase text-black nav-menu__item dark:text-white hover:text-black dark:hover:text-gray-300"
         >
             DinOdds Plugin
         </a>
     
             
-        <ul class="list-reset my-0">
-            <li class="list-reset pl-2">
+        <ul class="list-none my-0">
+            <li class="pl-2">
             
         <a href="/docs/dinodds/api"
-            class="lvl1    nav-menu__item hover:text-black"
+            class="lvl1    nav-menu__item dark:text-white hover:text-black dark:hover:text-gray-300"
         >
             DinoFeeds API
         </a>
     
     </li>
-            <li class="list-reset pl-2">
+            <li class="pl-2">
             
         <a href="/docs/dinodds/installation"
-            class="lvl1    nav-menu__item hover:text-black"
+            class="lvl1    nav-menu__item dark:text-white hover:text-black dark:hover:text-gray-300"
         >
             Installation
         </a>
     
     </li>
-            <li class="list-reset pl-2">
+            <li class="pl-2">
             
         <a href="/docs/dinodds/plugin-setup"
-            class="lvl1    nav-menu__item hover:text-black"
+            class="lvl1    nav-menu__item dark:text-white hover:text-black dark:hover:text-gray-300"
         >
             Plugin Setup
         </a>
     
     </li>
-            <li class="list-reset pl-2">
+            <li class="pl-2">
             
         <a href="/docs/dinodds/plugin-settings"
-            class="lvl1    nav-menu__item hover:text-black"
+            class="lvl1    nav-menu__item dark:text-white hover:text-black dark:hover:text-gray-300"
         >
             Plugin Settings
         </a>
     
     </li>
-            <li class="list-reset pl-2">
+            <li class="pl-2">
             
         <a href="/docs/dinodds/plugin-shortcodes"
-            class="lvl1    nav-menu__item hover:text-black"
+            class="lvl1    nav-menu__item dark:text-white hover:text-black dark:hover:text-gray-300"
         >
             Plugin Shortcodes
         </a>
     
     </li>
-            <li class="list-reset pl-2">
+            <li class="pl-2">
             
         <a href="/docs/dinodds/affiliate-settings"
-            class="lvl1    nav-menu__item hover:text-black"
+            class="lvl1    nav-menu__item dark:text-white hover:text-black dark:hover:text-gray-300"
         >
             Affiliate Settings
         </a>
     
     </li>
-            <li class="list-reset pl-2">
+            <li class="pl-2">
             
         <a href="/docs/dinodds/feed-updates"
-            class="lvl1    nav-menu__item hover:text-black"
+            class="lvl1    nav-menu__item dark:text-white hover:text-black dark:hover:text-gray-300"
         >
             Feed Updates
         </a>
     
     </li>
-            <li class="list-reset pl-2">
+            <li class="pl-2">
             
         <a href="/docs/dinodds/scheduling"
-            class="lvl1    nav-menu__item hover:text-black"
+            class="lvl1    nav-menu__item dark:text-white hover:text-black dark:hover:text-gray-300"
         >
             Scheduling
         </a>
     
     </li>
-            <li class="list-reset pl-2">
+            <li class="pl-2">
             
         <a href="/docs/dinodds/colors"
-            class="lvl1    nav-menu__item hover:text-black"
+            class="lvl1    nav-menu__item dark:text-white hover:text-black dark:hover:text-gray-300"
         >
             Changing Colors
         </a>
     
     </li>
-            <li class="list-reset pl-2">
+            <li class="pl-2">
             
         <a href="/docs/dinodds/plugin-updates"
-            class="lvl1    nav-menu__item hover:text-black"
+            class="lvl1    nav-menu__item dark:text-white hover:text-black dark:hover:text-gray-300"
         >
             Plugin Updates
         </a>
@@ -662,38 +663,38 @@
     </li>
     </ul>
     </li>
-            <li class="list-reset mb-8 pl-0 level-0">
+            <li class="mb-8 pl-0 level-0">
             
         <a href="/docs/nonaki"
-            class="lvl0   font-bold uppercase text-black nav-menu__item hover:text-black"
+            class="lvl0   font-bold uppercase text-black nav-menu__item dark:text-white hover:text-black dark:hover:text-gray-300"
         >
             Nonaki Plugin
         </a>
     
             
-        <ul class="list-reset my-0">
-            <li class="list-reset pl-2">
+        <ul class="list-none my-0">
+            <li class="pl-2">
             
         <a href="/docs/nonaki/installation"
-            class="lvl1    nav-menu__item hover:text-black"
+            class="lvl1    nav-menu__item dark:text-white hover:text-black dark:hover:text-gray-300"
         >
             Installation
         </a>
     
     </li>
-            <li class="list-reset pl-2">
+            <li class="pl-2">
             
         <a href="/docs/nonaki/using-plugin"
-            class="lvl1    nav-menu__item hover:text-black"
+            class="lvl1    nav-menu__item dark:text-white hover:text-black dark:hover:text-gray-300"
         >
             Using The Plugin
         </a>
     
     </li>
-            <li class="list-reset pl-2">
+            <li class="pl-2">
             
         <a href="/docs/nonaki/plugin-updates"
-            class="lvl1    nav-menu__item hover:text-black"
+            class="lvl1    nav-menu__item dark:text-white hover:text-black dark:hover:text-gray-300"
         >
             Plugin Updates
         </a>
@@ -701,38 +702,38 @@
     </li>
     </ul>
     </li>
-            <li class="list-reset mb-8 pl-0 level-0">
+            <li class="mb-8 pl-0 level-0">
             
         <a href="/docs/hello-cookie"
-            class="lvl0   font-bold uppercase text-black nav-menu__item hover:text-black"
+            class="lvl0   font-bold uppercase text-black nav-menu__item dark:text-white hover:text-black dark:hover:text-gray-300"
         >
             Hello Cookie Plugin
         </a>
     
             
-        <ul class="list-reset my-0">
-            <li class="list-reset pl-2">
+        <ul class="list-none my-0">
+            <li class="pl-2">
             
         <a href="/docs/hello-cookie/installation"
-            class="lvl1    nav-menu__item hover:text-black"
+            class="lvl1    nav-menu__item dark:text-white hover:text-black dark:hover:text-gray-300"
         >
             Installation
         </a>
     
     </li>
-            <li class="list-reset pl-2">
+            <li class="pl-2">
             
         <a href="/docs/hello-cookie/using-plugin"
-            class="lvl1    nav-menu__item hover:text-black"
+            class="lvl1    nav-menu__item dark:text-white hover:text-black dark:hover:text-gray-300"
         >
             Using The Plugin
         </a>
     
     </li>
-            <li class="list-reset pl-2">
+            <li class="pl-2">
             
         <a href="/docs/hello-cookie/plugin-updates"
-            class="lvl1    nav-menu__item hover:text-black"
+            class="lvl1    nav-menu__item dark:text-white hover:text-black dark:hover:text-gray-300"
         >
             Plugin Updates
         </a>
@@ -752,8 +753,8 @@
         </div>
 
         <nav id="js-page-menu" class="page-menu hidden py-8 lg:w-48 lg:max-w-sidebar lg:block sticky" style="top: 4rem;">
-            <h4 class="mb-8 font-bold text-grey text-lg pb-1 border-b inline-block">
-                AKURAI v2.0.4
+            <h4 class="mb-8 font-bold text-gray-500 text-lg pb-1 border-b inline-block">
+                AKURAI v2.0.5
             </h4>
 
             <div id="page-menu-wrapper" class="mb-8"></div>
@@ -784,7 +785,7 @@
 </section>
         </main>
 
-        <script src="/assets/build/js/main.js?id=64d41690ca5b8d129636"></script>
+        <script src="/assets/build/js/main.js?id=8769ce160f6d49fa61cc"></script>
 
         <script>
     const navMenu = {

@@ -1,8 +1,6 @@
-@tailwind preflight;
-@tailwind components;
+@import "tailwindcss/base";
+@import "tailwindcss/components";
 
-// Code syntax highlighting,
-// powered by https://highlightjs.org
 @import '~highlight.js/styles/monokai-sublime.css';
 
 @import 'base';
@@ -11,4 +9,4 @@
 @import 'search';
 @import 'a11y';
 
-@tailwind utilities;
+@import "tailwindcss/utilities";

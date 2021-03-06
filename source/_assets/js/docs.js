@@ -8,7 +8,7 @@ import { createEl } from './base'
   const pageMenu = document.getElementById('page-menu-wrapper')
   const createOnPageMenuHeading = () => createEl('h5', 'On This Page', ['font-bold'], [])
   const createOnPageMenuLink = (id, anchor) => {
-    const classList = ['block', 'mb-2', 'ml-2', 'text-grey', 'nav-menu__item']
+    const classList = ['block', 'mb-2', 'ml-2', 'text-gray-500', 'nav-menu__item']
     return createEl('a', anchor, classList, ['href', `#${id}`])
   }
   const createOnPageMenu = links => {
