@@ -5,7 +5,7 @@ extends: _layouts.documentation
 section: content
 ---
 
-# Review Page Blocks
+# Casino Review Page Blocks
 
 Spinoko theme comes with built-in casino page blocks that you can use to easily present casino information.
 
@@ -15,11 +15,11 @@ Spinoko theme comes with built-in casino page blocks that you can use to easily 
 
 There are 5 blocks available for you to use in casino pages:
 
-- Casino Ratings
-- Casino Games
-- Casino Countries
-- Casino Payments
-- Casino CTA
+1. Casino Ratings
+2. Casino Games
+3. Casino Countries
+4. Casino Payments
+5. Casino CTA
 
 ### Casino Ratings Block
 

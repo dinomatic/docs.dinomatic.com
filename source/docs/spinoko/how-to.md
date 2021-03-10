@@ -207,3 +207,20 @@ $filter = array(
 ```
 
 ---
+
+### How To Remove Review Links
+
+By default Spinoko blocks include "Read Review" links to casino review pages.
+You may for some reason want to not display them and you could easily do it using some CSS rules,
+however, in that case the links would still be there, just hidden.
+
+if you want to remove them entirely, use the below code snippet in your child theme.
+
+```php
+/**
+ * Removes review links from table/grid blocks.
+ */
+add_filter( 'spinoko_display_review_links', '__return_false', 10 )
+```
+
+---
