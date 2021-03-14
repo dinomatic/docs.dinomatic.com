@@ -15,8 +15,8 @@ There are 2 type of widgets available in the plugin.
 
 Here are the widgets available in Kemoku plugin that you can use:
 
-- Single Sportsbook Widget
-- Multiple Sportsbooks Widget
+- Single Kemoku Review Widget
+- Multiple Kemoku Reviews Widget
 
 ![kemoku-widgets](/assets/images/kemoku/kemoku-widgets.png)
 
@@ -28,13 +28,13 @@ Here are the widgets available in Kemoku plugin that you can use:
 - just a short notice
 - or skip them at all.
 
-### Single Sportsbook Widget
+### Single Kemoku Review Widget
 
-![kemoku-single-sportsbook-widget](/assets/images/kemoku/kemoku-single-sportsbook-widget.png)
+![kemoku-single-kemoku-review-widget](/assets/images/kemoku/kemoku-review-widget.png)
 
-### Multiple Sportsbooks Widget
+### Multiple Kemoku Reviews Widget
 
-![kemoku-multiple-sportsbooks-widget](/assets/images/kemoku/kemoku-multiple-sportsbooks-widget.png)
+![kemoku-multiple-kemoku-reviews-widget](/assets/images/kemoku/kemoku-reviews-widget.png)
 
 ### Next step
 

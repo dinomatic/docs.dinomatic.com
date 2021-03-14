@@ -7,7 +7,7 @@ section: content
 
 # Plugin Settings
 
-To customize the plugin options visit **Sportsbooks** &#8594; **Settings** in your WordPress Dashboard where you can define all plugin options.
+To customize the plugin options visit **Kemoku reviews** &#8594; **Settings** in your WordPress Dashboard where you can define all plugin options.
 
 ---
 

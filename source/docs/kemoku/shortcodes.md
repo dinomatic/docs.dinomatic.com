@@ -40,6 +40,7 @@ Here are the shortcodes available in Kemoku plugin you can use in review pages:
 [sb_info]
 [sb_ratings]
 [sb_pros_cons]
+[sb_payment_methods]
 ```
 
 There's noting to configure in these shortcodes, simply add the shortcodes where you want to display them, and they are ready.
@@ -52,7 +53,7 @@ You can also use **Review CTA** shortcode, however this shortcode requires some 
 
 ### Shortcode Generator
 
-You can easily generate shortcodes by using the **shortcode generator** if you choose to use shortcodes instead of blocks. In WordPress dashboard visit **Sportsbooks** &#8594; **Shortcodes** and you'll find generators and information about all available shortcodes.
+You can easily generate shortcodes by using the **shortcode generator** if you choose to use shortcodes instead of blocks. In WordPress dashboard visit **Kemoku Reviews** &#8594; **Shortcodes** and you'll find generators and information about all available shortcodes.
 
 Generate the shortcode with a couple of mouse clicks, copy and paste the result where you need.
 

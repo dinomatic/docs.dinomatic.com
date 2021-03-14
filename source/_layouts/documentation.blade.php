@@ -12,7 +12,7 @@
             @include('_nav.menu', ['items' => $page->navigation])
         </nav>
 
-        <div id="content" class="w-full flex-1 break-words p-8 md:mx-8" data-docs="true" v-pre>
+        <div id="content" class="content w-full flex-1 break-words p-8 md:mx-8" data-docs="true" v-pre>
             @yield('content')
         </div>
 

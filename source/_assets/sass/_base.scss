@@ -98,9 +98,16 @@ ul {
     @apply my-4;
 }
 
-ol {
-    list-style: decimal;
-    padding-left: 2rem;
+.content {
+    ul {
+        list-style-type: disc;
+        @apply pl-8;
+    }
+
+    ol {
+        list-style: decimal;
+        @apply pl-8;
+    }
 }
 
 p {
