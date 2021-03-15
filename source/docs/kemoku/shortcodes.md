@@ -17,6 +17,7 @@ Here are the shortcodes available in Kemoku plugin you can use in all pages:
 
 - Reviews Table
 - Reviews Grid
+- Review CTA
 
 ### Reviews Table
 
@@ -32,6 +33,12 @@ Here are the shortcodes available in Kemoku plugin you can use in all pages:
 
 > You can use the Grid shortcode in sidebars as well.
 
+### Review CTA
+
+```html
+[sb_cta content="Content" button_url="#" button_text="Button Text" heading="Heading"]
+```
+
 ### Review Page Shortcodes
 
 Here are the shortcodes available in Kemoku plugin you can use in review pages:
@@ -44,12 +51,6 @@ Here are the shortcodes available in Kemoku plugin you can use in review pages:
 ```
 
 There's noting to configure in these shortcodes, simply add the shortcodes where you want to display them, and they are ready.
-
-You can also use **Review CTA** shortcode, however this shortcode requires some attributes:
-
-```html
-[sb_cta content="Content" button_url="#" button_text="Button Text" heading="Heading"]
-```
 
 ### Shortcode Generator
 
