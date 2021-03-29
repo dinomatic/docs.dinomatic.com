@@ -13,7 +13,7 @@ All the plugin blocks are also available as shortcodes.
 
 ## Using Shortcodes
 
-Here are the shortcodes available in Kemoku plugin you can use in all pages:
+Here are the shortcodes available in Kemoku plugin you can use on all pages:
 
 - Reviews Table
 - Reviews Grid
@@ -22,13 +22,13 @@ Here are the shortcodes available in Kemoku plugin you can use in all pages:
 ### Reviews Table
 
 ```html
-[sb_table ids="6, 9" style="no-terms spacing altrows"]
+[sb_table ids="6, 9" style="no-terms|link-terms spacing altrows"]
 ```
 
 ### Reviews Grid
 
 ```html
-[sb_grid ids="6, 9" style="no-terms"]
+[sb_grid ids="6, 9" style="no-terms|link-terms"]
 ```
 
 > You can use the Grid shortcode in sidebars as well.
@@ -41,7 +41,7 @@ Here are the shortcodes available in Kemoku plugin you can use in all pages:
 
 ### Review Page Shortcodes
 
-Here are the shortcodes available in Kemoku plugin you can use in review pages:
+Here are the shortcodes available in Kemoku plugin you can use on review pages:
 
 ```html
 [sb_info]
