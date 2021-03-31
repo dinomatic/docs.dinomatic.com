@@ -19,7 +19,8 @@ There are 5 blocks available for you to use in casino pages:
 2. Casino Games
 3. Casino Countries
 4. Casino Payments
-5. Casino CTA
+5. Casino Game Providers
+6. Casino CTA
 
 ### Casino Ratings Block
 
@@ -57,6 +58,15 @@ No further configuration is required, just make sure to fill in **Payments** fie
 To add a new payments block simply click on the **+** (Add block) sign and select **Casino Payments** in **Spinoko Blocks** section.
 
 No further configuration is required, just make sure to fill in **Payments** fields in Casino Fields.
+
+
+### Casino Game Providers Block
+
+![spinoko-blocks-casino-game-providers](/assets/images/spinoko/spinoko-blocks-casino-game-providers.png)
+
+To add a new game providers block simply click on the **+** (Add block) sign and select **Casino Game Providers** in **Spinoko Blocks** section.
+
+No further configuration is required, just make sure to fill in **Game Providers** fields in Casino Fields.
 
 
 ### Casino CTA Block
