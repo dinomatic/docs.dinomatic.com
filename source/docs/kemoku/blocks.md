@@ -64,6 +64,7 @@ Here are the blocks available in Kemoku plugin you can use in review pages:
 - Review Ratings
 - Review Pros & Cons
 - Review Payments
+- Review Countries
 
 There's noting to configure in these blocks, simply add the blocks where you want to display them, and they are ready.
 

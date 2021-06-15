@@ -48,6 +48,7 @@ Here are the shortcodes available in Kemoku plugin you can use on review pages:
 [sb_ratings]
 [sb_pros_cons]
 [sb_payment_methods]
+[sb_countries]
 ```
 
 There's noting to configure in these shortcodes, simply add the shortcodes where you want to display them, and they are ready.
