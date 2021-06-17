@@ -44,7 +44,8 @@ Header options such as colors, navigation menu styles, header layout and positio
 
 ### Footer Options
 
-Footer colors and copyright text.
+Footer colors, footer navigation, gambling logos and copyright text.
+If you're using year in your copyright text, you can replace it with `_current_year_` and it will display the current year.
 
 ![customizer-footer-options](/assets/images/akurai/customizer/footer-options.png)
 
