@@ -17,8 +17,8 @@ You can get your product key from your [DinoMatic account](https://dinomatic.com
 
 ### Add Product Key
 
-1. In WordPress dashboard visit **Settings** &#8594; **Theme Setup**
-2. Enter the product key you got from your account
+1. In WordPress dashboard visit **Settings** &#8594; **Theme Setup** &#8594; **Licence Key**
+2. Enter the key you got from your account
 3. Click `Submit`
 4. A message confirming the theme registration will appear
 

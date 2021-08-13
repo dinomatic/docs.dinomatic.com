@@ -52,4 +52,4 @@ Here's an example of a casino page using the cover boxed template:
 
 ### Next step
 
-[Theme Blocks](/docs/spinoko/blocks/)
+[Set Game Page Slug](/docs/spinoko/setting-game-page-slug/)

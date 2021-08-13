@@ -20,6 +20,7 @@ Here are the blocks available in Spinoko theme:
 - Casinos Table
 - Casinos Grid
 - Featured Casino
+- Games Grid
 - Recent Posts
 - FAQs
 
@@ -81,7 +82,27 @@ In the content editor a new offer edit section will appear. Select a casino and 
 
 At the right side panel you can click on **Switch to Preview** to preview the offer in your editor.
 
-> Note that the preview may differ a little from the actual offer as some WordPress and other plugin styles may be affecting it.
+> Note that the preview may differ a little from the actual block as some WordPress and other plugin styles may be affecting it.
+
+### Games Grid Block
+
+![spinoko-blocks-games-grid](/assets/images/spinoko/spinoko-blocks-games-grid-frontend.jpg)
+
+To add a new games grid simply click on the + (Add block) sign and select **Games Grid** in **Spinoko Blocks** section.
+
+You can choose to display all games or selected ones.
+
+If you choose all games, you need to also choose how many games to display per page. This will display a paginated list of games with a "Load more games" button at the bottom.
+
+If you don't choose to display all games, you'll have an option to select only the ones you want to display.
+
+Besides choosing the games, you can also enable image lazy loading to improve page performance.
+
+![spinoko-blocks-games-grid-admin](/assets/images/spinoko/spinoko-blocks-games-grid-admin.jpg)
+
+At the right side panel you can click on **Switch to Preview** to preview the offer in your editor.
+
+> Note that the preview may differ a little from the actual block as some WordPress and other plugin styles may be affecting it.
 
 ### Recent Posts Block
 
