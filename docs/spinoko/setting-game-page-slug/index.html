@@ -4,19 +4,19 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <meta name="description" content="Kemoku Plugin - Shortcodes">
+        <meta name="description" content="Spinoko Game Review Page Slug">
 
         <meta property="og:site_name" content="DinoMatic Docs"/>
-        <meta property="og:title" content="Shortcodes | DinoMatic Docs"/>
-        <meta property="og:description" content="Kemoku Plugin - Shortcodes"/>
-        <meta property="og:url" content="https://docs.dinomatic.com/docs/kemoku/shortcodes"/>
+        <meta property="og:title" content="Game Review Page Slug | DinoMatic Docs"/>
+        <meta property="og:description" content="Spinoko Game Review Page Slug"/>
+        <meta property="og:url" content="https://docs.dinomatic.com/docs/spinoko/setting-game-page-slug"/>
         <meta property="og:image" content="https://docs.dinomatic.com/assets/img/logo.png"/>
         <meta property="og:type" content="website"/>
 
         <meta name="twitter:image:alt" content="DinoMatic Docs">
         <meta name="twitter:card" content="summary_large_image">
 
-        <title>DinoMatic Docs | Shortcodes</title>
+        <title>DinoMatic Docs | Game Review Page Slug</title>
 
         <link rel="home" href="https://docs.dinomatic.com">
         <link rel="icon" href="https://docs.dinomatic.com/favicon.svg">
@@ -249,7 +249,7 @@
             <li class="mb-8 pl-0 level-0">
             
         <a href="/docs/spinoko"
-            class="lvl0   font-bold uppercase text-black nav-menu__item dark:text-white hover:text-black dark:hover:text-gray-300"
+            class="lvl0 lvl0-active  font-bold uppercase text-black nav-menu__item dark:text-white hover:text-black dark:hover:text-gray-300"
         >
             Spinoko Theme
         </a>
@@ -313,7 +313,7 @@
             <li class="pl-2">
             
         <a href="/docs/spinoko/setting-game-page-slug"
-            class="lvl1    nav-menu__item dark:text-white hover:text-black dark:hover:text-gray-300"
+            class="lvl1  active font-semibold text-teal-500 dark:text-teal-500  nav-menu__item dark:text-white hover:text-black dark:hover:text-gray-300"
         >
             Game Page Slug
         </a>
@@ -498,7 +498,7 @@
             <li class="mb-8 pl-0 level-0">
             
         <a href="/docs/kemoku"
-            class="lvl0 lvl0-active  font-bold uppercase text-black nav-menu__item dark:text-white hover:text-black dark:hover:text-gray-300"
+            class="lvl0   font-bold uppercase text-black nav-menu__item dark:text-white hover:text-black dark:hover:text-gray-300"
         >
             Kemoku Plugin
         </a>
@@ -544,7 +544,7 @@
             <li class="pl-2">
             
         <a href="/docs/kemoku/shortcodes"
-            class="lvl1  active font-semibold text-teal-500 dark:text-teal-500  nav-menu__item dark:text-white hover:text-black dark:hover:text-gray-300"
+            class="lvl1    nav-menu__item dark:text-white hover:text-black dark:hover:text-gray-300"
         >
             Shortcodes
         </a>
@@ -763,72 +763,35 @@
         </nav>
 
         <div id="content" class="content w-full flex-1 break-words p-8 md:mx-8" data-docs="true" v-pre>
-            <h1>Kemoku Plugin Shortcodes</h1>
+            <h1>Game Review Page Slug</h1>
 
-<p>All the plugin blocks are also available as shortcodes.</p>
+<p>You can set the game page slug to whatever string you need if you're not happy with its default value of <code>game</code>.</p>
 
 <hr />
 
-<h2>Using Shortcodes</h2>
+<h3>Set Review Page Slug</h3>
 
-<p>Here are the shortcodes available in Kemoku plugin you can use on all pages:</p>
+<ol>
+<li>In WordPress dashboard visit <strong>Settings</strong> &#8594; <strong>Theme Setup</strong> &#8594; <strong>Game Page Slug</strong></li>
+<li>Enter the slug you want</li>
+<li>Click <code>Save</code></li>
+<li>A message confirming the change will appear</li>
+</ol>
 
-<ul>
-<li>Reviews Table</li>
-<li>Reviews Grid</li>
-<li>Review CTA</li>
-</ul>
+<p><img src="/assets/images/spinoko/spinoko-game-page-slug.png" alt="Set Review Page Slug" /></p>
 
-<h3>Reviews Table</h3>
+<p>After changing the slug make sure to visit permalinks page to avoid 404 pages.</p>
 
-<pre><code class="language-html">[sb_table ids="6, 9" style="no-terms|link-terms spacing altrows"]
-</code></pre>
-
-<h3>Reviews Grid</h3>
-
-<pre><code class="language-html">[sb_grid ids="6, 9" style="no-terms|link-terms"]
-</code></pre>
-
-<blockquote>
-  <p>You can use the Grid shortcode in sidebars as well.</p>
-</blockquote>
-
-<h3>Review CTA</h3>
-
-<pre><code class="language-html">[sb_cta content="Content" button_url="#" button_text="Button Text" heading="Heading"]
-</code></pre>
-
-<h3>Review Page Shortcodes</h3>
-
-<p>Here are the shortcodes available in Kemoku plugin you can use on review pages:</p>
-
-<pre><code class="language-html">[sb_info]
-[sb_ratings]
-[sb_pros_cons]
-[sb_payment_methods]
-[sb_countries]
-</code></pre>
-
-<p>There's noting to configure in these shortcodes, simply add the shortcodes where you want to display them, and they are ready.</p>
-
-<h3>Shortcode Generator</h3>
-
-<p>You can easily generate shortcodes by using the <strong>shortcode generator</strong> if you choose to use shortcodes instead of blocks. In WordPress dashboard visit <strong>Kemoku Reviews</strong> &#8594; <strong>Shortcodes</strong> and you'll find generators and information about all available shortcodes.</p>
-
-<p>Generate the shortcode with a couple of mouse clicks, copy and paste the result where you need.</p>
-
-<h4>Table shortcode generator</h4>
-
-<p><img src="/assets/images/kemoku/kemoku-shortcode-generator.png" alt="Kemoku Shortcode Generator" /></p>
+<hr />
 
 <h3>Next step</h3>
 
-<p><a href="/docs/kemoku/widgets/">Plugin Widgets</a></p>
+<p><a href="/docs/spinoko/creating-game-pages/">Creating Game Pages</a></p>
         </div>
 
         <nav id="js-page-menu" class="page-menu hidden py-8 lg:w-48 lg:max-w-sidebar lg:block sticky" style="top: 4rem;">
             <h4 class="mb-8 font-bold text-gray-500 text-lg pb-1 border-b inline-block">
-                KEMOKU v1.3.0
+                SPINOKO v2.1.0
             </h4>
 
             <div id="page-menu-wrapper" class="mb-8"></div>
