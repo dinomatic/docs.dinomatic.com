@@ -16,12 +16,15 @@ There are multiple blocks and shortcodes available for you to present your websi
 Here are the blocks available in Akurai theme:
 
 - Reviews Table
+- Extended Table
 - Reviews Grid
 - Reviews List
 - Review Offer
 - Recent Posts
 - FAQs
 - Slider
+- Lazy Image
+- Links Group
 
 ### Reviews Table Block
 

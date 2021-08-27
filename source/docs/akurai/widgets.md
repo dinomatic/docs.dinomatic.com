@@ -11,6 +11,18 @@ Akurai theme comes with built-in review widgets that you can use in page sidebar
 
 ---
 
+### Blocks as Widget
+
+Since WordPress 5.8 update, blocks can be used as widgets. The theme is updated so that you can use blocks in widget areas.
+
+There's a new blocks category called **Akurai Widgets** that lets you add the same 2 block widgets: Single Review and Reviews List.
+
+You can also use all review page blocks in review page sidebar.
+
+> It is recommended to use blocks instead of legacy widgets, as they may not get updated in the future.
+
+---
+
 ## Using Widgets
 
 To add a widget to a sidebar or footer, in your WordPress dashboard visit **Appearance** &#8594; **Widgets**.
