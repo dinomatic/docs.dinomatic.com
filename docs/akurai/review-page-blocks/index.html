@@ -773,7 +773,7 @@
 
 <h3>Blocks</h3>
 
-<p>There are 5 review blocks available for you to use in review pages:</p>
+<p>There are 7 review blocks available for you to use in review pages:</p>
 
 <ul>
 <li>Info Table</li>
@@ -782,17 +782,16 @@
 <li>Banking</li>
 <li>Offers</li>
 <li>Bonus List</li>
+<li>Countries</li>
 </ul>
 
-<p><img src="/assets/images/akurai/akurai-review-blocks.png" alt="akurai-review-blocks" /></p>
+<p><img src="/assets/images/akurai/review-blocks.png" alt="akurai-review-blocks" /></p>
 
-<p>The 5 blocks, except Bonus List, require no configuration, all you need is to just add them to the content by clicking on the block name. The information is populated from <a href="/docs/akurai/creating-review-pages/">Review Fields</a> that you need to have filled in beforehand.</p>
-
-<p>For Bonus List block you need to specify bonuses and their names, as well as optional heading and button texts.</p>
+<p>5 blocks, except Bonus List and Countries, require no configuration, all you need is to just add them to the content by clicking on the block name. The information is populated from <a href="/docs/akurai/creating-review-pages/">Review Fields</a> that you need to have filled in beforehand.</p>
 
 <h3>Shortcodes</h3>
 
-<p>The same blocks are also available to use in <a href="/docs/akurai/widget-areas/">Review Page Sidebars</a> via shortcodes. Here’s the formats:</p>
+<p>The same blocks are also available via shortcodes, and you can also use them in <a href="/docs/akurai/widget-areas/">Review Page Sidebars</a>. Here are the formats:</p>
 
 <ul>
 <li><code>[info]</code></li>
@@ -800,26 +799,33 @@
 <li><code>[ratings]</code></li>
 <li><code>[banking]</code></li>
 <li><code>[offers]</code></li>
-<li><code>[bonus_list]</code></li>
+<li><code>[bonus_list]</code> - At least 2 bonuses must be specified.</li>
 </ul>
-
-<p>For <code>[bonus_list]</code> shortcode here's how too specify bonuses:</p>
 
 <pre><code>[bonus_list bonus_1="1st BONUS" bonus_2="2nd BONUS" bonus_3="" bonus_4="" bonus_5=""]
 </code></pre>
 
-<h3>Blocks in Content Area</h3>
+<ul>
+<li><code>[countries]</code> - You can skip the options and display the default block.</li>
+</ul>
 
-<p>Here's what the blocks look like in review page content area. You can obviously add content between them and display only the ones that you want. This is just an image showing you the blocks' structures.</p>
+<pre><code>[countries show_search="1" main_text="..." not_supported_text="..."]
+</code></pre>
+
+<h3>Screenshots</h3>
+
+<h4>In Content Area</h4>
 
 <p><img src="/assets/images/akurai/akurai-review-blocks-content.png" alt="akurai-review-blocks-content" /></p>
 
-<h3>Shortcodes in Sidebar</h3>
+<h4>In Review Page Sidebar</h4>
 
 <p>Here's what the blocks look like in review page sidebars.</p>
 
 <blockquote>
   <p>Please note that you can use these shortcodes in <code>Review Page Sidebar</code> only.</p>
+  
+  <p>Since <strong>WordPress 5.8</strong>, you can use the same blocks in Widgets without the need of using shortcodes.</p>
 </blockquote>
 
 <p><img src="/assets/images/akurai/akurai-review-blocks-sidebar.png" alt="akurai-review-blocks-sidebar" /></p>
@@ -833,7 +839,7 @@
 
         <nav id="js-page-menu" class="page-menu hidden py-8 lg:w-48 lg:max-w-sidebar lg:block sticky" style="top: 4rem;">
             <h4 class="mb-8 font-bold text-gray-500 text-lg pb-1 border-b inline-block">
-                AKURAI v2.1.0
+                AKURAI v2.2.0
             </h4>
 
             <div id="page-menu-wrapper" class="mb-8"></div>
