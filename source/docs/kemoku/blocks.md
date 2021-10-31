@@ -18,13 +18,13 @@ There are 2 groups of blocks:
 
 ## Using Blocks
 
+![Kemoku Blocks](/assets/images/kemoku/kemoku-blocks.jpg)
+
 Below are the blocks available in Kemoku plugin you can use on all pages:
 
 - Reviews Table
 - Reviews Grid
 - Review CTA
-
-![Kemoku Blocks](/assets/images/kemoku/kemoku-blocks.png)
 
 ### Reviews Table & Grid
 
@@ -58,6 +58,8 @@ Dashboard:
 
 ### Review Page Blocks
 
+![Kemoku Review Blocks](/assets/images/kemoku/kemoku-review-blocks.jpg)
+
 Here are the blocks available in Kemoku plugin you can use in review pages:
 
 - Review Info
@@ -65,16 +67,20 @@ Here are the blocks available in Kemoku plugin you can use in review pages:
 - Review Pros & Cons
 - Review Payments
 - Review Countries
+- Review Services
 
 There's noting to configure in these blocks, simply add the blocks where you want to display them, and they are ready.
 
-![Kemoku Review Blocks](/assets/images/kemoku/kemoku-review-blocks.png)
-
 > You can also use **Review CTA** block in review pages.
+
+> **Review Services** has configuration fields, but they are optional.
+
 
 ### Blocks vs Shortcodes
 
 You can use all blocks as shortcodes as well. Check out [Shortcodes](/docs/kemoku/shortcodes/) for more information.
+
+> It is highly recommended to use blocks instead of shortcodes. Future blocks may not have shortcodes.
 
 ### Next step
 

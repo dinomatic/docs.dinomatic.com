@@ -19,49 +19,55 @@ Besides adding your review title and content as usual, you'll find **Review Fiel
 
 Define main review information such as the name, logo, affiliate URL, terms and conditions.
 
-![General Review Fields](/assets/images/kemoku/kemoku-review-general.png)
+![General Review Fields](/assets/images/kemoku/kemoku-review-general.jpg)
 
 ### Bonus & Rating Fields
 
 Define bonus, bonus code (if any) and the overall rating.
 
-![Review Fields Bonus](/assets/images/kemoku/kemoku-review-bonus.png)
-
-### Hero Section
-
-Define whether the **Hero** section at the top of the review page is enabled or not.
-
-![Review Fields Hero](/assets/images/kemoku/kemoku-review-hero.png)
-
-### CTA Section
-
-Define whether the **CTA** section at the bottom of the review page is enabled or not, as well as fill in the CTA details.
-
-![Review Fields CTA](/assets/images/kemoku/kemoku-review-cta.png)
-
-### Pros & Cons
-
-Define **Pros & Cons** of the reviewed item and display it in your content through **Review Pros & Cons** block and shortcode.
-
-![Review Fields Pros Cons](/assets/images/kemoku/kemoku-review-pros-cons.png)
-
-### Ratings
-
-Define **Ratings** of the reviewed item and display it in your content through **Review Ratings** block and shortcode.
-
-![Review Fields Ratings](/assets/images/kemoku/kemoku-review-ratings.png)
-
-### Info
-
-Define **Review Info** for the reviewed item and display it in your content through **Review Info** block and shortcode.
-
-![Review Fields Info](/assets/images/kemoku/kemoku-review-info.png)
+![Review Fields Bonus](/assets/images/kemoku/kemoku-review-bonus.jpg)
 
 ### Payment Methods
 
 Define **Payment Methods** for the reviewed item and display it in your content through **Review Payments** block and shortcode.
 
-![Review Fields Payments](/assets/images/kemoku/kemoku-review-payments.png)
+![Review Fields Payments](/assets/images/kemoku/kemoku-review-payments.jpg)
+
+### Details
+
+Define some details such as **Countries, Services, Licenses** for the reviewed item and display it in your content through **Review Countries**, **Review Services** block and shortcode.
+
+![Review Fields Payments](/assets/images/kemoku/kemoku-review-details.jpg)
+
+### Hero Section
+
+Define whether the **Hero** section at the top of the review page is enabled or not.
+
+![Review Fields Hero](/assets/images/kemoku/kemoku-review-hero.jpg)
+
+### CTA Section
+
+Define whether the **CTA** section at the bottom of the review page is enabled or not, as well as fill in the CTA details.
+
+![Review Fields CTA](/assets/images/kemoku/kemoku-review-cta.jpg)
+
+### Pros & Cons
+
+Define **Pros & Cons** of the reviewed item and display it in your content through **Review Pros & Cons** block and shortcode.
+
+![Review Fields Pros Cons](/assets/images/kemoku/kemoku-review-pros-cons.jpg)
+
+### Ratings
+
+Define **Ratings** of the reviewed item and display it in your content through **Review Ratings** block and shortcode.
+
+![Review Fields Ratings](/assets/images/kemoku/kemoku-review-ratings.jpg)
+
+### Info
+
+Define **Review Info** for the reviewed item and display it in your content through **Review Info** block and shortcode.
+
+![Review Fields Info](/assets/images/kemoku/kemoku-review-info.jpg)
 
 ### Next Step
 
