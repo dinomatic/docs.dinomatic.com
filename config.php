@@ -18,9 +18,9 @@ return [
     // versions
     'versions' => [
         'akurai'       => '2.2.1',
+        'spinoko'      => '2.1.1',
         'sikika'       => '1.0.2',
-        'spinoko'      => '2.1.0',
-        'kemoku'       => '1.4.0',
+        'kemoku'       => '1.4.1',
         'dinodds'      => '1.3.0',
         'nonaki'       => '1.0.3',
         'hello-cookie' => '1.0.2',

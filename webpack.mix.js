@@ -1,7 +1,7 @@
 const mix = require('laravel-mix')
 require('laravel-mix-jigsaw')
 
-mix.disableSuccessNotifications()
+mix.disableNotifications()
 mix.setPublicPath('source/assets/build/')
 
 mix
@@ -12,9 +12,11 @@ mix
   })
   .options({
     processCssUrls: false,
-    postCss: [
-      require('tailwindcss'),
-    ],
   })
   .sourceMaps()
   .version()
+  // .webpackConfig({
+  //   stats: {
+  //     children: true
+  //   }
+  // })

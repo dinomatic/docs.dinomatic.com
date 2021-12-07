@@ -1,12 +1,9 @@
-@import "tailwindcss/base";
-@import "tailwindcss/components";
-
-@import '~highlight.js/styles/monokai-sublime.css';
-
+@import 'reset';
 @import 'base';
+@import 'header';
 @import 'navigation';
 @import 'documentation';
 @import 'search';
 @import 'a11y';
 
-@import "tailwindcss/utilities";
+@import '~highlight.js/styles/atom-one-dark.css';

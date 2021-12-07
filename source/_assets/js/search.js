@@ -26,11 +26,11 @@
     }
   })
 
-  searchInput.addEventListener('focus', () => {
-    toggleZIndex(true)
-  })
-  searchInput.addEventListener('blur', () => {
-    toggleZIndex(false)
-  })
-  const toggleZIndex = on => document.getElementById('js-page-menu').style.zIndex = on ? -1 : 0
+  // searchInput.addEventListener('focus', () => {
+  //   toggleZIndex(true)
+  // })
+  // searchInput.addEventListener('blur', () => {
+  //   toggleZIndex(false)
+  // })
+  // const toggleZIndex = on => document.getElementById('js-page-menu').style.zIndex = on ? -1 : 0
 })()

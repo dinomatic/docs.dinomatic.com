@@ -123,43 +123,6 @@ function spinoko__change_table_sort_keys() {
 
 ---
 
-### How To Change (Translate) Country Names
-
-By default Spinoko uses [ISO 3166](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) country names and two-letter codes. These names are quite long and you may want to change them, for example, instead of "*United Kingdom of Great Britain and Northern Ireland*" you may want to use just "*United Kingdom*".
-
-Also, you can use this method to display country names in a different language.
-
-To change the names, you need to use the following filter in your child theme's `functions.php` file:
-
-```php
-function spinoko__change_country_names( $countries ) {
-
-    $countries['gb'] = 'United Kingdom';
-	$countries['us'] = 'USA';
-
-	return $countries;
-}
-add_filter( 'spinoko_country_custom_names', 'spinoko__change_country_names' );
-```
-
-For translation, use the same filter and add the country names in your language, for example:
-
-```php
-// Spanish
-$countries['de'] = 'Alemania';
-$countries['nl'] = 'Países Bajos';
-```
-
-Use any country code (lower case) from the above mentioned ISO 3166 list and customize the country names by adding as many lines as you want:
-
-```php
-$countries['TWO-TETTER-CODE'] = 'COUNTRY-NAME';
-```
-
-You don't have to change/translate all the country names, do so for just the ones you need.
-
----
-
 ### How To Change Table Filters
 
 By default you can filter casinos by:
@@ -208,13 +171,60 @@ $filter = array(
 
 ---
 
+### How To Include Custom Payment Methods in Table Filters
+
+By default table filters include only main payment methods provided by the theme. However, if you want to include the custom ones that you added, simply use this filter in your child theme.
+
+```php
+add_filter( 'spinoko_table_filters_custom_payments', '__return_true', 10 )
+```
+
+---
+
+### How To Change (Translate) Country Names
+
+By default Spinoko uses [ISO 3166](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) country names and two-letter codes. Some of the names are quite long and you may want to change them. For example, instead of "*United Kingdom of Great Britain and Northern Ireland*" you may want to use just "*United Kingdom*".
+
+Also, you can use this method to display country names in a different language.
+
+To change the names, you need to use the following filter in your child theme's `functions.php` file:
+
+```php
+function spinoko__change_country_names( $countries ) {
+
+    $countries['gb'] = 'United Kingdom';
+	$countries['us'] = 'USA';
+
+	return $countries;
+}
+add_filter( 'spinoko_country_custom_names', 'spinoko__change_country_names' );
+```
+
+For translation, use the same filter and add the country names in your language, for example:
+
+```php
+// Spanish
+$countries['de'] = 'Alemania';
+$countries['nl'] = 'Países Bajos';
+```
+
+Use any country code (lower case) from the above mentioned ISO 3166 list and customize the country names by adding as many lines as you want:
+
+```php
+$countries['TWO-TETTER-CODE'] = 'COUNTRY-NAME';
+```
+
+You don't have to change/translate all the country names, do so for just the ones you need.
+
+---
+
 ### How To Remove Review Links
 
 By default Spinoko blocks include "Read Review" links to casino review pages.
 You may for some reason want to not display them and you could easily do it using some CSS rules,
 however, in that case the links would still be there, just hidden.
 
-if you want to remove them entirely, use the below code snippet in your child theme.
+If you want to remove them entirely, use the below code snippet in your child theme.
 
 ```php
 /**

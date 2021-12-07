@@ -16,7 +16,7 @@ import { createEl } from './base'
     links.forEach(link => pageMenu.appendChild(link))
   }
   const createAnchorLink = id => {
-    return createEl('a', '#', ['ml-2', 'opacity-25', 'font-fold'], ['href', `#${id}`])
+    return createEl('a', '#', ['sub-heading'], ['href', `#${id}`])
   }
   const updateHeading = (heading, id) => {
     heading.id = id

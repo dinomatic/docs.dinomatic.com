@@ -8,18 +8,11 @@
     "devDependencies": {
         "autoprefixer": "^10.2.5",
         "docsearch.js": "^2.6.3",
-        "eslint": "^7.21.0",
-        "eslint-config-standard": "^16.0.2",
-        "eslint-plugin-import": "^2.22.1",
-        "eslint-plugin-node": "^11.1.0",
-        "eslint-plugin-promise": "^4.3.1",
-        "eslint-plugin-standard": "^5.0.0",
-        "highlight.js": "^10.6.0",
+        "highlight.js": "^11.3.1",
         "laravel-mix": "^6.0.13",
-        "laravel-mix-jigsaw": "^1.5.0",
+        "laravel-mix-jigsaw": "^2.0.0",
         "postcss": "^8.2.7",
         "sass": "^1.32.8",
-        "sass-loader": "^11.0.1",
-        "tailwindcss": "^2.0.3"
+        "sass-loader": "^12.3.0"
     }
 }

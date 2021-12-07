@@ -33,6 +33,7 @@ return [
             'Casino Page Templates' => 'docs/spinoko/casino-page-templates',
             'Game Page Slug' => 'docs/spinoko/setting-game-page-slug',
             'Creating Game Pages' => 'docs/spinoko/creating-game-pages',
+            'Game Page Templates' => 'docs/spinoko/game-page-templates',
             'Theme Blocks' => 'docs/spinoko/blocks',
             'Page Templates' => 'docs/spinoko/page-templates',
             'Navigation Menus' => 'docs/spinoko/navigation',

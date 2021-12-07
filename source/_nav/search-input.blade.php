@@ -1,27 +1,24 @@
 <button
-    title="Start searching"
     type="button"
-    class="flex md:hidden bg-gray-100 hover:bg-blue-100 justify-center items-center border border-gray-300 rounded-full focus:outline-none h-10 px-3"
+    class="search-toggle"
+    title="Start searching"
     onclick="searchInput.toggle()"
 >
-    <img src="/assets/img/magnifying-glass.svg" alt="search icon" class="h-4 w-4 max-w-none">
+    <img src="/assets/img/magnifying-glass.svg" alt="search icon">
 </button>
 
-<div id="js-search-input" class="docsearch-input__wrapper hidden md:block">
-    <label for="search" class="hidden">Search</label>
+<div id="js-search-input" class="docsearch-input__wrapper">
+    <label for="search" class="screen-reader-text">Search</label>
 
     <input
         id="docsearch-input"
-        class="docsearch-input relative block h-10 transition-fast w-full lg:w-1/2 xl:w-1/3 bg-gray-100 outline-none rounded-full text-gray-700 border border-gray-300 focus:border-blue-300 ml-auto px-4 pb-0"
+        class="docsearch-input"
         name="docsearch"
         type="text"
         placeholder="Search (press / to focus)"
     >
 
-    <button
-        class="md:hidden absolute pin-t pin-r h-full font-light text-3xl text-blue-500 hover:text-blue-700 focus:outline-none -mt-px pr-7"
-        onclick="searchInput.toggle()"
-    >&times;</button>
+    <button onclick="searchInput.toggle()">&times;</button>
 </div>
 
 @push('scripts')
@@ -37,8 +34,7 @@
             const searchInput = {
                 toggle() {
                     const menu = document.getElementById('js-search-input')
-                    menu.classList.toggle('hidden')
-                    menu.classList.toggle('md:block')
+                    menu.style.display = menu.style.display !== 'block' ? 'block' : 'none'
                     document.getElementById('docsearch-input').focus()
                 }
             }

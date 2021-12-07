@@ -27,15 +27,15 @@
         <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
     </head>
 
-    <body class="flex flex-col justify-between min-h-screen bg-white text-gray-500 leading-normal font-sans">
+    <body>
         <a href="#content" class="screen-reader-text">Skip to content</a>
 
-        <header class="flex items-center justify-between shadow bg-white border-b mb-8 py-2 sticky top-0 z-10" role="banner">
-            <div class="container flex items-center justify-between max-w-container mx-auto px-4">
-                <div class="flex items-center flex-shrink-0">
-                    <a href="/" title="{{ $page->siteName }} home" class="inline-flex items-center text-teal-900 hover:text-teal-900">
-                        <img src="/assets/img/icon-book.svg" class="h-5 w-5 mr-2" alt="stack icon">
-                        <span class="text-lg md:text-2xl font-semibold my-0 pr-4">{{ $page->siteName }}</span>
+        <header id="header" class="header" role="banner">
+            <div class="container">
+                <div class="logo-wrapper">
+                    <a href="/" title="{{ $page->siteName }}" class="logo">
+                        @include('_svg.book')
+                        <span>{{ $page->siteName }}</span>
                     </a>
                 </div>
 
@@ -45,7 +45,7 @@
             @yield('nav-toggle')
         </header>
 
-        <main id="main" role="main" class="w-full flex-auto">
+        <main id="main" role="main" class="main">
             @yield('body')
         </main>
 

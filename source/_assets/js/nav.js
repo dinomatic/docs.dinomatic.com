@@ -24,7 +24,7 @@ import { createEl } from './base'
   }
 
   const makeUl = () => {
-    const ul = createEl('ul', '', ['list-reset', 'my-0'])
+    const ul = createEl('ul')
     const items = [findSelectedSection(), ...findOtherSections()]
     items.forEach(item => ul.appendChild(item))
     return ul

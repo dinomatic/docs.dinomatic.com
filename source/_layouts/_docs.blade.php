@@ -1,66 +1,59 @@
-<section class="container max-w-container mx-auto mb-16 px-4 py-16 border-b border-gray-100 docs">
+<section class="banner-section docs container">
 
-    <div class="flex flex-wrap justify-end -mx-2">
+    <h3>Documentations</h3>
 
-        <h4 class="heading--main">
-            <span>
-                <img src="/assets/img/icon-stack.svg" alt="DinoMatic Docs">
-                Documentations
-            </span>
-        </h4>
+    <article>
 
         <h4 class="heading--main">
-            <a href="/docs/akurai/" class="text-black">
-                <img src="/assets/img/icon-stack.svg" alt="Akurai Docs">
+            <a href="/docs/akurai/">
+                @include('_svg.akurai')
                 Akurai Docs
             </a>
         </h4>
 
         <h4 class="heading--main">
-            <a href="/docs/spinoko/" class="text-black">
-                <img src="/assets/img/icon-stack.svg" alt="Spinoko Docs">
+            <a href="/docs/spinoko/">
+                @include('_svg.spinoko')
                 Spinoko Docs
             </a>
         </h4>
 
-        <h4 class="heading--main"></h4>
+        @include('_svg.docs')
 
         <h4 class="heading--main">
-            <a href="/docs/kemoku/" class="text-black">
-                <img src="/assets/img/icon-stack.svg" alt="Kemoku Docs">
+            <a href="/docs/kemoku/">
+                @include('_svg.kemoku')
                 Kemoku Docs
             </a>
         </h4>
 
         <h4 class="heading--main">
-            <a href="/docs/dinodds/" class="text-black">
-                <img src="/assets/img/icon-stack.svg" alt="DinOdds Docs">
+            <a href="/docs/dinodds/">
+                @include('_svg.dinodds')
                 DinOdds Docs
             </a>
         </h4>
 
-        <h4 class="heading--main"></h4>
-
 
         <h4 class="heading--main">
-            <a href="/docs/nonaki/" class="text-black">
-                <img src="/assets/img/icon-stack.svg" alt="Nonaki Docs">
+            <a href="/docs/nonaki/">
+                @include('_svg.nonaki')
                 Nonaki Docs
             </a>
         </h4>
 
         <h4 class="heading--main">
-            <a href="/docs/hello-cookie/" class="text-black">
-                <img src="/assets/img/icon-stack.svg" alt="Hello Cookie Docs">
+            <a href="/docs/hello-cookie/">
+                @include('_svg.hello-cookie')
                 Hello Cookie Docs
             </a>
         </h4>
 
         <h4 class="heading--main">
-            <a href="/docs/sikika/" class="text-black">
-                <img src="/assets/img/icon-stack.svg" alt="Sikika Docs">
+            <a href="/docs/sikika/">
+                @include('_svg.sikika')
                 Sikika Docs
             </a>
         </h4>
-    </div>
+    </article>
 </section>

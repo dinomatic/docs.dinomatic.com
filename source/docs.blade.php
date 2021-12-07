@@ -1,8 +1,6 @@
-@extends('_layouts.master')
+@extends('_layouts.main')
 
 @section('body')
 
-    @include('_layouts._hero')
     @include('_layouts._docs')
-
 @endsection
