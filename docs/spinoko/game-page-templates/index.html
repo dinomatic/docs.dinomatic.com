@@ -4,19 +4,19 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <meta name="description" content="Spinoko Theme - Blocks">
+        <meta name="description" content="Game Page Templates | Spinoko Theme">
 
         <meta property="og:site_name" content="DinoMatic Docs"/>
-        <meta property="og:title" content="Blocks &amp; Shortcodes | DinoMatic Docs"/>
-        <meta property="og:description" content="Spinoko Theme - Blocks"/>
-        <meta property="og:url" content="https://docs.dinomatic.com/docs/spinoko/blocks"/>
+        <meta property="og:title" content="Game Page Templates | DinoMatic Docs"/>
+        <meta property="og:description" content="Game Page Templates | Spinoko Theme"/>
+        <meta property="og:url" content="https://docs.dinomatic.com/docs/spinoko/game-page-templates"/>
         <meta property="og:image" content="https://docs.dinomatic.com/assets/img/logo.png"/>
         <meta property="og:type" content="website"/>
 
         <meta name="twitter:image:alt" content="DinoMatic Docs">
         <meta name="twitter:card" content="summary_large_image">
 
-        <title>DinoMatic Docs | Blocks &amp; Shortcodes</title>
+        <title>DinoMatic Docs | Game Page Templates</title>
 
         <link rel="home" href="https://docs.dinomatic.com">
         <link rel="icon" href="https://docs.dinomatic.com/favicon.svg">
@@ -457,7 +457,7 @@
             class="
                 lvl1
                 
-                
+                active
                 
                 nav-menu__item"
         >
@@ -471,7 +471,7 @@
             class="
                 lvl1
                 
-                active
+                
                 
                 nav-menu__item"
         >
@@ -1130,159 +1130,37 @@
     </nav>
 
     <article id="content" class="content" data-docs="true" v-pre>
-        <h1>Spinoko Theme Blocks</h1>
+        <h1>Game Page Templates</h1>
 
-<p>There are multiple blocks available for you to present your website information.</p>
+<p><code>💁 since version 2.1.1</code>
+You can define different templates for your game pages in Spinoko.</p>
 
-<p><img src="/assets/images/spinoko/spinoko-blocks.png" alt="Spinoko Blocks" /></p>
+<h2>Using Page Templates</h2>
 
-<hr />
+<p>There are 2 page templates available for displaying <strong>Game Pages</strong> on your website.</p>
 
-<h2>Using Blocks</h2>
+<ol>
+<li>Default Template</li>
+<li>Cover Template</li>
+</ol>
 
-<p>Here are the blocks available in Spinoko theme:</p>
+<h3>Default Template</h3>
 
-<ul>
-<li>Casinos Table</li>
-<li>Casinos Grid</li>
-<li>Featured Casino</li>
-<li>Games Grid</li>
-<li>Recent Posts</li>
-<li>FAQs</li>
-</ul>
+<p>Here's an example of a game page using the default template:</p>
 
-<p>There are other blocks that are available in casino pages only: <a href="/docs/spinoko/casino-page-blocks/">Casino Page Blocks</a></p>
+<p><img src="/assets/images/spinoko/spinoko-game-template-default.jpg" alt="spinoko-game-template-default" /></p>
 
-<h3>Casinos Table Block</h3>
+<h3>Cover Template</h3>
 
-<p><img src="/assets/images/spinoko/spinoko-blocks-table-frontend.png" alt="spinoko-blocks-table" /></p>
+<p>Here's an example of a game page using the cover template:</p>
 
-<p>To add a new table simply click on the <strong>+</strong> (Add block) sign and select <strong>Casinos Table</strong> in <strong>Spinoko Blocks</strong> section.</p>
-
-<p>In the content editor a new table edit section will appear. Click <strong>Add Casino</strong> to add as many casinos as you want.
-Select the style from the dropdown menu and whether to lazy load images or not, which if you don't have any particular reason to turn off is better for performance to leave it on.</p>
-
-<p>Casino Table block offers you multiple styles and options. You can display tables with default or compact layout, and you can display terms as a popover, as a link or as a plain text.</p>
-
-<p><code>💁 since version 1.0.4</code> you can also enable <strong>table sorting</strong> for your tables regardless of their styles. It will add 5 buttons on top of the table to sort by: Name, Year, Rating, Bonus, Bonus %. You can customize the button texts in <strong>Customizer</strong> &#8594; <strong>Strings</strong> and you can change which buttons to display by following <a href="/docs/spinoko/how-to#how-to-change-table-sorting-keys">these steps</a>.</p>
-
-<p><code>💁 since version 1.0.6</code> you can enable <strong>Highlight First Casino</strong> option and choose the highlight color (by default it's the theme primary color) and add an optional label to the 2st casino.</p>
-
-<p><code>💁 since version 1.0.8</code> you can enable <strong>Limit Casinos and Display a Load More Button</strong> option and select how many casinos to display initially. This option will hide the rest of the casinos and add a "Load more Casinos" button below the table. When a user clicks on the button the rest of the casinos are displayed as well.</p>
-
-<p><code>💁 since version 2.0.0</code> you can add <strong>Casinos Games</strong> and <strong>Casino Countries</strong> to tables.</p>
-
-<p><code>💁 since version 2.0.0</code> you can enable <strong>table filtering</strong> for your tables regardless of their styles. Casinos can be filtered by Country, Game, Game Provider, Payment Method, License.</p>
-
-<p><img src="/assets/images/spinoko/spinoko-blocks-table-admin.png" alt="spinoko-blocks-table-admin" /></p>
-
-<p>At the right side panel you can click on <strong>Switch to Preview</strong> to preview the table in your editor.</p>
-
-<blockquote>
-  <p>Note that the preview may differ a little from the actual table as some WordPress and other plugin styles may be affecting it.</p>
-</blockquote>
-
-<h3>Casinos Grid Block</h3>
-
-<p><img src="/assets/images/spinoko/spinoko-blocks-grid-frontend.png" alt="spinoko-blocks-grid" /></p>
-
-<p>To add a new gird simply click on the <strong>+</strong> (Add block) sign and select <strong>Casinos Grid</strong> in <strong>Spinoko Blocks</strong> section.</p>
-
-<p>In the content editor a new gird edit section will appear. Click <strong>Add Casino</strong> to add as many casinos. Select the number of columns and whether to lazy load images or not, which if you don't have any particular reason to turn off is better for performance to leave it on.</p>
-
-<p>Casino Grid block offers you multiple options for terms and conditions, you can display them as a popover, as a link or as a plain text.</p>
-
-<p><img src="/assets/images/spinoko/spinoko-blocks-grid-admin.png" alt="spinoko-blocks-grid-admin" /></p>
-
-<p>At the right side panel you can click on <strong>Switch to Preview</strong> to preview the gird in your editor.</p>
-
-<blockquote>
-  <p>Note that the preview may differ a little from the actual gird as some WordPress and other plugin styles may be affecting it.</p>
-</blockquote>
-
-<h3>Featured Casino Block</h3>
-
-<p><img src="/assets/images/spinoko/spinoko-blocks-casino-frontend.png" alt="spinoko-blocks-casino" /></p>
-
-<p>To add a new offer simply click on the <strong>+</strong> (Add block) sign and select <strong>Featured Casino</strong> in <strong>Spinoko Blocks</strong> section.</p>
-
-<p>In the content editor a new offer edit section will appear. Select a casino and configure the fields according to your preferences.</p>
-
-<p><img src="/assets/images/spinoko/spinoko-blocks-casino-admin.png" alt="spinoko-blocks-casino-admin" /></p>
-
-<p>At the right side panel you can click on <strong>Switch to Preview</strong> to preview the offer in your editor.</p>
-
-<blockquote>
-  <p>Note that the preview may differ a little from the actual block as some WordPress and other plugin styles may be affecting it.</p>
-</blockquote>
-
-<h3>Games Grid Block</h3>
-
-<p><img src="/assets/images/spinoko/spinoko-blocks-games-grid-frontend.jpg" alt="spinoko-blocks-games-grid" /></p>
-
-<p>To add a new games grid simply click on the + (Add block) sign and select <strong>Games Grid</strong> in <strong>Spinoko Blocks</strong> section.</p>
-
-<p>You can choose to display all games or selected ones.</p>
-
-<p>If you choose all games, you need to also choose how many games to display per page. This will display a paginated list of games with a "Load more games" button at the bottom.</p>
-
-<p>If you don't choose to display all games, you'll have an option to select only the ones you want to display.</p>
-
-<p>Besides choosing the games, you can also enable image lazy loading to improve page performance.</p>
-
-<p><img src="/assets/images/spinoko/spinoko-blocks-games-grid-admin.jpg" alt="spinoko-blocks-games-grid-admin" /></p>
-
-<p>At the right side panel you can click on <strong>Switch to Preview</strong> to preview the offer in your editor.</p>
-
-<blockquote>
-  <p>Note that the preview may differ a little from the actual block as some WordPress and other plugin styles may be affecting it.</p>
-</blockquote>
-
-<h3>Recent Posts Block</h3>
-
-<p><img src="/assets/images/spinoko/spinoko-blocks-posts-frontend.png" alt="spinoko-blocks-recent-posts" /></p>
-
-<p>To add a new posts block simply click on the <strong>+</strong> (Add block) sign and select <strong>Recent Posts</strong> in <strong>Spinoko Blocks</strong> section.</p>
-
-<p>In the content editor a new recent posts edit section will appear. Select the number of posts to display and the post excerpt length. Or you can leave them blank for default values: 3 posts and 40 words.</p>
-
-<p>You can also select a category to filter the posts or leave it blank to display posts from all categories.</p>
-
-<p>The last option is the block style, there are currently 3 styles available.</p>
-
-<p><img src="/assets/images/spinoko/spinoko-blocks-posts-admin.png" alt="spinoko-blocks-recent-posts-admin" /></p>
-
-<p>At the right side panel you can click on <strong>Switch to Preview</strong> to preview the posts block in your editor.</p>
-
-<blockquote>
-  <p>Note that the preview may differ a little from the actual block as some WordPress and other plugin styles may be affecting it.</p>
-</blockquote>
-
-<h3>FAQs Block</h3>
-
-<p><img src="/assets/images/spinoko/spinoko-blocks-faq-frontend.png" alt="spinoko-blocks-faqs" /></p>
-
-<p>To add a new FAQs block simply click on the <strong>+</strong> (Add block) sign and select <strong>FAQs</strong> in <strong>Spinoko Blocks</strong> section.</p>
-
-<p>In the content editor a new FAQs edit section will appear. For each one add the question and the answer and clack <code>Add New</code> to add a new FAQ item.</p>
-
-<p>Also set up how to display the FAQs by choosing whether they're open by default or not, can they be closed, 1 or 2 columns, etc.</p>
-
-<p>Important: If you have more than one FAQ blocks on a single page, make sure to disable the rich snippets for all of them except one.</p>
-
-<p><img src="/assets/images/spinoko/spinoko-blocks-faq-admin.png" alt="spinoko-blocks-faq-admin" /></p>
-
-<p>At the right side panel you can click on <strong>Switch to Preview</strong> to preview the FAQs block in your editor.</p>
-
-<blockquote>
-  <p>Note that the preview may differ a little from the actual block as some WordPress and other plugin styles may be affecting it.</p>
-</blockquote>
+<p><img src="/assets/images/spinoko/spinoko-game-template-cover.jpg" alt="spinoko-game-template-cover" /></p>
 
 <hr />
 
-<h3>Next Step</h3>
+<h3>Next step</h3>
 
-<p><a href="/docs/spinoko/page-templates/">Page Templates</a></p>
+<p><a href="/docs/spinoko/setting-game-page-slug/">Set Game Page Slug</a></p>
     </article>
 
     <nav id="js-page-menu" class="page-menu">

@@ -23,222 +23,300 @@
 
         
         <link href="https://fonts.googleapis.com/css?family=Rubik:400,700&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="/assets/build/css/main.css?id=5c64fd769d0a92cd785b">
+        <link rel="stylesheet" href="/assets/build/css/main.css?id=90cc1dc0bf3e732cef5a">
     </head>
 
-    <body class="flex flex-col justify-between min-h-screen bg-white text-gray-500 leading-normal font-sans">
+    <body>
         <a href="#content" class="screen-reader-text">Skip to content</a>
 
-        <header class="flex items-center justify-between shadow bg-white border-b mb-8 py-2 sticky top-0 z-10" role="banner">
-            <div class="container flex items-center justify-between max-w-container mx-auto px-4">
-                <div class="flex items-center flex-shrink-0">
-                    <a href="/" title="DinoMatic Docs home" class="inline-flex items-center text-teal-900 hover:text-teal-900">
-                        <img src="/assets/img/icon-book.svg" class="h-5 w-5 mr-2" alt="stack icon">
-                        <span class="text-lg md:text-2xl font-semibold my-0 pr-4">DinoMatic Docs</span>
+        <header id="header" class="header" role="banner">
+            <div class="container">
+                <div class="logo-wrapper">
+                    <a href="/" title="DinoMatic Docs" class="logo">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+    <path d="M6 4H5a1 1 0 1 1 0-2h11V1a1 1 0 0 0-1-1H4a2 2 0 0 0-2 2v16c0 1.1.9 2 2 2h12a2 2 0 0 0 2-2V5a1 1 0 0 0-1-1h-7v8l-2-2-2 2V4z"/>
+</svg>
+                        <span>DinoMatic Docs</span>
                     </a>
                 </div>
 
                 <button
-    title="Start searching"
     type="button"
-    class="flex md:hidden bg-gray-100 hover:bg-blue-100 justify-center items-center border border-gray-300 rounded-full focus:outline-none h-10 px-3"
+    class="search-toggle"
+    title="Start searching"
     onclick="searchInput.toggle()"
 >
-    <img src="/assets/img/magnifying-glass.svg" alt="search icon" class="h-4 w-4 max-w-none">
+    <img src="/assets/img/magnifying-glass.svg" alt="search icon">
 </button>
 
-<div id="js-search-input" class="docsearch-input__wrapper hidden md:block">
-    <label for="search" class="hidden">Search</label>
+<div id="js-search-input" class="docsearch-input__wrapper">
+    <label for="search" class="screen-reader-text">Search</label>
 
     <input
         id="docsearch-input"
-        class="docsearch-input relative block h-10 transition-fast w-full lg:w-1/2 xl:w-1/3 bg-gray-100 outline-none rounded-full text-gray-700 border border-gray-300 focus:border-blue-300 ml-auto px-4 pb-0"
+        class="docsearch-input"
         name="docsearch"
         type="text"
         placeholder="Search (press / to focus)"
     >
 
-    <button
-        class="md:hidden absolute pin-t pin-r h-full font-light text-3xl text-blue-500 hover:text-blue-700 focus:outline-none -mt-px pr-7"
-        onclick="searchInput.toggle()"
-    >&times;</button>
+    <button onclick="searchInput.toggle()">&times;</button>
 </div>
 
             </div>
 
-                <button class="flex justify-center items-center bg-teal-500 border border-teal-500 h-10 mr-4 px-5 rounded-full lg:hidden focus:outline-none"
+                <button class="menu-toggle"
     onclick="navMenu.toggle()"
 >
-    <svg id="js-nav-menu-show" xmlns="http://www.w3.org/2000/svg"
-        class="fill-current text-white h-9 w-4" viewBox="0 0 32 32"
-    >
+    <svg class="js-nav-menu-show" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
         <path d="M4,10h24c1.104,0,2-0.896,2-2s-0.896-2-2-2H4C2.896,6,2,6.896,2,8S2.896,10,4,10z M28,14H4c-1.104,0-2,0.896-2,2  s0.896,2,2,2h24c1.104,0,2-0.896,2-2S29.104,14,28,14z M28,22H4c-1.104,0-2,0.896-2,2s0.896,2,2,2h24c1.104,0,2-0.896,2-2  S29.104,22,28,22z"/>
     </svg>
 
-    <svg id="js-nav-menu-hide" xmlns="http://www.w3.org/2000/svg"
-        class="hidden fill-current text-white h-9 w-4" viewBox="0 0 36 30"
-    >
+    <svg class="js-nav-menu-hide" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 30">
         <polygon points="32.8,4.4 28.6,0.2 18,10.8 7.4,0.2 3.2,4.4 13.8,15 3.2,25.6 7.4,29.8 18,19.2 28.6,29.8 32.8,25.6 22.2,15 "/>
     </svg>
 </button>
 
         </header>
 
-        <main id="main" role="main" class="w-full flex-auto">
-            <section class="container max-w-container mx-auto px-6 md:px-8 py-4">
-    <div class="flex flex-col lg:flex-row items-start">
-        <nav id="js-nav-menu" class="nav-menu hidden lg:max-w-sidebar lg:block opacity-0
-            sticky top-0 h-screen overflow-y-scroll">
-            <ul class="list-none my-0">
-            <li class="mb-8 pl-0 level-0">
+        <main id="main" role="main" class="main">
+            <section class="docs-page container">
+    <nav id="js-nav-menu" class="nav-menu">
+        <ul style="margin: 0; list-style-type: none;">
+            <li class="level-0">
             
         <a href="/docs/akurai"
-            class="lvl0 lvl0-active  font-bold uppercase text-black nav-menu__item dark:text-white hover:text-black dark:hover:text-gray-300"
+            class="
+                lvl0
+                lvl0-active
+                
+                level-0
+                nav-menu__item"
         >
             Akurai Theme
         </a>
     
             
-        <ul class="list-none my-0">
-            <li class="pl-2">
+        <ul style="margin: 0; list-style-type: none;">
+            <li class="">
             
         <a href="/docs/akurai/installation"
-            class="lvl1    nav-menu__item dark:text-white hover:text-black dark:hover:text-gray-300"
+            class="
+                lvl1
+                
+                
+                
+                nav-menu__item"
         >
             Installation
         </a>
     
     </li>
-            <li class="pl-2">
+            <li class="">
             
         <a href="/docs/akurai/registration"
-            class="lvl1    nav-menu__item dark:text-white hover:text-black dark:hover:text-gray-300"
+            class="
+                lvl1
+                
+                
+                
+                nav-menu__item"
         >
             Theme Registration
         </a>
     
     </li>
-            <li class="pl-2">
+            <li class="">
             
         <a href="/docs/akurai/setting-review-page-slug"
-            class="lvl1    nav-menu__item dark:text-white hover:text-black dark:hover:text-gray-300"
+            class="
+                lvl1
+                
+                
+                
+                nav-menu__item"
         >
             Review Page Slug
         </a>
     
     </li>
-            <li class="pl-2">
+            <li class="">
             
         <a href="/docs/akurai/creating-review-pages"
-            class="lvl1  active font-semibold text-teal-500 dark:text-teal-500  nav-menu__item dark:text-white hover:text-black dark:hover:text-gray-300"
+            class="
+                lvl1
+                
+                active
+                
+                nav-menu__item"
         >
             Creating Review Pages
         </a>
     
     </li>
-            <li class="pl-2">
+            <li class="">
             
         <a href="/docs/akurai/review-page-blocks"
-            class="lvl1    nav-menu__item dark:text-white hover:text-black dark:hover:text-gray-300"
+            class="
+                lvl1
+                
+                
+                
+                nav-menu__item"
         >
             Review Page Blocks
         </a>
     
     </li>
-            <li class="pl-2">
+            <li class="">
             
         <a href="/docs/akurai/blocks-shortcodes"
-            class="lvl1    nav-menu__item dark:text-white hover:text-black dark:hover:text-gray-300"
+            class="
+                lvl1
+                
+                
+                
+                nav-menu__item"
         >
             Blocks &amp; Shortcodes
         </a>
     
     </li>
-            <li class="pl-2">
+            <li class="">
             
         <a href="/docs/akurai/page-templates"
-            class="lvl1    nav-menu__item dark:text-white hover:text-black dark:hover:text-gray-300"
+            class="
+                lvl1
+                
+                
+                
+                nav-menu__item"
         >
             Page Templates
         </a>
     
     </li>
-            <li class="pl-2">
+            <li class="">
             
         <a href="/docs/akurai/homepage-templates"
-            class="lvl1    nav-menu__item dark:text-white hover:text-black dark:hover:text-gray-300"
+            class="
+                lvl1
+                
+                
+                
+                nav-menu__item"
         >
             Homepage Templates
         </a>
     
     </li>
-            <li class="pl-2">
+            <li class="">
             
         <a href="/docs/akurai/widget-areas"
-            class="lvl1    nav-menu__item dark:text-white hover:text-black dark:hover:text-gray-300"
+            class="
+                lvl1
+                
+                
+                
+                nav-menu__item"
         >
             Widget Areas
         </a>
     
     </li>
-            <li class="pl-2">
+            <li class="">
             
         <a href="/docs/akurai/widgets"
-            class="lvl1    nav-menu__item dark:text-white hover:text-black dark:hover:text-gray-300"
+            class="
+                lvl1
+                
+                
+                
+                nav-menu__item"
         >
             Widgets
         </a>
     
     </li>
-            <li class="pl-2">
+            <li class="">
             
         <a href="/docs/akurai/breadcrumbs"
-            class="lvl1    nav-menu__item dark:text-white hover:text-black dark:hover:text-gray-300"
+            class="
+                lvl1
+                
+                
+                
+                nav-menu__item"
         >
             Breadcrumbs
         </a>
     
     </li>
-            <li class="pl-2">
+            <li class="">
             
         <a href="/docs/akurai/customizations"
-            class="lvl1    nav-menu__item dark:text-white hover:text-black dark:hover:text-gray-300"
+            class="
+                lvl1
+                
+                
+                
+                nav-menu__item"
         >
             Theme Customizations
         </a>
     
     </li>
-            <li class="pl-2">
+            <li class="">
             
         <a href="/docs/akurai/amp"
-            class="lvl1    nav-menu__item dark:text-white hover:text-black dark:hover:text-gray-300"
+            class="
+                lvl1
+                
+                
+                
+                nav-menu__item"
         >
             AMP Support
         </a>
     
     </li>
-            <li class="pl-2">
+            <li class="">
             
         <a href="/docs/akurai/updates"
-            class="lvl1    nav-menu__item dark:text-white hover:text-black dark:hover:text-gray-300"
+            class="
+                lvl1
+                
+                
+                
+                nav-menu__item"
         >
             Theme Updates
         </a>
     
     </li>
-            <li class="pl-2">
+            <li class="">
             
         <a href="/docs/akurai/child-theme"
-            class="lvl1    nav-menu__item dark:text-white hover:text-black dark:hover:text-gray-300"
+            class="
+                lvl1
+                
+                
+                
+                nav-menu__item"
         >
             Child Theme
         </a>
     
     </li>
-            <li class="pl-2">
+            <li class="">
             
         <a href="/docs/akurai/how-to"
-            class="lvl1    nav-menu__item dark:text-white hover:text-black dark:hover:text-gray-300"
+            class="
+                lvl1
+                
+                
+                
+                nav-menu__item"
         >
             How To ...
         </a>
@@ -246,164 +324,268 @@
     </li>
     </ul>
     </li>
-            <li class="mb-8 pl-0 level-0">
+            <li class="level-0">
             
         <a href="/docs/spinoko"
-            class="lvl0   font-bold uppercase text-black nav-menu__item dark:text-white hover:text-black dark:hover:text-gray-300"
+            class="
+                lvl0
+                
+                
+                level-0
+                nav-menu__item"
         >
             Spinoko Theme
         </a>
     
             
-        <ul class="list-none my-0">
-            <li class="pl-2">
+        <ul style="margin: 0; list-style-type: none;">
+            <li class="">
             
         <a href="/docs/spinoko/installation"
-            class="lvl1    nav-menu__item dark:text-white hover:text-black dark:hover:text-gray-300"
+            class="
+                lvl1
+                
+                
+                
+                nav-menu__item"
         >
             Installation
         </a>
     
     </li>
-            <li class="pl-2">
+            <li class="">
             
         <a href="/docs/spinoko/registration"
-            class="lvl1    nav-menu__item dark:text-white hover:text-black dark:hover:text-gray-300"
+            class="
+                lvl1
+                
+                
+                
+                nav-menu__item"
         >
             Theme Registration
         </a>
     
     </li>
-            <li class="pl-2">
+            <li class="">
             
         <a href="/docs/spinoko/setting-casino-page-slug"
-            class="lvl1    nav-menu__item dark:text-white hover:text-black dark:hover:text-gray-300"
+            class="
+                lvl1
+                
+                
+                
+                nav-menu__item"
         >
             Casino Page Slug
         </a>
     
     </li>
-            <li class="pl-2">
+            <li class="">
             
         <a href="/docs/spinoko/creating-casino-pages"
-            class="lvl1    nav-menu__item dark:text-white hover:text-black dark:hover:text-gray-300"
+            class="
+                lvl1
+                
+                
+                
+                nav-menu__item"
         >
             Creating Casino Pages
         </a>
     
     </li>
-            <li class="pl-2">
+            <li class="">
             
         <a href="/docs/spinoko/casino-page-blocks"
-            class="lvl1    nav-menu__item dark:text-white hover:text-black dark:hover:text-gray-300"
+            class="
+                lvl1
+                
+                
+                
+                nav-menu__item"
         >
             Casino Page Blocks
         </a>
     
     </li>
-            <li class="pl-2">
+            <li class="">
             
         <a href="/docs/spinoko/casino-page-templates"
-            class="lvl1    nav-menu__item dark:text-white hover:text-black dark:hover:text-gray-300"
+            class="
+                lvl1
+                
+                
+                
+                nav-menu__item"
         >
             Casino Page Templates
         </a>
     
     </li>
-            <li class="pl-2">
+            <li class="">
             
         <a href="/docs/spinoko/setting-game-page-slug"
-            class="lvl1    nav-menu__item dark:text-white hover:text-black dark:hover:text-gray-300"
+            class="
+                lvl1
+                
+                
+                
+                nav-menu__item"
         >
             Game Page Slug
         </a>
     
     </li>
-            <li class="pl-2">
+            <li class="">
             
         <a href="/docs/spinoko/creating-game-pages"
-            class="lvl1    nav-menu__item dark:text-white hover:text-black dark:hover:text-gray-300"
+            class="
+                lvl1
+                
+                
+                
+                nav-menu__item"
         >
             Creating Game Pages
         </a>
     
     </li>
-            <li class="pl-2">
+            <li class="">
+            
+        <a href="/docs/spinoko/game-page-templates"
+            class="
+                lvl1
+                
+                
+                
+                nav-menu__item"
+        >
+            Game Page Templates
+        </a>
+    
+    </li>
+            <li class="">
             
         <a href="/docs/spinoko/blocks"
-            class="lvl1    nav-menu__item dark:text-white hover:text-black dark:hover:text-gray-300"
+            class="
+                lvl1
+                
+                
+                
+                nav-menu__item"
         >
             Theme Blocks
         </a>
     
     </li>
-            <li class="pl-2">
+            <li class="">
             
         <a href="/docs/spinoko/page-templates"
-            class="lvl1    nav-menu__item dark:text-white hover:text-black dark:hover:text-gray-300"
+            class="
+                lvl1
+                
+                
+                
+                nav-menu__item"
         >
             Page Templates
         </a>
     
     </li>
-            <li class="pl-2">
+            <li class="">
             
         <a href="/docs/spinoko/navigation"
-            class="lvl1    nav-menu__item dark:text-white hover:text-black dark:hover:text-gray-300"
+            class="
+                lvl1
+                
+                
+                
+                nav-menu__item"
         >
             Navigation Menus
         </a>
     
     </li>
-            <li class="pl-2">
+            <li class="">
             
         <a href="/docs/spinoko/widgets"
-            class="lvl1    nav-menu__item dark:text-white hover:text-black dark:hover:text-gray-300"
+            class="
+                lvl1
+                
+                
+                
+                nav-menu__item"
         >
             Widgets
         </a>
     
     </li>
-            <li class="pl-2">
+            <li class="">
             
         <a href="/docs/spinoko/customizations"
-            class="lvl1    nav-menu__item dark:text-white hover:text-black dark:hover:text-gray-300"
+            class="
+                lvl1
+                
+                
+                
+                nav-menu__item"
         >
             Theme Customizations
         </a>
     
     </li>
-            <li class="pl-2">
+            <li class="">
             
         <a href="/docs/spinoko/amp"
-            class="lvl1    nav-menu__item dark:text-white hover:text-black dark:hover:text-gray-300"
+            class="
+                lvl1
+                
+                
+                
+                nav-menu__item"
         >
             AMP Support
         </a>
     
     </li>
-            <li class="pl-2">
+            <li class="">
             
         <a href="/docs/spinoko/updates"
-            class="lvl1    nav-menu__item dark:text-white hover:text-black dark:hover:text-gray-300"
+            class="
+                lvl1
+                
+                
+                
+                nav-menu__item"
         >
             Theme Updates
         </a>
     
     </li>
-            <li class="pl-2">
+            <li class="">
             
         <a href="/docs/spinoko/child-theme"
-            class="lvl1    nav-menu__item dark:text-white hover:text-black dark:hover:text-gray-300"
+            class="
+                lvl1
+                
+                
+                
+                nav-menu__item"
         >
             Child Theme
         </a>
     
     </li>
-            <li class="pl-2">
+            <li class="">
             
         <a href="/docs/spinoko/how-to"
-            class="lvl1    nav-menu__item dark:text-white hover:text-black dark:hover:text-gray-300"
+            class="
+                lvl1
+                
+                
+                
+                nav-menu__item"
         >
             How To ...
         </a>
@@ -411,83 +593,128 @@
     </li>
     </ul>
     </li>
-            <li class="mb-8 pl-0 level-0">
+            <li class="level-0">
             
         <a href="/docs/sikika"
-            class="lvl0   font-bold uppercase text-black nav-menu__item dark:text-white hover:text-black dark:hover:text-gray-300"
+            class="
+                lvl0
+                
+                
+                level-0
+                nav-menu__item"
         >
             Sikika Theme
         </a>
     
             
-        <ul class="list-none my-0">
-            <li class="pl-2">
+        <ul style="margin: 0; list-style-type: none;">
+            <li class="">
             
         <a href="/docs/sikika/installation"
-            class="lvl1    nav-menu__item dark:text-white hover:text-black dark:hover:text-gray-300"
+            class="
+                lvl1
+                
+                
+                
+                nav-menu__item"
         >
             Installation
         </a>
     
     </li>
-            <li class="pl-2">
+            <li class="">
             
         <a href="/docs/sikika/page-templates"
-            class="lvl1    nav-menu__item dark:text-white hover:text-black dark:hover:text-gray-300"
+            class="
+                lvl1
+                
+                
+                
+                nav-menu__item"
         >
             Page Templates
         </a>
     
     </li>
-            <li class="pl-2">
+            <li class="">
             
         <a href="/docs/sikika/widget-areas"
-            class="lvl1    nav-menu__item dark:text-white hover:text-black dark:hover:text-gray-300"
+            class="
+                lvl1
+                
+                
+                
+                nav-menu__item"
         >
             Widget Areas
         </a>
     
     </li>
-            <li class="pl-2">
+            <li class="">
             
         <a href="/docs/sikika/customizations"
-            class="lvl1    nav-menu__item dark:text-white hover:text-black dark:hover:text-gray-300"
+            class="
+                lvl1
+                
+                
+                
+                nav-menu__item"
         >
             Theme Customizations
         </a>
     
     </li>
-            <li class="pl-2">
+            <li class="">
             
         <a href="/docs/sikika/banners"
-            class="lvl1    nav-menu__item dark:text-white hover:text-black dark:hover:text-gray-300"
+            class="
+                lvl1
+                
+                
+                
+                nav-menu__item"
         >
             Banners
         </a>
     
     </li>
-            <li class="pl-2">
+            <li class="">
             
         <a href="/docs/sikika/amp"
-            class="lvl1    nav-menu__item dark:text-white hover:text-black dark:hover:text-gray-300"
+            class="
+                lvl1
+                
+                
+                
+                nav-menu__item"
         >
             AMP Support
         </a>
     
     </li>
-            <li class="pl-2">
+            <li class="">
             
         <a href="/docs/sikika/updates"
-            class="lvl1    nav-menu__item dark:text-white hover:text-black dark:hover:text-gray-300"
+            class="
+                lvl1
+                
+                
+                
+                nav-menu__item"
         >
             Theme Updates
         </a>
     
     </li>
-            <li class="pl-2">
+            <li class="">
             
         <a href="/docs/sikika/child-theme"
-            class="lvl1    nav-menu__item dark:text-white hover:text-black dark:hover:text-gray-300"
+            class="
+                lvl1
+                
+                
+                
+                nav-menu__item"
         >
             Child Theme
         </a>
@@ -495,83 +722,128 @@
     </li>
     </ul>
     </li>
-            <li class="mb-8 pl-0 level-0">
+            <li class="level-0">
             
         <a href="/docs/kemoku"
-            class="lvl0   font-bold uppercase text-black nav-menu__item dark:text-white hover:text-black dark:hover:text-gray-300"
+            class="
+                lvl0
+                
+                
+                level-0
+                nav-menu__item"
         >
             Kemoku Plugin
         </a>
     
             
-        <ul class="list-none my-0">
-            <li class="pl-2">
+        <ul style="margin: 0; list-style-type: none;">
+            <li class="">
             
         <a href="/docs/kemoku/installation"
-            class="lvl1    nav-menu__item dark:text-white hover:text-black dark:hover:text-gray-300"
+            class="
+                lvl1
+                
+                
+                
+                nav-menu__item"
         >
             Installation
         </a>
     
     </li>
-            <li class="pl-2">
+            <li class="">
             
         <a href="/docs/kemoku/registration"
-            class="lvl1    nav-menu__item dark:text-white hover:text-black dark:hover:text-gray-300"
+            class="
+                lvl1
+                
+                
+                
+                nav-menu__item"
         >
             Plugin Registration
         </a>
     
     </li>
-            <li class="pl-2">
+            <li class="">
             
         <a href="/docs/kemoku/review-pages"
-            class="lvl1    nav-menu__item dark:text-white hover:text-black dark:hover:text-gray-300"
+            class="
+                lvl1
+                
+                
+                
+                nav-menu__item"
         >
             Review Pages
         </a>
     
     </li>
-            <li class="pl-2">
+            <li class="">
             
         <a href="/docs/kemoku/blocks"
-            class="lvl1    nav-menu__item dark:text-white hover:text-black dark:hover:text-gray-300"
+            class="
+                lvl1
+                
+                
+                
+                nav-menu__item"
         >
             Blocks
         </a>
     
     </li>
-            <li class="pl-2">
+            <li class="">
             
         <a href="/docs/kemoku/shortcodes"
-            class="lvl1    nav-menu__item dark:text-white hover:text-black dark:hover:text-gray-300"
+            class="
+                lvl1
+                
+                
+                
+                nav-menu__item"
         >
             Shortcodes
         </a>
     
     </li>
-            <li class="pl-2">
+            <li class="">
             
         <a href="/docs/kemoku/widgets"
-            class="lvl1    nav-menu__item dark:text-white hover:text-black dark:hover:text-gray-300"
+            class="
+                lvl1
+                
+                
+                
+                nav-menu__item"
         >
             Widgets
         </a>
     
     </li>
-            <li class="pl-2">
+            <li class="">
             
         <a href="/docs/kemoku/settings"
-            class="lvl1    nav-menu__item dark:text-white hover:text-black dark:hover:text-gray-300"
+            class="
+                lvl1
+                
+                
+                
+                nav-menu__item"
         >
             Settings
         </a>
     
     </li>
-            <li class="pl-2">
+            <li class="">
             
         <a href="/docs/kemoku/plugin-updates"
-            class="lvl1    nav-menu__item dark:text-white hover:text-black dark:hover:text-gray-300"
+            class="
+                lvl1
+                
+                
+                
+                nav-menu__item"
         >
             Plugin Updates
         </a>
@@ -579,101 +851,156 @@
     </li>
     </ul>
     </li>
-            <li class="mb-8 pl-0 level-0">
+            <li class="level-0">
             
         <a href="/docs/dinodds"
-            class="lvl0   font-bold uppercase text-black nav-menu__item dark:text-white hover:text-black dark:hover:text-gray-300"
+            class="
+                lvl0
+                
+                
+                level-0
+                nav-menu__item"
         >
             DinOdds Plugin
         </a>
     
             
-        <ul class="list-none my-0">
-            <li class="pl-2">
+        <ul style="margin: 0; list-style-type: none;">
+            <li class="">
             
         <a href="/docs/dinodds/api"
-            class="lvl1    nav-menu__item dark:text-white hover:text-black dark:hover:text-gray-300"
+            class="
+                lvl1
+                
+                
+                
+                nav-menu__item"
         >
             DinoFeeds API
         </a>
     
     </li>
-            <li class="pl-2">
+            <li class="">
             
         <a href="/docs/dinodds/installation"
-            class="lvl1    nav-menu__item dark:text-white hover:text-black dark:hover:text-gray-300"
+            class="
+                lvl1
+                
+                
+                
+                nav-menu__item"
         >
             Installation
         </a>
     
     </li>
-            <li class="pl-2">
+            <li class="">
             
         <a href="/docs/dinodds/plugin-setup"
-            class="lvl1    nav-menu__item dark:text-white hover:text-black dark:hover:text-gray-300"
+            class="
+                lvl1
+                
+                
+                
+                nav-menu__item"
         >
             Plugin Setup
         </a>
     
     </li>
-            <li class="pl-2">
+            <li class="">
             
         <a href="/docs/dinodds/plugin-settings"
-            class="lvl1    nav-menu__item dark:text-white hover:text-black dark:hover:text-gray-300"
+            class="
+                lvl1
+                
+                
+                
+                nav-menu__item"
         >
             Plugin Settings
         </a>
     
     </li>
-            <li class="pl-2">
+            <li class="">
             
         <a href="/docs/dinodds/plugin-shortcodes"
-            class="lvl1    nav-menu__item dark:text-white hover:text-black dark:hover:text-gray-300"
+            class="
+                lvl1
+                
+                
+                
+                nav-menu__item"
         >
             Plugin Shortcodes
         </a>
     
     </li>
-            <li class="pl-2">
+            <li class="">
             
         <a href="/docs/dinodds/affiliate-settings"
-            class="lvl1    nav-menu__item dark:text-white hover:text-black dark:hover:text-gray-300"
+            class="
+                lvl1
+                
+                
+                
+                nav-menu__item"
         >
             Affiliate Settings
         </a>
     
     </li>
-            <li class="pl-2">
+            <li class="">
             
         <a href="/docs/dinodds/feed-updates"
-            class="lvl1    nav-menu__item dark:text-white hover:text-black dark:hover:text-gray-300"
+            class="
+                lvl1
+                
+                
+                
+                nav-menu__item"
         >
             Feed Updates
         </a>
     
     </li>
-            <li class="pl-2">
+            <li class="">
             
         <a href="/docs/dinodds/scheduling"
-            class="lvl1    nav-menu__item dark:text-white hover:text-black dark:hover:text-gray-300"
+            class="
+                lvl1
+                
+                
+                
+                nav-menu__item"
         >
             Scheduling
         </a>
     
     </li>
-            <li class="pl-2">
+            <li class="">
             
         <a href="/docs/dinodds/colors"
-            class="lvl1    nav-menu__item dark:text-white hover:text-black dark:hover:text-gray-300"
+            class="
+                lvl1
+                
+                
+                
+                nav-menu__item"
         >
             Changing Colors
         </a>
     
     </li>
-            <li class="pl-2">
+            <li class="">
             
         <a href="/docs/dinodds/plugin-updates"
-            class="lvl1    nav-menu__item dark:text-white hover:text-black dark:hover:text-gray-300"
+            class="
+                lvl1
+                
+                
+                
+                nav-menu__item"
         >
             Plugin Updates
         </a>
@@ -681,38 +1008,58 @@
     </li>
     </ul>
     </li>
-            <li class="mb-8 pl-0 level-0">
+            <li class="level-0">
             
         <a href="/docs/nonaki"
-            class="lvl0   font-bold uppercase text-black nav-menu__item dark:text-white hover:text-black dark:hover:text-gray-300"
+            class="
+                lvl0
+                
+                
+                level-0
+                nav-menu__item"
         >
             Nonaki Plugin
         </a>
     
             
-        <ul class="list-none my-0">
-            <li class="pl-2">
+        <ul style="margin: 0; list-style-type: none;">
+            <li class="">
             
         <a href="/docs/nonaki/installation"
-            class="lvl1    nav-menu__item dark:text-white hover:text-black dark:hover:text-gray-300"
+            class="
+                lvl1
+                
+                
+                
+                nav-menu__item"
         >
             Installation
         </a>
     
     </li>
-            <li class="pl-2">
+            <li class="">
             
         <a href="/docs/nonaki/using-plugin"
-            class="lvl1    nav-menu__item dark:text-white hover:text-black dark:hover:text-gray-300"
+            class="
+                lvl1
+                
+                
+                
+                nav-menu__item"
         >
             Using The Plugin
         </a>
     
     </li>
-            <li class="pl-2">
+            <li class="">
             
         <a href="/docs/nonaki/plugin-updates"
-            class="lvl1    nav-menu__item dark:text-white hover:text-black dark:hover:text-gray-300"
+            class="
+                lvl1
+                
+                
+                
+                nav-menu__item"
         >
             Plugin Updates
         </a>
@@ -720,38 +1067,58 @@
     </li>
     </ul>
     </li>
-            <li class="mb-8 pl-0 level-0">
+            <li class="level-0">
             
         <a href="/docs/hello-cookie"
-            class="lvl0   font-bold uppercase text-black nav-menu__item dark:text-white hover:text-black dark:hover:text-gray-300"
+            class="
+                lvl0
+                
+                
+                level-0
+                nav-menu__item"
         >
             Hello Cookie Plugin
         </a>
     
             
-        <ul class="list-none my-0">
-            <li class="pl-2">
+        <ul style="margin: 0; list-style-type: none;">
+            <li class="">
             
         <a href="/docs/hello-cookie/installation"
-            class="lvl1    nav-menu__item dark:text-white hover:text-black dark:hover:text-gray-300"
+            class="
+                lvl1
+                
+                
+                
+                nav-menu__item"
         >
             Installation
         </a>
     
     </li>
-            <li class="pl-2">
+            <li class="">
             
         <a href="/docs/hello-cookie/using-plugin"
-            class="lvl1    nav-menu__item dark:text-white hover:text-black dark:hover:text-gray-300"
+            class="
+                lvl1
+                
+                
+                
+                nav-menu__item"
         >
             Using The Plugin
         </a>
     
     </li>
-            <li class="pl-2">
+            <li class="">
             
         <a href="/docs/hello-cookie/plugin-updates"
-            class="lvl1    nav-menu__item dark:text-white hover:text-black dark:hover:text-gray-300"
+            class="
+                lvl1
+                
+                
+                
+                nav-menu__item"
         >
             Plugin Updates
         </a>
@@ -760,10 +1127,10 @@
     </ul>
     </li>
     </ul>
-        </nav>
+    </nav>
 
-        <div id="content" class="content w-full flex-1 break-words p-8 md:mx-8" data-docs="true" v-pre>
-            <h1>Creating Review Pages</h1>
+    <article id="content" class="content" data-docs="true" v-pre>
+        <h1>Creating Review Pages</h1>
 
 <p>In your WordPress dashboard you will find a new menu item called <strong>Reviews</strong> right below the <strong>Pages</strong> menu link. Click <code>Add New</code> to add a new review.</p>
 
@@ -863,51 +1230,46 @@
 <h3>Next step</h3>
 
 <p><a href="/docs/akurai/review-page-blocks/">Review Page Blocks</a></p>
-        </div>
+    </article>
 
-        <nav id="js-page-menu" class="page-menu hidden py-8 lg:w-48 lg:max-w-sidebar lg:block sticky" style="top: 4rem;">
-            <h4 class="mb-8 font-bold text-gray-500 text-lg pb-1 border-b inline-block">
-                AKURAI v2.2.1
-            </h4>
+    <nav id="js-page-menu" class="page-menu">
+        <h4>
+            AKURAI v2.2.1
+        </h4>
 
-            <div id="page-menu-wrapper" class="mb-8"></div>
+        <div id="page-menu-wrapper"></div>
 
-            <h5 class="font-bold">Links</h5>
-            <ul class="pl-0">
-                <li class="mb-2 ml-2 text-sm">
-                    <a href="https://dinomatic.com">DinoMatic.com</a>
-                </li>
-                <li class="mb-2 ml-2 text-sm">
-                    <a href="https://dinomatic.com/posts">Blog Posts</a>
-                </li>
-                <li class="mb-2 ml-2 text-sm">
-                    <a href="https://dinomatic.com/affiliates">Become an Affiliate</a>
-                </li>
-                <li class="mb-2 ml-2 text-sm">
-                    <a href="https://dinomatic.com/posts/wordpress-hosting">WordPress Hosting</a>
-                </li>
-                <li class="mb-2 ml-2 text-sm">
-                    <a href="https://dinomatic.com/services/web-development">Web Development Services</a>
-                </li>
-                <li class="mb-2 ml-2 text-sm">
-                    <a href="https://dinomatic.com/services/speedup">SpeedUp Installing Your Themes & Plugins</a>
-                </li>
-            </ul>
-        </nav>
-    </div>
+        <h5>Links</h5>
+        <ul>
+            <li>
+                <a href="https://dinomatic.com">DinoMatic.com</a>
+            </li>
+            <li>
+                <a href="https://dinomatic.com/posts">Blog Posts</a>
+            </li>
+            <li>
+                <a href="https://dinomatic.com/affiliates">Become an Affiliate</a>
+            </li>
+            <li>
+                <a href="https://dinomatic.com/posts/wordpress-hosting">WordPress Hosting</a>
+            </li>
+            <li>
+                <a href="https://dinomatic.com/services/web-development">Web Development Services</a>
+            </li>
+            <li>
+                <a href="https://dinomatic.com/services/speedup">SpeedUp Installing Your Themes & Plugins</a>
+            </li>
+        </ul>
+    </nav>
 </section>
         </main>
 
-        <script src="/assets/build/js/main.js?id=8769ce160f6d49fa61cc"></script>
+        <script src="/assets/build/js/main.js?id=3b64da5bfc7ee94737ce"></script>
 
         <script>
     const navMenu = {
         toggle() {
-            const menu = document.getElementById('js-nav-menu');
-            menu.classList.toggle('hidden');
-            menu.classList.toggle('lg:block');
-            document.getElementById('js-nav-menu-hide').classList.toggle('hidden');
-            document.getElementById('js-nav-menu-show').classList.toggle('hidden');
+            document.body.classList.toggle('nav-toggled')
             window.scrollTo(0,0)
         },
     }
@@ -923,8 +1285,7 @@
             const searchInput = {
                 toggle() {
                     const menu = document.getElementById('js-search-input')
-                    menu.classList.toggle('hidden')
-                    menu.classList.toggle('md:block')
+                    menu.style.display = menu.style.display !== 'block' ? 'block' : 'none'
                     document.getElementById('docsearch-input').focus()
                 }
             }
