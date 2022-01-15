@@ -6,6 +6,8 @@
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <meta name="description" content="Akurai Review Page Slug">
 
+        <link rel="preconnect" href="https://53EFS57BTW-dsn.algolia.net" crossorigin />
+
         <meta property="og:site_name" content="DinoMatic Docs"/>
         <meta property="og:title" content="Review Page Slug | DinoMatic Docs"/>
         <meta property="og:description" content="Akurai Review Page Slug"/>
@@ -23,7 +25,7 @@
 
         
         <link href="https://fonts.googleapis.com/css?family=Rubik:400,700&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="/assets/build/css/main.css?id=90cc1dc0bf3e732cef5a">
+        <link rel="stylesheet" href="/assets/build/css/main.css?id=ce6bdd60f3a9597ffbb4">
     </head>
 
     <body>
@@ -40,29 +42,7 @@
                     </a>
                 </div>
 
-                <button
-    type="button"
-    class="search-toggle"
-    title="Start searching"
-    onclick="searchInput.toggle()"
->
-    <img src="/assets/img/magnifying-glass.svg" alt="search icon">
-</button>
-
-<div id="js-search-input" class="docsearch-input__wrapper">
-    <label for="search" class="screen-reader-text">Search</label>
-
-    <input
-        id="docsearch-input"
-        class="docsearch-input"
-        name="docsearch"
-        type="text"
-        placeholder="Search (press / to focus)"
-    >
-
-    <button onclick="searchInput.toggle()">&times;</button>
-</div>
-
+                <div id="docsearch" class="docsearch"></div>
             </div>
 
                 <button class="menu-toggle"
@@ -1186,7 +1166,7 @@
 </section>
         </main>
 
-        <script src="/assets/build/js/main.js?id=3b64da5bfc7ee94737ce"></script>
+        <script src="/assets/build/js/main.js?id=b2899f5d206be19ffe13"></script>
 
         <script>
     const navMenu = {
@@ -1196,25 +1176,7 @@
         },
     }
 </script>
-            <script type="text/javascript">
-            docsearch({
-                apiKey: 'a9bd13669dfc9cd2dc6f455bc0b6903d',
-                indexName: 'dinomatic',
-                inputSelector: '#docsearch-input',
-                debug: false
-            })
 
-            const searchInput = {
-                toggle() {
-                    const menu = document.getElementById('js-search-input')
-                    menu.style.display = menu.style.display !== 'block' ? 'block' : 'none'
-                    document.getElementById('docsearch-input').focus()
-                }
-            }
-        </script>
-    
                 <script async defer data-domain="docs.dinomatic.com" src="https://plausible.io/js/plausible.js"></script>
-        
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css" />
-    </body>
+            </body>
 </html>

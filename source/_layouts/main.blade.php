@@ -6,6 +6,8 @@
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <meta name="description" content="{{ $page->description ?? $page->siteDescription }}">
 
+        <link rel="preconnect" href="https://53EFS57BTW-dsn.algolia.net" crossorigin />
+
         <meta property="og:site_name" content="{{ $page->siteName }}"/>
         <meta property="og:title" content="{{ $page->title ?  $page->title . ' | ' : '' }}{{ $page->siteName }}"/>
         <meta property="og:description" content="{{ $page->description ?? $page->siteDescription }}"/>
@@ -39,7 +41,7 @@
                     </a>
                 </div>
 
-                @include('_nav.search-input')
+                <div id="docsearch" class="docsearch"></div>
             </div>
 
             @yield('nav-toggle')
@@ -56,7 +58,5 @@
         @if ($page->production)
         <script async defer data-domain="docs.dinomatic.com" src="https://plausible.io/js/plausible.js"></script>
         @endif
-
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css" />
     </body>
 </html>

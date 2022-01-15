@@ -1,9 +1,9 @@
 @import 'reset';
 @import 'base';
+@import 'a11y';
 @import 'header';
+@import 'docsearch';
 @import 'navigation';
 @import 'documentation';
-@import 'search';
-@import 'a11y';
 
 @import '~highlight.js/styles/atom-one-dark.css';
