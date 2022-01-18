@@ -89,6 +89,8 @@ First of all, you can disable featured images on single post pages. You can disa
 
 You can also customize the layout of the blog page, by choosing to display it in a 2 column grid.
 
+`💁 since version 2.2.2` you can change the posts navigation type on archive pages: previous/next links or page numbers.
+
 ![customizer-posts-options](/assets/images/akurai/customizer/posts-options.png)
 
 ### Shortcode Options
