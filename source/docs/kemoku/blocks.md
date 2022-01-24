@@ -30,6 +30,8 @@ Below are the blocks available in Kemoku plugin you can use on all pages:
 
 Simply add the block, select reviews you want to display, adjust the settings and they are ready.
 
+`💁 since version 1.5` you can choose reviews manually, filter them by category or filter them by tag.
+
 #### Table
 
 Preview:

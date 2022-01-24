@@ -69,6 +69,11 @@ Define **Review Info** for the reviewed item and display it in your content thro
 
 ![Review Fields Info](/assets/images/kemoku/kemoku-review-info.jpg)
 
+### Taxonomies
+
+`💁 since version 1.5`  you can assign **Categories** and **Tags** to review pages,
+and you can filter reviews on tables and grids by category and tag as well.
+
 ### Next Step
 
 [Plugin Blocks](/docs/kemoku/blocks/)
