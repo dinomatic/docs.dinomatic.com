@@ -11,6 +11,11 @@ Spinoko theme comes with a built-in casino widget that you can use in the footer
 
 ---
 
+### Blocks in Widgets
+
+Since WordPress 5.9 you can use theme blocks in Widget areas of your website. The widgets below are now called "Legacy Widgets", and it's recommended to use theme blocks instead.
+The legacy widgets work as expected though.
+
 ## Using Widgets
 
 To add a widget to footer widgets area, in your WordPress dashboard visit **Appearance** &#8594; **Widgets**.

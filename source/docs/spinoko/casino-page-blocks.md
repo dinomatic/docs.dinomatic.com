@@ -21,6 +21,7 @@ There are 5 blocks available for you to use in casino pages:
 4. Casino Payments
 5. Casino Game Providers
 6. Casino CTA
+6. Casino Info, Pros & Cons Table
 
 ### Casino Ratings Block
 
@@ -78,6 +79,14 @@ To add a new CTA block simply click on the **+** (Add block) sign and select **C
 Fill in the CTA fields such as heading and content, button anchor text and the rest will be generated for you from the casino fields.
 
 ![spinoko-blocks-casino-cta-admin](/assets/images/spinoko/spinoko-blocks-casino-cta-admin.png)
+
+### Casino Info-Pros-Cons Block
+
+![spinoko-blocks-casino-game-providers](/assets/images/spinoko/spinoko-casino-info-pros-cons.png)
+
+To add a new block simply click on the **+** (Add block) sign and select **Casino Info, Pros & Cons** in **Spinoko Blocks** section.
+
+No further configuration is required, just make sure to fill in **Info**, as well as **Pros and Cons** fields in Casino Fields.
 
 ---
 

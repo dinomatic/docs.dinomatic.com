@@ -55,4 +55,4 @@ You can use combinations of the above options to generate different page styles.
 
 ### Next Step
 
-[Theme Navigation](/docs/spinoko/navigation/)
+[Widgets](/docs/spinoko/widgets/)

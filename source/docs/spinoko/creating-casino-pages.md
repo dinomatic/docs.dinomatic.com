@@ -29,7 +29,7 @@ To present the information more visually you can use [casino blocks](/docs/spino
 
 ![spinoko-casino-top-tables](/assets/images/spinoko/spinoko-casino-info-pros-cons.png)
 
-By default on all casino pages, after the hero section appear 3 small tables: Info, Pros & Cons. These are generated from Casino Fields as well and you can disable them globally for your website in **Appearance** &#8594; **Customize** &#8594; **Review Options**
+By default on all casino pages, after the hero section appear 3 small tables: Info, Pros & Cons. These are generated from Casino Fields as well and you can disable them globally for your website in **Appearance** &#8594; **Customize** &#8594; [Review Options](/docs/spinoko/customizations#review-options).
 
 ---
 

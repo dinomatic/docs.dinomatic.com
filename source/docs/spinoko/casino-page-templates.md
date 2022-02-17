@@ -16,6 +16,7 @@ There are 3 page templates available for displaying **Casino Pages** on your web
 1. Default Template
 2. Cover Template
 3. Cover Boxed Template
+4. Banner Template
 
 ### Default Template
 
@@ -47,6 +48,14 @@ The image will cover the whole hero section and will be displayed centered. Here
 Here's an example of a casino page using the cover boxed template:
 
 ![spinoko-casino-template-cover-boxed](/assets/images/spinoko/spinoko-casino-template-cover-boxed.png)
+
+### Banner Template
+
+`💁 since version 2.2.0`
+
+Here's an example of a casino page using the banner template:
+
+![spinoko-casino-template-banner](/assets/images/spinoko/spinoko-casino-template-banner.jpg)
 
 ---
 

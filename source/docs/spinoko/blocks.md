@@ -47,7 +47,7 @@ Casino Table block offers you multiple styles and options. You can display table
 
 `💁 since version 2.0.0` you can enable **table filtering** for your tables regardless of their styles. Casinos can be filtered by Country, Game, Game Provider, Payment Method, License.
 
-![spinoko-blocks-table-admin](/assets/images/spinoko/spinoko-blocks-table-admin.png)
+![spinoko-blocks-table-admin](/assets/images/spinoko/spinoko-blocks-table-admin.jpg)
 
 At the right side panel you can click on **Switch to Preview** to preview the table in your editor.
 

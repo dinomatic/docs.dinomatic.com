@@ -16,7 +16,7 @@ Below is the main WordPress Customizer view showing all the options you can cust
 
 Select the options you want to customize and apply your changes, the preview will reflect your changes automatically. Once you're happy with the results, click the "Publish" button to save the changes.
 
-![Theme Customizations](/assets/images/spinoko/spinoko-customizer.png)
+![Theme Customizations](/assets/images/spinoko/spinoko-customizer.jpg)
 
 ### Site Identity
 
@@ -24,7 +24,7 @@ As usual, set your site title and tagline, upload a custom logo and a favicon. I
 
 ### Colors
 
-Spinoko has a lot of colors, there are 21 carefully selected colors that are used all over the theme. You can adjust them to your liking and use your own color pallettes or the one that comes by default.
+Spinoko has a lot of colors, there are **21 carefully selected colors** that are used all over the theme. You can adjust them to your liking and use your own color pallettes or the one that comes by default.
 
 ![Theme Customizations](/assets/images/spinoko/spinoko-customizer-colors.png)
 
@@ -82,15 +82,20 @@ You can adjust here different options regarding different types of pages.
 
 ![Theme Customizations](/assets/images/spinoko/spinoko-customizer-pages.png)
 
-
 ### Strings
 
 There are different strings such as button or review link anchor texts, headings and labels, etc. that you may want to change. You can find all of them in **Strings** section.
 
 ![Theme Customizations](/assets/images/spinoko/spinoko-customizer-strings.png)
 
+### Miscellaneous Options
+
+This will be a section for (surprise 🤯) miscellaneous options. For now there's just one field here that enables/disables footer gambling logo images.
+
+![Miscellaneous Options](/assets/images/spinoko/spinoko-customizer-miscellaneous.png)
+
 ---
 
 ### Next Step
 
-[AMP Support](/docs/spinoko/amp/)
+[Navigation Menus](/docs/spinoko/navigation/)

@@ -342,4 +342,4 @@ The code related part is over, the nav menu is added to the theme. Now go to Cus
 
 ### Next Step
 
-[Widgets](/docs/spinoko/widgets/)
+[AMP Support](/docs/spinoko/amp/)
