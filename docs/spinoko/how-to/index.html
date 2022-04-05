@@ -1162,6 +1162,17 @@ In your child theme's root directory create a directories: <code>assets/icons/pa
 
 <hr />
 
+<h3>How To Change Payment Icon Colors</h3>
+
+<p>To change the colors of payment method icons use this CSS rule in your Additional CSS section and change <code>#CACCAC</code> to any color value you want.</p>
+
+<pre><code class="language-css">:root {
+    --color-payment-icon: #CACCAC;
+}
+</code></pre>
+
+<hr />
+
 <h3>How To Change Table Sorting Keys</h3>
 
 <p>By default Spinoko adds 5 table sorting keys/buttons:</p>
@@ -1334,7 +1345,7 @@ add_filter( 'spinoko_display_review_links', '__return_false', 10 )
 
     <nav id="js-page-menu" class="page-menu">
         <h4>
-            SPINOKO v2.2.0
+            SPINOKO v2.3.0
         </h4>
 
         <div id="page-menu-wrapper"></div>
