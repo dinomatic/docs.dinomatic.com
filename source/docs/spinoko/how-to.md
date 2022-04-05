@@ -58,6 +58,18 @@ In your child theme's root directory create a directories: `assets/icons/payment
 
 ---
 
+### How To Change Payment Icon Colors
+
+To change the colors of payment method icons use this CSS rule in your Additional CSS section and change `#CACCAC` to any color value you want.
+
+```css
+:root {
+    --color-payment-icon: #CACCAC;
+}
+```
+
+---
+
 ### How To Change Table Sorting Keys
 
 By default Spinoko adds 5 table sorting keys/buttons:

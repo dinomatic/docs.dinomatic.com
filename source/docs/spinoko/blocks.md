@@ -128,7 +128,7 @@ At the right side panel you can click on **Switch to Preview** to preview the po
 
 To add a new FAQs block simply click on the **+** (Add block) sign and select **FAQs** in **Spinoko Blocks** section.
 
-In the content editor a new FAQs edit section will appear. For each one add the question and the answer and clack `Add New` to add a new FAQ item.
+In the content editor a new FAQs edit section will appear. For each one add the question and the answer and click `Add New` to add a new FAQ item.
 
 Also set up how to display the FAQs by choosing whether they're open by default or not, can they be closed, 1 or 2 columns, etc.
 
@@ -139,6 +139,29 @@ Important: If you have more than one FAQ blocks on a single page, make sure to d
 At the right side panel you can click on **Switch to Preview** to preview the FAQs block in your editor.
 
 > Note that the preview may differ a little from the actual block as some WordPress and other plugin styles may be affecting it.
+
+
+### Show More/Less Block
+
+To add a new Show More/Less block simply click on the + (Add block) sign and select Show More/Less in Spinoko Blocks section.
+
+In the content editor a new edit section will appear. Add the visible and hidden text contents, the block style, as well as "Show More" and "Show Less" button texts.
+
+![spinoko-blocks-show-more-less-admin](/assets/images/spinoko/spinoko-blocks-show-more-admin.jpg)
+
+There are 4 styles for this block:
+
+1. using a simple button
+![spinoko-blocks-show-more-less-option-1](/assets/images/spinoko/spinoko-blocks-show-more-option-1.jpg)
+
+2. using a boxed layout with top and bottom borders and an arrow button
+![spinoko-blocks-show-more-less-option-2](/assets/images/spinoko/spinoko-blocks-show-more-option-2.jpg)
+
+3. using a boxed layout using theme shadow and simple button
+![spinoko-blocks-show-more-less-option-3](/assets/images/spinoko/spinoko-blocks-show-more-option-3.jpg)
+
+4. no styles - plain text in case you want to add your own class names
+
 
 ---
 
