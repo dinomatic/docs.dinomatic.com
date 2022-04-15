@@ -22,13 +22,17 @@ Here are the shortcodes available in Kemoku plugin you can use on all pages:
 ### Reviews Table
 
 ```html
-[sb_table ids="6, 9" style="no-terms|link-terms spacing altrows"]
+[sb_table source="manual" ids="6, 9" style="no-terms|link-terms spacing altrows"]
+
+[sb_table source="tax" cat="42,43" tag="73,74" style="..."]
 ```
 
 ### Reviews Grid
 
 ```html
-[sb_grid ids="6, 9" style="no-terms|link-terms"]
+[sb_grid source="manual" ids="6, 9" style="no-terms|link-terms"]
+
+[sb_grid source="tax" cat="42,43" tag="73,74" style="..."]
 ```
 
 > You can use the Grid shortcode in sidebars as well.

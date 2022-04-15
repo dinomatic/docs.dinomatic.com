@@ -16,7 +16,7 @@ return [
         'akurai'       => '2.2.2',
         'spinoko'      => '2.3.0',
         'sikika'       => '1.0.2',
-        'kemoku'       => '1.5.1',
+        'kemoku'       => '1.5.2',
         'dinodds'      => '1.3.0',
         'nonaki'       => '1.0.4',
         'hello-cookie' => '1.0.2',

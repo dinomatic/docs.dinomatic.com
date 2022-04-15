@@ -63,6 +63,7 @@ return [
         'children' => [
             'Installation' => 'docs/kemoku/installation',
             'Plugin Registration' => 'docs/kemoku/registration',
+            'Review Page Slug' => '/docs/kemoku/registration#set-reviews-page-slug',
             'Review Pages' => 'docs/kemoku/review-pages',
             'Blocks' => 'docs/kemoku/blocks',
             'Shortcodes' => 'docs/kemoku/shortcodes',

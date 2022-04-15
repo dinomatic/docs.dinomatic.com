@@ -30,7 +30,11 @@ Below are the blocks available in Kemoku plugin you can use on all pages:
 
 Simply add the block, select reviews you want to display, adjust the settings and they are ready.
 
-`💁 since version 1.5` you can choose reviews manually, filter them by category or filter them by tag.
+`💁 since version 1.5` you can choose reviews manually, filter them by category or by tag(s).
+
+You can select a review category and all reviews in that category will be displayed. You can also set a limit, for example display 10 reviews in "Sports" category.
+
+Besides categories, you can filter reviews by review tags as well. In difference to categories, you can select multiple tags. For example, display 12 reviews tagged "USA" and "Canada". You can combine those 2 together, for example display 10 reviews in "Sports" category tagged "USA" and "Canada".
 
 #### Table
 
@@ -76,6 +80,15 @@ There's noting to configure in these blocks, simply add the blocks where you wan
 > You can also use **Review CTA** block in review pages.
 
 > **Review Services** has configuration fields, but they are optional.
+
+Below are screenshots of review page blocks.
+
+![Kemoku Review Info Block](/assets/images/kemoku/kemoku-review-info-block-frontend.png)
+![Kemoku Review Ratings Block](/assets/images/kemoku/kemoku-review-ratings-block-frontend.png)
+![Kemoku Review Pros & Cons Block](/assets/images/kemoku/kemoku-review-pros-cons-block-frontend.png)
+![Kemoku Review Payment Methods Block](/assets/images/kemoku/kemoku-review-payment-methods-block-frontend.png)
+![Kemoku Review Countries Block](/assets/images/kemoku/kemoku-review-countries-block-frontend.png)
+![Kemoku Review Services Block](/assets/images/kemoku/kemoku-review-services-block-frontend.png)
 
 
 ### Blocks vs Shortcodes
