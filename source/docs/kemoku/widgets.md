@@ -13,7 +13,7 @@ There are 2 type of widgets available in the plugin.
 
 ### Blocks as Widgets
 
-Since WordPress 5.8 update, blocks can be used as widgets, and that's teh recommended way. Kemoku has been updated so that you can use blocks in widget areas. All widgets, including the ones that are intended for review pages only, can be used in widget areas. Check out plugin [Block](/docs/kemoku/blocks) for more information.
+Since WordPress 5.8 update, blocks can be used as widgets, and that's teh recommended way. Kemoku has been updated so that you can use blocks in widget areas. All widgets, including the ones that are intended for review pages only, can be used in widget areas. Check out plugin [blocks](/docs/kemoku/blocks) for more information.
 
 However, if for some reason you want to use legacy widgets, you still do so as described below.
 
