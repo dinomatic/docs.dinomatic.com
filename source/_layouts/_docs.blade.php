@@ -5,16 +5,16 @@
     <article>
 
         <h4 class="heading--main">
-            <a href="/docs/akurai/">
-                @include('_svg.akurai')
-                Akurai Docs
+            <a href="/docs/spinoko/">
+                @include('_svg.spinoko')
+                Spinoko Docs
             </a>
         </h4>
 
         <h4 class="heading--main">
-            <a href="/docs/spinoko/">
-                @include('_svg.spinoko')
-                Spinoko Docs
+            <a href="/docs/akurai/">
+                @include('_svg.akurai')
+                Akurai Docs
             </a>
         </h4>
 

@@ -1,27 +1,6 @@
 <?php
 
 return [
-    'Akurai Theme' => [
-        'url' => 'docs/akurai',
-        'children' => [
-            'Installation' => 'docs/akurai/installation',
-            'Theme Registration' => 'docs/akurai/registration',
-            'Review Page Slug' => 'docs/akurai/setting-review-page-slug',
-            'Creating Review Pages' => 'docs/akurai/creating-review-pages',
-            'Review Page Blocks' => 'docs/akurai/review-page-blocks',
-            'Blocks & Shortcodes' => 'docs/akurai/blocks-shortcodes',
-            'Page Templates' => 'docs/akurai/page-templates',
-            'Homepage Templates' => 'docs/akurai/homepage-templates',
-            'Widget Areas' => 'docs/akurai/widget-areas',
-            'Widgets' => 'docs/akurai/widgets',
-            'Breadcrumbs' => 'docs/akurai/breadcrumbs',
-            'Theme Customizations' => 'docs/akurai/customizations',
-            'AMP Support' => 'docs/akurai/amp',
-            'Theme Updates' => 'docs/akurai/updates',
-            'Child Theme' => 'docs/akurai/child-theme',
-            'How To ...' => 'docs/akurai/how-to',
-        ],
-    ],
     'Spinoko Theme' => [
         'url' => 'docs/spinoko',
         'children' => [
@@ -43,6 +22,27 @@ return [
             'Theme Updates' => 'docs/spinoko/updates',
             'Child Theme' => 'docs/spinoko/child-theme',
             'How To ...' => 'docs/spinoko/how-to',
+        ],
+    ],
+    'Akurai Theme' => [
+        'url' => 'docs/akurai',
+        'children' => [
+            'Installation' => 'docs/akurai/installation',
+            'Theme Registration' => 'docs/akurai/registration',
+            'Review Page Slug' => 'docs/akurai/setting-review-page-slug',
+            'Creating Review Pages' => 'docs/akurai/creating-review-pages',
+            'Review Page Blocks' => 'docs/akurai/review-page-blocks',
+            'Blocks & Shortcodes' => 'docs/akurai/blocks-shortcodes',
+            'Page Templates' => 'docs/akurai/page-templates',
+            'Homepage Templates' => 'docs/akurai/homepage-templates',
+            'Widget Areas' => 'docs/akurai/widget-areas',
+            'Widgets' => 'docs/akurai/widgets',
+            'Breadcrumbs' => 'docs/akurai/breadcrumbs',
+            'Theme Customizations' => 'docs/akurai/customizations',
+            'AMP Support' => 'docs/akurai/amp',
+            'Theme Updates' => 'docs/akurai/updates',
+            'Child Theme' => 'docs/akurai/child-theme',
+            'How To ...' => 'docs/akurai/how-to',
         ],
     ],
     'Sikika Theme' => [

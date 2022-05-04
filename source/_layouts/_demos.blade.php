@@ -5,16 +5,16 @@
     <article>
 
         <h4 class="heading--secondary">
-            <a href="https://dinomatic.com/demos/akurai">
+            <a href="https://dinomatic.com/demos/spinoko">
                 @include('_svg.demo')
-                Akurai Demos
+                Spinoko Demos
             </a>
         </h4>
 
         <h4 class="heading--secondary">
-            <a href="https://dinomatic.com/demos/spinoko">
+            <a href="https://dinomatic.com/demos/akurai">
                 @include('_svg.demo')
-                Spinoko Demos
+                Akurai Demos
             </a>
         </h4>
 

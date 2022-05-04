@@ -32,38 +32,36 @@ Here are the blocks available in Akurai theme:
 
 To add a new table simply click on the **+** (Add block) sign and select **Reviews Table** in **Akurai Blocks** section.
 
-In the content editor a new table edit section will appear. Click **Add Review** to add as many reviews as you want and at the bottom select how to display the terms and conditions.
+In the content editor a new table edit section will appear. Click **Add Review** to add as many reviews as you want, and below reviews select how to display the **terms and conditions**.
+
+`💁 since version 2.3.0` You can add **filters** to tables, choose whether to display table filters or not below terms and conditions field. Learn how to modify filters [here](/docs/akurai/how-to#how-to-modify-reviews-filters).
 
 ![akurai-blocks-editor-table](/assets/images/akurai/akurai-blocks-editor-table.png)
 
-At the right side panel you can click on **Switch to Preview** to preview the table in your editor.
-
-> Note that the preview may differ a little from the actual table as some WordPress and other plugin styles may be affecting it.
 
 ### Reviews Table Shortcode
 
 ```html
-[table reviews="comma separated list of review page ids" terms="none|short|long|ajax|ajax-hover"]
+[table reviews="comma separated list of review page ids" terms="none|short|long|ajax|ajax-hover" filters="true"]
 ```
 
 ### Extended Table Block
 
 ![akurai-blocks-table-extended](/assets/images/akurai/akurai-blocks-table-extended.png)
 
-To add a new table simply click on the **+** (Add block) sign and select **Reviews Table** in **Akurai Blocks** section.
+To add a new extended table simply click on the **+** (Add block) sign and select **Extended Reviews Table** in **Akurai Blocks** section.
 
-In the content editor a new table edit section will appear. Click **Add Review** to add as many reviews as you want and at the bottom select how to display the terms and conditions.
+In the content editor a new table edit section will appear. Click **Add Review** to add as many reviews as you want and below reviews select how to display the **terms and conditions**.
+
+`💁 since version 2.3.0` You can add **filters** to extended tables, choose whether to display table filters or not below terms and conditions field. Learn how to modify filters [here](/docs/akurai/how-to#how-to-modify-reviews-filters).
 
 ![akurai-blocks-editor-table-extended](/assets/images/akurai/akurai-blocks-editor-table-extended.png)
 
-At the right side panel you can click on **Switch to Preview** to preview the table in your editor.
-
-> Note that the preview may differ a little from the actual table as some WordPress and other plugin styles may be affecting it.
 
 ### Extended Table Shortcode
 
 ```html
-[table_extended reviews="comma separated list of review page ids" terms="none|short|long|ajax|ajax-hover"]
+[table_extended reviews="comma separated list of review page ids" terms="none|short|long|ajax|ajax-hover" filters="true"]
 ```
 
 ### Reviews Grid Block
@@ -72,18 +70,17 @@ At the right side panel you can click on **Switch to Preview** to preview the ta
 
 To add a new gird simply click on the **+** (Add block) sign and select **Reviews Grid** in **Akurai Blocks** section.
 
-In the content editor a new gird edit section will appear. Click **Add Review** to add as many reviews as you want and at the bottom select how to display the terms and conditions.
+In the content editor a new gird edit section will appear. Click **Add Review** to add as many reviews as you want and below reviews select how to display the terms and conditions.
+
+`💁 since version 2.3.0` You can add **filters** to grids, choose whether to display filters or not below terms and conditions field. Learn how to modify filters [here](/docs/akurai/how-to#how-to-modify-reviews-filters).
 
 ![akurai-blocks-editor-grid](/assets/images/akurai/akurai-blocks-editor-grid.png)
 
-At the right side panel you can click on **Switch to Preview** to preview the gird in your editor.
-
-> Note that the preview may differ a little from the actual gird as some WordPress and other plugin styles may be affecting it.
 
 ### Reviews Grid Shortcode
 
 ```html
-[grid reviews="comma separated list of review page ids" terms="none|short|long|ajax|ajax-hover"]
+[grid reviews="comma separated list of review page ids" terms="none|short|long|ajax|ajax-hover" filters="true"]
 ```
 
 ### Reviews List Block
@@ -96,9 +93,6 @@ In the content editor a new list edit section will appear. Click **Add Review** 
 
 ![akurai-blocks-editor-list](/assets/images/akurai/akurai-blocks-editor-list.png)
 
-At the right side panel you can click on **Switch to Preview** to preview the list in your editor.
-
-> Note that the preview may differ a little from the actual list as some WordPress and other plugin styles may be affecting it.
 
 ### Reviews List Shortcode
 
@@ -116,9 +110,6 @@ In the content editor a new offer edit section will appear. Select a review and 
 
 ![akurai-blocks-editor-offer](/assets/images/akurai/akurai-blocks-editor-offer.png)
 
-At the right side panel you can click on **Switch to Preview** to preview the offer in your editor.
-
-> Note that the preview may differ a little from the actual offer as some WordPress and other plugin styles may be affecting it.
 
 ### Review Offer Shortcode
 
@@ -138,21 +129,15 @@ In the content editor a new recent posts edit section will appear. Select the nu
 
 You can also select a category to filter the posts or leave it blank to display posts from all categories.
 
-`💁 since version 2.0`
-
-You can also choose a block style and specify whether to lazy load post thumbnails or not.
+`💁 since version 2.0` You can also choose a block style and specify whether to lazy load post thumbnails or not.
 
 ![akurai-blocks-editor-posts](/assets/images/akurai/akurai-blocks-editor-posts.png)
 
-At the right side panel you can click on **Switch to Preview** to preview the posts block in your editor.
-
-> Note that the preview may differ a little from the actual block as some WordPress and other plugin styles may be affecting it.
 
 ### Recent Posts Shortcode
 
 ```html
 [posts count="6" words="40"]
-or
 [posts count="6" words="40" cat_id="1"]
 
 💁 since version 2.0
@@ -168,18 +153,13 @@ To add a new FAQs block simply click on the **+** (Add block) sign and select **
 
 In the content editor a new FAQs edit section will appear. For each one add the question and the answer and clack `Add New` to add a new FAQ item.
 
-`💁 since version 2.0`
-
-By default schema.org markup for FAQ rich snippets will be included in all your FAQ blocks, however you can disable them if you need to.
+`💁 since version 2.0` By default schema.org markup for FAQ rich snippets will be included in all your FAQ blocks, however you can disable them if you need to.
 
 > Note that you can include only one markup on a page. If you have multiple FAQ blocks on a single, please enable this for one of them only.
 
 ![akurai-blocks-editor-faqs](/assets/images/akurai/akurai-blocks-editor-faqs.png)
 ![akurai-blocks-editor-faqs-schema-org-markup](/assets/images/akurai/akurai-blocks-editor-faqs-schema-org-markup.png)
 
-At the right side panel you can click on **Switch to Preview** to preview the FAQs block in your editor.
-
-> Note that the preview may differ a little from the actual block as some WordPress and other plugin styles may be affecting it.
 
 ### Slider Block
 
@@ -197,9 +177,6 @@ The first part is for defining the slider styles such as content font color, bac
 
 The second part is where you define the slides and their contents. For each slide you can add a heading, small content, a button and background image or pattern.
 
-At the right side panel you can click on **Switch to Preview** to preview the slider block in your editor.
-
-> Note that the preview may differ a little from the actual block as some WordPress and other plugin styles may be affecting it.
 
 ### Lazy Image Block
 
