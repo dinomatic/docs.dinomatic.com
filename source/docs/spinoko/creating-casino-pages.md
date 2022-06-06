@@ -31,6 +31,13 @@ To present the information more visually you can use [casino blocks](/docs/spino
 
 By default on all casino pages, after the hero section appear 3 small tables: Info, Pros & Cons. These are generated from Casino Fields as well and you can disable them globally for your website in **Appearance** &#8594; **Customize** &#8594; [Review Options](/docs/spinoko/customizations#review-options).
 
+
+### Casino Categories and Tags
+
+`💁 since version 2.3.1`
+
+You can assign casino categories and tags to casinos. You do that the same way you'd do it for regular posts. You can also manage your casino categories and casino tags by visiting their corresponding pages under "Casinos" menu item.
+
 ---
 
 ### Next step
