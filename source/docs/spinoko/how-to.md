@@ -188,7 +188,7 @@ $filter = array(
 By default table filters include only main payment methods provided by the theme. However, if you want to include the custom ones that you added, simply use this filter in your child theme.
 
 ```php
-add_filter( 'spinoko_table_filters_custom_payments', '__return_true', 10 )
+add_filter( 'spinoko_table_filters_custom_payments', '__return_true', 10 );
 ```
 
 ---
