@@ -34,6 +34,12 @@
             </a>
         </h4>
 
+        <h4 class="heading--main">
+            <a href="/docs/akurai-geo/">
+                @include('_svg.akurai')
+                AkuraiGeo Docs
+            </a>
+        </h4>
 
         <h4 class="heading--main">
             <a href="/docs/nonaki/">

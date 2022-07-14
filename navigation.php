@@ -87,6 +87,17 @@ return [
             'Plugin Updates' => 'docs/dinodds/plugin-updates',
         ],
     ],
+    'AkuraiGeo Plugin' => [
+        'url' => 'docs/akurai-geo',
+        'children' => [
+            'Installation' => 'docs/akurai-geo/installation',
+            'Settings' => 'docs/akurai-geo/settings',
+            'Blocks' => 'docs/akurai-geo/blocks',
+            'Review Fields' => 'docs/akurai-geo/review-fields',
+            'Cloudflare' => 'docs/akurai-geo/cloudflare',
+            'Plugin Updates' => 'docs/akurai-geo/plugin-updates',
+        ],
+    ],
     'Nonaki Plugin' => [
         'url' => 'docs/nonaki',
         'children' => [

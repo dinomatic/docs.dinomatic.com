@@ -26,7 +26,7 @@ Also make sure your host has the minimum requirements to run WordPress and PHP `
 
 ### Kemoku Demos
 
-You can check out theme demos to get ideas how to build your own website.
+You can check out plugin demos to get ideas how to build your own website.
 Here are 4 demos for you:
 
 1. [Demo #1](https://dinomatic.com/demos/kemoku/one)
@@ -34,7 +34,7 @@ Here are 4 demos for you:
 3. [Demo #3](https://dinomatic.com/demos/kemoku/three)
 4. [Demo #4](https://dinomatic.com/demos/kemoku/four)
 
-Also make sure to check out all [Sikia Demos](https://dinomatic.com/demos/sikika) as they are using Kemoku plugin as well.
+Also make sure to check out all [Sikika Demos](https://dinomatic.com/demos/sikika) as they are using Kemoku plugin as well.
 
 ### Changelog
 
