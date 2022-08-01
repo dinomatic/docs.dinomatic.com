@@ -14,7 +14,7 @@ return [
     // versions
     'versions' => [
         'akurai' => '2.4.0',
-        'spinoko' => '2.3.1',
+        'spinoko' => '2.3.2',
         'sikika' => '1.0.2',
         'kemoku' => '1.5.3',
         'dinodds' => '1.3.0',
