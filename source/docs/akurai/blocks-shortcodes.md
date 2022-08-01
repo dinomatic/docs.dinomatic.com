@@ -38,11 +38,19 @@ In the content editor a new table edit section will appear. Click **Add Review**
 
 ![akurai-blocks-editor-table](/assets/images/akurai/akurai-blocks-editor-table.png)
 
+`💁 since version 2.4.0` you can choose reviews manually or filter them by category and/or by tag. You can select a review category and all reviews in that category will be displayed. You can also set a limit, for example, display just 8 reviews in "Sports" category.
+
+![akurai-blocks-editor-table](/assets/images/akurai/akurai-blocks-editor-table-tax.png)
+
 
 ### Reviews Table Shortcode
 
 ```html
-[table reviews="comma separated list of review page ids" terms="none|short|long|ajax|ajax-hover" filters="true"]
+[table source="manual" reviews="comma separated list of review page ids" terms="none|short|long|ajax|ajax-hover" filters="true|false"]
+```
+
+```html
+[table source="tax" cat="ID" tag="ID" ppp="-1" terms="none|short|long|ajax|ajax-hover" filters="true|false"]
 ```
 
 ### Extended Table Block
@@ -57,11 +65,18 @@ In the content editor a new table edit section will appear. Click **Add Review**
 
 ![akurai-blocks-editor-table-extended](/assets/images/akurai/akurai-blocks-editor-table-extended.png)
 
+`💁 since version 2.4.0` you can choose reviews manually or filter them by category and/or by tag. You can select a review category and all reviews in that category will be displayed. You can also set a limit, for example, display just 8 reviews in "Sports" category.
+
+![akurai-blocks-editor-table-extended](/assets/images/akurai/akurai-blocks-editor-table-tax.png)
 
 ### Extended Table Shortcode
 
 ```html
-[table_extended reviews="comma separated list of review page ids" terms="none|short|long|ajax|ajax-hover" filters="true"]
+[table_extended source="manual" reviews="comma separated list of review page ids" terms="none|short|long|ajax|ajax-hover" filters="true|false"]
+```
+
+```html
+[table_extended source="tax" cat="ID" tag="ID" ppp="-1" terms="none|short|long|ajax|ajax-hover" filters="true|false"]
 ```
 
 ### Reviews Grid Block
@@ -76,11 +91,19 @@ In the content editor a new gird edit section will appear. Click **Add Review** 
 
 ![akurai-blocks-editor-grid](/assets/images/akurai/akurai-blocks-editor-grid.png)
 
+`💁 since version 2.4.0` you can choose reviews manually or filter them by category and/or by tag. You can select a review category and all reviews in that category will be displayed. You can also set a limit, for example, display just 8 reviews in "Sports" category.
+
+![akurai-blocks-editor-table](/assets/images/akurai/akurai-blocks-editor-table-tax.png)
+
 
 ### Reviews Grid Shortcode
 
 ```html
-[grid reviews="comma separated list of review page ids" terms="none|short|long|ajax|ajax-hover" filters="true"]
+[grid source="manual" reviews="comma separated list of review page ids" terms="none|short|long|ajax|ajax-hover" filters="true|false"]
+```
+
+```html
+[grid source="tax" cat="ID" tag="ID" ppp="-1" terms="none|short|long|ajax|ajax-hover" filters="true|false"]
 ```
 
 ### Reviews List Block

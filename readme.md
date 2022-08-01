@@ -14,6 +14,9 @@ npm run dev
 ## Deploy
 
 ```bash
+# pint
+./vendor/bin/pint
+
 # compile assets
 npm run production
 

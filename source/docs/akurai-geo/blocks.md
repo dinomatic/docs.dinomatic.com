@@ -35,6 +35,12 @@ The 2nd tab, called Default, is where you select all reviews that you want to di
 
 After that there's a new tab for each country you target, simply add reviews or leave them empty to display the Default selection.
 
+![AkuraiGeo Blocks - Geo Listing](/assets/images/akurai-geo/akurai-geo-blocks--geo-listing-manual.png)
+
+`💁 since version 1.1.0` you can choose reviews manually or filter them by category and/or by tag. You can select a review tag and all reviews with that tag will be displayed. You can also set a limit, for example, display just 6 reviews tagged as "usa".
+
+![AkuraiGeo Blocks - Geo Listing](/assets/images/akurai-geo/akurai-geo-blocks--geo-listing-tax.png)
+
 ### Geo Content Block
 
 To add a new content block simply click on the + (Add block) sign and select Geo Content in Akurai Blocks section.

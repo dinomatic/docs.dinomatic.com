@@ -13,26 +13,30 @@ return [
 
     // versions
     'versions' => [
-        'akurai'       => '2.3.1',
-        'spinoko'      => '2.3.1',
-        'sikika'       => '1.0.2',
-        'kemoku'       => '1.5.3',
-        'dinodds'      => '1.3.0',
-        'akurai-geo'   => '1.0.0',
-        'nonaki'       => '1.0.4',
+        'akurai' => '2.4.0',
+        'spinoko' => '2.3.1',
+        'sikika' => '1.0.2',
+        'kemoku' => '1.5.3',
+        'dinodds' => '1.3.0',
+        'akurai-geo' => '1.1.0',
+        'nonaki' => '1.0.4',
         'hello-cookie' => '1.0.2',
     ],
 
     // helpers
-    'isActive' => fn ($page, $path) => Str::endsWith(trimPath($page->getPath()), trimPath($path)),
-    'isActiveParent' => function ($page, $menuItem) {
+    'isActive' => fn($page, $path) => Str::endsWith(trimPath($page->getPath()), trimPath($path)),
+
+    'isActiveParent' => function($page, $menuItem) {
         if (is_object($menuItem) && $menuItem->children) {
-            return $menuItem->children->contains(function ($child) use ($page) {
+            return $menuItem->children->contains(function($child) use ($page) {
                 return trimPath($page->getPath()) == trimPath($child);
             });
         }
     },
-    'url' => fn($page, $path) => Str::startsWith($path, 'http') ? $path : '/' . trimPath($path),
+
+    'url' => fn($page, $path) => Str::startsWith($path, 'http') ? $path : '/'.trimPath($path),
+
     'product' => fn($page) => $paths = explode('/', $page->getPath())[2],
-    'version' => fn($page) => $page->versions[$page->product($page)]
+
+    'version' => fn($page) => $page->versions[$page->product($page)],
 ];
