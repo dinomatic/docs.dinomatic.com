@@ -54,7 +54,7 @@ Spinoko comes wth carefully chosen payment icons that both look nice on the page
 **The file name**: The filename should be the lowercase version of the payment method and should not contain spaces. For example: for **American Express** payment method you'd have a file called `american-express.svg`.
 
 **The Directory**: You need to use a [child theme](/docs/spinoko/child-theme) for this to avoid future update conflicts.
-In your child theme's root directory create a directories: `assets/icons/payments/` and add the icon to the payments directory.
+In your child theme's root directory create a directories: `assets/icons/svg/payments/` and add the icon to the payments directory.
 
 ---
 
