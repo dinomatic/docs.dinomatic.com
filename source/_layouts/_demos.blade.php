@@ -5,39 +5,39 @@
     <article>
 
         <h4 class="heading--secondary">
-            <a href="https://dinomatic.com/demos/spinoko">
+            <a href="https://demos.dinomatic.com/athens">
                 @include('_svg.demo')
-                Spinoko Demos
+                Akurai Demo
             </a>
         </h4>
 
         <h4 class="heading--secondary">
-            <a href="https://dinomatic.com/demos/akurai">
+            <a href="https://demos.dinomatic.com/ottawa">
                 @include('_svg.demo')
-                Akurai Demos
+                Spinoko Demo
             </a>
         </h4>
 
         @include('_svg.demos')
 
         <h4 class="heading--secondary">
-            <a href="https://dinomatic.com/demos/kemoku">
+            <a href="https://demos.dinomatic.com/havana">
                 @include('_svg.demo')
-                Kemoku Demos
+                Kemoku Demo
             </a>
         </h4>
 
         <h4 class="heading--secondary">
-            <a href="https://dinomatic.com/demos/dinodds">
+            <a href="https://demos.dinomatic.com/luanda">
                 @include('_svg.demo')
-                DinOdds Demos
+                DinOdds Demo
             </a>
         </h4>
 
         <h4 class="heading--secondary">
-            <a href="https://dinomatic.com/demos/sikika">
+            <a href="https://demos.dinomatic.com/manila">
                 @include('_svg.demo')
-                Sikika Demos
+                Sikika Demo
             </a>
         </h4>
 

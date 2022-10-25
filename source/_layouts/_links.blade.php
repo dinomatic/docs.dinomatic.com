@@ -42,7 +42,7 @@
         </h4>
 
         <h4 class="heading--secondary">
-            <a href="https://dinomatic.com/services">
+            <a href="https://dinomatic.com/services/web-development">
                 @include('_svg.link')
                 WordPress Services
             </a>
