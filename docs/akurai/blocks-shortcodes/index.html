@@ -405,6 +405,20 @@
     </li>
             <li class="">
             
+        <a href="/docs/akurai/review-page-templates"
+            class="
+                lvl1
+                
+                
+                
+                nav-menu__item"
+        >
+            Review Page Templates
+        </a>
+    
+    </li>
+            <li class="">
+            
         <a href="/docs/akurai/review-page-blocks"
             class="
                 lvl1
@@ -414,20 +428,6 @@
                 nav-menu__item"
         >
             Review Page Blocks
-        </a>
-    
-    </li>
-            <li class="">
-            
-        <a href="/docs/akurai/blocks-shortcodes"
-            class="
-                lvl1
-                
-                active
-                
-                nav-menu__item"
-        >
-            Blocks &amp; Shortcodes
         </a>
     
     </li>
@@ -447,15 +447,15 @@
     </li>
             <li class="">
             
-        <a href="/docs/akurai/homepage-templates"
+        <a href="/docs/akurai/blocks-shortcodes"
             class="
                 lvl1
                 
-                
+                active
                 
                 nav-menu__item"
         >
-            Homepage Templates
+            Blocks &amp; Shortcodes
         </a>
     
     </li>
@@ -1227,7 +1227,7 @@
     <article id="content" class="content" data-docs="true" v-pre>
         <h1>Akurai Theme Blocks &amp; Shortcodes</h1>
 
-<p>There are multiple blocks and shortcodes available for you to present your website information. It is recommended to use native blocks instead of shortcodes, however if for some reason you’re still using a version of WordPress lower than 5.0, you can use shortcodes as well.</p>
+<p>There are multiple blocks and shortcodes available for you to present your website information. It is recommended to use native blocks instead of shortcodes, however if for some reason you're still using a version of WordPress lower than 5.0, you can use shortcodes as well.</p>
 
 <hr />
 
@@ -1235,100 +1235,123 @@
 
 <p>Here are the blocks available in Akurai theme:</p>
 
-<ul>
+<ol>
 <li>Reviews Table</li>
-<li>Extended Table</li>
+<li>Reviews Table Extended</li>
+<li>Reviews Table Flex</li>
 <li>Reviews Grid</li>
 <li>Reviews List</li>
-<li>Review Offer</li>
+<li>Review Offer (Featured Review)</li>
+<li>Review Finder</li>
 <li>Recent Posts</li>
-<li>FAQs</li>
+<li>Links Group</li>
+<li>FAQ</li>
 <li>Slider</li>
 <li>Lazy Image</li>
-<li>Links Group</li>
-</ul>
+</ol>
 
 <h3>Reviews Table Block</h3>
 
-<p><img src="/assets/images/akurai/akurai-blocks-table.png" alt="akurai-blocks-table" /></p>
+<p><img src="/assets/images/akurai/akurai-blocks-table.jpg" alt="akurai-blocks-table" /></p>
 
 <p>To add a new table simply click on the <strong>+</strong> (Add block) sign and select <strong>Reviews Table</strong> in <strong>Akurai Blocks</strong> section.</p>
 
-<p>In the content editor a new table edit section will appear. Click <strong>Add Review</strong> to add as many reviews as you want, and below reviews select how to display the <strong>terms and conditions</strong>.</p>
+<p>In the content editor a new table edit section will appear. There are 2 options to add reviews to the table:</p>
 
-<p><code>💁 since version 2.3.0</code> You can add <strong>filters</strong> to tables, choose whether to display table filters or not below terms and conditions field. Learn how to modify filters <a href="/docs/akurai/how-to#how-to-modify-reviews-filters">here</a>.</p>
+<ol>
+<li><p>Manual selection where you select all the reviews from a dropdown list.
+<img src="/assets/images/akurai/akurai-blocks-listing-editor-manual.jpg" alt="akurai-blocks-extended-table-editor-manual" /></p></li>
+<li><p>Filtering by taxonomy where you choose a category and/or tag(s) and reviews display automatically (<code>💁 since version 2.4.0</code>). For example, you can select a review category and all reviews in that category will be displayed. You can also set a limit, for example, display just 8 reviews in "Sports" category.
+<img src="/assets/images/akurai/akurai-blocks-listing-editor-tax.jpg" alt="akurai-blocks-extended-table-editor-tax" /></p></li>
+</ol>
 
-<p><img src="/assets/images/akurai/akurai-blocks-editor-table.png" alt="akurai-blocks-editor-table" /></p>
+<p>Below reviews select how to display the <strong>terms and conditions</strong>.</p>
 
-<p><code>💁 since version 2.4.0</code> you can choose reviews manually or filter them by category and/or by tag. You can select a review category and all reviews in that category will be displayed. You can also set a limit, for example, display just 8 reviews in "Sports" category.</p>
+<p><code>💁 since version 2.3.0</code> You can add <strong>filters</strong> to tables, learn how to modify filters <a href="/docs/akurai/how-to#how-to-modify-reviews-filters">here</a>.</p>
 
-<p><img src="/assets/images/akurai/akurai-blocks-editor-table-tax.png" alt="akurai-blocks-editor-table" /></p>
+<p><code>💁 since version 3.0.0</code> You can enable <strong>lazy loading</strong> for logo images on tables.</p>
 
 <h3>Reviews Table Shortcode</h3>
 
-<pre><code class="language-html">[table source="manual" reviews="comma separated list of review page ids" terms="none|short|long|ajax|ajax-hover" filters="true|false"]
+<pre><code class="language-html">[table source="manual" reviews="comma separated list of review page ids" terms="none|short|long|ajax|ajax-hover" filters="true" lazy_logo="true"]
 </code></pre>
 
-<pre><code class="language-html">[table source="tax" cat="ID" tag="ID" ppp="-1" terms="none|short|long|ajax|ajax-hover" filters="true|false"]
+<pre><code class="language-html">[table source="tax" cat="ID" tag="ID" ppp="-1" terms="none|short|long|ajax|ajax-hover" filters="true" lazy_logo="true"]
 </code></pre>
 
 <h3>Extended Table Block</h3>
 
-<p><img src="/assets/images/akurai/akurai-blocks-table-extended.png" alt="akurai-blocks-table-extended" /></p>
+<p><img src="/assets/images/akurai/akurai-blocks-table-extended.jpg" alt="akurai-blocks-table-extended" /></p>
 
 <p>To add a new extended table simply click on the <strong>+</strong> (Add block) sign and select <strong>Extended Reviews Table</strong> in <strong>Akurai Blocks</strong> section.</p>
 
-<p>In the content editor a new table edit section will appear. Click <strong>Add Review</strong> to add as many reviews as you want and below reviews select how to display the <strong>terms and conditions</strong>.</p>
+<p>In the content editor a new table edit section will appear. There are 2 options to add reviews to the grid, manually or automatic, it's the same as for <a href="#reviews-table-block">general tables</a>.</p>
 
-<p><code>💁 since version 2.3.0</code> You can add <strong>filters</strong> to extended tables, choose whether to display table filters or not below terms and conditions field. Learn how to modify filters <a href="/docs/akurai/how-to#how-to-modify-reviews-filters">here</a>.</p>
+<p>Below reviews select how to display the <strong>terms and conditions</strong>.</p>
 
-<p><img src="/assets/images/akurai/akurai-blocks-editor-table-extended.png" alt="akurai-blocks-editor-table-extended" /></p>
+<p><code>💁 since version 2.3.0</code> You can add <strong>filters</strong> to tables, learn how to modify filters <a href="/docs/akurai/how-to#how-to-modify-reviews-filters">here</a>.</p>
 
-<p><code>💁 since version 2.4.0</code> you can choose reviews manually or filter them by category and/or by tag. You can select a review category and all reviews in that category will be displayed. You can also set a limit, for example, display just 8 reviews in "Sports" category.</p>
-
-<p><img src="/assets/images/akurai/akurai-blocks-editor-table-tax.png" alt="akurai-blocks-editor-table-extended" /></p>
+<p><code>💁 since version 3.0.0</code> You can enable <strong>lazy loading</strong> for logo images on tables.</p>
 
 <h3>Extended Table Shortcode</h3>
 
-<pre><code class="language-html">[table_extended source="manual" reviews="comma separated list of review page ids" terms="none|short|long|ajax|ajax-hover" filters="true|false"]
+<pre><code class="language-html">[table_extended source="manual" reviews="comma separated list of review page ids" terms="none|short|long|ajax|ajax-hover" filters="true" lazy_logo="true"]
 </code></pre>
 
-<pre><code class="language-html">[table_extended source="tax" cat="ID" tag="ID" ppp="-1" terms="none|short|long|ajax|ajax-hover" filters="true|false"]
+<pre><code class="language-html">[table_extended source="tax" cat="ID" tag="ID" ppp="-1" terms="none|short|long|ajax|ajax-hover" filters="true" lazy_logo="true"]
+</code></pre>
+
+<h3>Flex Table Block</h3>
+
+<p><code>💁 since version 3.0.0</code></p>
+
+<p><img src="/assets/images/akurai/akurai-blocks-table-flex.jpg" alt="akurai-blocks-table-flex" /></p>
+
+<p>To add a new flex table simply click on the <strong>+</strong> (Add block) sign and select <strong>Flex Reviews Table</strong> in <strong>Akurai Blocks</strong> section.</p>
+
+<p>In the content editor a new table edit section will appear. There are 2 options to add reviews to the grid, manually or automatic, it's the same as for <a href="#reviews-table-block">general tables</a>.</p>
+
+<p>Below reviews select how to display the <strong>terms and conditions</strong>, add <strong>filters</strong> to tables, learn how to modify filters <a href="/docs/akurai/how-to#how-to-modify-reviews-filters">here</a>. You can also enable <strong>lazy loading</strong> for logo images on tables.</p>
+
+<h3>Flex Table Shortcode</h3>
+
+<pre><code class="language-html">[table_flex source="manual" reviews="comma separated list of review page ids" terms="none|short|long|ajax|ajax-hover" filters="true" lazy_logo="true"]
+</code></pre>
+
+<pre><code class="language-html">[table_flex source="tax" cat="ID" tag="ID" ppp="-1" terms="none|short|long|ajax|ajax-hover" filters="true" lazy_logo="true"]
 </code></pre>
 
 <h3>Reviews Grid Block</h3>
 
-<p><img src="/assets/images/akurai/akurai-blocks-grid.png" alt="akurai-blocks-grid" /></p>
+<p><img src="/assets/images/akurai/akurai-blocks-grid.jpg" alt="akurai-blocks-grid" /></p>
 
 <p>To add a new gird simply click on the <strong>+</strong> (Add block) sign and select <strong>Reviews Grid</strong> in <strong>Akurai Blocks</strong> section.</p>
 
-<p>In the content editor a new gird edit section will appear. Click <strong>Add Review</strong> to add as many reviews as you want and below reviews select how to display the terms and conditions.</p>
+<p>In the content editor a new grid edit section will appear. There are 2 options to add reviews to the grid, manually or automatic, it's the same as for [tables].(#reviews-table-block)</p>
 
-<p><code>💁 since version 2.3.0</code> You can add <strong>filters</strong> to grids, choose whether to display filters or not below terms and conditions field. Learn how to modify filters <a href="/docs/akurai/how-to#how-to-modify-reviews-filters">here</a>.</p>
+<p>Below reviews select how to display the <strong>terms and conditions</strong>.</p>
 
-<p><img src="/assets/images/akurai/akurai-blocks-editor-grid.png" alt="akurai-blocks-editor-grid" /></p>
+<p><code>💁 since version 2.3.0</code> You can add <strong>filters</strong> to grids, learn how to modify filters <a href="/docs/akurai/how-to#how-to-modify-reviews-filters">here</a>.</p>
 
-<p><code>💁 since version 2.4.0</code> you can choose reviews manually or filter them by category and/or by tag. You can select a review category and all reviews in that category will be displayed. You can also set a limit, for example, display just 8 reviews in "Sports" category.</p>
-
-<p><img src="/assets/images/akurai/akurai-blocks-editor-table-tax.png" alt="akurai-blocks-editor-table" /></p>
+<p><code>💁 since version 3.0.0</code> You can enable <strong>lazy loading</strong> for logo images on grids.</p>
 
 <h3>Reviews Grid Shortcode</h3>
 
-<pre><code class="language-html">[grid source="manual" reviews="comma separated list of review page ids" terms="none|short|long|ajax|ajax-hover" filters="true|false"]
+<pre><code class="language-html">[grid source="manual" reviews="comma separated list of review page ids" terms="none|short|long|ajax|ajax-hover" filters="true" lazy_logo="true"]
 </code></pre>
 
-<pre><code class="language-html">[grid source="tax" cat="ID" tag="ID" ppp="-1" terms="none|short|long|ajax|ajax-hover" filters="true|false"]
+<pre><code class="language-html">[grid source="tax" cat="ID" tag="ID" ppp="-1" terms="none|short|long|ajax|ajax-hover" filters="true" lazy_logo="true"]
 </code></pre>
 
 <h3>Reviews List Block</h3>
 
-<p><img src="/assets/images/akurai/akurai-blocks-list.png" alt="akurai-blocks-list" /></p>
+<p><img src="/assets/images/akurai/akurai-blocks-list.jpg" alt="akurai-blocks-list" /></p>
 
 <p>To add a new list simply click on the <strong>+</strong> (Add block) sign and select <strong>Reviews List</strong> in <strong>Akurai Blocks</strong> section.</p>
 
 <p>In the content editor a new list edit section will appear. Click <strong>Add Review</strong> to add the 4 reviews.</p>
 
-<p><img src="/assets/images/akurai/akurai-blocks-editor-list.png" alt="akurai-blocks-editor-list" /></p>
+<p><img src="/assets/images/akurai/akurai-blocks-list-editor.jpg" alt="akurai-blocks-list-editor" /></p>
 
 <h3>Reviews List Shortcode</h3>
 
@@ -1337,34 +1360,54 @@
 
 <h3>Review Offer Block</h3>
 
-<p><img src="/assets/images/akurai/akurai-blocks-offer.png" alt="akurai-blocks-offer" /></p>
+<p><img src="/assets/images/akurai/akurai-blocks-offer.jpg" alt="akurai-blocks-offer" /></p>
 
 <p>To add a new offer simply click on the <strong>+</strong> (Add block) sign and select <strong>Review Offer</strong> in <strong>Akurai Blocks</strong> section.</p>
 
 <p>In the content editor a new offer edit section will appear. Select a review and fill in the fields.</p>
 
-<p><img src="/assets/images/akurai/akurai-blocks-editor-offer.png" alt="akurai-blocks-editor-offer" /></p>
+<p><img src="/assets/images/akurai/akurai-blocks-offer-editor.jpg" alt="akurai-blocks-offer-editor" /></p>
 
 <h3>Review Offer Shortcode</h3>
 
 <pre><code class="language-html">[review_block review="review page id" terms="none|short|long" heading="..." subheading="..." button_url="..." button_text="..."] ... content here ... [/review_block]
 </code></pre>
 
+<h3>Review Finder Block</h3>
+
+<p><code>💁 since version 3.0.0</code></p>
+
+<p><img src="/assets/images/akurai/akurai-blocks-review-finder.jpg" alt="akurai-blocks-review-finder" /></p>
+
+<p>To add a new review finder simply click on the <strong>+</strong> (Add block) sign and select <strong>Review Finder</strong> in <strong>Akurai Blocks</strong> section.</p>
+
+<p>In the content editor a new review finder edit section will appear. You can leave the default values or adjust the strings used on the block front-end.</p>
+
+<p><img src="/assets/images/akurai/akurai-blocks-review-finder-editor.jpg" alt="akurai-blocks-review-finder-editor" /></p>
+
+<h3>Review Finder Shortcode</h3>
+
+<pre><code class="language-html">[review_finder]
+</code></pre>
+
+<p>You can use the default shortcode as above, or set your own options:</p>
+
+<pre><code class="language-html">[review_finder heading="..." placeholder="..." aff_link_text="..." review_link_text="..." bonus_code_label="..." not_found_label="..."]
+</code></pre>
+
 <h3>Recent Posts Block</h3>
 
-<p><img src="/assets/images/akurai/akurai-blocks-posts.png" alt="akurai-blocks-posts" /></p>
-
-<p>Check out <a href="https://dinomatic.com/demos/akurai">Akurai Demos</a> for more styles.</p>
+<p><img src="/assets/images/akurai/akurai-blocks-posts.jpg" alt="akurai-blocks-posts" /></p>
 
 <p>To add a new posts block simply click on the <strong>+</strong> (Add block) sign and select <strong>Recent Posts</strong> in <strong>Akurai Blocks</strong> section.</p>
 
 <p>In the content editor a new recent posts edit section will appear. Select the number of posts to display and the post excerpt length. Or you can leave them blank for default values: 6 posts and 40 words.</p>
 
+<p><img src="/assets/images/akurai/akurai-blocks-posts-editor.jpg" alt="akurai-blocks-posts-editor" /></p>
+
 <p>You can also select a category to filter the posts or leave it blank to display posts from all categories.</p>
 
-<p><code>💁 since version 2.0</code> You can also choose a block style and specify whether to lazy load post thumbnails or not.</p>
-
-<p><img src="/assets/images/akurai/akurai-blocks-editor-posts.png" alt="akurai-blocks-editor-posts" /></p>
+<p><code>💁 since version 2.0</code> You can also choose a block style - default or no excerpt.</p>
 
 <h3>Recent Posts Shortcode</h3>
 
@@ -1373,59 +1416,13 @@
 
 💁 since version 2.0
 [posts count="3" style="no_excerpt"]
-[posts lazy="false"]
 </code></pre>
-
-<h3>FAQs Block</h3>
-
-<p><img src="/assets/images/akurai/akurai-blocks-faqs.png" alt="akurai-blocks-faqs" /></p>
-
-<p>To add a new FAQs block simply click on the <strong>+</strong> (Add block) sign and select <strong>FAQs</strong> in <strong>Akurai Blocks</strong> section.</p>
-
-<p>In the content editor a new FAQs edit section will appear. For each one add the question and the answer and clack <code>Add New</code> to add a new FAQ item.</p>
-
-<p><code>💁 since version 2.0</code> By default schema.org markup for FAQ rich snippets will be included in all your FAQ blocks, however you can disable them if you need to.</p>
-
-<blockquote>
-  <p>Note that you can include only one markup on a page. If you have multiple FAQ blocks on a single, please enable this for one of them only.</p>
-</blockquote>
-
-<p><img src="/assets/images/akurai/akurai-blocks-editor-faqs.png" alt="akurai-blocks-editor-faqs" />
-<img src="/assets/images/akurai/akurai-blocks-editor-faqs-schema-org-markup.png" alt="akurai-blocks-editor-faqs-schema-org-markup" /></p>
-
-<h3>Slider Block</h3>
-
-<p><img src="/assets/images/akurai/akurai-blocks-slider.png" alt="akurai-blocks-slider" /></p>
-
-<p>To add a new slider simply click on the <strong>+</strong> (Add block) sign and select <strong>Slider</strong> in <strong>Akurai Blocks</strong> section.</p>
-
-<p>In the content editor a new slider edit section will appear.</p>
-
-<p><img src="/assets/images/akurai/akurai-blocks-editor-slider-styles.png" alt="akurai-blocks-editor-slider" /></p>
-
-<p>The first part is for defining the slider styles such as content font color, background colors, button colors, etc.</p>
-
-<p><img src="/assets/images/akurai/akurai-blocks-editor-slider-slides.png" alt="akurai-blocks-editor-slider" /></p>
-
-<p>The second part is where you define the slides and their contents. For each slide you can add a heading, small content, a button and background image or pattern.</p>
-
-<h3>Lazy Image Block</h3>
-
-<p><code>💁 since version 2.0</code></p>
-
-<p>To add a new lazy image simply click on the <strong>+</strong> (Add block) sign and select <strong>Lazy Image</strong> in <strong>Akurai Blocks</strong> section.</p>
-
-<p><img src="/assets/images/akurai/akurai-blocks-editor-lazy-image.png" alt="akurai-blocks-lazy-image" /></p>
-
-<p>Select or upload an image, set the alt text and you're ready.
-You can specify any CSS class names you want to add to the <code>img</code> tag
-Also select the shape of the image, whether it's wide, tall or square. This helps reserve space similar to the image and not cause document "rearrangement".</p>
 
 <h3>Links Group Block</h3>
 
 <p><code>💁 since version 2.0.1</code></p>
 
-<p><img src="/assets/images/akurai/akurai-blocks-links-group.png" alt="akurai-blocks-lazy-image" /></p>
+<p><img src="/assets/images/akurai/akurai-blocks-links-group.jpg" alt="akurai-blocks-links-group" /></p>
 
 <p>To add a new links group simply click on the <strong>+</strong> (Add block) sign and select <strong>Links Group</strong> in <strong>Akurai Blocks</strong> section.</p>
 
@@ -1434,24 +1431,56 @@ At the bottom, adjust the column count (2, 3, 4), whether the blog is contained 
 
 <p>You can use this for posts, pages, reviews or as a mix of all, as you find it useful.</p>
 
-<p><img src="/assets/images/akurai/akurai-blocks-editor-links-group.png" alt="akurai-blocks-lazy-image" /></p>
+<p><img src="/assets/images/akurai/akurai-blocks-links-group-editor.jpg" alt="akurai-blocks-links-group-editor" /></p>
 
 <p>At the right side panel you can click on Switch to Preview to preview the slider block in your editor.</p>
 
+<h3>FAQs Block</h3>
+
+<p><img src="/assets/images/akurai/akurai-blocks-faq.jpg" alt="akurai-blocks-faqs" /></p>
+
+<p>To add a new FAQs block simply click on the <strong>+</strong> (Add block) sign and select <strong>FAQs</strong> in <strong>Akurai Blocks</strong> section.</p>
+
+<p>In the content editor a new FAQs edit section will appear. For each one add the question and the answer and clack <code>Add New</code> to add a new FAQ item.</p>
+
+<p><img src="/assets/images/akurai/akurai-blocks-faq-editor.jpg" alt="akurai-blocks-faq-editor" /></p>
+
+<p><code>💁 since version 2.0</code> By default schema.org markup for FAQ rich snippets will be included in all your FAQ blocks, however you can disable them if you need to.</p>
+
 <blockquote>
-  <p>Note that the preview may differ a little from the actual block as some WordPress and other plugin styles may be affecting it.</p>
+  <p>Note that you can include only one markup on a page. If you have multiple FAQ blocks on a single, please enable this for one of them only.</p>
 </blockquote>
+
+<h3>Slider Block</h3>
+
+<p><img src="/assets/images/akurai/akurai-blocks-slider.jpg" alt="akurai-blocks-slider" /></p>
+
+<p>To add a new slider simply click on the <strong>+</strong> (Add block) sign and select <strong>Slider</strong> in <strong>Akurai Blocks</strong> section.</p>
+
+<p>In the content editor a new slider edit section will appear. The first part is for defining the slider styles such as content font color, background colors, button colors, etc. The second part is where you define the slides and their contents. For each slide you can add a heading, small content, a button and background image or pattern.</p>
+
+<h3>Lazy Image Block</h3>
+
+<p><code>💁 since version 2.0</code></p>
+
+<p>To add a new lazy image simply click on the <strong>+</strong> (Add block) sign and select <strong>Lazy Image</strong> in <strong>Akurai Blocks</strong> section.</p>
+
+<p><img src="/assets/images/akurai/akurai-blocks-lazy-image-editor.jpg" alt="akurai-blocks-lazy-image-editor" /></p>
+
+<p>Select or upload an image, set the alt text and you're ready.
+You can specify any CSS class names you want to add to the <code>img</code> tag
+Also select the shape of the image, whether it's wide, tall or square. This helps reserve space similar to the image and not cause document "rearrangement".</p>
 
 <hr />
 
 <h3>Next Step</h3>
 
-<p><a href="/docs/akurai/page-templates/">Page Templates</a></p>
+<p><a href="/docs/akurai/widget-areas/">Widget Areas</a></p>
     </article>
 
     <nav id="js-page-menu" class="page-menu">
         <h4>
-            AKURAI v2.4.0
+            AKURAI v3.0.0
         </h4>
 
         <div id="page-menu-wrapper"></div>
