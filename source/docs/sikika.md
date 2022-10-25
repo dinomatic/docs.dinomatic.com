@@ -19,20 +19,18 @@ It's easy to get started with Sikika. Follow the documentations to install the t
 
 Before getting started make sure you have all the requirements met.
 
-To use the theme, you must be running **WordPress 4.8** or higher and **PHP 5.6** or higher.
-Recommended versions are **WordPress 5.5** and **PHP 7**.
+To use the theme, you must be running `WordPress 5.0` or higher and `PHP 7.4` or higher.
+Recommended `WordPress 6.0`.
 
 Also make sure your host has the minimum requirements to run WordPress and PHP `max_upload_size` is more than 2MB.
 
-### Sikika Demos
+### Demo
 
 You can check out theme demos to get ideas how to build your own website.
-Here are 4 demos for you:
+Here are 2 demos for you:
 
-1. [Demo #1](https://dinomatic.com/demos/sikika/one)
-2. [Demo #2](https://dinomatic.com/demos/sikika/two)
-3. [Demo #3](https://dinomatic.com/demos/sikika/three)
-4. [Demo #4](https://dinomatic.com/demos/sikika/four)
+1. [Demo #1](https://demos.dinomatic.com/manila)
+2. [Demo #2](https://demos.dinomatic.com/havana)
 
 ### Changelog
 

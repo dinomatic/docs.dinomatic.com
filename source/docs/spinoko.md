@@ -19,15 +19,13 @@ It's easy to get started with Spinoko. Follow the documentations to install the 
 
 Before getting started make sure you have all the requirements met.
 
-To use the theme, you must be running **WordPress 5.0** or higher and **PHP 7.4**. Recommended **WordPress 5.9**.
+To use the theme, you must be running `WordPress 5.0` or higher and `PHP 7.4` or higher. Recommended `WordPress 6.0`.
 
 Also make sure your host has the minimum requirements to run WordPress and PHP `max_upload_size` is more than 2MB.
 
-### Spinoko Demos
+### Demo
 
-You can check out theme demos to get ideas how to build your own website.
-
-Here's the demo for you: [Spinoko Demo](https://dinomatic.com/demos/spinoko/one)
+You can check out theme demos to get ideas how to build your own website - [Spinoko Demo](https://demos.dinomatic.com/ottawa)
 
 ### Changelog
 

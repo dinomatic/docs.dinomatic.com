@@ -25,7 +25,7 @@ There are 7 review blocks available for you to use in review pages:
 - Bonus List
 - Countries
 
-![akurai-review-blocks](/assets/images/akurai/review-blocks.png)
+![akurai-review-blocks](/assets/images/akurai/review-blocks.jpg)
 
 5 blocks, except Bonus List and Countries, require no configuration, all you need is to just add them to the content by clicking on the block name. The information is populated from [Review Fields](/docs/akurai/creating-review-pages/) that you need to have filled in beforehand.
 
@@ -49,22 +49,10 @@ The same blocks are also available via shortcodes, and you can also use them in 
 ```
 ### Screenshots
 
-#### In Content Area
-
-![akurai-review-blocks-content](/assets/images/akurai/akurai-review-blocks-content.png)
-
-#### In Review Page Sidebar
-
-Here's what the blocks look like in review page sidebars.
-
-> Please note that you can use these shortcodes in `Review Page Sidebar` only.
-
-> Since **WordPress 5.8**, you can use the same blocks in Widgets without the need of using shortcodes.
-
-![akurai-review-blocks-sidebar](/assets/images/akurai/akurai-review-blocks-sidebar.png)
+![akurai-review-blocks-content](/assets/images/akurai/akurai-review-blocks-content.jpg)
 
 ---
 
 ### Next Step
 
-[Blocks & Shortcodes](/docs/akurai/blocks-shortcodes/)
+[Page Templates](/docs/akurai/page-templates/)

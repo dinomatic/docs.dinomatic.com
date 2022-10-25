@@ -22,7 +22,7 @@ You can get your product key from your [DinoMatic account](https://dinomatic.com
 3. Click `Submit`
 4. A message confirming the theme registration will appear
 
-![Theme Registration](/assets/images/akurai/akurai-registration.png)
+![Theme Registration](/assets/images/akurai/akurai-registration.jpg)
 
 ---
 

@@ -50,7 +50,7 @@ Spinoko has no sidebars, the only widget area is in footer - Footer Widgets. You
 
 ### Homepage Settings
 
- You can choose what’s displayed on the homepage of your site. It can be posts/blog page, or a static page. To set a static homepage, you first need to create two Pages. One will become the homepage, and the other will be where your posts are displayed.
+ You can choose what's displayed on the homepage of your site. It can be posts/blog page, or a static page. To set a static homepage, you first need to create two Pages. One will become the homepage, and the other will be where your posts are displayed.
 
 ### Additional CSS
 

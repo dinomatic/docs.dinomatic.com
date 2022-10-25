@@ -7,7 +7,7 @@ section: content
 
 # Kemoku Plugin Blocks
 
-There are multiple blocks and shortcodes available for you to present your website information. It is recommended to use native blocks instead of shortcodes, however if for some reason you’re still using a version of WordPress lower than 5.0, you can use shortcodes as well.
+There are multiple blocks and shortcodes available for you to present your website information. It is recommended to use native blocks instead of shortcodes, however if for some reason you're still using a version of WordPress lower than 5.0, you can use shortcodes as well.
 
 There are 2 groups of blocks:
 

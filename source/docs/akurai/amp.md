@@ -13,11 +13,7 @@ Akurai comes with built-in AMP support.
 
 ---
 
-Akurai supports AMP functionality out of the box. All you have to do is just install the **official AMP plugin for WordPress** and activate it.
-
-Here's the AMP Plugin settings page:
-
-![akurai-amp-support](/assets/images/akurai/akurai-amp.png)
+Akurai supports AMP functionality out of the box. All you have to do is just install the **official AMP plugin for WordPress**, activate it and follow the wizard to set it up. It's quite straight-forward.
 
 You can get the plugin from WordPress Plugins Directory: [AMP By AMP Project Contributors](https://wordpress.org/plugins/amp/) or add it through your WordPress dashboard Plugins page.
 

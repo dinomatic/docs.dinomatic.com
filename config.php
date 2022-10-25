@@ -8,12 +8,16 @@ return [
     'siteName' => 'DinoMatic Docs',
     'siteDescription' => 'WordPress Themes and Plugins',
 
+    'php_version' => '7.4',
+    'wp_min_version' => '5.0',
+    'wp_rec_version' => '6.0',
+
     // navigation menu
     'navigation' => require_once('navigation.php'),
 
     // versions
     'versions' => [
-        'akurai' => '2.4.0',
+        'akurai' => '3.0.0',
         'spinoko' => '2.3.2',
         'sikika' => '1.0.2',
         'kemoku' => '1.5.6',

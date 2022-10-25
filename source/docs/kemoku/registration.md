@@ -33,7 +33,7 @@ After activating the plugin you'll be prompted with a notice to add your product
 On the same plugin setup page you can set up your reviews pages slug.
 Enter the the slug you need and click save to set it.
 
-At this point you’re all set up to start using the plugin.
+At this point you're all set up to start using the plugin.
 
 ---
 
