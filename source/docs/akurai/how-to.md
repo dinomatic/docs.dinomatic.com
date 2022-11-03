@@ -109,3 +109,40 @@ add_filter(
 ```
 
 ---
+
+### How To Change Footer Gambling Logos
+
+To do that, first we need to create the following directory structure in the child theme and upload all the logo images to that directory:
+
+```php
+/assets/images/gambling-logos/
+```
+
+It helps if you resize the images beforehand so that they all have the same height.
+
+Next we need to use a filter to update the logo files. Add this to your child theme's `functions.php` file and replace the values with actual image names, dimensions, alt texts and URLs (optional). Those should be the images you uploaded at the previous step. The example uses just 2 images, but you can add as many images as you want.
+
+```php
+function change_akurai_gambling_logos( $logos ) {
+
+  return array(
+    array(
+      'image'  => 'logo-1.png',
+      'alt'    => 'Logo #1 alt text',
+      'url'    => 'https://some-url-here.org/',
+      'width'  => 64,
+      'height' => 36,
+    ),
+    array(
+      'image'  => 'logo-1.png',
+      'alt'    => 'Logo #2 alt text',
+      'width'  => 124,
+      'height' => 36,
+    ),
+    // copy/paste and modify the previous array as many times as you need
+  );
+}
+add_filter( 'akurai_gambling_logos', 'change_akurai_gambling_logos' );
+```
+
+---
