@@ -9,7 +9,7 @@ section: content
 
 There are multiple blocks available for you to present your website information.
 
-![Spinoko Blocks](/assets/images/spinoko/spinoko-blocks.png)
+![Spinoko Blocks](/assets/images/spinoko/spinoko-blocks.jpg)
 
 ---
 
@@ -22,6 +22,7 @@ Here are the blocks available in Spinoko theme:
 - Featured Casino
 - Games Grid
 - Recent Posts
+- Page Links
 - FAQs
 
 There are other blocks that are available in casino pages only: [Casino Page Blocks](/docs/spinoko/casino-page-blocks/)
@@ -117,6 +118,20 @@ You can also select a category to filter the posts or leave it blank to display 
 The last option is the block style, there are currently 3 styles available.
 
 ![spinoko-blocks-recent-posts-admin](/assets/images/spinoko/spinoko-blocks-posts-admin.png)
+
+At the right side panel you can click on **Switch to Preview** to preview the posts block in your editor.
+
+> Note that the preview may differ a little from the actual block as some WordPress and other plugin styles may be affecting it.
+
+### Page Links Block
+
+![spinoko-blocks-page-links](/assets/images/spinoko/spinoko-blocks-page-links-frontend.jpg)
+
+To add a new posts block simply click on the **+** (Add block) sign and select **Page Links** in **Spinoko Blocks** section.
+
+In the content editor a new page links edit section will appear. Add as many pages as you want, and you're done.
+
+![spinoko-blocks-page-links-admin](/assets/images/spinoko/spinoko-blocks-page-links-admin.jpg)
 
 At the right side panel you can click on **Switch to Preview** to preview the posts block in your editor.
 
