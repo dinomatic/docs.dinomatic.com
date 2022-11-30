@@ -36,13 +36,15 @@ You can select a review category and all reviews in that category will be displa
 
 Besides categories, you can filter reviews by review tags as well. In difference to categories, you can select multiple tags. For example, display 12 reviews tagged "USA" and "Canada". You can combine those 2 together, for example display 10 reviews in "Sports" category tagged "USA" and "Canada".
 
+`💁 since version 1.5.7` you can overwrite bonus and affiliate link values on each table/grid block.
+
 #### Table
 
 Preview:
-![Kemoku Table Block](/assets/images/kemoku/kemoku-reviews-table-block-frontend.png)
+![Kemoku Table Block](/assets/images/kemoku/kemoku-reviews-table-block-frontend.jpg)
 
 Dashboard:
-![Kemoku Table Block](/assets/images/kemoku/kemoku-reviews-table-block-backend.png)
+![Kemoku Table Block](/assets/images/kemoku/kemoku-reviews-table-block-backend.jpg)
 
 #### Grid
 
@@ -50,7 +52,7 @@ Preview:
 ![Kemoku Grid Block](/assets/images/kemoku/kemoku-reviews-grid-block-frontend.png)
 
 Dashboard:
-![Kemoku Grid Block](/assets/images/kemoku/kemoku-reviews-grid-block-backend.png)
+![Kemoku Grid Block](/assets/images/kemoku/kemoku-reviews-grid-block-backend.jpg)
 
 ### Review CTA
 
