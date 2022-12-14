@@ -17,6 +17,7 @@ return [
             'Breadcrumbs' => 'docs/akurai/breadcrumbs',
             'Theme Customizations' => 'docs/akurai/customizations',
             'AMP Support' => 'docs/akurai/amp',
+            'Demo Import' => 'docs/akurai/demo-import',
             'Theme Updates' => 'docs/akurai/updates',
             'Child Theme' => 'docs/akurai/child-theme',
             'How To ...' => 'docs/akurai/how-to',

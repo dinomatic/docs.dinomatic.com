@@ -23,4 +23,4 @@ To check the AMP functionality of the theme, simply append `?amp` at the page UR
 
 ### Next Step
 
-[Theme Updates](/docs/akurai/updates/)
+[Demo Import](/docs/akurai/demo-import/)
