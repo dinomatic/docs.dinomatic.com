@@ -47,7 +47,7 @@ If you're using year in your copyright text, you can replace it with `_current_y
 
 ### Font Options
 
-Website font family. You can choose a system default font or one from Google CDN.
+Website font family. You can choose a system default font or one from [Google Fonts](https://fonts.google.com) or [Bunny Fonts](https://fonts.bunny.net).
 
 ### Section Options
 
