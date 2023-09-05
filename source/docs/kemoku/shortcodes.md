@@ -53,7 +53,7 @@ Here are the shortcodes available in Kemoku plugin you can use on review pages:
 [sb_pros_cons]
 [sb_payment_methods]
 [sb_countries]
-[sb_services heading="HEADING|none" bonus="" button_text=""]
+[sb_services heading="" bonus="" button_text=""]
 ```
 
 Except for **Review Services**, there's noting to configure in the shortcodes, simply add the shortcodes where you want to display them, and they are ready.

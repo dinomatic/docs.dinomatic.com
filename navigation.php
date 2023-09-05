@@ -70,6 +70,7 @@ return [
             'Shortcodes' => 'docs/kemoku/shortcodes',
             'Widgets' => 'docs/kemoku/widgets',
             'Settings' => 'docs/kemoku/settings',
+            'Listing Tools' => 'docs/kemoku/listing-tools',
             'Plugin Updates' => 'docs/kemoku/plugin-updates',
         ],
     ],

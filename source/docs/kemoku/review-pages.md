@@ -17,57 +17,57 @@ Besides adding your review title and content as usual, you'll find **Review Fiel
 
 ### General Fields
 
-Define main review information such as the name, logo, affiliate URL, terms and conditions.
+Define main review information such as the name, logo, affiliate URL, rating.
 
-![General Review Fields](/assets/images/kemoku/kemoku-review-general.png)
+![General Review Fields](/assets/images/kemoku/kemoku-review-general.jpg)
 
 ### Bonus & Rating Fields
 
-Define bonus, bonus code (if any) and the overall rating.
+Define bonus, bonus code (if any) and terms.
 
-![Review Fields Bonus](/assets/images/kemoku/kemoku-review-bonus.png)
+![Review Fields Bonus](/assets/images/kemoku/kemoku-review-bonus.jpg)
 
 ### Payment Methods
 
-Define **Payment Methods** for the reviewed item and display it in your content through **Review Payments** block and shortcode.
+Define _Payment Methods_ for the reviewed item and display it in your content through `Review Payments` block.
 
-![Review Fields Payments](/assets/images/kemoku/kemoku-review-payments.png)
+![Review Fields Payments](/assets/images/kemoku/kemoku-review-payments.jpg)
 
 ### Details
 
-Define some details such as **Countries, Services, Licenses** for the reviewed item and display it in your content through **Review Countries**, **Review Services** block and shortcode.
+Define some details such as _Countries, Services, Licenses, Features_ for the reviewed item and display it in your content through `Review Countries`, `Review Services` blocks.
 
-![Review Fields Payments](/assets/images/kemoku/kemoku-review-details.png)
+![Review Fields Payments](/assets/images/kemoku/kemoku-review-details.jpg)
 
 ### Hero Section
 
-Define whether the **Hero** section at the top of the review page is enabled or not.
+Define whether the _Hero_ section at the top of the review page is enabled or not.
 
-![Review Fields Hero](/assets/images/kemoku/kemoku-review-hero.png)
+![Review Fields Hero](/assets/images/kemoku/kemoku-review-hero-section.jpg)
 
 ### CTA Section
 
-Define whether the **CTA** section at the bottom of the review page is enabled or not, as well as fill in the CTA details.
+Define whether the _CTA_ section at the bottom of the review page is enabled or not, as well as fill in the CTA details.
 
-![Review Fields CTA](/assets/images/kemoku/kemoku-review-cta.png)
+![Review Fields CTA](/assets/images/kemoku/kemoku-review-cta-section.jpg)
 
 ### Pros & Cons
 
-Define **Pros & Cons** of the reviewed item and display it in your content through **Review Pros & Cons** block and shortcode.
+Define _Pros & Cons_ of the reviewed item and display it in your content through `Review Pros & Cons` block.
 
-![Review Fields Pros Cons](/assets/images/kemoku/kemoku-review-pros-cons.png)
+![Review Fields Pros Cons](/assets/images/kemoku/kemoku-review-pros-cons.jpg)
 
 ### Ratings
 
-Define **Ratings** of the reviewed item and display it in your content through **Review Ratings** block and shortcode.
+Define _Ratings_ of the reviewed item and display it in your content through `Review Ratings` block.
 
-![Review Fields Ratings](/assets/images/kemoku/kemoku-review-ratings.png)
+![Review Fields Ratings](/assets/images/kemoku/kemoku-review-ratings-block.jpg)
 
 ### Info
 
-Define **Review Info** for the reviewed item and display it in your content through **Review Info** block and shortcode.
+Define _Review Info_ for the reviewed item and display it in your content through `Review Info` block.
 
-![Review Fields Info](/assets/images/kemoku/kemoku-review-info.png)
+![Review Fields Info](/assets/images/kemoku/kemoku-review-info-block.jpg)
 
 ### Schema.org markup
 

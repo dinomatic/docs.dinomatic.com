@@ -22,11 +22,10 @@ There are 2 groups of blocks:
 
 Below are the blocks available in Kemoku plugin you can use on all pages:
 
-- Reviews Table
-- Reviews Grid
+- Reviews Listings (Table and Grid)
 - Review CTA
 
-### Reviews Table & Grid
+### Reviews Listings
 
 Simply add the block, select reviews you want to display, adjust the settings and they are ready.
 
@@ -36,7 +35,9 @@ You can select a review category and all reviews in that category will be displa
 
 Besides categories, you can filter reviews by review tags as well. In difference to categories, you can select multiple tags. For example, display 12 reviews tagged "USA" and "Canada". You can combine those 2 together, for example display 10 reviews in "Sports" category tagged "USA" and "Canada".
 
-`💁 since version 1.5.7` you can overwrite bonus and affiliate link values on each table/grid block.
+`💁 since version 1.5.7` you can overwrite bonus and affiliate link values on each listing block.
+
+`💁 since version 1.5.8` you can enable filters, sorting and load more button on listing blocks.
 
 #### Table
 
@@ -79,9 +80,10 @@ Here are the blocks available in Kemoku plugin you can use in review pages:
 
 There's noting to configure in these blocks, simply add the blocks where you want to display them, and they are ready.
 
-> You can also use **Review CTA** block in review pages.
+You can also use **Review CTA** block in review pages.
 
 > **Review Services** has configuration fields, but they are optional.
+
 
 Below are screenshots of review page blocks.
 

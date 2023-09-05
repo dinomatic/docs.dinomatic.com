@@ -46,4 +46,4 @@ If you find a field name unclear, click the **info** icon for detailed informati
 
 ### Next step
 
-[Plugin Updates](/docs/kemoku/plugin-updates/)
+[Customize Listing Tools](/docs/kemoku/listing-tools/)

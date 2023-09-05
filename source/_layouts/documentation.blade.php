@@ -30,9 +30,6 @@
                 <a href="https://dinomatic.com/posts">Blog Posts</a>
             </li>
             <li>
-                <a href="https://dinomatic.com/affiliates">Become an Affiliate</a>
-            </li>
-            <li>
                 <a href="https://dinomatic.com/posts/wordpress-hosting">WordPress Hosting</a>
             </li>
             <li>
