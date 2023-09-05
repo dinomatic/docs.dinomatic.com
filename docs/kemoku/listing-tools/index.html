@@ -4,21 +4,21 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <meta name="description" content="Getting Started with Hello Cookie Plugin">
+        <meta name="description" content="Kemoku Listing Tools">
 
         <link rel="preconnect" href="https://53EFS57BTW-dsn.algolia.net" crossorigin />
 
         <meta property="og:site_name" content="DinoMatic Docs"/>
-        <meta property="og:title" content="Hello Cookie Plugin | DinoMatic Docs"/>
-        <meta property="og:description" content="Getting Started with Hello Cookie Plugin"/>
-        <meta property="og:url" content="https://docs.dinomatic.com/docs/hello-cookie"/>
+        <meta property="og:title" content="Listing Tools | DinoMatic Docs"/>
+        <meta property="og:description" content="Kemoku Listing Tools"/>
+        <meta property="og:url" content="https://docs.dinomatic.com/docs/kemoku/listing-tools"/>
         <meta property="og:image" content="https://docs.dinomatic.com/assets/img/logo.png"/>
         <meta property="og:type" content="website"/>
 
         <meta name="twitter:image:alt" content="DinoMatic Docs">
         <meta name="twitter:card" content="summary_large_image">
 
-        <title>DinoMatic Docs | Hello Cookie Plugin</title>
+        <title>DinoMatic Docs | Listing Tools</title>
 
         <link rel="home" href="https://docs.dinomatic.com">
         <link rel="icon" href="https://docs.dinomatic.com/favicon.svg">
@@ -721,7 +721,7 @@
         <a href="/docs/kemoku"
             class="
                 lvl0
-                
+                lvl0-active
                 
                 level-0
                 nav-menu__item"
@@ -849,7 +849,7 @@
             class="
                 lvl1
                 
-                
+                active
                 
                 nav-menu__item"
         >
@@ -1196,7 +1196,7 @@
             class="
                 lvl0
                 
-                active
+                
                 level-0
                 nav-menu__item"
         >
@@ -1253,41 +1253,222 @@
     </nav>
 
     <article id="content" class="content" data-docs="true" v-pre>
-        <h1>Hello Cookie Plugin</h1>
+        <h1>Customizing Listing Tools</h1>
 
-<p>Hello Cookie is a simple and lightweight cookie consent notice plugin for WordPress websites.</p>
+<p>Kemoku listings have optional filtering and sorting features. You can enable them for each listing block individually. In this document I'll demonstrate how to customize them.</p>
 
-<hr />
+<p>All text strings used in listing tools can be updated in Kemoku Settings → Blocks section.</p>
 
-<h2>Getting Started</h2>
+<p><a href="#styling">Style changes</a> can be added to a child theme's stylesheet or theme's Customizer's Additional CSS section.</p>
 
-<p>It's easy to get started with Hello Cookie. Follow the documentations to install the plugin and adjust the settings.</p>
+<p>Other changes described below can be added to a child theme.</p>
 
-<h3>Requirements</h3>
+<h2>Sorting</h2>
 
-<p>Before getting started make sure you have all the requirements met.</p>
+<p>The listings can be sorted by name, rating or date in ascending and descending order. You can change these options with simple functions.</p>
 
-<p>To use the plugin, you must be running <code>WordPress 5.0</code> and <code>PHP 7.4</code> or higher. Recommended <code>WordPress 6.0</code>.</p>
+<h3>Changing Sorting Options</h3>
 
-<h3>Demo</h3>
+<p>You can use a function like this one to modify sorting key labels, this example changes "Recently Added" to "Date".</p>
 
-<p>You can check out Sikika theme demo to get an idea how Hello Cookie plugin works.
-Here's the demo website link for you - <a href="https://demos.dinomatic.com/manila">Demo</a></p>
+<pre><code class="language-php">function update_listing_sorting_keys( array $defaults ): array {
 
-<h3>Changelog</h3>
+  $defaults['date'] = __( 'Date', 'kemoku' );
 
-<p>Find the full changelog <a href="https://dinomatic.com/plugins/hello-cookie/changelog">here</a>.</p>
+  return $defaults;
+}
+add_filter( 'kemoku_table_sorting__keys', 'update_listing_sorting_keys' );
+</code></pre>
 
-<hr />
+<h3>Disabling Sorting Options</h3>
+
+<p>This function removed "Recently Added" option:</p>
+
+<pre><code class="language-php">function update_listing_sorting_keys( array $defaults ): array {
+
+  unset( $defaults['date'] );
+
+  return $defaults;
+}
+add_filter( 'kemoku_table_sorting__keys', 'update_listing_sorting_keys' );
+</code></pre>
+
+<h2>Filters</h2>
+
+<p>By default there are 6 filter groups: Rating, Features, Services, Licenses, Countries, Payment Methods. You can disable each one of them or change the group heading. These are the default values:</p>
+
+<pre><code class="language-php">array(
+    'rating'          =&gt; __( 'Rating', 'kemoku' ),
+    'features'        =&gt; __( 'Features', 'kemoku' ),
+    'services'        =&gt; __( 'Services', 'kemoku' ),
+    'licenses'        =&gt; __( 'Licenses', 'kemoku' ),
+    'countries'       =&gt; __( 'Countries', 'kemoku' ),
+    'payment_methods' =&gt; __( 'Payment Methods', 'kemoku' ),
+);
+</code></pre>
+
+<h3>Changing Disable Filter Groups</h3>
+
+<p>To remove any group from filters, use a function like the one below. Change 'services' to any other key to remove those.</p>
+
+<pre><code class="language-php">function remove_services_from_listing_filters( array $defaults ): array {
+
+  unset( $defaults['services'] );
+
+  return $defaults;
+}
+add_filter( 'kemoku_listing_filters__keys', 'remove_services_from_listing_filters' );
+</code></pre>
+
+<h3>Changing Filter Headings</h3>
+
+<p>To change the group heading, use a function like the one below. This example is for Payment Methods, and you can adjust the values to change any other heading.</p>
+
+<pre><code class="language-php">function update_listing_filters_pm_heading( array $defaults ): array {
+
+  $defaults['payment_methods'] = 'Deposit Methods';
+
+  return $defaults;
+}
+add_filter( 'kemoku_listing_filters__keys', 'update_listing_filters_pm_heading' );
+</code></pre>
+
+<h3>Changing Rating Filters</h3>
+
+<p>By default there are 5 rating options: 6+, 7+, 8+, 9+ and 10. You can use a function like the example below to modify the rating options. This one removes "6+" option.</p>
+
+<pre><code class="language-php">function update_listing_filters_ratings( array $defaults ): array {
+
+  unset( $defaults[6] );
+
+  return $defaults;
+}
+add_filter( 'kemoku_listing_filters__values__rating', 'update_listing_filters_ratings' );
+</code></pre>
+
+<h3>Changing Feature Filters</h3>
+
+<p>By default there are 5 rating options: 'New', 'Popular', 'Fast Payouts', 'Mobile Friendly' and 'Good Reputation'. You can use a function like the example below to modify the rating options. This one removes "Good Reputation" option and renames "Mobile Friendly" to "Mobile Apps.</p>
+
+<pre><code class="language-php">function update_listing_filters_features( array $defaults ): array {
+
+  unset( $defaults['feature_5'] );
+
+  return $defaults;
+}
+add_filter( 'kemoku_listing_filters__values__rating', 'update_listing_filters_features' );
+</code></pre>
+
+<p>This function changes "Mobile Friendly" to "Mobile Apps.</p>
+
+<pre><code class="language-php">function update_listing_filters_features( array $defaults ): array {
+
+  $defaults['feature_4'] = __( 'Mobile Apps', 'kemoku' );
+
+  return $defaults;
+}
+add_filter( 'kemoku_listing_filters__values__rating', 'update_listing_filters_features' );
+</code></pre>
+
+<p>If you need multiple changes, you can add them all into a single function. For example, remove "Fast Payouts" and translate into Spanish.</p>
+
+<pre><code class="language-php">function update_listing_filters_features( array $defaults ): array {
+
+  return array(
+            'feature_1' =&gt; __( 'Nuevo', 'kemoku' ),
+            'feature_2' =&gt; __( 'Popular', 'kemoku' ),
+            'feature_4' =&gt; __( 'Apto para móviles', 'kemoku' ),
+            'feature_5' =&gt; __( 'Buena reputación', 'kemoku' ),
+  );
+}
+add_filter( 'kemoku_listing_filters__values__rating', 'update_listing_filters_features' );
+</code></pre>
+
+<h3>Changing Service Filters</h3>
+
+<p>By default there are 8 services and here are their default values:</p>
+
+<pre><code class="language-php">array(
+    'sportsbook'     =&gt; __( 'Sportsbook', 'kemoku' ),
+    'casino'         =&gt; __( 'Casino', 'kemoku' ),
+    'live_casino'    =&gt; __( 'Live Casino', 'kemoku' ),
+    'poker'          =&gt; __( 'Poker', 'kemoku' ),
+    'bingo'          =&gt; __( 'Bingo', 'kemoku' ),
+    'lottery'        =&gt; __( 'Lottery', 'kemoku' ),
+    'horse_racing'   =&gt; __( 'Horse Racing', 'kemoku' ),
+    'fantasy_sports' =&gt; __( 'Fantasy Sports', 'kemoku' ),
+);
+</code></pre>
+
+<p>You can use a function like the example below to modify the rating options. This one removes "Bingo" and "Lottery" options and renames "Fantasy Sports" to "Daily Fantasy Sports".</p>
+
+<pre><code class="language-php">function update_listing_filters_services( array $defaults ): array {
+
+  unset( $defaults['bingo'] );
+  unset( $defaults['lottery'] );
+
+  $defaults['fantasy_sports'] = __( 'Daily Fantasy Sports', 'kemoku' );
+
+  return $defaults;
+}
+add_filter( 'kemoku_listing_filters__values__services', 'update_listing_filters_services' );
+</code></pre>
+
+<h3>Changing Country, License and Payment Method Filters</h3>
+
+<p>Country, Payment Method and License values on filters are generated from the fields you fill in when editing review pages. There will be only values that you already selected. However, if for some reason you need to modify them, you can use the below filters:</p>
+
+<pre><code class="language-php">kemoku_listing_filters__values__licenses
+kemoku_listing_filters__values__countries
+kemoku_listing_filters__values__payment_methods
+</code></pre>
+
+<h3>Styling</h3>
+
+<p>Copy the values you want to change to a custom stylesheet or Additional CSS section and adjust them.</p>
+
+<pre><code class="language-css">.sb-listing-popup {
+  /* This is the semi-transparent background color outside the popup window. */
+  --listing_tools_popup_outer_color: rgba(2, 15, 44, 0.76);
+  /* This is the popup background color. */
+  --listing_tools_popup_bg_color: #fff;
+  /* This is the popup font color. */
+  --listing_tools_popup_font_color: #8d99a2;
+  /* This is the popup maximum width. */
+  --listing_tools_popup_max_width: 440px;
+  /* This is the popup maximum height. */
+  --listing_tools_popup_max_height: 90vh;
+  /* This is the popup border radius. */
+  --listing_tools_popup_border_radius: 4px;
+  /* This is the popup headings background color. */
+  --listing_tools_headings_bg_color: var(--section_bg_color);
+  /* This is the popup headings border radius. */
+  --listing_tools_headings_border_radius: var(--listing_tools_popup_border_radius);
+  /* This is the popup button font color. */
+  --listing_tools_button_font_color: #565f66;
+  /* This is the popup button background color. */
+  --listing_tools_button_bg_color: var(--section_bg_color);
+  /* This is the popup button border color. */
+  --listing_tools_button_border_color: #d5dde3;
+  /* This is the popup button border radius. */
+  --listing_tools_button_border_radius: 4px;
+  /* This is the popup selected options highlight color. */
+  --listing_tools_filter_sort_selected_color: var(--button_bg_color, green);
+  /* This is the popup footer buttons' background color. */
+  --listing_tools_footer_button_bg_color: #d5dde3;
+  /* This is the popup footer buttons' font color. */
+  --listing_tools_footer_button_font_color: inherit;
+}
+</code></pre>
 
 <h3>Next step</h3>
 
-<p><a href="/docs/hello-cookie/installation/">Plugin Installation</a></p>
+<p><a href="/docs/kemoku/plugin-updates/">Plugin Updates</a></p>
     </article>
 
     <nav id="js-page-menu" class="page-menu">
         <h4>
-            HELLO-COOKIE v1.0.2
+            KEMOKU v1.5.8
         </h4>
 
         <div id="page-menu-wrapper"></div>
