@@ -246,3 +246,9 @@ add_filter( 'spinoko_display_review_links', '__return_false', 10 )
 ```
 
 ---
+
+### How To Restore Theme's Default Colors
+
+Check out the list of default theme colors [here](/docs/spinoko/customizations#theme-default-colors).
+
+---
