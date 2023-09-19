@@ -24,8 +24,8 @@
         <link rel="icon" href="{{ $page->baseUrl }}/favicon.svg">
 
         @stack('meta')
-
-        <link href="https://fonts.googleapis.com/css?family=Rubik:400,700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.bunny.net">
+        <link href="https://fonts.bunny.net/css?family=rubik:400,700" rel="stylesheet" />
         <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
     </head>
 

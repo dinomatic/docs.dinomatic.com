@@ -146,3 +146,31 @@ add_filter( 'akurai_gambling_logos', 'change_akurai_gambling_logos' );
 ```
 
 ---
+
+### How to choose which logo to use on each listing block
+
+For each review you can upload 2 logos (main/large and small), and there are 5 listing blocks and 2 widget blocks available in Akurai.
+By default blocks use the following logos:
+
+- Review Table - Small Logos
+- Review Table Flex - Large Logos
+- Review Table Extended - Large Logos
+- Review Grid - Large Logos
+- Review List - Small Logos
+- Single Review Widget - Small Logos
+- Multiple Reviews Widget - Large Logos
+
+Depending on what kind of logos you upload, you may want to use different images on different blocks.
+You can change which logo to use on the blocks by using the below filters, copy only the ones that you want to change and add them to your child theme.
+
+```php
+add_filter( 'akurai_table_logo_size', fn() => 'large' );
+add_filter( 'akurai_table_flex_logo_size', fn() => 'small' );
+add_filter( 'akurai_table_extended_logo_size', fn() => 'small' );
+add_filter( 'akurai_grid_logo_size', fn() => 'small' );
+add_filter( 'akurai_list_logo_size', fn() => 'large' );
+add_filter( 'akurai_multiple_reviews_widget_logo_size', fn() => 'large' );
+add_filter( 'akurai_single_review_widget_logo_size', fn() => 'small' );
+```
+
+---
