@@ -4,21 +4,21 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <meta name="description" content="Akurai Theme Breadcrumbs">
+        <meta name="description" content="Spinoko Header Notifications">
 
         <link rel="preconnect" href="https://53EFS57BTW-dsn.algolia.net" crossorigin />
 
         <meta property="og:site_name" content="DinoMatic Docs"/>
-        <meta property="og:title" content="Theme Breadcrumbs | DinoMatic Docs"/>
-        <meta property="og:description" content="Akurai Theme Breadcrumbs"/>
-        <meta property="og:url" content="https://docs.dinomatic.com/docs/akurai/breadcrumbs"/>
+        <meta property="og:title" content="Header Notifications | DinoMatic Docs"/>
+        <meta property="og:description" content="Spinoko Header Notifications"/>
+        <meta property="og:url" content="https://docs.dinomatic.com/docs/spinoko/notifications"/>
         <meta property="og:image" content="https://docs.dinomatic.com/assets/img/logo.png"/>
         <meta property="og:type" content="website"/>
 
         <meta name="twitter:image:alt" content="DinoMatic Docs">
         <meta name="twitter:card" content="summary_large_image">
 
-        <title>DinoMatic Docs | Theme Breadcrumbs</title>
+        <title>DinoMatic Docs | Header Notifications</title>
 
         <link rel="home" href="https://docs.dinomatic.com">
         <link rel="icon" href="https://docs.dinomatic.com/favicon.jpg">
@@ -89,7 +89,7 @@
         <a href="/docs/akurai"
             class="
                 lvl0
-                lvl0-active
+                
                 
                 level-0
                 nav-menu__item"
@@ -245,7 +245,7 @@
             class="
                 lvl1
                 
-                active
+                
                 
                 nav-menu__item"
         >
@@ -344,7 +344,7 @@
         <a href="/docs/spinoko"
             class="
                 lvl0
-                
+                lvl0-active
                 
                 level-0
                 nav-menu__item"
@@ -556,7 +556,7 @@
             class="
                 lvl1
                 
-                
+                active
                 
                 nav-menu__item"
         >
@@ -1302,44 +1302,80 @@
     </nav>
 
     <article id="content" class="content" data-docs="true" v-pre>
-        <h1>Akurai Breadcrumbs</h1>
+        <h1>Header Notifications</h1>
 
-<p>Akurai theme comes with built-in breadcrumbs since version 1.0.9.</p>
+<p>You can display a notifications bell icon on the theme header, next to navigation menu toggle icon to display a notifications block to your users.
+The notifications block can be used for displaying a custom content block, posts feeds or any other HTML block you can code.</p>
+
+<p><img src="/assets/images/spinoko/spinoko-notifications.png" alt="spinoko-notifications" /></p>
+
+<h2>Notification Options</h2>
+
+<p>All options for displaying notifications, including enabling or disabling them, can be managed in theme customizer.</p>
+
+<p><img src="/assets/images/spinoko/spinoko-customizer-notifications.png" alt="spinoko-customizer-notifications" /></p>
+
+<h3>Displaying a custom block</h3>
+
+<p>To display a custom notifications block, choose "Custom block" for "Notification Content Type" field.
+After that you need to fill in an image URL, heading and content, as well as link URL and text fields.</p>
+
+<h3>Displaying posts feeds</h3>
+
+<p>You can display posts feeds in 2 formats, one with small and another with large thumbnails.
+To display a posts feed block, choose one of the post feed options for "Notification Content Type" field.
+You can adjust the block heading and choose a post category to filter posts.</p>
+
+<h3>Changing the bell icons</h3>
+
+<p>There are 2 bell icons used, one with and another without a red dot. The one without red dot appears only after a user clicks on the bell icon and sees the notification block.
+If you want to change the icons, get your SVG icons, add <code>bell-unread</code> and <code>bell-read</code> classes to them and use the below example by replacing the placeholder icons with your actual SVG codes.</p>
+
+<pre><code class="language-php">add_filter( 'spinoko_n10ns_icons', function () {
+  return '&lt;svg class="bell-unread"&gt;...&lt;/svg&gt;&lt;svg class="bell-read"&gt;...&lt;/svg&gt;';
+} );
+</code></pre>
+
+<h3>Display your own notification block</h3>
+
+<p>You can even provide your own custom HTML for the notifications block. Here's one example how to do it.
+Replace the file path if your custom file is somewhere else, also change the content to make it useful.</p>
+
+<ol>
+<li>create a file at <code>/spinoko-child/views/notifications/custom.php</code></li>
+</ol>
+
+<pre><code class="language-php">&lt;?php
+/**
+ * My custom notifications block.
+ */
+?&gt;
+
+&lt;div class="border border-neutral spinoko_rounded"&gt;
+  Something useful here.
+&lt;/div&gt;
+</code></pre>
+
+<ol start="2">
+<li>add this to your child theme's <code>functions.php</code></li>
+</ol>
+
+<pre><code class="language-php">function spinoko_custom_n10ns_layout() {
+    include get_stylesheet_directory() . '/views/notifications/custom.php';
+}
+add_filter( 'spinoko_n10ns_layout', fn() =&gt; 'spinoko_custom_n10ns_layout' );
+</code></pre>
 
 <hr />
 
-<h3>Enable Breadcrumbs</h3>
+<h3>Next Step</h3>
 
-<p>To add a breadcrumbs to your website you need to enable them. In your WordPress dashboard visit <strong>Appearance</strong> &#8594; <strong>Customizer</strong> &#8594; <strong>Breadcrumbs Options</strong> to enable breadcrumbs as well as adjust settings.</p>
-
-<p><img src="/assets/images/akurai/customizer/breadcrumbs-options.jpg" alt="Akurai Breadcrumbs" /></p>
-
-<h3>Breadcrumbs Options</h3>
-
-<p><strong>Reviews page Parent page</strong></p>
-
-<p>Akurai doesn't enforce users to have a parent page for review pages, however you can set one in breadcrumbs if you want.</p>
-
-<p><strong>Blog posts</strong></p>
-
-<p>By default breadcrumbs for posts pages includes categories, however you can add blog page as well. Just make sure to check the box <em>Include blog page in posts breadcrumbs</em>.</p>
-
-<h3>Schema.org markup</h3>
-
-<p>Akurai also includes structured data (schema.org) markup for <a href="https://developers.google.com/search/docs/data-types/breadcrumb">breadcrumbs</a> out of the box, so you don't need to do anything.</p>
-
-<blockquote>
-  <p><strong>Do not enable breadcrumbs option in Yoast, as you'll end up having duplicate markup.</strong></p>
-</blockquote>
-
-<h3>Next step</h3>
-
-<p><a href="/docs/akurai/customizations/">Theme Customizations</a></p>
+<p><a href="/docs/spinoko/amp/">AMP Support</a></p>
     </article>
 
     <nav id="js-page-menu" class="page-menu">
         <h4>
-            AKURAI v3.1.2
+            SPINOKO v2.4.0
         </h4>
 
         <div id="page-menu-wrapper"></div>
