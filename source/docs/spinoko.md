@@ -25,7 +25,11 @@ Also make sure your host has the minimum requirements to run WordPress and PHP `
 
 ### Demo
 
-You can check out theme demos to get ideas how to build your own website - [Spinoko Demo](https://demos.dinomatic.com/ottawa)
+You can check out theme demos to get ideas how to build your own website.
+Here are 2 demos for you:
+
+1. [Demo Ottawa](https://demos.dinomatic.com/ottawa/)
+1. [Demo Bangkok](https://demos.dinomatic.com/bangkok/)
 
 ### Changelog
 

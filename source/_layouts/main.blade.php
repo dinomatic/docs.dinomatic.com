@@ -21,7 +21,7 @@
         <title>{{ $page->siteName }}{{ $page->title ? ' | ' . $page->title : '' }}</title>
 
         <link rel="home" href="{{ $page->baseUrl }}">
-        <link rel="icon" href="{{ $page->baseUrl }}/favicon.svg">
+        <link rel="icon" href="{{ $page->baseUrl }}/favicon.jpg">
 
         @stack('meta')
         <link rel="preconnect" href="https://fonts.bunny.net">

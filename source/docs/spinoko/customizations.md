@@ -26,34 +26,9 @@ As usual, set your site title and tagline, upload a custom logo and a favicon. I
 
 Spinoko has a lot of colors, there are **21 carefully selected colors** that are used all over the theme. You can adjust them to your liking and use your own color pallettes or the one that comes by default.
 
+In case you want to restore them, here's a list of [default colors](/docs/spinoko/how-to#how-to-restore-default-theme-colors).
+
 ![Theme Customizations](/assets/images/spinoko/spinoko-customizer-colors.png)
-
-### Theme Default Colors
-
-These are the theme's default colors in case you want to restore any of them.
-Colors are in the same order that they appear in Customizer.
-
-```css
-# Font Color: #23282d
-# Primary Color: #2563eb
-# Primary Color Hover: #1e3a8a
-# Primary Color Contrast: #d5bc9a
-# Secondary Color: #b91c1c
-# Secondary Color Hover: #7f1d1d
-# Secondary Color Contrast: #3acfcf
-# Info Color: #93c5fd
-# Error Color: #fca5a5
-# Success Color: #6ee7b7
-# Light Color: #e5e7eb
-# Dark Color: #1f2937
-# Link Color: #b91c1c
-# Link Color Hover: #7f1d1d
-# Star Icons Color: #dc2626
-# Hero Font Color: #e5e7eb
-# Hero Color: #1f2937
-# Hero Top Color: #111827
-# Hero Bottom Color: #374151
-```
 
 ### Styles
 
@@ -109,6 +84,10 @@ You can adjust here different options regarding different types of pages.
 
 ![Theme Customizations](/assets/images/spinoko/spinoko-customizer-pages.png)
 
+### Header Notifications
+
+Check out more details about notifications [here](/docs/spinoko/notifications).
+
 ### Strings
 
 There are different strings such as button or review link anchor texts, headings and labels, etc. that you may want to change. You can find all of them in **Strings** section.
@@ -119,7 +98,7 @@ There are different strings such as button or review link anchor texts, headings
 
 This will be a section for (surprise 🤯) miscellaneous options. For now there's just one field here that enables/disables footer gambling logo images.
 
-![Miscellaneous Options](/assets/images/spinoko/spinoko-customizer-miscellaneous.png)
+![Miscellaneous Options](/assets/images/spinoko/spinoko-customizer-misc.jpg)
 
 ---
 

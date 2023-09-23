@@ -19,6 +19,8 @@ By default Spinoko has 2 navigation menus:
 
 However, you can [add an additional nav menu](#additional-navigation) to the site header if you want.
 
+`💁 since version 2.4.0` you don't need to install a child theme for additional navigation, just check the box for **Customizer** -> **Miscellaneous Options** -> **Display Traditional Menu** option.
+
 ### Header Navigation
 
 Header navigation is the primary navigation menu of the theme and it's a hamburger menu, by default closed on all screens regardless of the screen size.
@@ -28,6 +30,8 @@ Header navigation is the primary navigation menu of the theme and it's a hamburg
 Footer navigation is an optional navigation menu and it's right above the copyright text in the theme footer area.
 
 ### Additional Navigation
+
+`💁 since version 2.4.0` you don't need to install a child theme for additional navigation, just check the box for **Customizer** -> **Miscellaneous Options** -> **Display Traditional Menu** option.
 
 If you for some reason want to have a traditional navigation menu on site header you can do so following the steps below. This is what it looks like:
 
@@ -342,4 +346,4 @@ The code related part is over, the nav menu is added to the theme. Now go to Cus
 
 ### Next Step
 
-[AMP Support](/docs/spinoko/amp/)
+[Header Notifications](/docs/spinoko/notifications/)

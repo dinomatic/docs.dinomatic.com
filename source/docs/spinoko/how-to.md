@@ -11,6 +11,8 @@ section: content
 
 Detailed description of Spinoko nav menus and a guide on how to create one can be found [here](/docs/spinoko/navigation).
 
+`💁 since version 2.4.0` you don't need to install a child theme for additional navigation, just check the box for **Customizer** -> **Miscellaneous Options** -> **Display Traditional Menu** option.
+
 ---
 
 ### How To Remove Labels from Archive Page Titles
@@ -247,8 +249,31 @@ add_filter( 'spinoko_display_review_links', '__return_false', 10 )
 
 ---
 
-### How To Restore Theme's Default Colors
+### How To Restore Default Theme Colors
 
-Check out the list of default theme colors [here](/docs/spinoko/customizations#theme-default-colors).
+These are the theme's default colors in case you want to restore any of them.
+Colors are in the same order that they appear in Customizer.
+
+```css
+# Font Color: #23282d
+# Primary Color: #2563eb
+# Primary Color Hover: #1e3a8a
+# Primary Color Contrast: #d5bc9a
+# Secondary Color: #b91c1c
+# Secondary Color Hover: #7f1d1d
+# Secondary Color Contrast: #3acfcf
+# Info Color: #93c5fd
+# Error Color: #fca5a5
+# Success Color: #6ee7b7
+# Light Color: #e5e7eb
+# Dark Color: #1f2937
+# Link Color: #b91c1c
+# Link Color Hover: #7f1d1d
+# Star Icons Color: #dc2626
+# Hero Font Color: #e5e7eb
+# Hero Color: #1f2937
+# Hero Top Color: #111827
+# Hero Bottom Color: #374151
+```
 
 ---

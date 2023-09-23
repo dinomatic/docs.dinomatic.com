@@ -3,7 +3,7 @@
 use Illuminate\Support\Str;
 
 return [
-    'baseUrl' => 'http://localhost:3000',
+    'baseUrl' => 'https://dinomatic-docs.test/',
     'production' => false,
     'siteName' => 'DinoMatic Docs',
     'siteDescription' => 'WordPress Themes and Plugins',
@@ -18,7 +18,7 @@ return [
     // versions
     'versions' => [
         'akurai' => '3.1.2',
-        'spinoko' => '2.3.9',
+        'spinoko' => '2.4.0',
         'sikika' => '1.0.2',
         'kemoku' => '1.5.8',
         'dinodds' => '1.3.1',

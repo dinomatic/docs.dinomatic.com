@@ -41,5 +41,12 @@
             </a>
         </h4>
 
+        <h4 class="heading--secondary">
+            <a href="https://demos.dinomatic.com">
+                @include('_svg.demo')
+                All Demos
+            </a>
+        </h4>
+
     </article>
 </section>

@@ -25,4 +25,4 @@ To check the AMP functionality of the theme, simply append ?amp to the page URLs
 
 ### Next Step
 
-[Child Theme](/docs/spinoko/child-theme/)
+[Demo Import](/docs/spinoko/demo-import/)
