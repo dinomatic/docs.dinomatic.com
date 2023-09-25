@@ -96,7 +96,7 @@ There are different strings such as button or review link anchor texts, headings
 
 ### Miscellaneous Options
 
-This will be a section for (surprise 🤯) miscellaneous options. For now there's just one field here that enables/disables footer gambling logo images.
+This is a section for (surprise 🤯) miscellaneous options. Here you can enable/disable footer gambling logo images, as well as traditional header navigation.
 
 ![Miscellaneous Options](/assets/images/spinoko/spinoko-customizer-misc.jpg)
 
