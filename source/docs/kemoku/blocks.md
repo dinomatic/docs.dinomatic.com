@@ -50,7 +50,7 @@ Dashboard:
 #### Grid
 
 Preview:
-![Kemoku Grid Block](/assets/images/kemoku/kemoku-reviews-grid-block-frontend.png)
+![Kemoku Grid Block](/assets/images/kemoku/kemoku-reviews-grid-block-frontend.jpg)
 
 Dashboard:
 ![Kemoku Grid Block](/assets/images/kemoku/kemoku-reviews-grid-block-backend.jpg)
@@ -60,10 +60,10 @@ Dashboard:
 Simply add the block, fill in the heading (optional), content and button/link fields and it's ready.
 
 Preview:
-![Kemoku CTA Block](/assets/images/kemoku/kemoku-review-cta-block-frontend.png)
+![Kemoku CTA Block](/assets/images/kemoku/kemoku-review-cta-block-frontend.jpg)
 
 Dashboard:
-![Kemoku CTA Block](/assets/images/kemoku/kemoku-review-cta-block-backend.png)
+![Kemoku CTA Block](/assets/images/kemoku/kemoku-review-cta-block-backend.jpg)
 
 ### Review Page Blocks
 
@@ -76,6 +76,7 @@ Here are the blocks available in Kemoku plugin you can use in review pages:
 - Review Pros & Cons
 - Review Payments
 - Review Countries
+- Review US States
 - Review Services
 
 There's noting to configure in these blocks, simply add the blocks where you want to display them, and they are ready.
@@ -87,12 +88,27 @@ You can also use **Review CTA** block in review pages.
 
 Below are screenshots of review page blocks.
 
-![Kemoku Review Info Block](/assets/images/kemoku/kemoku-review-info-block-frontend.png)
-![Kemoku Review Ratings Block](/assets/images/kemoku/kemoku-review-ratings-block-frontend.png)
-![Kemoku Review Pros & Cons Block](/assets/images/kemoku/kemoku-review-pros-cons-block-frontend.png)
-![Kemoku Review Payment Methods Block](/assets/images/kemoku/kemoku-review-payment-methods-block-frontend.png)
-![Kemoku Review Countries Block](/assets/images/kemoku/kemoku-review-countries-block-frontend.png)
-![Kemoku Review Services Block](/assets/images/kemoku/kemoku-review-services-block-frontend.png)
+
+![Kemoku Review Info Block](/assets/images/kemoku/kemoku-review-info-block-frontend.jpg)
+Kemoku Review Info Block
+
+![Kemoku Review Ratings Block](/assets/images/kemoku/kemoku-review-ratings-block-frontend.jpg)
+Kemoku Review Ratings Block
+
+![Kemoku Review Pros & Cons Block](/assets/images/kemoku/kemoku-review-pros-cons-block-frontend.jpg)
+Kemoku Review Pros & Cons Block
+
+![Kemoku Review Payment Methods Block](/assets/images/kemoku/kemoku-review-payments-block-frontend.jpg)
+Kemoku Review Payment Methods Block
+
+![Kemoku Review Services Block](/assets/images/kemoku/kemoku-review-services-block-frontend.jpg)
+Kemoku Review Services Block
+
+![Kemoku Review Countries Block](/assets/images/kemoku/kemoku-review-countries-block-frontend.jpg)
+Kemoku Review Countries Block
+
+![Kemoku Review US States Block](/assets/images/kemoku/kemoku-review-us-states-block-frontend.jpg)
+Kemoku Review US States Block
 
 
 ### Blocks vs Shortcodes

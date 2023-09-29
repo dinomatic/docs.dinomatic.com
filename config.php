@@ -20,7 +20,7 @@ return [
         'akurai' => '3.1.2',
         'spinoko' => '2.4.0',
         'sikika' => '1.0.2',
-        'kemoku' => '1.5.8',
+        'kemoku' => '1.6.0',
         'dinodds' => '1.3.1',
         'akurai-geo' => '1.1.1',
         'nonaki' => '1.0.4',
