@@ -58,22 +58,23 @@ array(
     'services'        => __( 'Services', 'kemoku' ),
     'licenses'        => __( 'Licenses', 'kemoku' ),
     'countries'       => __( 'Countries', 'kemoku' ),
+    'us_states'       => __( 'US States', 'kemoku' ),
     'payment_methods' => __( 'Payment Methods', 'kemoku' ),
 );
 ```
 
-### Changing Disable Filter Groups
+### Disabling Filter Groups
 
-To remove any group from filters, use a function like the one below. Change 'services' to any other key to remove those.
+To remove any group from filters, use a function like the one below. Change 'us_states' to any other key to remove those.
 
 ```php
-function remove_services_from_listing_filters( array $defaults ): array {
+function remove_us_states_from_listing_filters( array $defaults ): array {
 
-  unset( $defaults['services'] );
+  unset( $defaults['us_states'] );
 
   return $defaults;
 }
-add_filter( 'kemoku_listing_filters__keys', 'remove_services_from_listing_filters' );
+add_filter( 'kemoku_listing_filters__keys', 'remove_us_states_from_listing_filters' );
 ```
 
 ### Changing Filter Headings
