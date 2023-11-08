@@ -17,6 +17,7 @@ There are 2 page templates available for displaying **Pages** in your website.
 
 1. Default Template
 2. Cover Template
+2. Full Screen Cover Template
 
 ### Default Template
 
@@ -26,14 +27,11 @@ Here's an example of a page using the default template:
 
 ### Cover Template
 
-When you choose "Page Cover" as a template in "Page Attributes" section, right below that a new section appears called "Cover Page Template Fields".
-Here you can add a subtitle and choose whether to display casinos on the page cover or not.
+When you choose "Page Cover" as a template in "Page Summary" section, a new section at the end of the sidebar appears called "Cover Page Template Fields". Here you can add a subtitle and choose whether to display casinos on the page cover or not.
 
 With this template chosen, your Featured image will be set as a background image for the cover area and the page title will be displayed on top of that.
 
 ![spinoko-page-template-cover-admin](/assets/images/spinoko/spinoko-page-cover-template.png)
-
-
 
 Here are a couple of examples of pages using the cover template:
 
@@ -50,6 +48,16 @@ Cover page templates have a couple of options:
 - Display 3 column reviews block
 
 You can use combinations of the above options to generate different page styles.
+
+### Full Screen Cover Template
+
+When you choose "Full Screen Page Cover" as a template in "Page Summary" section, a new section at the bottom of the page appears called "Full Screen Cover Page Template Fields". Here you can define your desired options for your page.
+
+![spinoko-full-screen-page-cover-template-fields](/assets/images/spinoko/spinoko-full-screen-page-cover-template-fields.png)
+
+Here's an example of a page using the full screen cover template:
+
+![spinoko-full-screen-page-cover-template](/assets/images/spinoko/spinoko-full-screen-page-cover-template.png)
 
 ---
 
