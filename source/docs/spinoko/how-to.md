@@ -232,6 +232,47 @@ You don't have to change/translate all the country names, do so for just the one
 
 ---
 
+### How To Change (Translate) Casino Game Names
+
+You can change the names of casino games provided by the theme.
+
+To do that, you need to use the following filter in your child theme's `functions.php` file:
+
+```php
+function spinoko__change_game_names( $games ) {
+
+    $games['other'] = 'More Games';
+
+    return $games;
+}
+add_filter( 'spinoko_game_names', 'spinoko__change_game_names' );
+```
+
+Using a function similar to this, you can change and translate their names. This is the list of all games provided by the theme.
+
+```php
+array(
+    array( 'name' => 'slots',        'title' => 'Slots' ),
+    array( 'name' => 'blackjack',    'title' => 'Blackjack' ),
+    array( 'name' => 'roulette',     'title' => 'Roulette' ),
+    array( 'name' => 'baccarat',     'title' => 'Baccarat' ),
+    array( 'name' => 'video-poker',  'title' => 'Video Poker' ),
+    array( 'name' => 'craps',        'title' => 'Craps & Dice' ),
+    array( 'name' => 'bingo',        'title' => 'Bingo' ),
+    array( 'name' => 'keno',         'title' => 'Keno' ),
+    array( 'name' => 'scratch',      'title' => 'Scratch Games' ),
+    array( 'name' => 'crash',        'title' => 'Crash Games' ),
+    array( 'name' => 'live',         'title' => 'Live Games' ),
+    array( 'name' => 'other',        'title' => 'Other Games' ),
+    array( 'name' => 'poker',        'title' => 'Poker' ),
+    array( 'name' => 'lottery',      'title' => 'Lottery' ),
+);
+```
+
+`Pro Tip` If you don't use any of the games on your website and you need another one that's missing, you can simply change one you don't need.
+
+---
+
 ### How To Remove Review Links
 
 By default Spinoko blocks include "Read Review" links to casino review pages.

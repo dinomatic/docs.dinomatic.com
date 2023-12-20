@@ -1520,6 +1520,45 @@ $countries['nl'] = 'Países Bajos';
 
 <hr />
 
+<h3>How To Change (Translate) Casino Game Names</h3>
+
+<p>You can change the names of casino games provided by the theme.</p>
+
+<p>To do that, you need to use the following filter in your child theme's <code>functions.php</code> file:</p>
+
+<pre><code class="language-php">function spinoko__change_game_names( $games ) {
+
+    $games['other'] = 'More Games';
+
+    return $games;
+}
+add_filter( 'spinoko_game_names', 'spinoko__change_game_names' );
+</code></pre>
+
+<p>Using a function similar to this, you can change and translate their names. This is the list of all games provided by the theme.</p>
+
+<pre><code class="language-php">array(
+    array( 'name' =&gt; 'slots',        'title' =&gt; 'Slots' ),
+    array( 'name' =&gt; 'blackjack',    'title' =&gt; 'Blackjack' ),
+    array( 'name' =&gt; 'roulette',     'title' =&gt; 'Roulette' ),
+    array( 'name' =&gt; 'baccarat',     'title' =&gt; 'Baccarat' ),
+    array( 'name' =&gt; 'video-poker',  'title' =&gt; 'Video Poker' ),
+    array( 'name' =&gt; 'craps',        'title' =&gt; 'Craps &amp; Dice' ),
+    array( 'name' =&gt; 'bingo',        'title' =&gt; 'Bingo' ),
+    array( 'name' =&gt; 'keno',         'title' =&gt; 'Keno' ),
+    array( 'name' =&gt; 'scratch',      'title' =&gt; 'Scratch Games' ),
+    array( 'name' =&gt; 'crash',        'title' =&gt; 'Crash Games' ),
+    array( 'name' =&gt; 'live',         'title' =&gt; 'Live Games' ),
+    array( 'name' =&gt; 'other',        'title' =&gt; 'Other Games' ),
+    array( 'name' =&gt; 'poker',        'title' =&gt; 'Poker' ),
+    array( 'name' =&gt; 'lottery',      'title' =&gt; 'Lottery' ),
+);
+</code></pre>
+
+<p><code>Pro Tip</code> If you don't use any of the games on your website and you need another one that's missing, you can simply change one you don't need.</p>
+
+<hr />
+
 <h3>How To Remove Review Links</h3>
 
 <p>By default Spinoko blocks include "Read Review" links to casino review pages.
@@ -1567,7 +1606,7 @@ Colors are in the same order that they appear in Customizer.</p>
 
     <nav id="js-page-menu" class="page-menu">
         <h4>
-            SPINOKO v2.4.2
+            SPINOKO v2.5.0
         </h4>
 
         <div id="page-menu-wrapper"></div>

@@ -19,8 +19,10 @@ Here are the blocks available in Spinoko theme:
 
 - Casinos Table
 - Casinos Grid
+- Casino Finder
 - Featured Casino
 - Games Grid
+- Game Finder
 - Recent Posts
 - Page Links
 - FAQs
@@ -70,6 +72,21 @@ At the right side panel you can click on **Switch to Preview** to preview the gi
 
 > Note that the preview may differ a little from the actual gird as some WordPress and other plugin styles may be affecting it.
 
+### Casino Finder Block
+
+`💁 since version 2.5.0`
+
+![spinoko-blocks-casino-finder](/assets/images/spinoko/spinoko-blocks-casino-finder-frontend.jpg)
+
+To add a new casino finder simply click on the + (Add block) sign and select **Casino Finder** in **Spinoko Blocks** section.
+
+After that just adjust the labels displayed on the block and save the page.
+
+![spinoko-blocks-casino-finder-admin](/assets/images/spinoko/spinoko-blocks-casino-finder-admin.jpg)
+
+At the right side panel you can click on **Switch to Preview** to preview the offer in your editor.
+
+> Note that this block is not available in AMP mode.
 
 ### Featured Casino Block
 
@@ -104,6 +121,22 @@ Besides choosing the games, you can also enable image lazy loading to improve pa
 At the right side panel you can click on **Switch to Preview** to preview the offer in your editor.
 
 > Note that the preview may differ a little from the actual block as some WordPress and other plugin styles may be affecting it.
+
+### Game Finder Block
+
+`💁 since version 2.5.0`
+
+![spinoko-blocks-game-finder](/assets/images/spinoko/spinoko-blocks-game-finder-frontend.jpg)
+
+To add a new game finder simply click on the + (Add block) sign and select **Game Finder** in **Spinoko Blocks** section.
+
+After that just adjust the labels displayed on the block and save the page.
+
+![spinoko-blocks-game-finder-admin](/assets/images/spinoko/spinoko-blocks-game-finder-admin.jpg)
+
+At the right side panel you can click on **Switch to Preview** to preview the offer in your editor.
+
+> Note that this block is not available in AMP mode.
 
 ### Recent Posts Block
 
