@@ -838,6 +838,20 @@
     </li>
             <li class="">
             
+        <a href="/docs/kemoku/review-page-blocks"
+            class="
+                lvl1
+                
+                
+                
+                nav-menu__item"
+        >
+            Review Page Blocks
+        </a>
+    
+    </li>
+            <li class="">
+            
         <a href="/docs/kemoku/blocks"
             class="
                 lvl1
@@ -903,6 +917,20 @@
                 nav-menu__item"
         >
             Listing Tools
+        </a>
+    
+    </li>
+            <li class="">
+            
+        <a href="/docs/kemoku/how-to"
+            class="
+                lvl1
+                
+                
+                
+                nav-menu__item"
+        >
+            How To ...
         </a>
     
     </li>
@@ -1343,11 +1371,55 @@ add_filter( 'get_the_archive_title', 'spinoko_child_archive_titles' );
 
 <hr />
 
+<h3>How To Add Additional Software/Game Providers</h3>
+
+<p>You can easily add custom software providers to each casino or game individually by filling in the "Additional Game Providers" field when editing the casino/game.
+However, you can define your custom software providers once and use them on any casino and game. They will be available in the main "Game Providers" field.</p>
+
+<p>Use the below example in your child theme's <code>functions.php</code> file by adding any provider you need.</p>
+
+<pre><code class="language-php">function spinoko_custom_game_providers(): array {
+
+    return array(
+        '42-gaming'      =&gt; '42 Gaming',
+        'mosquito-games' =&gt; 'Mosquito Games',
+    );
+}
+</code></pre>
+
+<p>Now 42 Gaming and Mosquito Games will be available in the list of software providers to choose from.</p>
+
+<hr />
+
+<h3>How To Add Additional Payment Methods</h3>
+
+<p>You can easily add custom payment methods to each casino individually by filling in the "Additional Payment Methods" field when editing the casino.
+However, you can define your custom payment methods once and use them on any casino. They will be available in the main "Payment Methods" field.</p>
+
+<p>Use the below example in your child theme's <code>functions.php</code> file by adding any method you need.</p>
+
+<pre><code class="language-php">function spinoko_custom_payment_methods(): array {
+
+    return array(
+        'venmo'        =&gt; 'Venmo',
+        'gold-dragons' =&gt; 'Gold Dragons',
+    );
+}
+</code></pre>
+
+<p>Now Venmo and Gold Dragons will be available in the list of payment methods to choose from.</p>
+
+<blockquote>
+  <p>Note that the custom methods you add will not have an icon. Check <a href="#how-to-use-custom-payment-icons">below</a> to learn how to add icons for custom payment methods.</p>
+</blockquote>
+
+<hr />
+
 <h3>How To Use Custom Payment Icons</h3>
 
-<p>Spinoko comes wth carefully chosen payment icons that both look nice on the page are optimal for performance. You can add your own icons by following the steps below.</p>
+<p>Spinoko comes with carefully chosen payment icons that both look nice on the page are optimal for performance. You can add your own icons by following the steps below.</p>
 
-<p><strong>The SVG icon</strong>: You need to use an SVG (Scalable Vector Graphics) files for icons. <code>.png .jpg .gif</code> etc. common image formats will not work.</p>
+<p><strong>The SVG icon</strong>: You need to use an <code>SVG (Scalable Vector Graphics)</code> files for icons. <code>.png .jpg .gif</code> etc. common image formats will not work.</p>
 
 <p><strong>The file name</strong>: The filename should be the lowercase version of the payment method and should not contain spaces. For example: for <strong>American Express</strong> payment method you'd have a file called <code>american-express.svg</code>.</p>
 
@@ -1364,6 +1436,19 @@ In your child theme's root directory create a directories: <code>assets/icons/sv
     --color-payment-icon: #CACCAC;
 }
 </code></pre>
+
+<hr />
+
+<h3>How To Use Custom Casino Game Icons</h3>
+
+<p>Spinoko comes with carefully chosen casino game icons that both look nice on the page are optimal for performance. You can add your own icons by following the steps below.</p>
+
+<p><strong>The SVG icon</strong>: You need to use an <code>SVG (Scalable Vector Graphics)</code> files for icons. <code>.png .jpg .gif</code> etc. common image formats will not work.</p>
+
+<p><strong>The file name</strong>: The filename should be the lowercase version of the game name and should not contain spaces. For example: for <strong>Crash Games</strong> you'd have a file called <code>crash-games.svg</code>.</p>
+
+<p><strong>The Directory</strong>: You need to use a <a href="/docs/spinoko/child-theme">child theme</a> for this to avoid future update conflicts.
+In your child theme's root directory create a directories: <code>assets/icons/svg/games/</code> and add the icon to the games directory.</p>
 
 <hr />
 
@@ -1606,7 +1691,7 @@ Colors are in the same order that they appear in Customizer.</p>
 
     <nav id="js-page-menu" class="page-menu">
         <h4>
-            SPINOKO v2.5.0
+            SPINOKO v2.5.2
         </h4>
 
         <div id="page-menu-wrapper"></div>
