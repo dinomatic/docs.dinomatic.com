@@ -178,15 +178,16 @@ function update_listing_filters_services( array $defaults ): array {
 add_filter( 'kemoku_listing_filters__values__services', 'update_listing_filters_services' );
 ```
 
-### Changing Country, State, License and Payment Method Filters
+### Changing Country, State, License, Payment Method and Currency Filters
 
-Country, State, Payment Method and License values on filters are generated from the fields you fill in when editing review pages. There will be only values that you already selected. However, if for some reason you need to modify them, you can use the below filters:
+Country, State, Payment Method, Currency and License values on filters are generated from the fields you fill in when editing review pages. There will be only values that you already selected. However, if for some reason you need to modify them, you can use the below filters:
 
 ```php
 kemoku_listing_filters__values__licenses
 kemoku_listing_filters__values__countries
 kemoku_listing_filters__values__us_states
 kemoku_listing_filters__values__payment_methods
+kemoku_listing_filters__values__currencies
 ```
 
 ### Styling
@@ -230,4 +231,4 @@ Copy the values you want to change to a custom stylesheet or Additional CSS sect
 
 ### Next step
 
-[Plugin Updates](/docs/kemoku/plugin-updates/)
+[How To ...](/docs/kemoku/how-to/)

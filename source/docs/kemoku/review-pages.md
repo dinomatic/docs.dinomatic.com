@@ -13,7 +13,7 @@ In your WordPress dashboard you will find a new menu called **Kemoku Reviews** r
 
 ## Review Fields
 
-Besides adding your review title and content as usual, you'll find **Review Fields** section below page content. Here you can define properties for each review. The fields are in separate sections and have descriptions to make it easy for you to fill them in. To see what they look like you can check one of the demos available [here](https://dinomatic.com/demos/kemoku).
+Besides adding your review title and content as usual, you'll find **Review Fields** section below page content. Here you can define properties for each review. The fields are in separate sections and have descriptions to make it easy for you to fill them in. To see what they look like you can check one of the demos available [here](https://demos.dinomatic.com/havana).
 
 ### General Fields
 
@@ -21,35 +21,38 @@ Define main review information such as the name, logo, affiliate URL, rating.
 
 ![General Review Fields](/assets/images/kemoku/kemoku-review-general.jpg)
 
-### Bonus & Rating Fields
+### Bonus & Terms Fields
 
 Define bonus, bonus code (if any) and terms.
 
 ![Review Fields Bonus](/assets/images/kemoku/kemoku-review-bonus.jpg)
 
-### Payment Methods
+### Payment Methods & Currencies
 
-Define _Payment Methods_ for the reviewed item and display it in your content through `Review Payments` block.
+Define _Payment Methods_ and _Currencies_ for the reviewed item and display them in your content through `Review Payments` and `Currencies` block.
+Payment method and currency information is also used for filtering review listings.
 
 ![Review Fields Payments](/assets/images/kemoku/kemoku-review-payments.jpg)
 
 ### Details
 
-Define some details such as _Countries, Services, Licenses, Features_ for the reviewed item and display it in your content through `Review Countries`, `Review Services` blocks.
+Define some details such as _Countries, US States, Services, Licenses, Features_ for the reviewed item and display them in your content through `Review Countries`, `Review US States`, `Review Services` blocks.
 
 ![Review Fields Payments](/assets/images/kemoku/kemoku-review-details.jpg)
 
 ### Hero Section
 
 Define whether the _Hero_ section at the top of the review page is enabled or not.
+Hero section settings can be adjusted on [plugin settings page](/docs/kemoku/settings#hero)
 
-![Review Fields Hero](/assets/images/kemoku/kemoku-review-hero-section.jpg)
+![Review Fields Hero](/assets/images/kemoku/kemoku-review-hero.jpg)
 
 ### CTA Section
 
 Define whether the _CTA_ section at the bottom of the review page is enabled or not, as well as fill in the CTA details.
+CTA section settings can be adjusted on [plugin settings page](/docs/kemoku/settings#cta)
 
-![Review Fields CTA](/assets/images/kemoku/kemoku-review-cta-section.jpg)
+![Review Fields CTA](/assets/images/kemoku/kemoku-review-cta.jpg)
 
 ### Pros & Cons
 
@@ -61,13 +64,13 @@ Define _Pros & Cons_ of the reviewed item and display it in your content through
 
 Define _Ratings_ of the reviewed item and display it in your content through `Review Ratings` block.
 
-![Review Fields Ratings](/assets/images/kemoku/kemoku-review-ratings-block.jpg)
+![Review Fields Ratings](/assets/images/kemoku/kemoku-review-ratings.jpg)
 
 ### Info
 
 Define _Review Info_ for the reviewed item and display it in your content through `Review Info` block.
 
-![Review Fields Info](/assets/images/kemoku/kemoku-review-info-block.jpg)
+![Review Fields Info](/assets/images/kemoku/kemoku-review-info.jpg)
 
 ### Schema.org markup
 
@@ -84,4 +87,4 @@ and you can filter reviews on tables and grids by category and tag as well.
 
 ### Next Step
 
-[Plugin Blocks](/docs/kemoku/blocks/)
+[Review Page Blocks](/docs/kemoku/review-page-blocks/)

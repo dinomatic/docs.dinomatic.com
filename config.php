@@ -18,9 +18,9 @@ return [
     // versions
     'versions' => [
         'akurai' => '3.1.2',
-        'spinoko' => '2.5.0',
+        'spinoko' => '2.5.2',
         'sikika' => '1.0.2',
-        'kemoku' => '1.6.1',
+        'kemoku' => '1.6.2',
         'dinodds' => '1.3.1',
         'akurai-geo' => '1.1.1',
         'nonaki' => '1.0.4',

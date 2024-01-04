@@ -19,19 +19,19 @@ You can get your product key from your [DinoMatic account](https://dinomatic.com
 
 After activating the plugin you'll be prompted with a notice to add your product key.
 
-![Kemoku Plugin registration](/assets/images/kemoku/kemoku-registration.png)
+![Kemoku Plugin registration](/assets/images/kemoku/kemoku-registration.jpg)
 
 1. Click on `the setup page` link
-2. In setup page enter the product key you got from your DinoMatic account
-3. Click Save
+2. On setup page enter the product key you got from your DinoMatic account
+3. Click "Save"
 4. A message confirming the plugin product key registration will appear
 
-![Kemoku Plugin registration](/assets/images/kemoku/kemoku-setup.png)
+![Kemoku Plugin registration](/assets/images/kemoku/kemoku-setup.jpg)
 
 ### Set Reviews Page Slug
 
 On the same plugin setup page you can set up your reviews pages slug.
-Enter the the slug you need and click save to set it.
+Enter the the slug you want and click "Save" to set it.
 
 At this point you're all set up to start using the plugin.
 
