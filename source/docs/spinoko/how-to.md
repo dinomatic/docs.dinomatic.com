@@ -47,6 +47,38 @@ add_filter( 'get_the_archive_title', 'spinoko_child_archive_titles' );
 
 ---
 
+### How To Add Comments To Casino And Game Custom Post Types
+
+By default comments are only available on posts, however, you can enable it on custom post types by adding the below code snippet to your [child theme](/docs/spinoko/child-theme)'s `functions.php` file:
+
+```php
+/**
+* Enables comments for casino and game custom post types.
+*/
+function spinoko_child_enable_comments_on_cpt() {
+    add_post_type_support( 'casino', 'comments' );
+    add_post_type_support( 'game', 'comments' );
+}
+add_action( 'init', 'spinoko_child_enable_comments_on_cpt', 11 );
+
+/**
+ * Adds the comments template to casino and game single pages.
+ */
+function spinoko_child_add_comments_template_to_cpt() {
+    if ( comments_open() || get_comments_number() ) {
+        comments_template();
+    }
+}
+add_action( 'spinoko_casino_after', 'spinoko_child_add_comments_template_to_cpt', 10 );
+add_action( 'spinoko_game_after', 'spinoko_child_add_comments_template_to_cpt', 10 );
+```
+
+> This will enable it for new casinos and games, for the existing ones you need to edit them and check the box "Allow comments" under "Discussion" tad on the right sidebar.
+
+> If you want to add comments to only casinos or only games, you can remove the corresponding lines from the functions above.
+
+---
+
 ### How To Add Additional Software/Game Providers
 
 You can easily add custom software providers to each casino or game individually by filling in the "Additional Game Providers" field when editing the casino/game.
