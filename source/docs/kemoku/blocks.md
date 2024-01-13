@@ -20,7 +20,7 @@ This page describes the blocks you can use on all pages.
 
 ## Using Blocks
 
-![Kemoku Blocks](/assets/images/kemoku/kemoku-blocks.jpg)
+![Kemoku Blocks](https://media.dinomatic.com/images/docs/kemoku/kemoku-blocks.jpg)
 
 Below are the blocks available in Kemoku plugin you can use on all pages:
 
@@ -44,24 +44,24 @@ Besides categories, you can filter reviews by review tags as well. In difference
 #### Table
 
 Preview:
-![Kemoku Table Block](/assets/images/kemoku/kemoku-reviews-table-block-frontend.jpg)
+![Kemoku Table Block](https://media.dinomatic.com/images/docs/kemoku/kemoku-reviews-table-block-frontend.jpg)
 
 Dashboard:
-![Kemoku Table Block](/assets/images/kemoku/kemoku-reviews-table-block-backend.jpg)
+![Kemoku Table Block](https://media.dinomatic.com/images/docs/kemoku/kemoku-reviews-table-block-backend.jpg)
 
 #### Grid
 
 Preview:
-![Kemoku Grid Block](/assets/images/kemoku/kemoku-reviews-grid-block-frontend.jpg)
+![Kemoku Grid Block](https://media.dinomatic.com/images/docs/kemoku/kemoku-reviews-grid-block-frontend.jpg)
 
 Dashboard:
-![Kemoku Grid Block](/assets/images/kemoku/kemoku-reviews-grid-block-backend.jpg)
+![Kemoku Grid Block](https://media.dinomatic.com/images/docs/kemoku/kemoku-reviews-grid-block-backend.jpg)
 
 #### Filters and Sorting
 
 Both for tables and grids, this is what the filters and sorting popup looks like. And you can customize every part of it as described [here](/docs/kemoku/listing-tools).
 
-![Kemoku Listing Filters and Sorting](/assets/images/kemoku/kemoku-reviews-listing-tools.jpg)
+![Kemoku Listing Filters and Sorting](https://media.dinomatic.com/images/docs/kemoku/kemoku-reviews-listing-tools.jpg)
 
 
 ### Review CTA
@@ -69,10 +69,10 @@ Both for tables and grids, this is what the filters and sorting popup looks like
 Simply add the block, fill in the heading (optional), content and button/link fields and it's ready.
 
 Preview:
-![Kemoku CTA Block](/assets/images/kemoku/kemoku-review-cta-block-frontend.jpg)
+![Kemoku CTA Block](https://media.dinomatic.com/images/docs/kemoku/kemoku-review-cta-block-frontend.jpg)
 
 Dashboard:
-![Kemoku CTA Block](/assets/images/kemoku/kemoku-review-cta-block-backend.jpg)
+![Kemoku CTA Block](https://media.dinomatic.com/images/docs/kemoku/kemoku-review-cta-block-backend.jpg)
 
 ### Blocks vs Shortcodes
 

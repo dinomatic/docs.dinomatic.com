@@ -15,7 +15,7 @@ Spinoko supports AMP functionality out of the box. All you have to do is just in
 
 Here's the AMP Plugin settings page:
 
-![spinoko-amp-support](/assets/images/spinoko/spinoko-amp.png)
+![spinoko-amp-support](https://media.dinomatic.com/images/docs/spinoko/spinoko-amp.png)
 
 You can get the plugin from WordPress Plugins Directory: [AMP By AMP Project Contributors](https://wordpress.org/plugins/amp/) or add it through your WordPress dashboard Plugins page.
 

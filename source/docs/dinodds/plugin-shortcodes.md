@@ -24,11 +24,11 @@ See below how to easily generate shortcodes.
 
 Simply select the desired options and the shortcode will be generated for you, click the button to copy it and use it where you need to.
 
-![DinOdds Plugin Shortcodes](/assets/images/dinodds/plugin-shortcode.png)
+![DinOdds Plugin Shortcodes](https://media.dinomatic.com/images/docs/dinodds/plugin-shortcode.png)
 
 ### Shortcode Attributes
 
-![DinOdds Shortcode Attributes](/assets/images/dinodds/shortcode-attributes.png)
+![DinOdds Shortcode Attributes](https://media.dinomatic.com/images/docs/dinodds/shortcode-attributes.png)
 
 ---
 

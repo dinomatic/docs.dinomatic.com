@@ -16,7 +16,7 @@ Below is the main WordPress Customizer view showing all the options you can cust
 
 Select the options you want to customize and apply your changes, the preview will reflect your changes automatically. Once you're happy with the results, click the "Publish" button to save the changes.
 
-![Theme Customizations](/assets/images/spinoko/spinoko-customizer.jpg)
+![Theme Customizations](https://media.dinomatic.com/images/docs/spinoko/spinoko-customizer.jpg)
 
 ### Site Identity
 
@@ -28,19 +28,19 @@ Spinoko has a lot of colors, there are **21 carefully selected colors** that are
 
 In case you want to restore them, here's a list of [default colors](/docs/spinoko/how-to#how-to-restore-default-theme-colors).
 
-![Theme Customizations](/assets/images/spinoko/spinoko-customizer-colors.png)
+![Theme Customizations](https://media.dinomatic.com/images/docs/spinoko/spinoko-customizer-colors.png)
 
 ### Styles
 
 Adjust global theme styles here and they will change the look and feel of your website.
 
-![Theme Customizations](/assets/images/spinoko/spinoko-customizer-styles.png)
+![Theme Customizations](https://media.dinomatic.com/images/docs/spinoko/spinoko-customizer-styles.png)
 
 ### Fonts
 
 Select the font family and base font size for your website. Language specific font families (such as Arabic, Chinese, etc.) are also included.
 
-![Theme Customizations](/assets/images/spinoko/spinoko-customizer-fonts.png)
+![Theme Customizations](https://media.dinomatic.com/images/docs/spinoko/spinoko-customizer-fonts.png)
 
 ### Menus
 
@@ -65,7 +65,7 @@ If you need to embed some scripts to your page, you can do it in **Additional Sc
 - Header scripts - that will go into the head of the page
 - Footer scripts - that will go into the footer part
 
-![Theme Customizations](/assets/images/spinoko/spinoko-customizer-scripts.png)
+![Theme Customizations](https://media.dinomatic.com/images/docs/spinoko/spinoko-customizer-scripts.png)
 
 - Add scripts only if they are necessary.
 - You need to include the `<script> ... </script>` tags
@@ -74,7 +74,7 @@ If you need to embed some scripts to your page, you can do it in **Additional Sc
 
 All casino review options are here, you can set your affiliate links `rel` and `target` attributes, choose review design options, terms and conditions settings, etc.
 
-![Theme Customizations](/assets/images/spinoko/spinoko-customizer-reviews.png)
+![Theme Customizations](https://media.dinomatic.com/images/docs/spinoko/spinoko-customizer-reviews.png)
 
 ### Page Options
 
@@ -82,7 +82,7 @@ You can adjust here different options regarding different types of pages.
 
 **Archive pages**: You can set a template for archive pages such as category, tag, author pages, as well as choose a style and word count to display single posts on the mentioned pages.
 
-![Theme Customizations](/assets/images/spinoko/spinoko-customizer-pages.png)
+![Theme Customizations](https://media.dinomatic.com/images/docs/spinoko/spinoko-customizer-pages.png)
 
 ### Header Notifications
 
@@ -92,13 +92,13 @@ Check out more details about notifications [here](/docs/spinoko/notifications).
 
 There are different strings such as button or review link anchor texts, headings and labels, etc. that you may want to change. You can find all of them in **Strings** section.
 
-![Theme Customizations](/assets/images/spinoko/spinoko-customizer-strings.png)
+![Theme Customizations](https://media.dinomatic.com/images/docs/spinoko/spinoko-customizer-strings.png)
 
 ### Miscellaneous Options
 
 This is a section for (surprise 🤯) miscellaneous options. Here you can enable/disable footer gambling logo images, traditional header navigation, as well as choose a header layout (contained, wide, wide and contained).
 
-![Miscellaneous Options](/assets/images/spinoko/spinoko-customizer-misc.jpg)
+![Miscellaneous Options](https://media.dinomatic.com/images/docs/spinoko/spinoko-customizer-misc.jpg)
 
 ---
 

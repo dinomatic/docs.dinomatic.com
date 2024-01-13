@@ -17,7 +17,7 @@ Besides adding your review title and content as usual, you'll find **Review Fiel
 
 ### Main Fields
 
-![akurai-review-fields-main](/assets/images/akurai/review-fields-main.jpg)
+![akurai-review-fields-main](https://media.dinomatic.com/images/docs/akurai/review-fields-main.jpg)
 
 In this section you'll define the main fields for any review such as:
 
@@ -30,13 +30,13 @@ The name, image and affiliate URL are used in all shortcodes, blocks, widgets an
 
 ### Bonus Fields
 
-![akurai-review-fields-bonus](/assets/images/akurai/review-fields-bonus.jpg)
+![akurai-review-fields-bonus](https://media.dinomatic.com/images/docs/akurai/review-fields-bonus.jpg)
 
 Bonus fields are for defining sportsbook bonuses. You can define an optional **Shortcode Bonus** if you want to display a different or differently formatted bonus in shortcodes.
 
 ### Ratings Fields
 
-![akurai-review-fields-ratings](/assets/images/akurai/review-fields-ratings.jpg)
+![akurai-review-fields-ratings](https://media.dinomatic.com/images/docs/akurai/review-fields-ratings.jpg)
 
 First you define the main sportsbook rating which is used all over the website n shortcodes, widgets, etc.
 
@@ -44,49 +44,49 @@ The second part for **Ratings** is where you define different ratings to display
 
 ### Terms Fields
 
-![akurai-review-fields-terms](/assets/images/akurai/review-fields-terms.jpg)
+![akurai-review-fields-terms](https://media.dinomatic.com/images/docs/akurai/review-fields-terms.jpg)
 
 You can define 2 fields for sportsbook terms and conditions, first the longer and 2nd the shorter version. later in blocks/shortcodes you can choose to display one of them.
 
 ### Info Fields
 
-![akurai-review-fields-info](/assets/images/akurai/review-fields-info.jpg)
+![akurai-review-fields-info](https://media.dinomatic.com/images/docs/akurai/review-fields-info.jpg)
 
 Define basic information about the sportsbook and display them in `Info` block (or `[info]` shortcode) in review pages.
 
 ### Pros & Cons Fields
 
-![akurai-review-fields-pros-cons](/assets/images/akurai/review-fields-pros-cons.jpg)
+![akurai-review-fields-pros-cons](https://media.dinomatic.com/images/docs/akurai/review-fields-pros-cons.jpg)
 
 Define pros and cons of the sportsbook and display them in `Pros & Cons` block (or `[pros_cons]` shortcode) in review pages.
 
 ### Banking Fields
 
-![akurai-review-fields-banking](/assets/images/akurai/review-fields-banking.jpg)
+![akurai-review-fields-banking](https://media.dinomatic.com/images/docs/akurai/review-fields-banking.jpg)
 
 Define deposit and withdrawal methods provided by the sportsbook and display them in `Banking` block (or `[banking]` shortcode) in review pages.
 
 ### Offer Fields
 
-![akurai-review-fields-offer](/assets/images/akurai/review-fields-offer.jpg)
+![akurai-review-fields-offer](https://media.dinomatic.com/images/docs/akurai/review-fields-offer.jpg)
 
 Define the main offers of the sportsbook such as sportsbook, casino, poker, etc. and their bonuses and display them in `Offer` block (or `[offer]` shortcode) in review pages.
 
 ### Related Reviews
 
-![akurai-review-fields-related](/assets/images/akurai/review-fields-related.jpg)
+![akurai-review-fields-related](https://media.dinomatic.com/images/docs/akurai/review-fields-related.jpg)
 
 You can choose to display related reviews section at the end of each review page. For that you need to select at least 1 (max 3) other review pages.
 
 ### Supported Countries
 
-![akurai-review-fields-countries](/assets/images/akurai/review-fields-countries.jpg)
+![akurai-review-fields-countries](https://media.dinomatic.com/images/docs/akurai/review-fields-countries.jpg)
 
 Define the supported countries of the sportsbook and display them in `Countries` block (or `[countries]` shortcode) in review pages.
 
 ### Additional Info
 
-![akurai-review-fields-countries](/assets/images/akurai/review-fields-additional-info.jpg)
+![akurai-review-fields-countries](https://media.dinomatic.com/images/docs/akurai/review-fields-additional-info.jpg)
 
 Define some additional info fields here that are used on table/grid filters mostly.
 

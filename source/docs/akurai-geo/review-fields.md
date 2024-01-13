@@ -22,7 +22,7 @@ You can find the fields below default Akurai "Review Fields" section, and it's c
 You can set up country-specific affiliate links which will replace your default ones all over the website, when the user's country link is available.
 You can leave any of them empty to use the default affiliate link instead.
 
-![AkuraiGeo Review Fields - Affiliate Links](/assets/images/akurai-geo/akurai-geo-affiliate-links.png)
+![AkuraiGeo Review Fields - Affiliate Links](https://media.dinomatic.com/images/docs/akurai-geo/akurai-geo-affiliate-links.png)
 
 
 ### Next step

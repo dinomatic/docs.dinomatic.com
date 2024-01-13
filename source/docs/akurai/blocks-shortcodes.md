@@ -30,17 +30,17 @@ Here are the blocks available in Akurai theme:
 
 ### Reviews Table Block
 
-![akurai-blocks-table](/assets/images/akurai/akurai-blocks-table.jpg)
+![akurai-blocks-table](https://media.dinomatic.com/images/docs/akurai/akurai-blocks-table.jpg)
 
 To add a new table simply click on the **+** (Add block) sign and select **Reviews Table** in **Akurai Blocks** section.
 
 In the content editor a new table edit section will appear. There are 2 options to add reviews to the table:
 
 1. Manual selection where you select all the reviews from a dropdown list.
-![akurai-blocks-extended-table-editor-manual](/assets/images/akurai/akurai-blocks-listing-editor-manual.jpg)
+![akurai-blocks-extended-table-editor-manual](https://media.dinomatic.com/images/docs/akurai/akurai-blocks-listing-editor-manual.jpg)
 
 2. Filtering by taxonomy where you choose a category and/or tag(s) and reviews display automatically (`💁 since version 2.4.0`). For example, you can select a review category and all reviews in that category will be displayed. You can also set a limit, for example, display just 8 reviews in "Sports" category.
-![akurai-blocks-extended-table-editor-tax](/assets/images/akurai/akurai-blocks-listing-editor-tax.jpg)
+![akurai-blocks-extended-table-editor-tax](https://media.dinomatic.com/images/docs/akurai/akurai-blocks-listing-editor-tax.jpg)
 
 Below reviews select how to display the **terms and conditions**.
 
@@ -60,7 +60,7 @@ Below reviews select how to display the **terms and conditions**.
 
 ### Extended Table Block
 
-![akurai-blocks-table-extended](/assets/images/akurai/akurai-blocks-table-extended.jpg)
+![akurai-blocks-table-extended](https://media.dinomatic.com/images/docs/akurai/akurai-blocks-table-extended.jpg)
 
 To add a new extended table simply click on the **+** (Add block) sign and select **Extended Reviews Table** in **Akurai Blocks** section.
 
@@ -86,7 +86,7 @@ Below reviews select how to display the **terms and conditions**.
 
 `💁 since version 3.0.0`
 
-![akurai-blocks-table-flex](/assets/images/akurai/akurai-blocks-table-flex.jpg)
+![akurai-blocks-table-flex](https://media.dinomatic.com/images/docs/akurai/akurai-blocks-table-flex.jpg)
 
 To add a new flex table simply click on the **+** (Add block) sign and select **Flex Reviews Table** in **Akurai Blocks** section.
 
@@ -106,7 +106,7 @@ Below reviews select how to display the **terms and conditions**, add **filters*
 
 ### Reviews Grid Block
 
-![akurai-blocks-grid](/assets/images/akurai/akurai-blocks-grid.jpg)
+![akurai-blocks-grid](https://media.dinomatic.com/images/docs/akurai/akurai-blocks-grid.jpg)
 
 To add a new gird simply click on the **+** (Add block) sign and select **Reviews Grid** in **Akurai Blocks** section.
 
@@ -131,13 +131,13 @@ Below reviews select how to display the **terms and conditions**.
 
 ### Reviews List Block
 
-![akurai-blocks-list](/assets/images/akurai/akurai-blocks-list.jpg)
+![akurai-blocks-list](https://media.dinomatic.com/images/docs/akurai/akurai-blocks-list.jpg)
 
 To add a new list simply click on the **+** (Add block) sign and select **Reviews List** in **Akurai Blocks** section.
 
 In the content editor a new list edit section will appear. Click **Add Review** to add the 4 reviews.
 
-![akurai-blocks-list-editor](/assets/images/akurai/akurai-blocks-list-editor.jpg)
+![akurai-blocks-list-editor](https://media.dinomatic.com/images/docs/akurai/akurai-blocks-list-editor.jpg)
 
 
 ### Reviews List Shortcode
@@ -148,13 +148,13 @@ In the content editor a new list edit section will appear. Click **Add Review** 
 
 ### Review Offer Block
 
-![akurai-blocks-offer](/assets/images/akurai/akurai-blocks-offer.jpg)
+![akurai-blocks-offer](https://media.dinomatic.com/images/docs/akurai/akurai-blocks-offer.jpg)
 
 To add a new offer simply click on the **+** (Add block) sign and select **Review Offer** in **Akurai Blocks** section.
 
 In the content editor a new offer edit section will appear. Select a review and fill in the fields.
 
-![akurai-blocks-offer-editor](/assets/images/akurai/akurai-blocks-offer-editor.jpg)
+![akurai-blocks-offer-editor](https://media.dinomatic.com/images/docs/akurai/akurai-blocks-offer-editor.jpg)
 
 
 ### Review Offer Shortcode
@@ -167,13 +167,13 @@ In the content editor a new offer edit section will appear. Select a review and 
 
 `💁 since version 3.0.0`
 
-![akurai-blocks-review-finder](/assets/images/akurai/akurai-blocks-review-finder.jpg)
+![akurai-blocks-review-finder](https://media.dinomatic.com/images/docs/akurai/akurai-blocks-review-finder.jpg)
 
 To add a new review finder simply click on the **+** (Add block) sign and select **Review Finder** in **Akurai Blocks** section.
 
 In the content editor a new review finder edit section will appear. You can leave the default values or adjust the strings used on the block front-end.
 
-![akurai-blocks-review-finder-editor](/assets/images/akurai/akurai-blocks-review-finder-editor.jpg)
+![akurai-blocks-review-finder-editor](https://media.dinomatic.com/images/docs/akurai/akurai-blocks-review-finder-editor.jpg)
 
 ### Review Finder Shortcode
 
@@ -189,13 +189,13 @@ You can use the default shortcode as above, or set your own options:
 
 ### Recent Posts Block
 
-![akurai-blocks-posts](/assets/images/akurai/akurai-blocks-posts.jpg)
+![akurai-blocks-posts](https://media.dinomatic.com/images/docs/akurai/akurai-blocks-posts.jpg)
 
 To add a new posts block simply click on the **+** (Add block) sign and select **Recent Posts** in **Akurai Blocks** section.
 
 In the content editor a new recent posts edit section will appear. Select the number of posts to display and the post excerpt length. Or you can leave them blank for default values: 6 posts and 40 words.
 
-![akurai-blocks-posts-editor](/assets/images/akurai/akurai-blocks-posts-editor.jpg)
+![akurai-blocks-posts-editor](https://media.dinomatic.com/images/docs/akurai/akurai-blocks-posts-editor.jpg)
 
 You can also select a category to filter the posts or leave it blank to display posts from all categories.
 
@@ -215,7 +215,7 @@ You can also select a category to filter the posts or leave it blank to display 
 
 `💁 since version 2.0.1`
 
-![akurai-blocks-links-group](/assets/images/akurai/akurai-blocks-links-group.jpg)
+![akurai-blocks-links-group](https://media.dinomatic.com/images/docs/akurai/akurai-blocks-links-group.jpg)
 
 To add a new links group simply click on the **+** (Add block) sign and select **Links Group** in **Akurai Blocks** section.
 
@@ -224,19 +224,19 @@ At the bottom, adjust the column count (2, 3, 4), whether the blog is contained 
 
 You can use this for posts, pages, reviews or as a mix of all, as you find it useful.
 
-![akurai-blocks-links-group-editor](/assets/images/akurai/akurai-blocks-links-group-editor.jpg)
+![akurai-blocks-links-group-editor](https://media.dinomatic.com/images/docs/akurai/akurai-blocks-links-group-editor.jpg)
 
 At the right side panel you can click on Switch to Preview to preview the slider block in your editor.
 
 ### FAQs Block
 
-![akurai-blocks-faqs](/assets/images/akurai/akurai-blocks-faq.jpg)
+![akurai-blocks-faqs](https://media.dinomatic.com/images/docs/akurai/akurai-blocks-faq.jpg)
 
 To add a new FAQs block simply click on the **+** (Add block) sign and select **FAQs** in **Akurai Blocks** section.
 
 In the content editor a new FAQs edit section will appear. For each one add the question and the answer and clack `Add New` to add a new FAQ item.
 
-![akurai-blocks-faq-editor](/assets/images/akurai/akurai-blocks-faq-editor.jpg)
+![akurai-blocks-faq-editor](https://media.dinomatic.com/images/docs/akurai/akurai-blocks-faq-editor.jpg)
 
 `💁 since version 2.0` By default schema.org markup for FAQ rich snippets will be included in all your FAQ blocks, however you can disable them if you need to.
 
@@ -244,7 +244,7 @@ In the content editor a new FAQs edit section will appear. For each one add the 
 
 ### Slider Block
 
-![akurai-blocks-slider](/assets/images/akurai/akurai-blocks-slider.jpg)
+![akurai-blocks-slider](https://media.dinomatic.com/images/docs/akurai/akurai-blocks-slider.jpg)
 
 To add a new slider simply click on the **+** (Add block) sign and select **Slider** in **Akurai Blocks** section.
 
@@ -256,7 +256,7 @@ In the content editor a new slider edit section will appear. The first part is f
 
 To add a new lazy image simply click on the **+** (Add block) sign and select **Lazy Image** in **Akurai Blocks** section.
 
-![akurai-blocks-lazy-image-editor](/assets/images/akurai/akurai-blocks-lazy-image-editor.jpg)
+![akurai-blocks-lazy-image-editor](https://media.dinomatic.com/images/docs/akurai/akurai-blocks-lazy-image-editor.jpg)
 
 Select or upload an image, set the alt text and you're ready.
 You can specify any CSS class names you want to add to the `img` tag

@@ -18,13 +18,13 @@ Plugin settings can be found in by visiting `Settings` &#8594; `Hello Cookie` in
 
 Plugin Main settings include options like notice bar text content, button and link texts, etc.
 
-![Hello Cookie main settings](/assets/images/hello-cookie/hello-cookie-settings.png)
+![Hello Cookie main settings](https://media.dinomatic.com/images/docs/hello-cookie/hello-cookie-settings.png)
 
 ### Hello Cookie Styles
 
 Plugin styles include options like bar position, content alignment, text and background colors, button and link colors, etc.
 
-![Hello Cookie style settings](/assets/images/hello-cookie/hello-cookie-styles.png)
+![Hello Cookie style settings](https://media.dinomatic.com/images/docs/hello-cookie/hello-cookie-styles.png)
 
 Adjust settings according to your likings, save the changes and that's all.
 

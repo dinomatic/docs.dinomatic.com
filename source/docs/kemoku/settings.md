@@ -20,27 +20,27 @@ If you find a field name unclear, click the **info** icon for detailed informati
 
 ### General Settings
 
-![Kemoku Plugin Settings](/assets/images/kemoku/kemoku-settings-general.png)
+![Kemoku Plugin Settings](https://media.dinomatic.com/images/docs/kemoku/kemoku-settings-general.png)
 
 ### Hero
 
-![Kemoku Plugin Settings](/assets/images/kemoku/kemoku-settings-hero.png)
+![Kemoku Plugin Settings](https://media.dinomatic.com/images/docs/kemoku/kemoku-settings-hero.png)
 
 ### Pros & Cons
 
-![Kemoku Plugin Settings](/assets/images/kemoku/kemoku-settings-pros-cons.png)
+![Kemoku Plugin Settings](https://media.dinomatic.com/images/docs/kemoku/kemoku-settings-pros-cons.png)
 
 ### CTA
 
-![Kemoku Plugin Settings](/assets/images/kemoku/kemoku-settings-cta.png)
+![Kemoku Plugin Settings](https://media.dinomatic.com/images/docs/kemoku/kemoku-settings-cta.png)
 
 ### Shortcodes
 
-![Kemoku Plugin Settings](/assets/images/kemoku/kemoku-settings-shortcodes.png)
+![Kemoku Plugin Settings](https://media.dinomatic.com/images/docs/kemoku/kemoku-settings-shortcodes.png)
 
 ### Color Theme
 
-![Kemoku Plugin Settings](/assets/images/kemoku/kemoku-settings-theme.png)
+![Kemoku Plugin Settings](https://media.dinomatic.com/images/docs/kemoku/kemoku-settings-theme.png)
 
 ---
 

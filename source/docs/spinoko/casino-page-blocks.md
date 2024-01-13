@@ -25,7 +25,7 @@ There are 5 blocks available for you to use in casino pages:
 
 ### Casino Ratings Block
 
-![spinoko-blocks-casino-ratings](/assets/images/spinoko/spinoko-blocks-casino-ratings.png)
+![spinoko-blocks-casino-ratings](https://media.dinomatic.com/images/docs/spinoko/spinoko-blocks-casino-ratings.png)
 
 To add a new ratings block simply click on the **+** (Add block) sign and select **Casino Ratings** in **Spinoko Blocks** section.
 
@@ -34,18 +34,18 @@ No further configuration is required, just make sure to fill in **Ratings** fiel
 
 ### Casino Games Block
 
-![spinoko-blocks-casino-games](/assets/images/spinoko/spinoko-blocks-casino-games.png)
+![spinoko-blocks-casino-games](https://media.dinomatic.com/images/docs/spinoko/spinoko-blocks-casino-games.png)
 
 To add a new games block simply click on the **+** (Add block) sign and select **Casino Games** in **Spinoko Blocks** section.
 
 You can also choose to display the casino logo with an affiliate link next to game icons.
 
-![spinoko-blocks-casino-games-admin](/assets/images/spinoko/spinoko-blocks-casino-games-admin.png)
+![spinoko-blocks-casino-games-admin](https://media.dinomatic.com/images/docs/spinoko/spinoko-blocks-casino-games-admin.png)
 
 
 ### Casino Countries Block
 
-![spinoko-blocks-casino-countries](/assets/images/spinoko/spinoko-blocks-casino-countries.png)
+![spinoko-blocks-casino-countries](https://media.dinomatic.com/images/docs/spinoko/spinoko-blocks-casino-countries.png)
 
 To add a new countries block simply click on the **+** (Add block) sign and select **Casino Countries** in **Spinoko Blocks** section.
 
@@ -54,7 +54,7 @@ No further configuration is required, just make sure to fill in **Payments** fie
 
 ### Casino Payments Block
 
-![spinoko-blocks-casino-payments](/assets/images/spinoko/spinoko-blocks-casino-payments.png)
+![spinoko-blocks-casino-payments](https://media.dinomatic.com/images/docs/spinoko/spinoko-blocks-casino-payments.png)
 
 To add a new payments block simply click on the **+** (Add block) sign and select **Casino Payments** in **Spinoko Blocks** section.
 
@@ -63,7 +63,7 @@ No further configuration is required, just make sure to fill in **Payments** fie
 
 ### Casino Game Providers Block
 
-![spinoko-blocks-casino-game-providers](/assets/images/spinoko/spinoko-blocks-casino-game-providers.png)
+![spinoko-blocks-casino-game-providers](https://media.dinomatic.com/images/docs/spinoko/spinoko-blocks-casino-game-providers.png)
 
 To add a new game providers block simply click on the **+** (Add block) sign and select **Casino Game Providers** in **Spinoko Blocks** section.
 
@@ -72,17 +72,17 @@ No further configuration is required, just make sure to fill in **Game Providers
 
 ### Casino CTA Block
 
-![spinoko-blocks-casino-cta](/assets/images/spinoko/spinoko-blocks-casino-cta.png)
+![spinoko-blocks-casino-cta](https://media.dinomatic.com/images/docs/spinoko/spinoko-blocks-casino-cta.png)
 
 To add a new CTA block simply click on the **+** (Add block) sign and select **Casino CTA** in **Spinoko Blocks** section.
 
 Fill in the CTA fields such as heading and content, button anchor text and the rest will be generated for you from the casino fields.
 
-![spinoko-blocks-casino-cta-admin](/assets/images/spinoko/spinoko-blocks-casino-cta-admin.png)
+![spinoko-blocks-casino-cta-admin](https://media.dinomatic.com/images/docs/spinoko/spinoko-blocks-casino-cta-admin.png)
 
 ### Casino Info-Pros-Cons Block
 
-![spinoko-blocks-casino-game-providers](/assets/images/spinoko/spinoko-casino-info-pros-cons.png)
+![spinoko-blocks-casino-game-providers](https://media.dinomatic.com/images/docs/spinoko/spinoko-casino-info-pros-cons.png)
 
 To add a new block simply click on the **+** (Add block) sign and select **Casino Info, Pros & Cons** in **Spinoko Blocks** section.
 

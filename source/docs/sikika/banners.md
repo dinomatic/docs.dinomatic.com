@@ -15,7 +15,7 @@ With Sikika you can display advertising banners on your posts and pages.
 
 To add banners visit **Appearance** &#8594; **Customize** &#8594; **Banners** and adjust banner options. You can define banners here and choose their positions and on which post types to display them.
 
-![Sikika Banners](/assets/images/sikika/sikika-banners.png)
+![Sikika Banners](https://media.dinomatic.com/images/docs/sikika/sikika-banners.png)
 
 ### Banner positions
 

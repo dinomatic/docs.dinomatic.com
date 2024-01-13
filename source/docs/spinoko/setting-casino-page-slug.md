@@ -18,7 +18,7 @@ You can set the casino page slug to whatever string you need if you're not happy
 3. Click `Save`
 4. A message confirming the change will appear
 
-![Set Review Page Slug](/assets/images/spinoko/spinoko-casino-page-slug.png)
+![Set Review Page Slug](https://media.dinomatic.com/images/docs/spinoko/spinoko-casino-page-slug.png)
 
 After changing the slug make sure to visit permalinks page to avoid 404 pages.
 

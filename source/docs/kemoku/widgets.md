@@ -24,7 +24,7 @@ Here are the widgets available in Kemoku plugin that you can use:
 - Single Kemoku Review Widget
 - Multiple Kemoku Reviews Widget
 
-![kemoku-widgets](/assets/images/kemoku/kemoku-widgets.png)
+![kemoku-widgets](https://media.dinomatic.com/images/docs/kemoku/kemoku-widgets.png)
 
 
 
@@ -36,11 +36,11 @@ Here are the widgets available in Kemoku plugin that you can use:
 
 #### Single Kemoku Review Widget
 
-![kemoku-single-kemoku-review-widget](/assets/images/kemoku/kemoku-review-widget.png)
+![kemoku-single-kemoku-review-widget](https://media.dinomatic.com/images/docs/kemoku/kemoku-review-widget.png)
 
 #### Multiple Kemoku Reviews Widget
 
-![kemoku-multiple-kemoku-reviews-widget](/assets/images/kemoku/kemoku-reviews-widget.png)
+![kemoku-multiple-kemoku-reviews-widget](https://media.dinomatic.com/images/docs/kemoku/kemoku-reviews-widget.png)
 
 ### Next step
 

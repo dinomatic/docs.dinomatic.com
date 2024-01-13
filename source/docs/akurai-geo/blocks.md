@@ -13,7 +13,7 @@ There are a several blocks available for you to display your geo location based 
 
 ## Using Blocks
 
-![AkuraiGeo Blocks](/assets/images/akurai-geo/akurai-geo-blocks.png)
+![AkuraiGeo Blocks](https://media.dinomatic.com/images/docs/akurai-geo/akurai-geo-blocks.png)
 
 Below are the blocks available in AkuraiGeo plugin:
 
@@ -27,7 +27,7 @@ Below are the blocks available in AkuraiGeo plugin:
 
 To add a new listing simply click on the + (Add block) sign and select Geo Listing in Akurai Blocks section.
 
-![AkuraiGeo Blocks - Geo Listing](/assets/images/akurai-geo/akurai-geo-blocks--geo-listing.png)
+![AkuraiGeo Blocks - Geo Listing](https://media.dinomatic.com/images/docs/akurai-geo/akurai-geo-blocks--geo-listing.png)
 
 In the content editor a new listing edit section will appear. On the 1st tab you select the listing options such as listing type (grid, table, etc.), terms and whether to display filters or not.
 
@@ -35,17 +35,17 @@ The 2nd tab, called Default, is where you select all reviews that you want to di
 
 After that there's a new tab for each country you target, simply add reviews or leave them empty to display the Default selection.
 
-![AkuraiGeo Blocks - Geo Listing](/assets/images/akurai-geo/akurai-geo-blocks--geo-listing-manual.png)
+![AkuraiGeo Blocks - Geo Listing](https://media.dinomatic.com/images/docs/akurai-geo/akurai-geo-blocks--geo-listing-manual.png)
 
 `💁 since version 1.1.0` you can choose reviews manually or filter them by category and/or by tag. You can select a review tag and all reviews with that tag will be displayed. You can also set a limit, for example, display just 6 reviews tagged as "usa".
 
-![AkuraiGeo Blocks - Geo Listing](/assets/images/akurai-geo/akurai-geo-blocks--geo-listing-tax.png)
+![AkuraiGeo Blocks - Geo Listing](https://media.dinomatic.com/images/docs/akurai-geo/akurai-geo-blocks--geo-listing-tax.png)
 
 ### Geo Content Block
 
 To add a new content block simply click on the + (Add block) sign and select Geo Content in Akurai Blocks section.
 
-![AkuraiGeo Blocks - Geo Content](/assets/images/akurai-geo/akurai-geo-blocks--geo-content.png)
+![AkuraiGeo Blocks - Geo Content](https://media.dinomatic.com/images/docs/akurai-geo/akurai-geo-blocks--geo-content.png)
 
 In the content editor a new Content Block edit section will appear. Add your content to the rich-text editor and simply select the countries by toggling them on or off.
 
@@ -53,7 +53,7 @@ In the content editor a new Content Block edit section will appear. Add your con
 
 To add a new message block simply click on the + (Add block) sign and select Review Geo Message in Akurai Blocks section.
 
-![AkuraiGeo Blocks - Review Geo Message](/assets/images/akurai-geo/akurai-geo-blocks--review-geo-message.png)
+![AkuraiGeo Blocks - Review Geo Message](https://media.dinomatic.com/images/docs/akurai-geo/akurai-geo-blocks--review-geo-message.png)
 
 In the content editor a new message block edit section will appear. You can overwrite the default texts for messages for whether visitor's country is or isn't supported or keep the defaults.
 

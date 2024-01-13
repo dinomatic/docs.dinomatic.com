@@ -18,7 +18,7 @@ You can set the review page slug to whatever string you need if you're not happy
 3. Click `Save`
 4. A message confirming the change will appear
 
-![Set Review Page Slug](/assets/images/akurai/akurai-review-page-slug.jpg)
+![Set Review Page Slug](https://media.dinomatic.com/images/docs/akurai/akurai-review-page-slug.jpg)
 
 ---
 

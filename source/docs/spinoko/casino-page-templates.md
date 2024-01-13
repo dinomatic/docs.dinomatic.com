@@ -22,7 +22,7 @@ There are 3 page templates available for displaying **Casino Pages** on your web
 
 Here's an example of a casino page using the default template:
 
-![spinoko-casino-template-default](/assets/images/spinoko/spinoko-casino-template-default.png)
+![spinoko-casino-template-default](https://media.dinomatic.com/images/docs/spinoko/spinoko-casino-template-default.png)
 
 The background of Hero section is set to be a gradient by default. You can change it to a solid color from **Customizer** &#8594; **Review Options** by selecting value 'Color' for **Hero Background: Color or Gradient** field. To change it back, select 'Gradient' again.
 
@@ -32,7 +32,7 @@ This is a global setting and affects all you casino pages.
 
 Here's an example of a casino page using the cover template:
 
-![spinoko-casino-template-cover](/assets/images/spinoko/spinoko-casino-template-cover.png)
+![spinoko-casino-template-cover](https://media.dinomatic.com/images/docs/spinoko/spinoko-casino-template-cover.png)
 
 Besides gradient/color options, for Cover Templates you can also set an image as hero section background.
 
@@ -41,13 +41,13 @@ To display the featured image as a background for the hero section for individua
 
 The image will cover the whole hero section and will be displayed centered. Here's an example:
 
-![spinoko-casino-template-cover](/assets/images/spinoko/spinoko-casino-template-cover-image.jpg)
+![spinoko-casino-template-cover](https://media.dinomatic.com/images/docs/spinoko/spinoko-casino-template-cover-image.jpg)
 
 ### Cover Boxed Template
 
 Here's an example of a casino page using the cover boxed template:
 
-![spinoko-casino-template-cover-boxed](/assets/images/spinoko/spinoko-casino-template-cover-boxed.png)
+![spinoko-casino-template-cover-boxed](https://media.dinomatic.com/images/docs/spinoko/spinoko-casino-template-cover-boxed.png)
 
 ### Banner Template
 
@@ -55,7 +55,7 @@ Here's an example of a casino page using the cover boxed template:
 
 Here's an example of a casino page using the banner template:
 
-![spinoko-casino-template-banner](/assets/images/spinoko/spinoko-casino-template-banner.jpg)
+![spinoko-casino-template-banner](https://media.dinomatic.com/images/docs/spinoko/spinoko-casino-template-banner.jpg)
 
 ---
 

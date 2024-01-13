@@ -21,13 +21,13 @@ There are 2 page templates available for displaying **Game Pages** on your websi
 
 Here's an example of a game page using the default template:
 
-![spinoko-game-template-default](/assets/images/spinoko/spinoko-game-template-default.jpg)
+![spinoko-game-template-default](https://media.dinomatic.com/images/docs/spinoko/spinoko-game-template-default.jpg)
 
 ### Cover Template
 
 Here's an example of a game page using the cover template:
 
-![spinoko-game-template-cover](/assets/images/spinoko/spinoko-game-template-cover.jpg)
+![spinoko-game-template-cover](https://media.dinomatic.com/images/docs/spinoko/spinoko-game-template-cover.jpg)
 
 ---
 

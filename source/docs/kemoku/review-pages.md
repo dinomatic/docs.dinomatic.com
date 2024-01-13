@@ -19,58 +19,58 @@ Besides adding your review title and content as usual, you'll find **Review Fiel
 
 Define main review information such as the name, logo, affiliate URL, rating.
 
-![General Review Fields](/assets/images/kemoku/kemoku-review-general.jpg)
+![General Review Fields](https://media.dinomatic.com/images/docs/kemoku/kemoku-review-general.jpg)
 
 ### Bonus & Terms Fields
 
 Define bonus, bonus code (if any) and terms.
 
-![Review Fields Bonus](/assets/images/kemoku/kemoku-review-bonus.jpg)
+![Review Fields Bonus](https://media.dinomatic.com/images/docs/kemoku/kemoku-review-bonus.jpg)
 
 ### Payment Methods & Currencies
 
 Define _Payment Methods_ and _Currencies_ for the reviewed item and display them in your content through `Review Payments` and `Currencies` block.
 Payment method and currency information is also used for filtering review listings.
 
-![Review Fields Payments](/assets/images/kemoku/kemoku-review-payments.jpg)
+![Review Fields Payments](https://media.dinomatic.com/images/docs/kemoku/kemoku-review-payments.jpg)
 
 ### Details
 
 Define some details such as _Countries, US States, Services, Licenses, Features_ for the reviewed item and display them in your content through `Review Countries`, `Review US States`, `Review Services` blocks.
 
-![Review Fields Payments](/assets/images/kemoku/kemoku-review-details.jpg)
+![Review Fields Payments](https://media.dinomatic.com/images/docs/kemoku/kemoku-review-details.jpg)
 
 ### Hero Section
 
 Define whether the _Hero_ section at the top of the review page is enabled or not.
 Hero section settings can be adjusted on [plugin settings page](/docs/kemoku/settings#hero)
 
-![Review Fields Hero](/assets/images/kemoku/kemoku-review-hero.jpg)
+![Review Fields Hero](https://media.dinomatic.com/images/docs/kemoku/kemoku-review-hero.jpg)
 
 ### CTA Section
 
 Define whether the _CTA_ section at the bottom of the review page is enabled or not, as well as fill in the CTA details.
 CTA section settings can be adjusted on [plugin settings page](/docs/kemoku/settings#cta)
 
-![Review Fields CTA](/assets/images/kemoku/kemoku-review-cta.jpg)
+![Review Fields CTA](https://media.dinomatic.com/images/docs/kemoku/kemoku-review-cta.jpg)
 
 ### Pros & Cons
 
 Define _Pros & Cons_ of the reviewed item and display it in your content through `Review Pros & Cons` block.
 
-![Review Fields Pros Cons](/assets/images/kemoku/kemoku-review-pros-cons.jpg)
+![Review Fields Pros Cons](https://media.dinomatic.com/images/docs/kemoku/kemoku-review-pros-cons.jpg)
 
 ### Ratings
 
 Define _Ratings_ of the reviewed item and display it in your content through `Review Ratings` block.
 
-![Review Fields Ratings](/assets/images/kemoku/kemoku-review-ratings.jpg)
+![Review Fields Ratings](https://media.dinomatic.com/images/docs/kemoku/kemoku-review-ratings.jpg)
 
 ### Info
 
 Define _Review Info_ for the reviewed item and display it in your content through `Review Info` block.
 
-![Review Fields Info](/assets/images/kemoku/kemoku-review-info.jpg)
+![Review Fields Info](https://media.dinomatic.com/images/docs/kemoku/kemoku-review-info.jpg)
 
 ### Schema.org markup
 

@@ -19,7 +19,7 @@ Besides adding the casino title and content as usual, you'll find Casino Fields 
 
 Casino fields are in separate sections and have descriptions to make it easy for you to fill them in. These properties are used all over the website, please make sure to complete them.
 
-![Spinoko Casino Fields](/assets/images/spinoko/spinoko-casino-fields.png)
+![Spinoko Casino Fields](https://media.dinomatic.com/images/docs/spinoko/spinoko-casino-fields.png)
 
 ### Casino Page Blocks
 
@@ -27,7 +27,7 @@ To present the information more visually you can use [casino blocks](/docs/spino
 
 ### Casino Page Top Tables
 
-![spinoko-casino-top-tables](/assets/images/spinoko/spinoko-casino-info-pros-cons.png)
+![spinoko-casino-top-tables](https://media.dinomatic.com/images/docs/spinoko/spinoko-casino-info-pros-cons.png)
 
 By default on all casino pages, after the hero section appear 3 small tables: Info, Pros & Cons. These are generated from Casino Fields as well and you can disable them globally for your website in **Appearance** &#8594; **Customize** &#8594; [Review Options](/docs/spinoko/customizations#review-options).
 

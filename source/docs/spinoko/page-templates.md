@@ -23,7 +23,7 @@ There are 2 page templates available for displaying **Pages** in your website.
 
 Here's an example of a page using the default template:
 
-![spinoko-page-template-default](/assets/images/spinoko/spinoko-page-template-default.png)
+![spinoko-page-template-default](https://media.dinomatic.com/images/docs/spinoko/spinoko-page-template-default.png)
 
 ### Cover Template
 
@@ -31,15 +31,15 @@ When you choose "Page Cover" as a template in "Page Summary" section, a new sect
 
 With this template chosen, your Featured image will be set as a background image for the cover area and the page title will be displayed on top of that.
 
-![spinoko-page-template-cover-admin](/assets/images/spinoko/spinoko-page-cover-template.png)
+![spinoko-page-template-cover-admin](https://media.dinomatic.com/images/docs/spinoko/spinoko-page-cover-template.png)
 
 Here are a couple of examples of pages using the cover template:
 
-![spinoko-page-template-cover](/assets/images/spinoko/spinoko-page-template-cover.jpeg)
+![spinoko-page-template-cover](https://media.dinomatic.com/images/docs/spinoko/spinoko-page-template-cover.jpeg)
 
-![spinoko-page-template-cover-casinos](/assets/images/spinoko/spinoko-page-template-cover-casinos.jpg)
+![spinoko-page-template-cover-casinos](https://media.dinomatic.com/images/docs/spinoko/spinoko-page-template-cover-casinos.jpg)
 
-![spinoko-page-template-cover-no-image](/assets/images/spinoko/spinoko-page-template-cover-no-image.png)
+![spinoko-page-template-cover-no-image](https://media.dinomatic.com/images/docs/spinoko/spinoko-page-template-cover-no-image.png)
 
 Cover page templates have a couple of options:
 
@@ -53,11 +53,11 @@ You can use combinations of the above options to generate different page styles.
 
 When you choose "Full Screen Page Cover" as a template in "Page Summary" section, a new section at the bottom of the page appears called "Full Screen Cover Page Template Fields". Here you can define your desired options for your page.
 
-![spinoko-full-screen-page-cover-template-fields](/assets/images/spinoko/spinoko-full-screen-page-cover-template-fields.png)
+![spinoko-full-screen-page-cover-template-fields](https://media.dinomatic.com/images/docs/spinoko/spinoko-full-screen-page-cover-template-fields.png)
 
 Here's an example of a page using the full screen cover template:
 
-![spinoko-full-screen-page-cover-template](/assets/images/spinoko/spinoko-full-screen-page-cover-template.png)
+![spinoko-full-screen-page-cover-template](https://media.dinomatic.com/images/docs/spinoko/spinoko-full-screen-page-cover-template.png)
 
 ---
 

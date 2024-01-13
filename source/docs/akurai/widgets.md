@@ -40,22 +40,22 @@ Add a widget title, select whether to display the review terms of conditions or 
 
 You can display up to 10 review.
 
-![Akurai Reviews Widget](/assets/images/akurai/akurai-widget-reviews-editor.jpg)
+![Akurai Reviews Widget](https://media.dinomatic.com/images/docs/akurai/akurai-widget-reviews-editor.jpg)
 
 This is what it looks like on the front-end.
 
-![Akurai Reviews Widget](/assets/images/akurai/akurai-widget-reviews.jpg)
+![Akurai Reviews Widget](https://media.dinomatic.com/images/docs/akurai/akurai-widget-reviews.jpg)
 
 ### Single Review Widget
 
 Add the `Akurai Single Review Widget` to the widget area of your choice.
 Add a widget title, adjust settings: how to display terms and conditions and the review page link, choose the review you want to display from the dropdown list and click `Save`.
 
-![Akurai Reviews Widget](/assets/images/akurai/akurai-widget-review-editor.jpg)
+![Akurai Reviews Widget](https://media.dinomatic.com/images/docs/akurai/akurai-widget-review-editor.jpg)
 
 This is what it looks like on the front-end.
 
-![Akurai Reviews Widget](/assets/images/akurai/akurai-widget-review.jpg)
+![Akurai Reviews Widget](https://media.dinomatic.com/images/docs/akurai/akurai-widget-review.jpg)
 
 ### Next step
 

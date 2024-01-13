@@ -23,17 +23,17 @@ Or you can use the Customizer, visit **Appearance** &#8594; **Customize** and se
 
 Besides the default WordPress widgets, Spinoko Casino Widget is also available for you to use in footer.
 
-![Spinoko Widgets](/assets/images/spinoko/spinoko-widgets.png)
+![Spinoko Widgets](https://media.dinomatic.com/images/docs/spinoko/spinoko-widgets.png)
 
 ### Spinoko Casino Widget
 
 Add the <code>Spinoko Reviews Widget</code> to the footer widget area, add a widget title, select whether to display the casino terms of not, choose the casino you want to display from the dropdown lists and click Save.
 
-![Spinoko Casino Widget Back-End](/assets/images/spinoko/spinoko-casino-widget-admin.png)
+![Spinoko Casino Widget Back-End](https://media.dinomatic.com/images/docs/spinoko/spinoko-casino-widget-admin.png)
 
 This is what it looks like on the front-end.
 
-![Spinoko Casino Widget Front-End](/assets/images/spinoko/spinoko-casino-widget-frontend.png)
+![Spinoko Casino Widget Front-End](https://media.dinomatic.com/images/docs/spinoko/spinoko-casino-widget-frontend.png)
 
 ---
 

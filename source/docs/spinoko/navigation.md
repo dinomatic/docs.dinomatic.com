@@ -29,7 +29,7 @@ Footer navigation is an optional navigation menu and it's right above the copyri
 
 ### Additional Navigation
 
-![spinoko additional nav menu](/assets/images/spinoko/spinoko-additional-navigation.png)
+![spinoko additional nav menu](https://media.dinomatic.com/images/docs/spinoko/spinoko-additional-navigation.png)
 
 `💁 since version 2.4.0` To display an additional (traditional) navigation menu on your website check the box for **Customizer** &#8594; **Miscellaneous Options** &#8594; **Display Traditional Menu** option.
 

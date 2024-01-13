@@ -16,19 +16,19 @@ Below is the main WordPress Customizer view showing all the options you can cust
 
 Also you can find the customizer options and values for the [theme main demo](https://demos.dinomatic.com/athens).
 
-![Theme Customizations](/assets/images/akurai/customizer.jpg)
+![Theme Customizations](https://media.dinomatic.com/images/docs/akurai/customizer/customizer.jpg)
 
 ### Site Identity
 
 This is the standard Site Identity section where you can upload your logo and favicon, set site title and tagline.
 
-![customizer-site-identity](/assets/images/akurai/customizer/site-identity.jpg)
+![customizer-site-identity](https://media.dinomatic.com/images/docs/akurai/customizer/site-identity.jpg)
 
 ### Colors
 
 Define main theme colors here.
 
-![customizer-color-options](/assets/images/akurai/customizer/colors.jpg)
+![customizer-color-options](https://media.dinomatic.com/images/docs/akurai/customizer/colors.jpg)
 
 ### Header Options
 
@@ -36,14 +36,14 @@ Header options such as colors, navigation menu styles, header layout and positio
 
 `💁 since version 3.0.0` you can add a search form to the header.
 
-![customizer-header-options](/assets/images/akurai/customizer/header-options.jpg)
+![customizer-header-options](https://media.dinomatic.com/images/docs/akurai/customizer/header-options.jpg)
 
 ### Footer Options
 
 Footer colors, footer navigation, gambling logos and copyright text.
 If you're using year in your copyright text, you can replace it with `_current_year_` and it will display the current year.
 
-![customizer-footer-options](/assets/images/akurai/customizer/footer-options.jpg)
+![customizer-footer-options](https://media.dinomatic.com/images/docs/akurai/customizer/footer-options.jpg)
 
 ### Font Options
 
@@ -53,19 +53,19 @@ Website font family. You can choose a system default font or one from [Google Fo
 
 Here you define what Akurai sections look like and it'll affect almost everything including blocks and shortcodes.
 
-![customizer-section-options](/assets/images/akurai/customizer/section-options.jpg)
+![customizer-section-options](https://media.dinomatic.com/images/docs/akurai/customizer/section-options.jpg)
 
 ### Link Options
 
 Define link colors and `rel` and `target` attributes.
 
-![customizer-link-options](/assets/images/akurai/customizer/link-options.jpg)
+![customizer-link-options](https://media.dinomatic.com/images/docs/akurai/customizer/link-options.jpg)
 
 ### Button Options
 
 Theme button options such as colors, font styles, as well as hover effects and other styles.
 
-![customizer-button-options](/assets/images/akurai/customizer/button-options.jpg)
+![customizer-button-options](https://media.dinomatic.com/images/docs/akurai/customizer/button-options.jpg)
 
 ### Review Options
 
@@ -73,8 +73,8 @@ A plenty of options related to reviews and review pages. You can specify text co
 
 You can also enable/disable review/rating snippets (schema.org) markup for review pages, and adjust review author options.
 
-![customizer-review-options](/assets/images/akurai/customizer/review-options-1.jpg)
-![customizer-review-options-2](/assets/images/akurai/customizer/review-options-2.jpg)
+![customizer-review-options](https://media.dinomatic.com/images/docs/akurai/customizer/review-options-1.jpg)
+![customizer-review-options-2](https://media.dinomatic.com/images/docs/akurai/customizer/review-options-2.jpg)
 
 ### Posts Options
 
@@ -87,13 +87,13 @@ You can also customize the layout of the blog page, by choosing to display it in
 
 `💁 since version 3.0.0` you can change the posts header style by choosing whether or not to display a hero on top og the page.
 
-![customizer-posts-options](/assets/images/akurai/customizer/posts-options.jpg)
+![customizer-posts-options](https://media.dinomatic.com/images/docs/akurai/customizer/posts-options.jpg)
 
 ### Shortcode Options
 
 Specify various block/shortcode options such as anchor texts and the number of review stars, etc.
 
-![customizer-block-options](/assets/images/akurai/customizer/block-options.jpg)
+![customizer-block-options](https://media.dinomatic.com/images/docs/akurai/customizer/block-options.jpg)
 
 ### Breadcrumbs Options
 

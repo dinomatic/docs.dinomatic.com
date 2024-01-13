@@ -19,7 +19,7 @@ After activating DinOdds plugin, you'll find a new menu item in your WordPress d
 
 You'll be prompted to add your Client ID, enter it and click the **Save** button.
 
-![DinOdds Plugin Setup](/assets/images/dinodds/plugin-setup.png)
+![DinOdds Plugin Setup](https://media.dinomatic.com/images/docs/dinodds/plugin-setup.png)
 
 ---
 

@@ -66,7 +66,7 @@ Generate the shortcode with a couple of mouse clicks, copy and paste the result 
 
 #### Table shortcode generator
 
-![Kemoku Shortcode Generator](/assets/images/kemoku/kemoku-shortcode-generator.png)
+![Kemoku Shortcode Generator](https://media.dinomatic.com/images/docs/kemoku/kemoku-shortcode-generator.png)
 
 
 ### Next step

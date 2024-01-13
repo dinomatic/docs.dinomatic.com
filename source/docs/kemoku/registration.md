@@ -19,14 +19,14 @@ You can get your product key from your [DinoMatic account](https://dinomatic.com
 
 After activating the plugin you'll be prompted with a notice to add your product key.
 
-![Kemoku Plugin registration](/assets/images/kemoku/kemoku-registration.jpg)
+![Kemoku Plugin registration](https://media.dinomatic.com/images/docs/kemoku/kemoku-registration.jpg)
 
 1. Click on `the setup page` link
 2. On setup page enter the product key you got from your DinoMatic account
 3. Click "Save"
 4. A message confirming the plugin product key registration will appear
 
-![Kemoku Plugin registration](/assets/images/kemoku/kemoku-setup.jpg)
+![Kemoku Plugin registration](https://media.dinomatic.com/images/docs/kemoku/kemoku-setup.jpg)
 
 ### Set Reviews Page Slug
 

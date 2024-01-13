@@ -15,7 +15,7 @@ Besides adding the game title and content as usual, you'll find Game Fields sect
 
 Game fields are in separate sections and have descriptions to make it easy for you to fill them in. These properties are used all over the website, please make sure to complete them.
 
-![Spinoko Game Fields](/assets/images/spinoko/spinoko-game-fields.jpg)
+![Spinoko Game Fields](https://media.dinomatic.com/images/docs/spinoko/spinoko-game-fields.jpg)
 
 ---
 

@@ -13,7 +13,7 @@ To fully integrate with your website, DinOdds gives you the options to set your 
 
 For each sportsbook you have an input field to fill in your affiliate link so that they appear in the table at the top or inline with odds values.
 
-![DinOdds Affiliate Settings](/assets/images/dinodds/affiliate-settings.png)
+![DinOdds Affiliate Settings](https://media.dinomatic.com/images/docs/dinodds/affiliate-settings.png)
 
 ### Change Sportsbook Logos
 
