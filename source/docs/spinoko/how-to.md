@@ -330,9 +330,13 @@ To do that, you need to use the following filter in your child theme's `function
 ```php
 function spinoko__change_game_names( $games ) {
 
-    $games['other'] = 'More Games';
+    return array_map( function( $game ) {
+        if ( 'other' === $game['name'] ) {
+            $game['title'] = 'More Games';
+        }
 
-    return $games;
+        return $game;
+    }, $games);
 }
 add_filter( 'spinoko_game_names', 'spinoko__change_game_names' );
 ```
