@@ -10,19 +10,19 @@ return [
 
     'php_version' => '7.4',
     'wp_min_version' => '5.0',
-    'wp_rec_version' => '6.3',
+    'wp_rec_version' => '6.4',
 
     // navigation menu
     'navigation' => require_once('navigation.php'),
 
     // versions
     'versions' => [
-        'akurai' => '3.1.3',
+        'akurai' => '3.1.4',
         'spinoko' => '2.5.2',
         'sikika' => '1.0.2',
         'kemoku' => '1.6.2',
         'dinodds' => '1.3.1',
-        'akurai-geo' => '1.1.1',
+        'akurai-geo' => '1.2.0',
         'nonaki' => '1.0.4',
         'hello-cookie' => '1.0.2',
     ],
