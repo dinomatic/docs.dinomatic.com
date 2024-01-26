@@ -33,4 +33,4 @@ Here's an example of a game page using the cover template:
 
 ### Next step
 
-[Set Game Page Slug](/docs/spinoko/setting-game-page-slug/)
+[Demo Games](/docs/spinoko/demo-games/)

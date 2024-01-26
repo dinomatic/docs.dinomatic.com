@@ -21,4 +21,4 @@ Game fields are in separate sections and have descriptions to make it easy for y
 
 ### Next step
 
-[Theme Blocks](/docs/spinoko/blocks/)
+[Game Page Templates](/docs/spinoko/game-page-templates/)

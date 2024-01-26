@@ -35,6 +35,7 @@ return [
             'Game Page Slug' => 'docs/spinoko/setting-game-page-slug',
             'Creating Game Pages' => 'docs/spinoko/creating-game-pages',
             'Game Page Templates' => 'docs/spinoko/game-page-templates',
+            'Demo Games' => 'docs/spinoko/demo-games',
             'Theme Blocks' => 'docs/spinoko/blocks',
             'Page Templates' => 'docs/spinoko/page-templates',
             'Widgets' => 'docs/spinoko/widgets',

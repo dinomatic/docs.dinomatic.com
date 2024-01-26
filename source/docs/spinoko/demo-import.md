@@ -34,4 +34,4 @@ If you prefer to customize the theme on your own, you can download a `.xml` file
 
 ### Next Step
 
-[Child Theme](/docs/spinoko/child-theme/)
+[Theme Updates](/docs/spinoko/updates/)

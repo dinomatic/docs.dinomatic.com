@@ -30,6 +30,7 @@ Here are 2 demos for you:
 
 1. [Demo Ottawa](https://demos.dinomatic.com/ottawa/)
 1. [Demo Bangkok](https://demos.dinomatic.com/bangkok/)
+1. [Demo Kuala Lumpur](https://demos.dinomatic.com/bangkok/)
 
 ### Changelog
 
