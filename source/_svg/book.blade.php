@@ -4,16 +4,9 @@
         stroke="url(#paint0_linear_36_193)" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" />
     <path
         d="M21.75 3V10.7143C21.75 12.0783 22.2241 13.3864 23.068 14.3508C23.9119 15.3153 25.0565 15.8571 26.25 15.8571H33"
-        stroke="url(#paint1_linear_36_193)" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" />
+        stroke="url(#paint0_linear_36_193)" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" />
     <defs>
         <linearGradient id="paint0_linear_36_193" x1="10.9327" y1="10.3636" x2="34.8302" y2="11.411"
-            gradientUnits="userSpaceOnUse">
-            <stop stop-color="#10D6B8" />
-            <stop offset="0.529167" stop-color="#10C2BE" />
-            <stop offset="0.680208" stop-color="#16B2BE" />
-            <stop offset="1" stop-color="#137D95" />
-        </linearGradient>
-        <linearGradient id="paint1_linear_36_193" x1="23.8053" y1="5.62987" x2="33.7557" y2="6.13865"
             gradientUnits="userSpaceOnUse">
             <stop stop-color="#10D6B8" />
             <stop offset="0.529167" stop-color="#10C2BE" />

@@ -25,10 +25,10 @@
 
                 <link rel="preconnect" href="https://fonts.bunny.net">
         <link href="https://fonts.bunny.net/css?family=rubik:400,700" rel="stylesheet" />
-        <link rel="stylesheet" href="/assets/build/css/main.css?id=e896d1ebd73dd3f30faa923deb744e9d">
+        <link rel="stylesheet" href="/assets/build/css/main.css?id=9a85dd0844d1aea871e8d88c1daf85ce">
     </head>
 
-    <body>
+    <body class="docs">
         <a href="#content" class="screen-reader-text">Skip to content</a>
 
         <header id="header" class="header" role="banner">
@@ -41,16 +41,9 @@
         stroke="url(#paint0_linear_36_193)" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" />
     <path
         d="M21.75 3V10.7143C21.75 12.0783 22.2241 13.3864 23.068 14.3508C23.9119 15.3153 25.0565 15.8571 26.25 15.8571H33"
-        stroke="url(#paint1_linear_36_193)" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" />
+        stroke="url(#paint0_linear_36_193)" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" />
     <defs>
         <linearGradient id="paint0_linear_36_193" x1="10.9327" y1="10.3636" x2="34.8302" y2="11.411"
-            gradientUnits="userSpaceOnUse">
-            <stop stop-color="#10D6B8" />
-            <stop offset="0.529167" stop-color="#10C2BE" />
-            <stop offset="0.680208" stop-color="#16B2BE" />
-            <stop offset="1" stop-color="#137D95" />
-        </linearGradient>
-        <linearGradient id="paint1_linear_36_193" x1="23.8053" y1="5.62987" x2="33.7557" y2="6.13865"
             gradientUnits="userSpaceOnUse">
             <stop stop-color="#10D6B8" />
             <stop offset="0.529167" stop-color="#10C2BE" />
@@ -1692,6 +1685,45 @@ add_filter( 'spinoko_game_names', 'spinoko__change_game_names' );
 </code></pre>
 
 <p><code>Pro Tip</code> If you don't use any of the games on your website and you need another one that's missing, you can simply change one you don't need.</p>
+
+<hr />
+
+<h3>How To Change Footer Gambling Logos</h3>
+
+<p>By default Spinoko comes with 4 logo images that you can include in your site's footer. Those are 18+, BeGambleAware, GamCare and GamStop. This option is not enabled by default, you can enable it from Customizer -> Miscellaneous Options -> Footer Options -> "Display Footer Gambling Logos".</p>
+
+<p>You can also change them or add more logos. To achieve that you need to do prepare your images and upload them to a directory in your child theme and include (and modify) 2 functions.</p>
+
+<p>For this example I'll use this directory - <code>/assets/images/footer-logos/</code>. If you choose a different one, make sure to change it in the first function below.
+Once your directory is created you need to upload all the logo files into it.
+Once that's done, too, you can add the below functions into your child theme.</p>
+
+<pre><code class="language-php">/** Change the logos' image directory */
+function sch_footer_logos_directory( $path ) {
+    return get_stylesheet_directory_uri() . '/assets/images/footer-logos/';
+}
+add_filter( 'spinoko_gambling_logos_directory_path', 'sch_footer_logos_directory' );
+
+/** Change the gambling logos */
+function sch_footer_logos( $logos ) {
+
+    return array(
+        array(
+            'image' =&gt; '18-plus.png',
+            'alt'   =&gt; '18 Plus',
+        ),
+        array(
+            'image' =&gt; 'be-gamble-aware.png',
+            'alt'   =&gt; 'BeGambleAware',
+            'url'   =&gt; 'https://www.begambleaware.org/',
+        ),
+        // add more logos here
+    );
+}
+add_filter( 'spinoko_gambling_logos', 'sch_footer_logos' );
+</code></pre>
+
+<p>In the example above I included only 2 logos, for each logo you need to add an array of properties (file name, alt text and an optional URL).</p>
 
 <hr />
 

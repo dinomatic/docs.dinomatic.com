@@ -366,6 +366,46 @@ array(
 
 ---
 
+### How To Change Footer Gambling Logos
+
+By default Spinoko comes with 4 logo images that you can include in your site's footer. Those are 18+, BeGambleAware, GamCare and GamStop. This option is not enabled by default, you can enable it from Customizer -> Miscellaneous Options -> Footer Options -> "Display Footer Gambling Logos".
+
+You can also change them or add more logos. To achieve that you need to do prepare your images and upload them to a directory in your child theme and include (and modify) 2 functions.
+
+For this example I'll use this directory - `/assets/images/footer-logos/`. If you choose a different one, make sure to change it in the first function below.
+Once your directory is created you need to upload all the logo files into it.
+Once that's done, too, you can add the below functions into your child theme.
+
+```php
+/** Change the logos' image directory */
+function sch_footer_logos_directory( $path ) {
+    return get_stylesheet_directory_uri() . '/assets/images/footer-logos/';
+}
+add_filter( 'spinoko_gambling_logos_directory_path', 'sch_footer_logos_directory' );
+
+/** Change the gambling logos */
+function sch_footer_logos( $logos ) {
+
+    return array(
+        array(
+            'image' => '18-plus.png',
+            'alt'   => '18 Plus',
+        ),
+        array(
+            'image' => 'be-gamble-aware.png',
+            'alt'   => 'BeGambleAware',
+            'url'   => 'https://www.begambleaware.org/',
+        ),
+        // add more logos here
+    );
+}
+add_filter( 'spinoko_gambling_logos', 'sch_footer_logos' );
+```
+
+In the example above I included only 2 logos, for each logo you need to add an array of properties (file name, alt text and an optional URL).
+
+---
+
 ### How To Remove Review Links
 
 By default Spinoko blocks include "Read Review" links to casino review pages.

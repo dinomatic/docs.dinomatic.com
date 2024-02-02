@@ -30,9 +30,13 @@
       svg {
           width: 2.25rem;
           height: 2.25rem;
-          margin-left: 2rem;
+        //   margin-left: 2rem;
           margin-right: 0.5rem;
           fill: none;
       }
   }
+}
+
+.home .header .logo svg {
+  margin-left: 1rem;
 }

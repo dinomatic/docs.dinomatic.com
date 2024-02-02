@@ -29,7 +29,7 @@
         <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
     </head>
 
-    <body>
+    <body class="{{ $page->getPath() ? 'docs' : 'home' }}">
         <a href="#content" class="screen-reader-text">Skip to content</a>
 
         <header id="header" class="header" role="banner">
