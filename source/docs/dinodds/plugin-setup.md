@@ -21,6 +21,11 @@ You'll be prompted to add your Client ID, enter it and click the **Save** button
 
 ![DinOdds Plugin Setup](https://media.dinomatic.com/images/docs/dinodds/plugin-setup.png)
 
+If you get an error that the license key is not correct and the registration fails:
+
+- make sure there are no white spaces in the beginning or at the end of the key
+- if you have firewall installed on your server, make sure requests to dinomatic.com are not being blocked
+
 ---
 
 ### Next step

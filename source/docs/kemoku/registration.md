@@ -28,6 +28,11 @@ After activating the plugin you'll be prompted with a notice to add your product
 
 ![Kemoku Plugin registration](https://media.dinomatic.com/images/docs/kemoku/kemoku-setup.jpg)
 
+If you get an error that the license key is not correct and the registration fails:
+
+- make sure there are no white spaces in the beginning or at the end of the key
+- if you have firewall installed on your server, make sure requests to dinomatic.com are not being blocked
+
 ### Set Reviews Page Slug
 
 On the same plugin setup page you can set up your reviews pages slug.

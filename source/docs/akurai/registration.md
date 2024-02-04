@@ -24,6 +24,11 @@ You can get your product key from your [DinoMatic account](https://dinomatic.com
 
 ![Theme Registration](https://media.dinomatic.com/images/docs/akurai/akurai-registration.jpg)
 
+If you get an error that the license key is not correct and the registration fails:
+
+- make sure there are no white spaces in the beginning or at the end of the key
+- if you have firewall installed on your server, make sure requests to dinomatic.com are not being blocked
+
 ---
 
 ### Next step
