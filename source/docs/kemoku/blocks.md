@@ -41,6 +41,8 @@ Besides categories, you can filter reviews by review tags as well. In difference
 
 `💁 since version 1.5.8` you can enable filters, sorting and load more button on listing blocks.
 
+`💁 since version 1.6.3` you can display terms in a popup.
+
 #### Table
 
 Preview:
