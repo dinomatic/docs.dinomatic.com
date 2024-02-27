@@ -3,7 +3,7 @@
 use Illuminate\Support\Str;
 
 return [
-    'baseUrl' => 'https://dinomatic-docs.test/',
+    'baseUrl' => 'https://docs.dinomatic.com.test/',
     'production' => false,
     'siteName' => 'DinoMatic Docs',
     'siteDescription' => 'WordPress Themes and Plugins',
@@ -12,10 +12,8 @@ return [
     'wp_min_version' => '5.0',
     'wp_rec_version' => '6.4',
 
-    // navigation menu
     'navigation' => require_once('navigation.php'),
 
-    // versions
     'versions' => [
         'akurai' => '3.1.4',
         'spinoko' => '2.5.3',
