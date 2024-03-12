@@ -48,14 +48,16 @@ Below reviews select how to display the **terms and conditions**.
 
 `💁 since version 3.0.0` You can enable **lazy loading** for logo images on tables.
 
+`💁 since version 3.1.5` You can add **load more button** on tables.
+
 ### Reviews Table Shortcode
 
 ```html
-[table source="manual" reviews="comma separated list of review page ids" terms="none|short|long|ajax|ajax-hover" filters="true" lazy_logo="true"]
+[table source="manual" reviews="comma separated list of review page ids" terms="none|short|long|ajax|ajax-hover" filters="true" lazy_logo="true" load_more_enabled="true" count_initial="3" count_click="3"]
 ```
 
 ```html
-[table source="tax" cat="ID" tag="ID" ppp="-1" terms="none|short|long|ajax|ajax-hover" filters="true" lazy_logo="true"]
+[table source="tax" cat="ID" tag="ID" ppp="-1" terms="none|short|long|ajax|ajax-hover" filters="true" lazy_logo="true" load_more_enabled="true" count_initial="3" count_click="3"]
 ```
 
 ### Extended Table Block
@@ -72,14 +74,16 @@ Below reviews select how to display the **terms and conditions**.
 
 `💁 since version 3.0.0` You can enable **lazy loading** for logo images on tables.
 
+`💁 since version 3.1.5` You can add **load more button** on tables.
+
 ### Extended Table Shortcode
 
 ```html
-[table_extended source="manual" reviews="comma separated list of review page ids" terms="none|short|long|ajax|ajax-hover" filters="true" lazy_logo="true"]
+[table_extended source="manual" reviews="comma separated list of review page ids" terms="none|short|long|ajax|ajax-hover" filters="true" lazy_logo="true" load_more_enabled="true" count_initial="3" count_click="3"]
 ```
 
 ```html
-[table_extended source="tax" cat="ID" tag="ID" ppp="-1" terms="none|short|long|ajax|ajax-hover" filters="true" lazy_logo="true"]
+[table_extended source="tax" cat="ID" tag="ID" ppp="-1" terms="none|short|long|ajax|ajax-hover" filters="true" lazy_logo="true" load_more_enabled="true" count_initial="3" count_click="3"]
 ```
 
 ### Flex Table Block
@@ -94,14 +98,16 @@ In the content editor a new table edit section will appear. There are 2 options 
 
 Below reviews select how to display the **terms and conditions**, add **filters** to tables, learn how to modify filters [here](/docs/akurai/how-to#how-to-modify-reviews-filters). You can also enable **lazy loading** for logo images on tables.
 
+`💁 since version 3.1.5` You can add **load more button** on tables.
+
 ### Flex Table Shortcode
 
 ```html
-[table_flex source="manual" reviews="comma separated list of review page ids" terms="none|short|long|ajax|ajax-hover" filters="true" lazy_logo="true"]
+[table_flex source="manual" reviews="comma separated list of review page ids" terms="none|short|long|ajax|ajax-hover" filters="true" lazy_logo="true" load_more_enabled="true" count_initial="3" count_click="3"]
 ```
 
 ```html
-[table_flex source="tax" cat="ID" tag="ID" ppp="-1" terms="none|short|long|ajax|ajax-hover" filters="true" lazy_logo="true"]
+[table_flex source="tax" cat="ID" tag="ID" ppp="-1" terms="none|short|long|ajax|ajax-hover" filters="true" lazy_logo="true" load_more_enabled="true" count_initial="3" count_click="3"]
 ```
 
 ### Reviews Grid Block
@@ -118,15 +124,17 @@ Below reviews select how to display the **terms and conditions**.
 
 `💁 since version 3.0.0` You can enable **lazy loading** for logo images on grids.
 
+`💁 since version 3.1.5` You can add **load more button** on tables.
+
 
 ### Reviews Grid Shortcode
 
 ```html
-[grid source="manual" reviews="comma separated list of review page ids" terms="none|short|long|ajax|ajax-hover" filters="true" lazy_logo="true"]
+[grid source="manual" reviews="comma separated list of review page ids" terms="none|short|long|ajax|ajax-hover" filters="true" lazy_logo="true" load_more_enabled="true" count_initial="3" count_click="3"]
 ```
 
 ```html
-[grid source="tax" cat="ID" tag="ID" ppp="-1" terms="none|short|long|ajax|ajax-hover" filters="true" lazy_logo="true"]
+[grid source="tax" cat="ID" tag="ID" ppp="-1" terms="none|short|long|ajax|ajax-hover" filters="true" lazy_logo="true" load_more_enabled="true" count_initial="3" count_click="3"]
 ```
 
 ### Reviews List Block
