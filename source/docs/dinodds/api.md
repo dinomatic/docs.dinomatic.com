@@ -17,11 +17,11 @@ DinoFeeds API has been developed to provide an easy solution for displaying bett
 
 You can control the API settings through your [DinoMatic account](https://dinomatic.com/account).
 
-![DinOdds Subscription](https://media.dinomatic.com/images/docs/dinodds/subscription.png)
+![DinOdds Subscription](https://media.dinomatic.com/images/docs/dinodds/subscription.jpg)
 
 Find the subscription you need and click on **Plugin Settings** button, a popup with a form will appear where you can adjust your settings.
 
-![DinOdds Subscription Details](https://media.dinomatic.com/images/docs/dinodds/subscription-details.png)
+![DinOdds Subscription Details](https://media.dinomatic.com/images/docs/dinodds/subscription-details.jpg)
 
 #### Notes:
 
