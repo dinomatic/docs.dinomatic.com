@@ -86,4 +86,4 @@ Check out an example of a banner template [here](https://demos.dinomatic.com/ath
 
 ### Next Step
 
-[Widget Areas](/docs/akurai/homepage-templates/)
+[Blocks & Shortcodes](/docs/akurai/blocks-shortcodes/)

@@ -23,9 +23,9 @@ Visit that page, select the demo website and import it. You can also install opt
 
 If for some reason you get an error when trying to import the demo, try switching to manual method and upload the below files:
 
-- Athens demo - [content](https://demos.dinomatic.com/data/contents/athens.xml), [customizer](https://demos.dinomatic.com/data/customizer/athens.dat), [widgets](https://demos.dinomatic.com/data/widgets/athens.wie)
-- Berlin demo - [content](https://demos.dinomatic.com/data/contents/berin.xml), [customizer](https://demos.dinomatic.com/data/customizer/berin.dat), [widgets](https://demos.dinomatic.com/data/widgets/berin.wie)
-- Lisbon demo - [content](https://demos.dinomatic.com/data/contents/lisbon.xml), [customizer](https://demos.dinomatic.com/data/customizer/lisbon.dat), [widgets](https://demos.dinomatic.com/data/widgets/lisbon.wie)
+- Athens demo - [content](https://media.dinomatic.com/demo/contents/athens.xml), [customizer](https://media.dinomatic.com/demo/customizer/athens.dat), [widgets](https://media.dinomatic.com/demo/widgets/athens.wie)
+- Berlin demo - [content](https://media.dinomatic.com/demo/contents/berin.xml), [customizer](https://media.dinomatic.com/demo/customizer/berin.dat), [widgets](https://media.dinomatic.com/demo/widgets/berin.wie)
+- Lisbon demo - [content](https://media.dinomatic.com/demo/contents/lisbon.xml), [customizer](https://media.dinomatic.com/demo/customizer/lisbon.dat), [widgets](https://media.dinomatic.com/demo/widgets/lisbon.wie)
 
 ### Manual Content Import
 
