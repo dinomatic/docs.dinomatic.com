@@ -20,6 +20,7 @@ Here are the blocks available in Spinoko theme:
 - Casinos Table
 - Casinos Grid
 - Casino Finder
+- Casino Dropdown
 - Featured Casino
 - Games Grid
 - Game Finder
@@ -83,6 +84,22 @@ To add a new casino finder simply click on the + (Add block) sign and select **C
 After that just adjust the labels displayed on the block and save the page.
 
 ![spinoko-blocks-casino-finder-admin](https://media.dinomatic.com/images/docs/spinoko/spinoko-blocks-casino-finder-admin.jpg)
+
+At the right side panel you can click on **Switch to Preview** to preview the offer in your editor.
+
+> Note that this block is not available in AMP mode.
+
+### Casino Dropdown Block
+
+`💁 since version 2.5.7`
+
+![spinoko-blocks-casino-dropdown](https://media.dinomatic.com/images/docs/spinoko/spinoko-blocks-casino-dropdown-frontend.jpg)
+
+To add a new casino dropdown simply click on the + (Add block) sign and select **Casino Dropdown** in **Spinoko Blocks** section.
+
+After that just adjust the labels displayed on the block and save the page.
+
+![spinoko-blocks-casino-dropdown-admin](https://media.dinomatic.com/images/docs/spinoko/spinoko-blocks-casino-dropdown-admin.jpg)
 
 At the right side panel you can click on **Switch to Preview** to preview the offer in your editor.
 

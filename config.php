@@ -10,13 +10,13 @@ return [
 
     'php_version' => '7.4',
     'wp_min_version' => '5.0',
-    'wp_rec_version' => '6.4',
+    'wp_rec_version' => '6.5',
 
     'navigation' => require_once('navigation.php'),
 
     'versions' => [
         'akurai' => '3.1.5',
-        'spinoko' => '2.5.5',
+        'spinoko' => '2.5.7',
         'sikika' => '1.0.2',
         'kemoku' => '1.6.3',
         'dinodds' => '1.4.1',
