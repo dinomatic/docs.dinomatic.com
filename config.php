@@ -15,7 +15,7 @@ return [
     'navigation' => require_once('navigation.php'),
 
     'versions' => [
-        'akurai' => '3.1.5',
+        'akurai' => '3.1.6',
         'spinoko' => '2.5.7',
         'sikika' => '1.0.2',
         'kemoku' => '1.6.3',
