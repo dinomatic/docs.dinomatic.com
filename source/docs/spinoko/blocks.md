@@ -71,7 +71,15 @@ In the content editor a new gird edit section will appear. Click **Add Casino** 
 
 Casino Grid block offers you multiple options for terms and conditions, you can display them as a popover, as a link or as a plain text.
 
-![spinoko-blocks-grid-admin](https://media.dinomatic.com/images/docs/spinoko/spinoko-blocks-grid-admin.png)
+`💁 since version 1.0.8` you can enable **Limit Casinos and Display a Load More Button** option and select how many casinos to display initially. This option will hide the rest of the casinos and add a "Load more Casinos" button below the table. When a user clicks on the button the rest of the casinos are displayed as well.
+
+`💁 since version 2.0.0` you can add **Casinos Games** and **Casino Countries** to grids.
+
+`💁 since version 2.0.0` you can enable **filtering** for your grids regardless of their styles. Casinos can be filtered by Country, Game, Game Provider, Payment Method, License.
+
+`💁 since version 2.5.8` you can select casinos by filtering them by category and/or tags.
+
+![spinoko-blocks-grid-admin](https://media.dinomatic.com/images/docs/spinoko/spinoko-blocks-grid-admin.jpg)
 
 At the right side panel you can click on **Switch to Preview** to preview the gird in your editor.
 
