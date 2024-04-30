@@ -27,8 +27,8 @@ class GenerateSitemap
         $sitemap = new Sitemap($jigsaw->getDestinationPath().'/sitemap.xml');
 
         collect($jigsaw->getOutputPaths())
-            ->reject(fn($path) => $this->isExcluded($path))
-            ->each(fn($path) => $sitemap->addItem(rtrim($baseUrl, '/').$path, time(), Sitemap::DAILY));
+            ->reject(fn ($path) => $this->isExcluded($path))
+            ->each(fn ($path) => $sitemap->addItem(rtrim($baseUrl, '/').$path, time(), Sitemap::DAILY));
 
         $sitemap->write();
     }
