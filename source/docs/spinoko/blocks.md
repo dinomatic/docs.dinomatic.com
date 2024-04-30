@@ -53,6 +53,10 @@ Casino Table block offers you multiple styles and options. You can display table
 
 ![spinoko-blocks-table-admin](https://media.dinomatic.com/images/docs/spinoko/spinoko-blocks-table-admin.jpg)
 
+`💁 since version 2.5.8` you can select casinos by filtering them by category and/or tags.
+
+![spinoko-blocks-table-admin--tax](https://media.dinomatic.com/images/docs/spinoko/spinoko-blocks-table-admin--tax.jpg)
+
 At the right side panel you can click on **Switch to Preview** to preview the table in your editor.
 
 > Note that the preview may differ a little from the actual table as some WordPress and other plugin styles may be affecting it.
