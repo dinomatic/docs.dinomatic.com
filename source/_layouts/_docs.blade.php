@@ -28,6 +28,13 @@
         </h4>
 
         <h4 class="heading--main">
+            <a href="/docs/sibet/">
+                @include('_svg.sibet')
+                Sibet Docs
+            </a>
+        </h4>
+
+        <h4 class="heading--main">
             <a href="/docs/dinodds/">
                 @include('_svg.dinodds')
                 DinOdds Docs

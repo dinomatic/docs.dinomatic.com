@@ -79,6 +79,19 @@ return [
             'Plugin Updates' => 'docs/kemoku/plugin-updates',
         ],
     ],
+    'Sibet Plugin' => [
+        'url' => 'docs/sibet',
+        'children' => [
+            'Installation' => 'docs/sibet/installation',
+            'Plugin Setup' => 'docs/sibet/plugin-setup',
+            'Plugin Settings' => 'docs/sibet/plugin-settings',
+            'Plugin Shortcodes' => 'docs/sibet/plugin-shortcodes',
+            'Affiliate Settings' => 'docs/sibet/bookmaker-settings',
+            'Feed Updates' => 'docs/sibet/feed-updates',
+            'Customizing Styles' => 'docs/sibet/custom-css',
+            'Plugin Updates' => 'docs/sibet/plugin-updates',
+        ],
+    ],
     'DinOdds Plugin' => [
         'url' => 'docs/dinodds',
         'children' => [

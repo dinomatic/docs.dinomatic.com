@@ -28,6 +28,13 @@
         </h4>
 
         <h4 class="heading--secondary">
+            <a href="https://demos.dinomatic.com/brisbane">
+                @include('_svg.demo')
+                Sibet Demo
+            </a>
+        </h4>
+
+        <h4 class="heading--secondary">
             <a href="https://demos.dinomatic.com/luanda">
                 @include('_svg.demo')
                 DinOdds Demo
