@@ -24,7 +24,7 @@ This page describes the blocks you can use on all pages.
 
 Below are the blocks available in Kemoku plugin you can use on all pages:
 
-- Reviews Listings (Table and Grid)
+- Reviews Listings (Tables and Grids)
 - Review CTA
 
 ### Reviews Listings
@@ -50,6 +50,18 @@ Preview:
 
 Dashboard:
 ![Kemoku Table Block](https://media.dinomatic.com/images/docs/kemoku/kemoku-reviews-table-block-backend.jpg)
+
+#### Table: Payments
+
+`💁 since version 1.6.5`
+
+New table design for showcasing review payment options such as different payment methods, payout speeds. You can use the filtering, sorting and limiting options with this table as well. The styles of this table can be easily customized, learn how to do that [here](/docs/kemoku/how-to#how-to-customize-"table:-payments"-block-design).
+
+Preview:
+![Kemoku Table Payments Block](https://media.dinomatic.com/images/docs/kemoku/kemoku-reviews-table-payments-block-frontend.jpg)
+
+Dashboard:
+![Kemoku Table Payments Block](https://media.dinomatic.com/images/docs/kemoku/kemoku-reviews-table-payments-block-backend.jpg)
 
 #### Grid
 

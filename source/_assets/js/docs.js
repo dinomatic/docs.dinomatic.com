@@ -38,6 +38,16 @@ import { createEl } from './base'
     createOnPageMenu(pageLinks)
   }
 
+  const h4s = docContent.querySelectorAll('h4')
+  if (h4s.length > 0) {
+    h4s.forEach((heading) => {
+      const anchor = heading.textContent
+      const id = anchor.replace(/\s+/g, '-').toLowerCase()
+
+      updateHeading(heading, id)
+    })
+  }
+
   // IMAGES
   const images = docContent.querySelectorAll('img')
   if (images.length > 0) {

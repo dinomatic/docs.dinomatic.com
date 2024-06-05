@@ -16,21 +16,30 @@ All the plugin blocks are also available as shortcodes.
 Here are the shortcodes available in Kemoku plugin you can use on all pages:
 
 - Reviews Table
+- Reviews Table: Payments
 - Reviews Grid
 - Review CTA
 
 ### Reviews Table
 
 ```html
-[sb_table source="manual" ids="6, 9" style="no-terms|link-terms spacing altrows"]
+[sb_table source="manual" ids="6, 9" style="no-terms|link-terms|popup-terms spacing altrows"]
 
 [sb_table source="tax" cat="42,43" tag="73,74" style="..."]
+```
+
+### Reviews Table: Payments
+
+```html
+[sb_table_payments source="manual" ids="6, 9" style="short-terms|link-terms|popup-terms"]
+
+[sb_table_payments source="tax" cat="42,43" tag="73,74" style="..."]
 ```
 
 ### Reviews Grid
 
 ```html
-[sb_grid source="manual" ids="6, 9" style="no-terms|link-terms"]
+[sb_grid source="manual" ids="6, 9" style="no-terms|link-terms|popup-terms"]
 
 [sb_grid source="tax" cat="42,43" tag="73,74" style="..."]
 ```
