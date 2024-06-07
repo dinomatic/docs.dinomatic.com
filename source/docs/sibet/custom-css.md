@@ -40,6 +40,9 @@ All colors used correspond to CSS custom properties:
   --se-color-match-bookmaker-text: #4588c3;
   --se-color-match-bookmaker-text-hover: #285a86;
   --se-font-weight-bookmaker: 700;
+  --se-bookmaker-logo-width: 24px;
+  --se-bookmaker-logo-height: 24px;
+  --se-bookmaker-logo-radius: 2px;
 
   --se-color-match-price-heading-bg: #f1f5f8;
   --se-color-match-price-heading-text: #334155;
