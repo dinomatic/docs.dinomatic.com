@@ -17,9 +17,9 @@ return [
     'versions' => [
         'akurai' => '3.1.6',
         'spinoko' => '2.5.8',
-        'sikika' => '1.0.4',
+        'sikika' => '1.0.2',
         'kemoku' => '1.6.5',
-        'sibet' => '1.0.0',
+        'sibet' => '1.0.4',
         'dinodds' => '1.4.2',
         'akurai-geo' => '1.2.0',
         'nonaki' => '1.0.4',
