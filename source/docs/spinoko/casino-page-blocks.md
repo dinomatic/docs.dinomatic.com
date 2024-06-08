@@ -21,7 +21,8 @@ There are 5 blocks available for you to use in casino pages:
 4. Casino Payments
 5. Casino Game Providers
 6. Casino CTA
-6. Casino Info, Pros & Cons Table
+7. Casino Info, Pros & Cons Table
+8. Casino Bonuses
 
 ### Casino Ratings Block
 
@@ -82,11 +83,27 @@ Fill in the CTA fields such as heading and content, button anchor text and the r
 
 ### Casino Info-Pros-Cons Block
 
-![spinoko-blocks-casino-game-providers](https://media.dinomatic.com/images/docs/spinoko/spinoko-casino-info-pros-cons.png)
+![spinoko-blocks-casino-info-pros-cons](https://media.dinomatic.com/images/docs/spinoko/spinoko-casino-info-pros-cons.png)
 
 To add a new block simply click on the **+** (Add block) sign and select **Casino Info, Pros & Cons** in **Spinoko Blocks** section.
 
 No further configuration is required, just make sure to fill in **Info**, as well as **Pros and Cons** fields in Casino Fields.
+
+### Casino Bonuses Block
+
+![spinoko-blocks-casino-bonuses](https://media.dinomatic.com/images/docs/spinoko/spinoko-casino-bonuses.png)
+
+To add a new block simply click on the **+** (Add block) sign and select **Casino Bonuses** in **Spinoko Blocks** section.
+
+Adjust general block settings and add as many bonuses as you want by filling in bonus details. For each bonus you can add a unique affiliate link or use the default link URL.
+
+There are 2 custom fields for you to use in this block. First you define the fields by setting their labels on top of the bonus list and then you fill in their respective values for each bonus.
+
+You can choose to display the casino logo or a simple bonus/gift icon on each row, you can also choose how to display the terms. One option is to not display them. The second option is "link" in which case you need to fill in the terms link URL in the "Terms" field in the bonus list. And the last and default option is "popover" in which case you add teh terms text in the "Terms" field.
+
+![spinoko-blocks-casino-bonuses](https://media.dinomatic.com/images/docs/spinoko/spinoko-casino-bonuses-admin.png)
+
+...
 
 ---
 
