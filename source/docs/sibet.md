@@ -25,7 +25,9 @@ Also make sure your host has the minimum requirements to run WordPress and PHP `
 
 ### API Subscription
 
-To use the plugin you need to have a monthly or yearly subscription and need to adjust your subscription settings. You can control the API settings in your DinoMatic account. Click on Subscriptions tab, locate the subscription you're looking for and click on "Plugin Settings" link. On the settings page simply choose the leagues, the bookmakers and the markets you're interested in, fill in your website's domain name and IP address and submit the form.
+To use the plugin you need to have a monthly or yearly subscription and need to adjust your subscription settings.
+
+You can control the API settings in your DinoMatic account. Click on Subscriptions tab, locate the subscription you're looking for and click on "Plugin Settings" link. On the settings page simply choose the leagues, the bookmakers and the markets you're interested in, fill in your website's domain name and IP address and submit the form.
 
 ### Scheduling
 

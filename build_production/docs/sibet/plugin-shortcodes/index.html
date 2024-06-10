@@ -1470,11 +1470,77 @@
 
 <p>Generate table shortcodes and paste them in your pages with a couple of clicks.</p>
 
+<h2>Shortcodes</h2>
+
+<p>There are 2 types of shortcodes:</p>
+
+<ol>
+<li>League shortcode</li>
+<li>Match shortcode</li>
+</ol>
+
+<p>League shortcode displays all matches for selected league, and the match shortcode displays only the selected match.</p>
+
+<p>Both shortcodes can be generated using the plugins shortcode generator.</p>
+
 <h3>Shortcode Generator</h3>
 
 <p>Simply select the desired options and the shortcode will be generated for you, click the button to copy it and use it where you need to.</p>
 
 <p><img src="https://media.dinomatic.com/images/docs/sibet/plugin-shortcode.jpg" alt="Sibet Plugin Shortcodes" /></p>
+
+<h3>Strings in Shortcodes</h3>
+
+<p>There are only a couple of strings used in Sibet shortcodes, and they can be customized using filters.</p>
+
+<h4>Show more button label</h4>
+
+<p>By default it is "Show more prices" and you can change it using the filter below:</p>
+
+<pre><code class="language-php">add_filter('sibet_string_more_prices_label', fn () =&gt; 'More bookmakers');
+</code></pre>
+
+<h4>Label in front of the markets dropdown</h4>
+
+<p>By default it is "Markets:", and this is how to change it.</p>
+
+<pre><code class="language-php">add_filter('sibet_string_markets_label', fn () =&gt; 'Choose a market');
+</code></pre>
+
+<p>You can return an empty string, if you don't want a label there.</p>
+
+<pre><code class="language-php">add_filter('sibet_string_markets_label', fn () =&gt; '');
+</code></pre>
+
+<h4>Label in front of the bets dropdown</h4>
+
+<p>By default it is "Bets:", if you want to change it use the filter below.</p>
+
+<pre><code class="language-php">add_filter('sibet_string_bets_label', fn () =&gt; 'Bet Type');
+</code></pre>
+
+<p>Similarly, you can return an empty string, if you don't want a label for the bets dropdown.</p>
+
+<pre><code class="language-php">add_filter('sibet_string_bets_label', fn () =&gt; '');
+</code></pre>
+
+<h4>VS - between teams</h4>
+
+<p>Perhaps in some languages it's more appropriate to use something else instead of 'vs', so you can change it:</p>
+
+<pre><code class="language-php">add_filter('sibet_string_vs', fn () =&gt; 'x');
+</code></pre>
+
+<h3>Initial bookmaker count</h3>
+
+<p>By default there are only 2 bookmakers' odds displayed, and you can click the "show more" button to see the rest. You can change the number of initial bookmakers using the filter below. If you return a big enough number, all bookmakers will be displayed and the "show more" button will be hidden.</p>
+
+<pre><code class="language-php">add_filter('sibet_table_initial_bookmaker_count', fn () =&gt; 3);
+</code></pre>
+
+<blockquote>
+  <p>Please make sure to return an integer value, not a string. Do not use a number in quotes like '3' or "3". Simply 3.</p>
+</blockquote>
 
 <hr />
 
@@ -1485,7 +1551,7 @@
 
     <nav id="js-page-menu" class="page-menu">
         <h4>
-            SIBET v1.0.4
+            SIBET v1.0.5
         </h4>
 
         <div id="page-menu-wrapper"></div>

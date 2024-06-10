@@ -15,6 +15,11 @@ For each bookmaker you have an input field to fill in your affiliate link so tha
 
 ![Sibet Bookmaker Settings](https://media.dinomatic.com/images/docs/sibet/bookmaker-settings.jpg)
 
+
+### Update Affiliate Link Attributes
+
+You can also change the "rel" and "target" attributes of the bookmaker affiliate links by adjusting the values in form shwon above.
+
 ---
 
 ### Next step
