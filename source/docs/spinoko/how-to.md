@@ -418,7 +418,7 @@ If you want to remove them entirely, use the below code snippet in your child th
 /**
  * Removes review links from table/grid blocks.
  */
-add_filter( 'spinoko_display_review_links', '__return_false', 10 )
+add_filter( 'spinoko_display_review_links', '__return_false', 10 );
 ```
 
 ---
