@@ -20,7 +20,7 @@ It's easy to get started with AkuraiGeo. Follow the documentations to install th
 Before getting started make sure you have all the requirements met.
 
 To use the plugin, you must be running `WordPress 5.0` or higher and `PHP 7.4` or higher.
-Recommended `WordPress 6.4`.
+Recommended `WordPress 6.6`.
 
 Also make sure your host has the minimum requirements to run WordPress and PHP `max_upload_size` is more than 2MB.
 

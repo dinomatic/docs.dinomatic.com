@@ -10,7 +10,7 @@ return [
 
     'php_version' => '7.4',
     'wp_min_version' => '5.0',
-    'wp_rec_version' => '6.5',
+    'wp_rec_version' => '6.6',
 
     'navigation' => require_once ('navigation.php'),
 
@@ -18,7 +18,7 @@ return [
         'akurai' => '3.1.6',
         'spinoko' => '2.5.9',
         'sikika' => '1.0.2',
-        'kemoku' => '1.6.5',
+        'kemoku' => '1.6.6',
         'sibet' => '1.0.5',
         'dinodds' => '1.4.2',
         'akurai-geo' => '1.2.0',
