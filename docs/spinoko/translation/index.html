@@ -4,21 +4,21 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <meta name="description" content="Getting Started with Sikika Theme">
+        <meta name="description" content="Translating Spinoko Theme">
 
         <link rel="preconnect" href="https://53EFS57BTW-dsn.algolia.net" crossorigin />
 
         <meta property="og:site_name" content="DinoMatic Docs"/>
-        <meta property="og:title" content="Sikika Theme | DinoMatic Docs"/>
-        <meta property="og:description" content="Getting Started with Sikika Theme"/>
-        <meta property="og:url" content="https://docs.dinomatic.com/docs/sikika"/>
+        <meta property="og:title" content="Translating Spinoko Theme | DinoMatic Docs"/>
+        <meta property="og:description" content="Translating Spinoko Theme"/>
+        <meta property="og:url" content="https://docs.dinomatic.com/docs/spinoko/translation"/>
         <meta property="og:image" content="https://docs.dinomatic.com/assets/img/logo.png"/>
         <meta property="og:type" content="website"/>
 
         <meta name="twitter:image:alt" content="DinoMatic Docs">
         <meta name="twitter:card" content="summary_large_image">
 
-        <title>DinoMatic Docs | Sikika Theme</title>
+        <title>DinoMatic Docs | Translating Spinoko Theme</title>
 
         <link rel="home" href="https://docs.dinomatic.com">
         <link rel="icon" href="https://docs.dinomatic.com/favicon.jpg">
@@ -337,7 +337,7 @@
         <a href="/docs/spinoko"
             class="
                 lvl0
-                
+                lvl0-active
                 
                 level-0
                 nav-menu__item"
@@ -591,7 +591,7 @@
             class="
                 lvl1
                 
-                
+                active
                 
                 nav-menu__item"
         >
@@ -663,7 +663,7 @@
             class="
                 lvl0
                 
-                active
+                
                 level-0
                 nav-menu__item"
         >
@@ -1480,49 +1480,66 @@
     </nav>
 
     <article id="content" class="content" data-docs="true" v-pre>
-        <h1>Sikika Theme</h1>
+        <h1>Translating The Theme</h1>
 
-<p>Sikika is a simple and clean WordPress theme that's been developed to be used with Kemoku Reviews plugin, however it can be used a standalone theme as well.</p>
+<p>Spinoko is ready tp be translated into any other language or even be used on a multilingual website.</p>
+
+<h3>Single Language</h3>
+
+<p>By default everything in Spinoko is on English, and you want to change that easily.
+If you're website has a single language, you don't need any additional plugins to translate the theme.
+All the text strings used in Spinoko can be edited, translated into any other language, in <a href="/docs/spinoko/customizations#strings">Customizer &#8594; Strings</a>.</p>
+
+<h3>Multilingual</h3>
+
+<p>Spinoko comes with 100% multilingual support, it can be used to build multilingual website. Depending on translation plugin you use, it may be a little different, but the main plugins such as WMPL, Polylang can be used with Spinoko.</p>
+
+<h4>WPML</h4>
+
+<p><a href="https://wpml.org">WPML</a> is one of the most popular and powerful multilingual plugin for WordPress. It's been around for a long time and has great support in case you need it.
+Using WPML with Spinoko theme is quite straight-forward:</p>
+
+<ul>
+<li>I assume you already have Spinoko theme installed and activated.</li>
+<li>Install the WPML plugins - <em>WPML Multilingual CMS</em> and <em>WPML String Translation</em> - and activate them</li>
+<li>Follow the WPML's set-up wizard which will guide you through the whole process of setting up the plugin including languages and more</li>
+</ul>
+
+<p>You can translate your posts and pages, as well as casinos and games as usual. If you're not familiar with how WPML works, I'd recommend you start here - <a href="https://wpml.org/documentation/getting-started-guide">Getting Started with WPML</a>.</p>
+
+<p>To translate other strings in Spinoko theme, you need to visit <strong>WPML</strong> &#8594; <strong>String Translation</strong> in your dashboard, and you'll find them all there. There are 2 groups of strings in Spinoko with the following text domains:</p>
+
+<ul>
+<li>"spinoko" - these are the strings that are visible on the front-end of the website</li>
+<li>"spinoko-admin" - these strings are only visible in the dashboard of your website.</li>
+</ul>
+
+<p>To make it easier for you and help you move faster and save some time, I separated the strings. This was you can start with just "spinoko" strings, and come back to "spinoko-admin" when already done with the front-end.</p>
+
+<p>If you need further assistance with WPML, visit their <a href="https://wpml.org/forums/forum/english-support">support forum</a>.</p>
+
+<h4>Polylang</h4>
+
+<p>Polylang is another popular WP multiligual plugin, and it can be used along with Spinoko to create multilingual WordPress websites. After installing and activating the plugin, going through the setup steps, you can translate all the post types (posts, pages, casinos, games) as usual. If you're not familiar with Polylang, I'd suggest you check out their "<a href="https://polylang.pro/doc-category/getting-started/">Getting Starts</a>" series of articles.</p>
+
+<p>To be able to translate theme strings, Polylang requires a <code>wpml-config.xml</code> file that lists all the strings along with other options. Spinoko includes that file, you can translate the strings in the theme by visiting <strong>Languages</strong>  &#8594; <strong>Translations</strong> page in your dashboard.</p>
+
+<p>If you need further assistance with Polylang, visit their <a href="https://polylang.pro/doc/">support page</a> where you can also submit a support request.</p>
+
+<h3>RTL and TTB</h3>
+
+<p>Spinoko can be translated into any language, it has support built-in for right-to-left (RTL), as well as top-to-bottom (TTB) languages.</p>
 
 <hr />
 
-<h2>Getting Started</h2>
+<h3>Next Step</h3>
 
-<p>It's easy to get started with Sikika. Follow the documentations to install the theme and create compelling websites.</p>
-
-<h3>Requirements</h3>
-
-<p>Before getting started make sure you have all the requirements met.</p>
-
-<p>To use the theme, you must be running <code>WordPress 5.0</code> or higher and <code>PHP 7.4</code> or higher.
-Recommended <code>WordPress 6.6</code>.</p>
-
-<p>Also make sure your host has the minimum requirements to run WordPress and PHP <code>max_upload_size</code> is more than 2MB.</p>
-
-<h3>Demo</h3>
-
-<p>You can check out theme demos to get ideas how to build your own website.
-Here are 2 demos for you:</p>
-
-<ol>
-<li><a href="https://demos.dinomatic.com/manila">Demo #1</a></li>
-<li><a href="https://demos.dinomatic.com/havana">Demo #2</a></li>
-</ol>
-
-<h3>Changelog</h3>
-
-<p>Find the full changelog <a href="https://dinomatic.com/themes/sikika/changelog">here</a>.</p>
-
-<hr />
-
-<h3>Next step</h3>
-
-<p><a href="/docs/sikika/installation/">Theme Installation</a></p>
+<p><a href="/docs/spinoko/demo-import/">Demo Import</a></p>
     </article>
 
     <nav id="js-page-menu" class="page-menu">
         <h4>
-            SIKIKA v1.0.2
+            SPINOKO v2.6.0
         </h4>
 
         <div id="page-menu-wrapper"></div>
