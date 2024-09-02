@@ -79,6 +79,8 @@ Casino Grid block offers you multiple options for terms and conditions, you can 
 
 `💁 since version 2.5.8` you can select casinos by filtering them by category and/or tags.
 
+`💁 since version 2.6.0` you can display casinos using a compact layout.
+
 ![spinoko-blocks-grid-admin](https://media.dinomatic.com/images/docs/spinoko/spinoko-blocks-grid-admin.jpg)
 
 At the right side panel you can click on **Switch to Preview** to preview the gird in your editor.

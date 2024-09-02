@@ -43,6 +43,7 @@ return [
             'Navigation Menus' => 'docs/spinoko/navigation',
             'Header Notifications' => 'docs/spinoko/notifications',
             'AMP Support' => 'docs/spinoko/amp',
+            'Translating Spinoko' => 'docs/spinoko/translation',
             'Demo Import' => 'docs/spinoko/demo-import',
             'Theme Updates' => 'docs/spinoko/updates',
             'Child Theme' => 'docs/spinoko/child-theme',
