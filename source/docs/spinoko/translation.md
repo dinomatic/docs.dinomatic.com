@@ -50,7 +50,7 @@ If you need further assistance with Polylang, please visit their [support page](
 
 ### RTL and TTB
 
-Spinoko can be translated into any language, it has support built-in for right-to-left (RTL), as well as top-to-bottom (TTB) languages.
+Spinoko can be translated into any language, it has built-in support for right-to-left (RTL), as well as top-to-bottom (TTB) languages.
 
 ---
 
