@@ -7,7 +7,7 @@ section: content
 
 # Translating The Theme
 
-Spinoko is ready tp be translated into any other language or even be used on a multilingual website.
+Spinoko is ready to be translated into any other language or even be used on a multilingual website.
 
 ### Single Language
 
@@ -17,7 +17,7 @@ All the text strings used in Spinoko can be edited, translated into any other la
 
 ### Multilingual
 
-Spinoko comes with 100% multilingual support, it can be used to build multilingual website. Depending on translation plugin you use, it may be a little different, but the main plugins such as WMPL, Polylang can be used with Spinoko.
+Spinoko comes with 100% multilingual support, it can be used to build multilingual website. Depending on translation plugin you use, it may be a little different, but the main plugins such as WPML, Polylang can be used with Spinoko.
 
 #### WPML
 
@@ -41,7 +41,7 @@ If you need further assistance with WPML, visit their [support forum](https://wp
 
 #### Polylang
 
-Polylang is another popular WP multiligual plugin, and it can be used along with Spinoko to create multilingual WordPress websites. After installing and activating the plugin, going through the setup steps, you can translate all the post types (posts, pages, casinos, games) as usual. If you're not familiar with Polylang, I'd suggest you check out their "[Getting Starts](https://polylang.pro/doc-category/getting-started/)" series of articles.
+Polylang is another popular WP multilingual plugin, and it can be used along with Spinoko to create multilingual WordPress websites. After installing and activating the plugin, going through the setup steps, you can translate all the post types (posts, pages, casinos, games) as usual. If you're not familiar with Polylang, I'd suggest you check out their "[Getting Starts](https://polylang.pro/doc-category/getting-started/)" series of articles.
 
 To be able to translate theme strings, Polylang requires a `wpml-config.xml` file that lists all the strings along with other options. Spinoko includes that file, you can translate the strings in the theme by visiting **Languages**  &#8594; **Translations** page in your dashboard.
 
