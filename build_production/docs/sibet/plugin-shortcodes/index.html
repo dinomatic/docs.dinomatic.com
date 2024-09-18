@@ -1507,35 +1507,12 @@
 
 <p>There are only a couple of strings used in Sibet shortcodes, and they can be customized using filters.</p>
 
-<h4>Show more button label</h4>
+<h4>Show more/less button label</h4>
 
-<p>By default it is "Show more prices" and you can change it using the filter below:</p>
+<p>By default, it is "Show more"/"Show Less" and you can change them using the filters below:</p>
 
 <pre><code class="language-php">add_filter('sibet_string_more_prices_label', fn () =&gt; 'More bookmakers');
-</code></pre>
-
-<h4>Label in front of the markets dropdown</h4>
-
-<p>By default it is "Markets:", and this is how to change it.</p>
-
-<pre><code class="language-php">add_filter('sibet_string_markets_label', fn () =&gt; 'Choose a market');
-</code></pre>
-
-<p>You can return an empty string, if you don't want a label there.</p>
-
-<pre><code class="language-php">add_filter('sibet_string_markets_label', fn () =&gt; '');
-</code></pre>
-
-<h4>Label in front of the bets dropdown</h4>
-
-<p>By default it is "Bets:", if you want to change it use the filter below.</p>
-
-<pre><code class="language-php">add_filter('sibet_string_bets_label', fn () =&gt; 'Bet Type');
-</code></pre>
-
-<p>Similarly, you can return an empty string, if you don't want a label for the bets dropdown.</p>
-
-<pre><code class="language-php">add_filter('sibet_string_bets_label', fn () =&gt; '');
+add_filter('sibet_string_less_prices_label', fn () =&gt; 'Less bookmakers');
 </code></pre>
 
 <h4>VS - between teams</h4>
@@ -1547,7 +1524,9 @@
 
 <h3>Initial bookmaker count</h3>
 
-<p>By default there are only 2 bookmakers' odds displayed, and you can click the "show more" button to see the rest. You can change the number of initial bookmakers using the filter below. If you return a big enough number, all bookmakers will be displayed and the "show more" button will be hidden.</p>
+<p>By default, there are only 4 bookmakers' odds displayed, and you can click the "show more" button to see the rest.
+You can change the number of initial bookmakers using the filter below. 
+If you return a big enough number, all bookmakers will be displayed and the "show more" button will be hidden.</p>
 
 <pre><code class="language-php">add_filter('sibet_table_initial_bookmaker_count', fn () =&gt; 3);
 </code></pre>
@@ -1565,7 +1544,7 @@
 
     <nav id="js-page-menu" class="page-menu">
         <h4>
-            SIBET v1.0.5
+            SIBET v2.0.0
         </h4>
 
         <div id="page-menu-wrapper"></div>

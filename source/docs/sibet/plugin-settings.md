@@ -16,7 +16,7 @@ In settings page you can:
 1. [Generate shortcodes](/docs/sibet/plugin-shortcodes/)
 2. [Update bookmaker settings](/docs/sibet/bookmaker-settings/)
 3. [Update feeds manually](/docs/sibet/feed-updates/)
-4. Review included leagues and markets
+4. Review included leagues
 5. [Change or update your API Token](/docs/sibet/plugin-setup)
 
 ---

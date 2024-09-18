@@ -7,7 +7,7 @@ section: content
 
 # Sibet Plugin
 
-Sibet lets display football odds comparison tables for major European leagues on your website super easily, just a couple of clicks.
+Sibet lets display football odds comparison tables for major worldwide leagues on your website super easily, just a couple of clicks.
 
 ---
 

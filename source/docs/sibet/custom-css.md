@@ -78,7 +78,7 @@ If you want to use a dark theme, add **.dark** class as well:
 ```css
 .se-wrapper.dark {
   --se-color-accent: #a4e6f7;
-  /* the rest og the values. */
+  /* the rest of the values. */
 }
 ```
 

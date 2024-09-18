@@ -30,41 +30,13 @@ Simply select the desired options and the shortcode will be generated for you, c
 
 There are only a couple of strings used in Sibet shortcodes, and they can be customized using filters.
 
-#### Show more button label
+#### Show more/less button label
 
-By default it is "Show more prices" and you can change it using the filter below:
+By default, it is "Show more"/"Show Less" and you can change them using the filters below:
 
 ```php
 add_filter('sibet_string_more_prices_label', fn () => 'More bookmakers');
-```
-
-#### Label in front of the markets dropdown
-
-By default it is "Markets:", and this is how to change it.
-
-```php
-add_filter('sibet_string_markets_label', fn () => 'Choose a market');
-```
-
-You can return an empty string, if you don't want a label there.
-
-```php
-add_filter('sibet_string_markets_label', fn () => '');
-```
-
-#### Label in front of the bets dropdown
-
-By default it is "Bets:", if you want to change it use the filter below.
-
-```php
-add_filter('sibet_string_bets_label', fn () => 'Bet Type');
-```
-
-Similarly, you can return an empty string, if you don't want a label for the bets dropdown.
-
-
-```php
-add_filter('sibet_string_bets_label', fn () => '');
+add_filter('sibet_string_less_prices_label', fn () => 'Less bookmakers');
 ```
 
 #### VS - between teams
@@ -77,7 +49,9 @@ add_filter('sibet_string_vs', fn () => 'x');
 
 ### Initial bookmaker count
 
-By default there are only 2 bookmakers' odds displayed, and you can click the "show more" button to see the rest. You can change the number of initial bookmakers using the filter below. If you return a big enough number, all bookmakers will be displayed and the "show more" button will be hidden.
+By default, there are only 4 bookmakers' odds displayed, and you can click the "show more" button to see the rest.
+You can change the number of initial bookmakers using the filter below. 
+If you return a big enough number, all bookmakers will be displayed and the "show more" button will be hidden.
 
 ```php
 add_filter('sibet_table_initial_bookmaker_count', fn () => 3);
