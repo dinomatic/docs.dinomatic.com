@@ -30,9 +30,31 @@ Simply select the desired options and the shortcode will be generated for you, c
 
 There are only a couple of strings used in Sibet shortcodes, and they can be customized using filters.
 
+#### Outcome labels
+
+By default, the outcomes are labeled as "Home", "Draw" and "Away".
+If you want to change them, you the example below where we set them "1", "X" and "2" instead.
+
+```php
+add_filter('sibet_string_home_label', fn () => '1');
+add_filter('sibet_string_draw_label', fn () => 'X');
+add_filter('sibet_string_away_label', fn () => '2');
+```
+
+
+#### Odds format button labels
+
+If you want to change odds format labels from "Decimal", "Fractional" and "American" to something else, you the example below:
+
+```php
+add_filter('sibet_string_decimal_odds_label', fn () => 'EU');
+add_filter('sibet_string_fractional_odds_label', fn () => 'UK');
+add_filter('sibet_string_american_odds_label', fn () => 'US');
+```
+
 #### Show more/less button label
 
-By default, it is "Show more"/"Show Less" and you can change them using the filters below:
+By default, it is "Show more"/"Show Less" and you can change them using the example below:
 
 ```php
 add_filter('sibet_string_more_prices_label', fn () => 'More bookmakers');
