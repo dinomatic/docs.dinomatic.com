@@ -145,7 +145,7 @@ If you choose all games, you need to also choose how many games to display per p
 
 If you don't choose to display all games, you'll have an option to select only the ones you want to display.
 
-Besides choosing the games, you can also enable image lazy loading to improve page performance.
+Besides choosing the games, you can choose a layout for the grid (default and compact), also enable image lazy loading to improve page performance.
 
 ![spinoko-blocks-games-grid-admin](https://media.dinomatic.com/images/docs/spinoko/spinoko-blocks-games-grid-admin.jpg)
 
