@@ -1494,6 +1494,7 @@
 <li>Reviews Table</li>
 <li>Reviews Table: Payments</li>
 <li>Reviews Grid</li>
+<li>Reviews Grid: Bonus</li>
 <li>Review CTA</li>
 </ul>
 
@@ -1522,6 +1523,17 @@
   <p>You can use the Grid shortcode in sidebars as well.</p>
 </blockquote>
 
+<h3>Reviews Grid: Bonus</h3>
+
+<pre><code class="language-html">[sb_grid_bonus source="manual" ids="6, 9" style="no-terms|link-terms|popup-terms"]
+
+[sb_grid_bonus source="tax" cat="42,43" tag="73,74" style="..."]
+</code></pre>
+
+<blockquote>
+  <p>You can use the Grid: Bonus shortcode in sidebars as well.</p>
+</blockquote>
+
 <h3>Review CTA</h3>
 
 <pre><code class="language-html">[sb_cta content="Content" button_url="#" button_text="Button Text" heading="Heading"]
@@ -1534,8 +1546,10 @@
 <pre><code class="language-html">[sb_info]
 [sb_ratings]
 [sb_pros_cons]
-[sb_payment_methods]
 [sb_countries]
+[sb_us_states]
+[sb_currencies]
+[sb_payment_methods]
 [sb_services heading="" bonus="" button_text=""]
 </code></pre>
 
@@ -1558,7 +1572,7 @@
 
     <nav id="js-page-menu" class="page-menu">
         <h4>
-            KEMOKU v1.6.7
+            KEMOKU v1.6.8
         </h4>
 
         <div id="page-menu-wrapper"></div>

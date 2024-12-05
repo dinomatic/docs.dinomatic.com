@@ -71,6 +71,18 @@ Preview:
 Dashboard:
 ![Kemoku Grid Block](https://media.dinomatic.com/images/docs/kemoku/kemoku-reviews-grid-block-backend.jpg)
 
+#### Grid: Bonus
+
+`💁 since version 1.6.8`
+
+New grid design for showcasing review bonuses. You can use the filtering, sorting and limiting options with this grid as well. The styles of this grid can be easily customized, learn how to do that [here](/docs/kemoku/how-to#how-to-customize-"grid:-bonus"-block-design).
+
+Preview:
+![Kemoku Grid Bonus Block](https://media.dinomatic.com/images/docs/kemoku/kemoku-reviews-grid-bonus-block-frontend.jpg)
+
+Dashboard:
+![Kemoku Grid Bonus Block](https://media.dinomatic.com/images/docs/kemoku/kemoku-reviews-grid-bonus-block-backend.jpg)
+
 #### Filters and Sorting
 
 Both for tables and grids, this is what the filters and sorting popup looks like. And you can customize every part of it as described [here](/docs/kemoku/listing-tools).

@@ -68,13 +68,13 @@ add_filter( 'kemoku_sportsbook_features', function( array $defaults ) {
 
 ### How To Customize "Table: Payments" Block Design
 
-You have total control over the blocks design, all you need to do is adjust some CSS properties and values. Here's a screenshot for easy reference:
+You have total control over the block's design, all you need to do is adjust some CSS properties and values. Here's a screenshot for easy reference:
 
 ![Kemoku Table Payment Row](https://media.dinomatic.com/images/docs/kemoku/kemoku-table-payments-row.jpg)
 
 #### Colors
 
-Let's start with colors. To adjust them, simply use the below snippet to your Additional CSS section and change the color values to your liking. The snippet below contains the default values.
+Let's start with colors. To adjust them, simply use the below snippet in your Additional CSS section and change the color values to your liking. The snippet below contains the default values.
 
 ```css
 .sb-table-payments .sb-item {
@@ -167,6 +167,44 @@ To remove or change the dollar-sign icon of the payout speed section use:
   background-image: url("IMAGE URL OR BASE 64 ENCODED SVG");
 }
 ```
+
+
+### How To Customize "Grid: Bonus" Block Design
+
+You have total control over the block's design, all you need to do is adjust some CSS properties and values. Here's a screenshot for easy reference:
+
+![Kemoku Grid Bonus](https://media.dinomatic.com/images/docs/kemoku/kemoku-reviews-grid-bonus-block-frontend.jpg)
+
+To adjust any value, simply use the below snippet in your Additional CSS section and change the values to your liking. The snippet below contains the default values.
+You can copy just the properties that you want to change, no need to copy them all.
+
+```css
+.sb-grid-bonus {
+  /* this will change the grid item background color */
+  --item-bg-color: #fff;
+  
+  /* this will change the grid item text color */
+  --item-fg-color: #333;
+  
+  /* this will change the grid item border color */
+  --item-border-color: #d8dfe8;
+  
+  /* this will change the bonus section background color */
+  --bonus-bg-color: #124588;
+  
+  /* this will change the bonus section text color */
+  --bonus-fg-color: #f1f1f1;
+  
+  /* this will change the bonus section font size */
+  --bonus-font-size: 1.6em;
+  
+  /* this will change the bonus section font weight */
+  --bonus-font-weight: 400;
+}
+```
+
+Other styling options such as rounded borders, button background color, etc. are defined in [plugin settings](/docs/kemoku/settings).
+
 
 ### Next step
 

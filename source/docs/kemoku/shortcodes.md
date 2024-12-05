@@ -18,6 +18,7 @@ Here are the shortcodes available in Kemoku plugin you can use on all pages:
 - Reviews Table
 - Reviews Table: Payments
 - Reviews Grid
+- Reviews Grid: Bonus
 - Review CTA
 
 ### Reviews Table
@@ -46,6 +47,16 @@ Here are the shortcodes available in Kemoku plugin you can use on all pages:
 
 > You can use the Grid shortcode in sidebars as well.
 
+### Reviews Grid: Bonus
+
+```html
+[sb_grid_bonus source="manual" ids="6, 9" style="no-terms|link-terms|popup-terms"]
+
+[sb_grid_bonus source="tax" cat="42,43" tag="73,74" style="..."]
+```
+
+> You can use the Grid: Bonus shortcode in sidebars as well.
+
 ### Review CTA
 
 ```html
@@ -60,8 +71,10 @@ Here are the shortcodes available in Kemoku plugin you can use on review pages:
 [sb_info]
 [sb_ratings]
 [sb_pros_cons]
-[sb_payment_methods]
 [sb_countries]
+[sb_us_states]
+[sb_currencies]
+[sb_payment_methods]
 [sb_services heading="" bonus="" button_text=""]
 ```
 
