@@ -1546,13 +1546,13 @@
 
 <h3>How To Customize "Table: Payments" Block Design</h3>
 
-<p>You have total control over the blocks design, all you need to do is adjust some CSS properties and values. Here's a screenshot for easy reference:</p>
+<p>You have total control over the block's design, all you need to do is adjust some CSS properties and values. Here's a screenshot for easy reference:</p>
 
 <p><img src="https://media.dinomatic.com/images/docs/kemoku/kemoku-table-payments-row.jpg" alt="Kemoku Table Payment Row" /></p>
 
 <h4>Colors</h4>
 
-<p>Let's start with colors. To adjust them, simply use the below snippet to your Additional CSS section and change the color values to your liking. The snippet below contains the default values.</p>
+<p>Let's start with colors. To adjust them, simply use the below snippet in your Additional CSS section and change the color values to your liking. The snippet below contains the default values.</p>
 
 <pre><code class="language-css">.sb-table-payments .sb-item {
   /* the light gray backgrounds such as bonus code section, */
@@ -1640,6 +1640,41 @@ The main button color can be controlled from Kemoku plugin settings page, and th
 }
 </code></pre>
 
+<h3>How To Customize "Grid: Bonus" Block Design</h3>
+
+<p>You have total control over the block's design, all you need to do is adjust some CSS properties and values. Here's a screenshot for easy reference:</p>
+
+<p><img src="https://media.dinomatic.com/images/docs/kemoku/kemoku-reviews-grid-bonus-block-frontend.jpg" alt="Kemoku Grid Bonus" /></p>
+
+<p>To adjust any value, simply use the below snippet in your Additional CSS section and change the values to your liking. The snippet below contains the default values.
+You can copy just the properties that you want to change, no need to copy them all.</p>
+
+<pre><code class="language-css">.sb-grid-bonus {
+  /* this will change the grid item background color */
+  --item-bg-color: #fff;
+
+  /* this will change the grid item text color */
+  --item-fg-color: #333;
+
+  /* this will change the grid item border color */
+  --item-border-color: #d8dfe8;
+
+  /* this will change the bonus section background color */
+  --bonus-bg-color: #124588;
+
+  /* this will change the bonus section text color */
+  --bonus-fg-color: #f1f1f1;
+
+  /* this will change the bonus section font size */
+  --bonus-font-size: 1.6em;
+
+  /* this will change the bonus section font weight */
+  --bonus-font-weight: 400;
+}
+</code></pre>
+
+<p>Other styling options such as rounded borders, button background color, etc. are defined in <a href="/docs/kemoku/settings">plugin settings</a>.</p>
+
 <h3>Next step</h3>
 
 <p><a href="/docs/kemoku/plugin-updates/">Plugin Updates</a></p>
@@ -1647,7 +1682,7 @@ The main button color can be controlled from Kemoku plugin settings page, and th
 
     <nav id="js-page-menu" class="page-menu">
         <h4>
-            KEMOKU v1.6.7
+            KEMOKU v1.6.8
         </h4>
 
         <div id="page-menu-wrapper"></div>
