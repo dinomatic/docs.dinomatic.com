@@ -29,9 +29,8 @@ Also make sure your host has the minimum requirements to run WordPress and PHP `
 You can check out theme demos to get ideas how to build your own website.
 Here are 3 demos for you:
 
-1. [Demo #1](https://demos.dinomatic.com/athens)
-2. [Demo #2](https://demos.dinomatic.com/berlin)
-3. [Demo #3](https://demos.dinomatic.com/lisbon)
+1. [Demo #1](https://demos.dinomatic.com/atlanta)
+2. [Demo #2](https://demos.dinomatic.com/dortmund)
 
 ### Changelog
 

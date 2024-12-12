@@ -33,6 +33,8 @@ Besides the default WordPress widgets, 2 sportsbook widgets are available for yo
 - Akurai Reviews Widget
 - Akurai Single Review Widget
 
+Check out the widgets on this [demo page](https://demos.dinomatic.com/atlanta/page-templates/page-with-right-sidebar/)
+
 ### Reviews Widget
 
 Add the `Akurai Reviews Widget` to the widget area of your choice.
@@ -40,22 +42,10 @@ Add a widget title, select whether to display the review terms of conditions or 
 
 You can display up to 10 review.
 
-![Akurai Reviews Widget](https://media.dinomatic.com/images/docs/akurai/akurai-widget-reviews-editor.jpg)
-
-This is what it looks like on the front-end.
-
-![Akurai Reviews Widget](https://media.dinomatic.com/images/docs/akurai/akurai-widget-reviews.jpg)
-
 ### Single Review Widget
 
 Add the `Akurai Single Review Widget` to the widget area of your choice.
 Add a widget title, adjust settings: how to display terms and conditions and the review page link, choose the review you want to display from the dropdown list and click `Save`.
-
-![Akurai Reviews Widget](https://media.dinomatic.com/images/docs/akurai/akurai-widget-review-editor.jpg)
-
-This is what it looks like on the front-end.
-
-![Akurai Reviews Widget](https://media.dinomatic.com/images/docs/akurai/akurai-widget-review.jpg)
 
 ### Next step
 

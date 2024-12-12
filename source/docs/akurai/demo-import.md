@@ -23,9 +23,8 @@ Visit that page, select the demo website and import it. You can also install opt
 
 If for some reason you get an error when trying to import the demo, try switching to manual method and upload the below files:
 
-- Athens demo - [content](https://media.dinomatic.com/demo/contents/athens.xml), [customizer](https://media.dinomatic.com/demo/customizer/athens.dat), [widgets](https://media.dinomatic.com/demo/widgets/athens.wie)
-- Berlin demo - [content](https://media.dinomatic.com/demo/contents/berin.xml), [customizer](https://media.dinomatic.com/demo/customizer/berin.dat), [widgets](https://media.dinomatic.com/demo/widgets/berin.wie)
-- Lisbon demo - [content](https://media.dinomatic.com/demo/contents/lisbon.xml), [customizer](https://media.dinomatic.com/demo/customizer/lisbon.dat), [widgets](https://media.dinomatic.com/demo/widgets/lisbon.wie)
+- Atlanta demo - [content](https://media.dinomatic.com/demo/contents/atlanta.xml), [customizer](https://media.dinomatic.com/demo/customizer/atlanta.dat), [widgets](https://media.dinomatic.com/demo/widgets/atlanta.wie)
+- Dortmund demo - [content](https://media.dinomatic.com/demo/contents/dortmund.xml), [customizer](https://media.dinomatic.com/demo/customizer/dortmund.dat), [widgets](https://media.dinomatic.com/demo/widgets/dortmund.wie)
 
 ### Manual Content Import
 

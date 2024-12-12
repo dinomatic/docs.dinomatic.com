@@ -26,26 +26,26 @@ There are 6 page templates available for displaying **Pages** in your website.
 
 **Default** template layout has only content area covering its 100% width. There's no sidebar used.
 
-Check out an example of a default template [here](https://demos.dinomatic.com/athens/page-templates/default-template/).
+Check out an example of a default template [here](https://demos.dinomatic.com/atlanta/page-templates/default-template/).
 
 ### Left Sidebar Template
 
 **Left Sidebar** template layout has the content area on the right and the sidebar on the left.
 The sidebar used in Left Sidebar templates is called **Left Sidebar**.
 
-Check out an example of a left sidebar template [here](https://demos.dinomatic.com/athens/page-templates/left-sidebar/).
+Check out an example of a left sidebar template [here](https://demos.dinomatic.com/atlanta/page-templates/page-with-left-sidebar/).
 
 ### Right Sidebar Template
 
 **Right Sidebar Template** template layout has the content area on the left and the sidebar on the right. The sidebar used in default templates is called **Main Sidebar**.
 
-Check out an example of a right sidebar template [here](https://demos.dinomatic.com/athens/page-templates/right-sidebar/).
+Check out an example of a right sidebar template [here](https://demos.dinomatic.com/atlanta/page-templates/page-with-right-sidebar/).
 
 ### Page with Top Listing
 
 For general templates (Default, Left and Right Sidebar) you can add a top listing at the top of the pages. The listing has the main table design of the theme and occupies a full content width regardless whether there's a sidebar or not.
 
-Check out an example of a page with top listing [here](https://demos.dinomatic.com/athens/page-templates/page-with-top-listing/).
+Check out an example of a page with top listing [here](https://demos.dinomatic.com/atlanta/page-templates/page-with-top-listing/).
 
 ### Hero Template
 
@@ -53,13 +53,13 @@ Check out an example of a page with top listing [here](https://demos.dinomatic.c
 
 In each hero template there are 3 areas: top and main. The top area can have a heading, some text content, as well as a link/button. Top area is optional.
 
-The main area can be either "3 Reviews Block" or "2 Columns Block". If you choose the the "3 Reviews Block", you need to select reviews and they will be displayed in a grid layout.
+The main area can be either "3 Reviews Block" or "2 Columns Block". If you choose the "3 Reviews Block", you need to select reviews and they will be displayed in a grid layout.
 
 If you choose the "2 Columns Block", you'll have 2 blocks (left and right) to fill in with information. Each one of them can have either a review, a text content, a collection of links/buttons or an image. Each section can also have an optional heading.
 
 With all these options you can have very many different page layouts, and obviously you can adjust the hero styles, e.g. background image, colors, sizes, spacing, etc.
 
-Check out an example of a hero template [here](https://demos.dinomatic.com/athens/page-templates/hero-template-1/).
+Check out an example of a hero template [here](https://demos.dinomatic.com/atlanta/page-templates/hero-template/).
 
 ### Hero Full Screen Template
 
@@ -71,7 +71,7 @@ The bottom section can be either "4 Columns of Review Boxes" or "4 Columns of Cu
 
 You can adjust the hero styles, e.g. background image, colors, sizes, spacing, etc.
 
-Check out an example of a full screen hero template [here](https://demos.dinomatic.com/athens/page-templates/hero-full-screen-template-1/).
+Check out an example of a full screen hero template [here](https://demos.dinomatic.com/atlanta/page-templates/full-screen-hero-template/).
 
 ### Banner Template
 
@@ -80,7 +80,7 @@ Check out an example of a full screen hero template [here](https://demos.dinomat
 The left area has an image background with a heading, text content and a link/button, the right area is a collection of reviews and the bottom area is some text content.
 You can adjust the styles for the whole section choosing all its colors and sizes.
 
-Check out an example of a banner template [here](https://demos.dinomatic.com/athens/page-templates/banner-template/).
+Check out an example of a banner template [here](https://demos.dinomatic.com/atlanta/page-templates/banner-template/).
 
 ---
 

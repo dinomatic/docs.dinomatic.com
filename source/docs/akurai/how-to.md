@@ -7,12 +7,6 @@ section: content
 
 # How To ...
 
-### How To Use Custom SVG Icons in Theme Blocks
-
-Detailed description of how to use custom SVG icons in Banking and Offers blocks [here](https://dinomatic.com/posts/using-custom-svg-icons-in-themes#akurai).
-
----
-
 ### How To Modify Reviews Filters
 
 `💁 since version 2.3.0` You can add **filters** to tables and grids. Currently filters are divided into 6 groups:
