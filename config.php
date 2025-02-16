@@ -18,7 +18,7 @@ return [
         'akurai' => '4.0.0',
         'spinoko' => '2.7.2',
         'sikika' => '1.0.2',
-        'kemoku' => '1.6.8',
+        'kemoku' => '1.6.9',
         'sibet' => '2.1.0',
         'dinodds' => '1.4.2',
         'akurai-geo' => '1.2.0',

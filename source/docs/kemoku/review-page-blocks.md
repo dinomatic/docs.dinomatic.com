@@ -102,6 +102,14 @@ Note the last currency - Currency without symbol - if you for some reason add a 
 
 ![Kemoku Review Currencies Block](https://media.dinomatic.com/images/docs/kemoku/kemoku-review-currencies-block-frontend.jpg)
 
+### Kemoku Review Sports Block
+
+![Kemoku Review Sports Block](https://media.dinomatic.com/images/docs/kemoku/kemoku-review-sports-block-backend.jpg)
+
+This is what the sports block looks like. If you switch off the "Display CTA section" option, the button will not be displayed.
+
+![Kemoku Review Sports Block](https://media.dinomatic.com/images/docs/kemoku/kemoku-review-sports-block-frontend.jpg)
+
 ### Next step
 
 [Plugin Blocks](/docs/kemoku/blocks/)
