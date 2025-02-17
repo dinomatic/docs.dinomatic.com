@@ -27,12 +27,12 @@
             </a>
         </h4>
 
-{{--        <h4 class="heading--main">--}}
-{{--            <a href="/docs/sibet/">--}}
-{{--                @include('_svg.sibet')--}}
-{{--                Sibet Docs--}}
-{{--            </a>--}}
-{{--        </h4>--}}
+        {{--        <h4 class="heading--main"> --}}
+        {{--            <a href="/docs/sibet/"> --}}
+        {{--                @include('_svg.sibet') --}}
+        {{--                Sibet Docs --}}
+        {{--            </a> --}}
+        {{--        </h4> --}}
 
         <h4 class="heading--main">
             <a href="/docs/dinodds/">
@@ -45,6 +45,13 @@
             <a href="/docs/akurai-geo/">
                 @include('_svg.akurai')
                 AkuraiGeo Docs
+            </a>
+        </h4>
+
+        <h4 class="heading--main">
+            <a href="/docs/spinoko-geo/">
+                @include('_svg.spinoko')
+                SpinokoGeo Docs
             </a>
         </h4>
 

@@ -119,6 +119,16 @@ return [
             'Plugin Updates' => 'docs/akurai-geo/plugin-updates',
         ],
     ],
+    'SpinokoGeo Plugin' => [
+        'url' => 'docs/spinoko-geo',
+        'children' => [
+            'Installation' => 'docs/spinoko-geo/installation',
+            'Settings' => 'docs/spinoko-geo/settings',
+            'Blocks' => 'docs/spinoko-geo/blocks',
+            'Cloudflare' => 'docs/spinoko-geo/cloudflare',
+            'Plugin Updates' => 'docs/spinoko-geo/plugin-updates',
+        ],
+    ],
     'Nonaki Plugin' => [
         'url' => 'docs/nonaki',
         'children' => [

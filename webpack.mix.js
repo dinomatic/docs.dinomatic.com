@@ -15,8 +15,8 @@ mix
   })
   .sourceMaps()
   .version()
-  // .webpackConfig({
-  //   stats: {
-  //     children: true
-  //   }
-  // })
+// .webpackConfig({
+//   stats: {
+//     children: true
+//   }
+// })
