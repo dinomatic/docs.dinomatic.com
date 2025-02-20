@@ -39,6 +39,7 @@ return [
             'Theme Blocks' => 'docs/spinoko/blocks',
             'Page Templates' => 'docs/spinoko/page-templates',
             'Widgets' => 'docs/spinoko/widgets',
+            'Breadcrumbs' => 'docs/spinoko/breadcrumbs',
             'Theme Customizations' => 'docs/spinoko/customizations',
             'Navigation Menus' => 'docs/spinoko/navigation',
             'Header Notifications' => 'docs/spinoko/notifications',

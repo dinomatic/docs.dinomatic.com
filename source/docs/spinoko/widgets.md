@@ -39,4 +39,4 @@ This is what it looks like on the front-end.
 
 ### Next step
 
-[Theme Customizations](/docs/spinoko/customizations/)
+[Breadcrumbs](/docs/spinoko/breadcrumbs/)
