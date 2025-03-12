@@ -1494,7 +1494,7 @@ add_filter( 'kemoku_table_sorting__keys', 'update_listing_sorting_keys' );
 
 <h2>Filters</h2>
 
-<p>By default there are 6 filter groups: Rating, Features, Services, Licenses, Countries, Payment Methods. You can disable each one of them or change the group heading. These are the default values:</p>
+<p>By default there are 6 filter groups: Rating, Features, Services, Licenses, Countries, Payment Methods, Sports. You can disable each one of them or change the group heading. These are the default values:</p>
 
 <pre><code class="language-php">array(
     'rating'          =&gt; __( 'Rating', 'kemoku' ),
@@ -1504,6 +1504,7 @@ add_filter( 'kemoku_table_sorting__keys', 'update_listing_sorting_keys' );
     'countries'       =&gt; __( 'Countries', 'kemoku' ),
     'us_states'       =&gt; __( 'US States', 'kemoku' ),
     'payment_methods' =&gt; __( 'Payment Methods', 'kemoku' ),
+    'sports'          =&gt; __( 'Sports', 'kemoku' ),
 );
 </code></pre>
 
@@ -1645,7 +1646,9 @@ kemoku_listing_filters__values__currencies
   /* This is the popup headings background color. */
   --listing_tools_headings_bg_color: var(--section_bg_color);
   /* This is the popup headings border radius. */
-  --listing_tools_headings_border_radius: var(--listing_tools_popup_border_radius);
+  --listing_tools_headings_border_radius: var(
+    --listing_tools_popup_border_radius
+  );
   /* This is the popup button font color. */
   --listing_tools_button_font_color: #565f66;
   /* This is the popup button background color. */
@@ -1670,7 +1673,7 @@ kemoku_listing_filters__values__currencies
 
     <nav id="js-page-menu" class="page-menu">
         <h4>
-            KEMOKU v1.6.9
+            KEMOKU v1.6.10
         </h4>
 
         <div id="page-menu-wrapper"></div>
