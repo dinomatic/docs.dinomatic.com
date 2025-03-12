@@ -1516,6 +1516,23 @@
 } );
 </code></pre>
 
+<hr />
+
+<h3>How To Change/Translate Sports</h3>
+
+<p>Use the below code snippet in your child theme's <code>functions.php</code> file and adjust the review sports values. These values are set when editing a review page on Review Fields -> Sports section, and they're used in Sports block and filtering the listings.</p>
+
+<pre><code class="language-php">add_filter( 'kemoku_sportsbook_sorts', function( array $defaults ) {
+
+    $defaults['football'] = 'American Football';
+    $defaults['soccer'] = 'Football';
+
+    return $defaults;
+} );
+</code></pre>
+
+<hr />
+
 <h3>How To Customize "Table: Payments" Block Design</h3>
 
 <p>You have total control over the block's design, all you need to do is adjust some CSS properties and values. Here's a screenshot for easy reference:</p>
@@ -1558,8 +1575,8 @@ The main button color can be controlled from Kemoku plugin settings page, and th
 <p>To change the row text and background color use:</p>
 
 <pre><code class="language-css">.sb-table-payments .sb-item {
-    color: #f1faf9;
-    background-color: #075985;
+  color: #f1faf9;
+  background-color: #075985;
 }
 </code></pre>
 
@@ -1585,9 +1602,9 @@ The main button color can be controlled from Kemoku plugin settings page, and th
 <p>You can customize the rounded border size by adjusting the <code>--radius</code> property value.
 <code>--shadow</code> property is for the box shadow of the table row, and <code>--shadow-hover</code> takes effect when you hover over a row.</p>
 
-<pre><code class="language-css">  --radius: 6px;
-  --shadow: 0 0 5px rgba(7,89,133,.35);
-  --shadow-hover: 0 1px 12px rgba(7,89,133,.3);
+<pre><code class="language-css">--radius: 6px;
+--shadow: 0 0 5px rgba(7, 89, 133, 0.35);
+--shadow-hover: 0 1px 12px rgba(7, 89, 133, 0.3);
 </code></pre>
 
 <p>To change the gift-box icon background of the bonus section use:</p>
@@ -1654,7 +1671,7 @@ You can copy just the properties that you want to change, no need to copy them a
 
     <nav id="js-page-menu" class="page-menu">
         <h4>
-            KEMOKU v1.6.9
+            KEMOKU v1.6.10
         </h4>
 
         <div id="page-menu-wrapper"></div>

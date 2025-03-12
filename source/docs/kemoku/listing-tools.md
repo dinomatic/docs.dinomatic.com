@@ -49,7 +49,7 @@ add_filter( 'kemoku_table_sorting__keys', 'update_listing_sorting_keys' );
 
 ## Filters
 
-By default there are 6 filter groups: Rating, Features, Services, Licenses, Countries, Payment Methods. You can disable each one of them or change the group heading. These are the default values:
+By default there are 6 filter groups: Rating, Features, Services, Licenses, Countries, Payment Methods, Sports. You can disable each one of them or change the group heading. These are the default values:
 
 ```php
 array(
@@ -60,6 +60,7 @@ array(
     'countries'       => __( 'Countries', 'kemoku' ),
     'us_states'       => __( 'US States', 'kemoku' ),
     'payment_methods' => __( 'Payment Methods', 'kemoku' ),
+    'sports'          => __( 'Sports', 'kemoku' ),
 );
 ```
 
@@ -163,7 +164,7 @@ array(
 );
 ```
 
- You can use a function like the example below to modify the rating options. This one removes "Bingo" and "Lottery" options and renames "Fantasy Sports" to "Daily Fantasy Sports".
+You can use a function like the example below to modify the rating options. This one removes "Bingo" and "Lottery" options and renames "Fantasy Sports" to "Daily Fantasy Sports".
 
 ```php
 function update_listing_filters_services( array $defaults ): array {
@@ -211,7 +212,9 @@ Copy the values you want to change to a custom stylesheet or Additional CSS sect
   /* This is the popup headings background color. */
   --listing_tools_headings_bg_color: var(--section_bg_color);
   /* This is the popup headings border radius. */
-  --listing_tools_headings_border_radius: var(--listing_tools_popup_border_radius);
+  --listing_tools_headings_border_radius: var(
+    --listing_tools_popup_border_radius
+  );
   /* This is the popup button font color. */
   --listing_tools_button_font_color: #565f66;
   /* This is the popup button background color. */

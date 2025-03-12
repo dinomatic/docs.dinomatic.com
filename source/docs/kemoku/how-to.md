@@ -66,6 +66,24 @@ add_filter( 'kemoku_sportsbook_features', function( array $defaults ) {
 } );
 ```
 
+---
+
+### How To Change/Translate Sports
+
+Use the below code snippet in your child theme's `functions.php` file and adjust the review sports values. These values are set when editing a review page on Review Fields -> Sports section, and they're used in Sports block and filtering the listings.
+
+```php
+add_filter( 'kemoku_sportsbook_sorts', function( array $defaults ) {
+
+	$defaults['football'] = 'American Football';
+	$defaults['soccer'] = 'Football';
+
+	return $defaults;
+} );
+```
+
+---
+
 ### How To Customize "Table: Payments" Block Design
 
 You have total control over the block's design, all you need to do is adjust some CSS properties and values. Here's a screenshot for easy reference:
@@ -94,6 +112,7 @@ Let's start with colors. To adjust them, simply use the below snippet in your Ad
   --color-highlight-2: #075985;
 }
 ```
+
 You don't have to copy all the values, just the ones you want to change.
 For example, if you want to change the logo background color to red, use this snippet:
 
@@ -110,8 +129,8 @@ To change the row text and background color use:
 
 ```css
 .sb-table-payments .sb-item {
-    color: #f1faf9;
-    background-color: #075985;
+  color: #f1faf9;
+  background-color: #075985;
 }
 ```
 
@@ -139,9 +158,9 @@ You can customize the rounded border size by adjusting the `--radius` property v
 `--shadow` property is for the box shadow of the table row, and `--shadow-hover` takes effect when you hover over a row.
 
 ```css
-  --radius: 6px;
-  --shadow: 0 0 5px rgba(7,89,133,.35);
-  --shadow-hover: 0 1px 12px rgba(7,89,133,.3);
+--radius: 6px;
+--shadow: 0 0 5px rgba(7, 89, 133, 0.35);
+--shadow-hover: 0 1px 12px rgba(7, 89, 133, 0.3);
 ```
 
 To change the gift-box icon background of the bonus section use:
@@ -168,7 +187,6 @@ To remove or change the dollar-sign icon of the payout speed section use:
 }
 ```
 
-
 ### How To Customize "Grid: Bonus" Block Design
 
 You have total control over the block's design, all you need to do is adjust some CSS properties and values. Here's a screenshot for easy reference:
@@ -182,29 +200,28 @@ You can copy just the properties that you want to change, no need to copy them a
 .sb-grid-bonus {
   /* this will change the grid item background color */
   --item-bg-color: #fff;
-  
+
   /* this will change the grid item text color */
   --item-fg-color: #333;
-  
+
   /* this will change the grid item border color */
   --item-border-color: #d8dfe8;
-  
+
   /* this will change the bonus section background color */
   --bonus-bg-color: #124588;
-  
+
   /* this will change the bonus section text color */
   --bonus-fg-color: #f1f1f1;
-  
+
   /* this will change the bonus section font size */
   --bonus-font-size: 1.6em;
-  
+
   /* this will change the bonus section font weight */
   --bonus-font-weight: 400;
 }
 ```
 
 Other styling options such as rounded borders, button background color, etc. are defined in [plugin settings](/docs/kemoku/settings).
-
 
 ### Next step
 
