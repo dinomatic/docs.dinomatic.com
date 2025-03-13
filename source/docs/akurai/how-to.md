@@ -141,7 +141,7 @@ add_filter( 'akurai_gambling_logos', 'change_akurai_gambling_logos' );
 
 ---
 
-### How to choose which logo to use on each listing block
+### How to Choose which Logo to Use on each Listing Block
 
 For each review you can upload 2 logos (main/large and small), and there are 5 listing blocks and 2 widget blocks available in Akurai.
 By default blocks use the following logos:
