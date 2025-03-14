@@ -117,6 +117,7 @@ return [
             'Blocks' => 'docs/akurai-geo/blocks',
             'Review Fields' => 'docs/akurai-geo/review-fields',
             'Cloudflare' => 'docs/akurai-geo/cloudflare',
+            'Custom Geo Location' => 'docs/akurai-geo/geo-detection',
             'Plugin Updates' => 'docs/akurai-geo/plugin-updates',
         ],
     ],

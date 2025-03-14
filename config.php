@@ -21,7 +21,7 @@ return [
         'kemoku' => '1.6.10',
         'sibet' => '2.1.0',
         'dinodds' => '1.4.2',
-        'akurai-geo' => '1.2.0',
+        'akurai-geo' => '2.0.0',
         'spinoko-geo' => '1.0.0',
         'nonaki' => '1.0.4',
         'hello-cookie' => '1.0.2',

@@ -9,6 +9,8 @@ section: content
 
 AkuraiGeo requires your website traffic to be routed through Cloudflare because it uses information from a request header provided by Cloudflare.
 
+`💁 since version 2.0.0` You can use [custom geo-detection](/docs/akurai-geo/geo-detection/) options without using Cloudflare.
+
 ---
 
 ## Cloudflare overview
@@ -25,9 +27,8 @@ To make sure the necessary information is provided by Cloudflare, visit your das
 
 AkuraiGeo plugin uses the country code of your website's visitor's IP address directly. It doesn't use the IP address, doesn't get it from anywhere and therefore can't store it anywhere.
 
-
 ---
 
 ### Next step
 
-[Plugin Updates](/docs/akurai-geo/plugin-updates/)
+[Custom Geo Detection](/docs/akurai-geo/geo-detection/)

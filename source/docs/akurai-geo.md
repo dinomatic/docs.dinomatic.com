@@ -29,9 +29,8 @@ Also make sure your host has the minimum requirements to run WordPress and PHP `
 You can check out Akurai theme demos to get an idea how AkuraiGeo plugin works.
 Here are 3 demos for you:
 
-1. [Demo #1](https://demos.dinomatic.com/athens)
-2. [Demo #2](https://demos.dinomatic.com/berlin)
-3. [Demo #3](https://demos.dinomatic.com/lisbon)
+1. [Demo #1](https://demos.dinomatic.com/atlanta/akurai-geo)
+2. [Demo #2](https://demos.dinomatic.com/dortmund/akurai-geo)
 
 ### Changelog
 
