@@ -4,21 +4,21 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <meta name="description" content="DinOdds Plugin Shortcodes">
+        <meta name="description" content="AkuraiGeo - Custom Geo Location Detection Integration">
 
         <link rel="preconnect" href="https://53EFS57BTW-dsn.algolia.net" crossorigin />
 
         <meta property="og:site_name" content="DinoMatic Docs"/>
-        <meta property="og:title" content="Plugin Shortcodes | DinoMatic Docs"/>
-        <meta property="og:description" content="DinOdds Plugin Shortcodes"/>
-        <meta property="og:url" content="https://docs.dinomatic.com/docs/dinodds/plugin-shortcodes"/>
+        <meta property="og:title" content="Custom Geo Location Detection Integration | DinoMatic Docs"/>
+        <meta property="og:description" content="AkuraiGeo - Custom Geo Location Detection Integration"/>
+        <meta property="og:url" content="https://docs.dinomatic.com/docs/akurai-geo/geo-detection"/>
         <meta property="og:image" content="https://docs.dinomatic.com/assets/img/logo.png"/>
         <meta property="og:type" content="website"/>
 
         <meta name="twitter:image:alt" content="DinoMatic Docs">
         <meta name="twitter:card" content="summary_large_image">
 
-        <title>DinoMatic Docs | Plugin Shortcodes</title>
+        <title>DinoMatic Docs | Custom Geo Location Detection Integration</title>
 
         <link rel="home" href="https://docs.dinomatic.com">
         <link rel="icon" href="https://docs.dinomatic.com/favicon.jpg">
@@ -990,7 +990,7 @@
         <a href="/docs/dinodds"
             class="
                 lvl0
-                lvl0-active
+                
                 
                 level-0
                 nav-menu__item"
@@ -1062,7 +1062,7 @@
             class="
                 lvl1
                 
-                active
+                
                 
                 nav-menu__item"
         >
@@ -1147,7 +1147,7 @@
         <a href="/docs/akurai-geo"
             class="
                 lvl0
-                
+                lvl0-active
                 
                 level-0
                 nav-menu__item"
@@ -1233,7 +1233,7 @@
             class="
                 lvl1
                 
-                
+                active
                 
                 nav-menu__item"
         >
@@ -1466,43 +1466,62 @@
     </nav>
 
     <article id="content" class="content" data-docs="true" v-pre>
-        <h1>Plugin Shortcodes</h1>
+        <h1>Custom Geo Location Detection Integration</h1>
 
-<p>Generate table shortcodes and paste them in your pages with a couple of clicks.</p>
+<p>AkuraiGeo by default requires your website traffic to be routed through Cloudflare. This is because it uses information from a request header provided by Cloudflare. However, not all websites are behind Cloudflare today, and for those websites, the plugin enables providing a custom solution.</p>
 
-<h3>Shortcode Types</h3>
+<h2>Your Options</h2>
 
-<p>There are 2 types of shortcodes available starting version 1.3:</p>
+<p>You can either provide a <strong>custom HTTP header</strong> or a completely <strong>custom geo-location detection algorithm</strong>. Check out below the option that suits you best.</p>
 
-<ul>
-<li>All League Odds</li>
-<li>Single Match Odds</li>
-</ul>
+<p>Please note that in both cases the returned value should be a <a href="https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2">ISO 3166-1 alpha-2</a> two-letter country code.</p>
 
-<p><strong>All League Odds</strong> will display odds table for all matches for given league, while with <strong>Single Match Odds</strong> shortcode you can display odds table for a single match, for that simply add <code>away="AWAY_TEAM_NAME"</code> and <code>home="HOME_TEAM_NAME"</code> attributes.</p>
+<h3>Custom Header</h3>
 
-<p>See below how to easily generate shortcodes.</p>
+<p>If your server provides an HTTP header named differently, you can instruct Akurai Geo plugin to use that header instead. To do that, simply use the <code>akurai_geo_header_name</code> filter in your child theme.</p>
 
-<h3>Shortcode Generator</h3>
+<p>In this case I assume your custom header is called <code>HTTP-Country-Code</code>. You should replace it with its actual name.</p>
 
-<p>Simply select the desired options and the shortcode will be generated for you, click the button to copy it and use it where you need to.</p>
+<pre><code class="language-php">add_filter('akurai_geo_header_name', fn () =&gt; 'HTTP-Country-Code');
+</code></pre>
 
-<p><img src="https://media.dinomatic.com/images/docs/dinodds/plugin-shortcode.jpg" alt="DinOdds Plugin Shortcodes" /></p>
+<p>And that's all you need to do. After you save the file, Akurai Geo plugin will use your custom header to detect visitor's country code.</p>
 
-<h3>Shortcode Attributes</h3>
+<blockquote>
+  <p>Please note that the custom header should provide a <code>ISO 3166-1 alpha-2</code> two-letter country code.</p>
+</blockquote>
 
-<p><img src="https://media.dinomatic.com/images/docs/dinodds/shortcode-attributes.jpg" alt="DinOdds Shortcode Attributes" /></p>
+<h3>Custom Detection Script</h3>
+
+<p>If a custom header is not available to you and you want to use your own country detection script, you can do that as well.
+You need to use the <code>akurai_geo_country_code</code> filter provided by Akurai Geo plugin. Here's what it may look like:</p>
+
+<pre><code class="language-php">add_filter('akurai_geo_country_code', function() {
+
+  // your country code detection script
+  // which may not look exactly like this
+  $countryCode = (new EyeOfSauron())-&gt;getCountryCode();
+
+  // and in the end,
+  // you return ISO 3166-1 alpha-2 two-letter country code
+  return $countryCode;
+})
+</code></pre>
+
+<blockquote>
+  <p>Please note that the custom function should return a <code>ISO 3166-1 alpha-2</code> two-letter country code.</p>
+</blockquote>
 
 <hr />
 
 <h3>Next step</h3>
 
-<p><a href="/docs/dinodds/affiliate-settings/">Affiliate Settings</a></p>
+<p><a href="/docs/akurai-geo/plugin-updates/">Plugin Updates</a></p>
     </article>
 
     <nav id="js-page-menu" class="page-menu">
         <h4>
-            DINODDS v1.4.2
+            AKURAI-GEO v2.0.0
         </h4>
 
         <div id="page-menu-wrapper"></div>
