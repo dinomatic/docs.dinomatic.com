@@ -1,8 +1,0 @@
-{
-  "preset": "laravel",
-  "rules": {
-      "function_declaration": {
-        "closure_function_spacing": "none"
-      }
-  }
-}
