@@ -1,0 +1,27 @@
+{
+  "name": "docs.dinomatic.com",
+  "version": "3.0.0",
+  "main": "index.js",
+  "scripts": {
+    "css:watch": "npx @tailwindcss/cli -i ./src/app.css -o ./static/app.css --watch",
+    "css:build": "npx @tailwindcss/cli -i ./src/app.css -o ./static/app.css --minify",
+    "zola:dev": "zola serve",
+    "dev": "concurrently \"npm run css:watch\" \"npm run zola:dev\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dinomatic/docs.dinomatic.com.git"
+  },
+  "author": "DinoMatic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dinomatic/docs.dinomatic.com/issues"
+  },
+  "homepage": "https://github.com/dinomatic/docs.dinomatic.com#readme",
+  "description": "",
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.1.3",
+    "concurrently": "^9.1.2",
+    "tailwindcss": "^4.1.3"
+  }
+}
