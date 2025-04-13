@@ -1,0 +1,20 @@
+<div class="mb-12 rounded-xl bg-gray-50 p-8">
+    <h2 class="mb-4 text-2xl font-semibold">Quick Links</h2>
+    <div class="flex flex-wrap gap-4">
+        <a
+            href="{{ config.extra.links.website | safe }}"
+            class="inline-flex items-center rounded-md border border-gray-200 bg-white px-4 py-2 text-gray-700 transition-colors duration-200 hover:border-blue-500 hover:text-blue-600">
+            <span class="mr-2">🌐</span> Website
+        </a>
+        <a
+            href="{{ config.extra.links.telegram | safe }}"
+            class="inline-flex items-center rounded-md border border-gray-200 bg-white px-4 py-2 text-gray-700 transition-colors duration-200 hover:border-blue-500 hover:text-blue-600">
+            <span class="mr-2">💬</span> Telegram
+        </a>
+        <a
+            href="{{ config.extra.links.github | safe }}"
+            class="inline-flex items-center rounded-md border border-gray-200 bg-white px-4 py-2 text-gray-700 transition-colors duration-200 hover:border-blue-500 hover:text-blue-600">
+            <span class="mr-2">📦</span> GitHub
+        </a>
+    </div>
+</div>

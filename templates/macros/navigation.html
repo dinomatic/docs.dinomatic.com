@@ -1,15 +1,13 @@
-{% macro navigation() %}
-
-{% set products = config.extra.products %}
+{% macro navigation() %} {% set products = config.extra.products %}
 
 <nav>
   <ul>
-    {% for product in products %}
-        {% set product_docs = get_section(path='docs/' ~ product ~ '/_index.md') %}
+    {% for product in products %} {% set product_docs = get_section(path='docs/' ~ product ~ '/_index.md') %}
 
     <li class="mb-8" data-product="{{ product }}">
-      <a href="{{ get_url(path='docs/' ~ product) }}"
-        class="sticky top-0 block pl-8 py-1 font-bold uppercase bg-white rounded-t-md rounded-r-none">
+      <a
+        href="{{ get_url(path='docs/' ~ product) }}"
+        class="sticky top-0 block rounded-t-md rounded-r-none bg-white py-1 pl-8 font-bold uppercase">
         {{ product }}
       </a>
 

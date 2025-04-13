@@ -1,15 +1,22 @@
-{% extends "base.html" %} {% block content %}
+{% extends "base.html" %}
 
-<h1 class="title">{{ config.title }}</h1>
+{% block content %}
+<article class="bg-white px-4 py-16 md:px-8">
+    <div class="mx-auto max-w-4xl">
+        <div class="mb-12 text-center">
+            <h1 class="title mb-4 text-4xl font-bold">Documentation</h1>
+        </div>
 
-<ul class="docs-list">
-  {% for page in section.pages %}
-  <li>
-    <a href="{{ page.permalink | safe }}">
-      <span class="docs-list-title">{{ page.title }}</span>
-      <span class="docs-list-description">{{ page.description }}</span>
-    </a>
-  </li>
-  {% endfor %}
-</ul>
+        <div class="mb-12 grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
+            {% include "_product_grid.html" %}
+        </div>
+
+        <div class="text-center text-gray-600">
+            <p>
+                Need help? Join our
+                <a href="{{ config.extra.links.telegram }}" class="text-blue-600 hover:underline">Telegram community</a>
+            </p>
+        </div>
+    </div>
+</article>
 {% endblock content %}

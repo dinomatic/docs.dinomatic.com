@@ -1,4 +1,4 @@
-(() => {
+;(() => {
   const navMenu = document.querySelector('.nav-menu')
   const navToggle = document.querySelector('.nav-toggle')
 
@@ -33,7 +33,7 @@
     }
 
     const pageUrl = window.location.href
-    navMenu.querySelectorAll('a').forEach(link => {
+    navMenu.querySelectorAll('a').forEach((link) => {
       if (link.href === pageUrl) {
         link.classList.add(...getClassList(link))
       }
@@ -54,8 +54,7 @@
     const navSections = document.querySelectorAll('li[data-product]')
     if (navSections.length > 0) {
       const navParent = navSections[0].parentElement
-      let section = Array.from(navSections)
-        .find(section => section.dataset.product === product)
+      let section = Array.from(navSections).find((section) => section.dataset.product === product)
       if (section) {
         section.parentElement.removeChild(section)
         navParent.insertBefore(section, navParent.children[0])

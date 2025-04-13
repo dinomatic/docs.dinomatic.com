@@ -19,7 +19,7 @@ highlight_theme = "dracula"
 
 [extra]
 products = [
-  "akurai", "spinoko", "sikika", "kemoku", "dinodds", "akurai-geo", "spinoko-geo", "nonaki", "hello-cookie"
+  "akurai", "spinoko", "kemoku", "dinodds", "akurai-geo", "spinoko-geo", "nonaki", "hello-cookie", "sikika"
 ]
 [extra.versions]
 akurai = "4.2.0"
@@ -37,3 +37,6 @@ hello-cookie = "1.0.2"
 website = "https://dinomatic.com"
 telegram = "https://t.me/dinomatic"
 github = "https://github.com/dinomatic"
+wordpress_services = "https://dinomatic.com/services/web-development"
+custom_cms = "https://dinomatic.com/pro/pnn"
+starter_websites = "https://dinomatic.com/pro/websites"
