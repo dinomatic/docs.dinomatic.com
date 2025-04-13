@@ -51,14 +51,12 @@ Below reviews select how to display the **terms and conditions**.
 ### Reviews Table Shortcode
 
 ```html
-[table source="manual" reviews="comma separated list of review page ids"
-terms="none|short|long|ajax|ajax-hover" filters="true" lazy_logo="true"
-load_more_enabled="true" count_initial="3" count_click="3"]
+[table source="manual" reviews="comma separated list of review page ids" terms="none|short|long|ajax|ajax-hover"
+filters="true" lazy_logo="true" load_more_enabled="true" count_initial="3" count_click="3"]
 ```
 
 ```html
-[table source="tax" cat="ID" tag="ID" ppp="-1"
-terms="none|short|long|ajax|ajax-hover" filters="true" lazy_logo="true"
+[table source="tax" cat="ID" tag="ID" ppp="-1" terms="none|short|long|ajax|ajax-hover" filters="true" lazy_logo="true"
 load_more_enabled="true" count_initial="3" count_click="3"]
 ```
 
@@ -81,15 +79,14 @@ Below reviews select how to display the **terms and conditions**.
 ### Extended Table Shortcode
 
 ```html
-[table_extended source="manual" reviews="comma separated list of review page
-ids" terms="none|short|long|ajax|ajax-hover" filters="true" lazy_logo="true"
-load_more_enabled="true" count_initial="3" count_click="3"]
+[table_extended source="manual" reviews="comma separated list of review page ids"
+terms="none|short|long|ajax|ajax-hover" filters="true" lazy_logo="true" load_more_enabled="true" count_initial="3"
+count_click="3"]
 ```
 
 ```html
-[table_extended source="tax" cat="ID" tag="ID" ppp="-1"
-terms="none|short|long|ajax|ajax-hover" filters="true" lazy_logo="true"
-load_more_enabled="true" count_initial="3" count_click="3"]
+[table_extended source="tax" cat="ID" tag="ID" ppp="-1" terms="none|short|long|ajax|ajax-hover" filters="true"
+lazy_logo="true" load_more_enabled="true" count_initial="3" count_click="3"]
 ```
 
 ### Flex Table Block
@@ -109,15 +106,13 @@ Below reviews select how to display the **terms and conditions**, add **filters*
 ### Flex Table Shortcode
 
 ```html
-[table_flex source="manual" reviews="comma separated list of review page ids"
-terms="none|short|long|ajax|ajax-hover" filters="true" lazy_logo="true"
-load_more_enabled="true" count_initial="3" count_click="3"]
+[table_flex source="manual" reviews="comma separated list of review page ids" terms="none|short|long|ajax|ajax-hover"
+filters="true" lazy_logo="true" load_more_enabled="true" count_initial="3" count_click="3"]
 ```
 
 ```html
-[table_flex source="tax" cat="ID" tag="ID" ppp="-1"
-terms="none|short|long|ajax|ajax-hover" filters="true" lazy_logo="true"
-load_more_enabled="true" count_initial="3" count_click="3"]
+[table_flex source="tax" cat="ID" tag="ID" ppp="-1" terms="none|short|long|ajax|ajax-hover" filters="true"
+lazy_logo="true" load_more_enabled="true" count_initial="3" count_click="3"]
 ```
 
 ### Reviews Grid Block
@@ -139,14 +134,12 @@ Below reviews select how to display the **terms and conditions**.
 ### Reviews Grid Shortcode
 
 ```html
-[grid source="manual" reviews="comma separated list of review page ids"
-terms="none|short|long|ajax|ajax-hover" filters="true" lazy_logo="true"
-load_more_enabled="true" count_initial="3" count_click="3"]
+[grid source="manual" reviews="comma separated list of review page ids" terms="none|short|long|ajax|ajax-hover"
+filters="true" lazy_logo="true" load_more_enabled="true" count_initial="3" count_click="3"]
 ```
 
 ```html
-[grid source="tax" cat="ID" tag="ID" ppp="-1"
-terms="none|short|long|ajax|ajax-hover" filters="true" lazy_logo="true"
+[grid source="tax" cat="ID" tag="ID" ppp="-1" terms="none|short|long|ajax|ajax-hover" filters="true" lazy_logo="true"
 load_more_enabled="true" count_initial="3" count_click="3"]
 ```
 
@@ -175,9 +168,8 @@ In the content editor a new offer edit section will appear. Select a review and 
 ### Review Offer Shortcode
 
 ```html
-[review_block review="review page id" terms="none|short|long" heading="..."
-subheading="..." button_url="..." button_text="..."] ... content here ...
-[/review_block]
+[review_block review="review page id" terms="none|short|long" heading="..." subheading="..." button_url="..."
+button_text="..."] ... content here ... [/review_block]
 ```
 
 ### Review Finder Block
@@ -199,8 +191,8 @@ In the content editor a new review finder edit section will appear. You can leav
 You can use the default shortcode as above, or set your own options:
 
 ```html
-[review_finder heading="..." placeholder="..." aff_link_text="..."
-review_link_text="..." bonus_code_label="..." not_found_label="..."]
+[review_finder heading="..." placeholder="..." aff_link_text="..." review_link_text="..." bonus_code_label="..."
+not_found_label="..."]
 ```
 
 ### Recent Posts Block
@@ -218,8 +210,8 @@ You can also select a category to filter the posts or leave it blank to display 
 ### Recent Posts Shortcode
 
 ```html
-[posts count="6" words="40"] [posts count="6" words="40" cat_id="1"] 💁 since
-version 2.0 [posts count="3" style="no_excerpt"]
+[posts count="6" words="40"] [posts count="6" words="40" cat_id="1"] 💁 since version 2.0 [posts count="3"
+style="no_excerpt"]
 ```
 
 ### Links Group Block

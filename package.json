@@ -8,6 +8,7 @@
     "js:watch": "esbuild src/app.js --bundle --outfile=static/app.js --watch",
     "js:build": "esbuild src/app.js --bundle --minify --outfile=static/app.js",
     "zola:dev": "zola serve",
+    "lint": "prettier --write .",
     "dev": "concurrently \"npm run css:watch\" \"npm run js:watch\" \"npm run zola:dev\"",
     "build": "npm run css:build && npm run js:build"
   },

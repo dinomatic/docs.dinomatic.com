@@ -1,11 +1,6 @@
-{% macro version(page) %}
-
-{% if page.components[1] %}
-    {% set product = page.components[1] %}
-    <div class="mb-6 pb-2 border-b border-purple-200 font-medium">
-        <span class="uppercase">{{ product }}</span>
-        v{{ config.extra.versions[product] }}
-    </div>
-{% endif %}
-
-{% endmacro version %}
+{% macro version(page) %} {% if page.components[1] %} {% set product = page.components[1] %}
+<div class="mb-6 border-b border-purple-200 pb-2 font-medium">
+  <span class="uppercase">{{ product }}</span>
+  v{{ config.extra.versions[product] }}
+</div>
+{% endif %} {% endmacro version %}

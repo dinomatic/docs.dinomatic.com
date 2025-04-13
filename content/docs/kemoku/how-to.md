@@ -171,7 +171,7 @@ To change the gift-box icon background of the bonus section use:
   /* this will remove the background */
   background-image: none;
   /* this will set your own background image */
-  background-image: url("IMAGE URL OR BASE 64 ENCODED SVG");
+  background-image: url('IMAGE URL OR BASE 64 ENCODED SVG');
   /* this will set a background color, adjust the value to your liking */
   background-color: #075985;
 }
@@ -184,7 +184,7 @@ To remove or change the dollar-sign icon of the payout speed section use:
   /* this will remove the background */
   background-image: none;
   /* this will set your own background image */
-  background-image: url("IMAGE URL OR BASE 64 ENCODED SVG");
+  background-image: url('IMAGE URL OR BASE 64 ENCODED SVG');
 }
 ```
 

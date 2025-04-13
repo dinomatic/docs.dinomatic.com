@@ -1,18 +1,22 @@
-@import "tailwindcss";
+@import 'tailwindcss';
 
 @import url(https://fonts.bunny.net/css?family=instrument-sans:400,500,600,700);
 
 @theme {
-  --font-display: "Instrument Sans", sans-serif;
+  --font-display: 'Instrument Sans', sans-serif;
 }
 
 @layer base {
   .page-content {
-    h2, h3, h4, h5, h6 {
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
       @apply mt-16 mb-4;
 
       &:before {
-        @apply content-[''] block h-16;
+        @apply block h-16 content-[''];
       }
     }
 
@@ -57,21 +61,21 @@
     }
 
     img {
-      @apply block my-4 border border-purple-200 rounded-md shadow-sm hover:shadow-md transition-shadow;
+      @apply my-4 block rounded-md border border-purple-200 shadow-sm transition-shadow hover:shadow-md;
     }
 
     a {
-      @apply border-dotted border-b-1 border-purple-500 text-purple-500 hover:text-purple-600 hover:border-purple-600;
+      @apply border-b-1 border-dotted border-purple-500 text-purple-500 hover:border-purple-600 hover:text-purple-600;
     }
   }
 
   code {
-    @apply bg-zinc-200 py-1 px-2;
+    @apply bg-zinc-200 px-2 py-1;
   }
   pre {
-    @apply block mt-3 mb-6 px-3 py-3 overflow-x-auto max-w-full;
+    @apply mt-3 mb-6 block max-w-full overflow-x-auto px-3 py-3;
     code {
-      @apply p-0 bg-inherit;
+      @apply bg-inherit p-0;
     }
   }
 }

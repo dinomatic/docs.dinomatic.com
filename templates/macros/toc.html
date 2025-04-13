@@ -1,29 +1,21 @@
-{% macro table_of_contents(toc) %}
+{% macro table_of_contents(toc) %} {% if toc %} {% for h1 in toc %}
+<p class="mb-2 text-sm font-bold">On this page:</p>
 
-{% if toc %}
-    {% for h1 in toc %}
-        <p class="text-sm mb-2 font-bold">On this page:</p>
+<ul class="text-sm">
+  {% for h2 in h1.children %}
+  <li class="mt-2">
+    <a href="{{ h2.permalink }}" class="text-zinc-500 hover:text-zinc-700">{{ h2.title }}</a>
 
-        <ul class="text-sm">
-            {% for h2 in h1.children %}
-                <li class="mt-2">
-                    <a href="{{ h2.permalink }}"
-                        class="text-zinc-500 hover:text-zinc-700">{{ h2.title }}</a>
-
-                    {% if h2.children %}
-                        <ul class="ml-4">
-                            {% for h3 in h2.children %}
-                                <li class="mt-2">
-                                    <a href="{{ h3.permalink }}"
-                                        class="text-zinc-500 hover:text-zinc-700">{{ h3.title }}</a>
-                                </li>
-                            {% endfor %}
-                        </ul>
-                    {% endif %}
-                </li>
-            {% endfor %}
-        </ul>
-    {% endfor %}
-{% endif %}
-
-{% endmacro table_of_contents %}
+    {% if h2.children %}
+    <ul class="ml-4">
+      {% for h3 in h2.children %}
+      <li class="mt-2">
+        <a href="{{ h3.permalink }}" class="text-zinc-500 hover:text-zinc-700">{{ h3.title }}</a>
+      </li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+  </li>
+  {% endfor %}
+</ul>
+{% endfor %} {% endif %} {% endmacro table_of_contents %}

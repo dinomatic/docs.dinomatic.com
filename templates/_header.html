@@ -1,0 +1,22 @@
+<header class="sticky top-0 z-50 bg-white p-4 shadow-sm">
+  <div class="container mx-auto flex items-center justify-between">
+    <a href="{{ config.base_url }}" class="text-xl/6 font-semibold uppercase"> {{ config.title }} </a>
+
+    <div>
+      <button id="docsearch"></button>
+
+      <button class="nav-toggle lg:hidden">
+        <svg
+          class="size-[2.4rem] stroke-current"
+          stroke-width="1"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24">
+          <path
+            class="open opacity-100 transition-opacity duration-200 ease-linear"
+            d="M3 6h18m-10 6h10M6 18h15"></path>
+          <path class="close opacity-0 transition-opacity duration-200 ease-linear" d="M20 20L4 4m16 0L4 20"></path>
+        </svg>
+      </button>
+    </div>
+  </div>
+</header>

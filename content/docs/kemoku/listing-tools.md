@@ -213,9 +213,7 @@ Copy the values you want to change to a custom stylesheet or Additional CSS sect
   /* This is the popup headings background color. */
   --listing_tools_headings_bg_color: var(--section_bg_color);
   /* This is the popup headings border radius. */
-  --listing_tools_headings_border_radius: var(
-    --listing_tools_popup_border_radius
-  );
+  --listing_tools_headings_border_radius: var(--listing_tools_popup_border_radius);
   /* This is the popup button font color. */
   --listing_tools_button_font_color: #565f66;
   /* This is the popup button background color. */
