@@ -1,31 +1,27 @@
 <head>
+  {% set url = page.permalink | default(value=config.base_url) | safe %}
+
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <title>{% block title %}{{ config.title }}{% endblock %}</title>
-  <meta name="description" content="{{ page.description | default(value='') }}" />
+  <title>{% block title %}{{ config.title | safe }}{% endblock %}</title>
+  <meta name="description" content="{{ page.description | default(value='') | safe }}" />
 
   <link rel="preconnect" href="https://53EFS57BTW-dsn.algolia.net" crossorigin />
 
-  <meta property="og:site_name" content="{{ config.title }}" />
-  <meta
-    property="og:title"
-    content="{% if page.title %} {{ page.title }} | {{ config.title }} {% else %} {{ config.title }} {% endif %}" />
-  <meta property="og:description" content="{{ page.description | default(value='') }}" />
-  <meta
-    property="og:url"
-    content="{% if page.permalink %} {{ page.permalink | safe }} {% else %} {{ config.base_url }} {% endif %}" />
-  <meta property="og:image" content="{{ config.base_url }}/images/dinomatic.jpg" />
+  <meta property="og:site_name" content="{{ config.title | safe }}" />
+  <meta property="og:title" content="{{ page.title | default(value=config.title) | safe }}" />
+  <meta property="og:description" content="{{ page.description | default(value='') | safe }}" />
+  <meta property="og:url" content="{{ url | safe }}" />
+  <meta property="og:image" content="{{ config.base_url | safe }}/images/dinomatic.jpg" />
   <meta property="og:type" content="website" />
 
-  <meta name="twitter:image:alt" content="{{ config.title }}" />
+  <meta name="twitter:image:alt" content="{{ config.title | safe }}" />
   <meta name="twitter:card" content="summary_large_image" />
 
-  <link rel="home" href="{{ config.base_url }}" />
-  <link rel="icon" href="{{ config.base_url }}/favicon.jpg" />
-  <link
-    rel="canonical"
-    href="{% if page.permalink %} {{ page.permalink | safe }} {% else %} {{ config.base_url }} {% endif %}" />
+  <link rel="home" href="{{ config.base_url | safe }}" />
+  <link rel="icon" href="{{ config.base_url | safe }}/favicon.jpg" />
+  <link rel="canonical" href="{{ url | safe }}" />
 
-  <link rel="stylesheet" href="{{ get_url(path='app.css') }}" />
-  <link rel="stylesheet" href="{{ get_url(path='docsearch.css') }}" />
+  <link rel="stylesheet" href="{{ get_url(path='app.css') | safe }}" />
+  <link rel="stylesheet" href="{{ get_url(path='docsearch.css') | safe }}" />
 </head>
