@@ -21,6 +21,9 @@ Use the below code snippet in your child theme's `functions.php` file and adjust
 > Please make sure to use [ISO 3166 country codes](https://en.wikipedia.org/wiki/List_of_ISO_3166_country_codes) in array keys (us, gb, fr, etc.).
 
 ```php
+<?php
+
+
 add_filter( 'kemoku_country_custom_names', fn( array $names )  => array(
     'us' => 'Estados Unidos',
     'gb' => 'Reino Unido',
@@ -37,6 +40,9 @@ Use the below code snippet in your child theme's `functions.php` file and adjust
 > Please make sure to use [ISO 4217 country codes](https://en.wikipedia.org/wiki/ISO_4217) in array keys (usd, eur, etc.).
 
 ```php
+<?php
+
+
 add_filter( 'kemoku_currency_custom_data', fn( array $data )  => array(
     'usd' => array(
         'name' => 'USD',
@@ -58,6 +64,9 @@ add_filter( 'kemoku_currency_custom_data', fn( array $data )  => array(
 Use the below code snippet in your child theme's `functions.php` file and adjust the review features values. These values are set when editing a review page on Review Fields -> Details section, and they're used in filtering the listings.
 
 ```php
+<?php
+
+
 add_filter( 'kemoku_sportsbook_features', function( array $defaults ) {
 
 	$defaults['feature_1'] = 'Nuevo';
@@ -74,6 +83,9 @@ add_filter( 'kemoku_sportsbook_features', function( array $defaults ) {
 Use the below code snippet in your child theme's `functions.php` file and adjust the review sports values. These values are set when editing a review page on Review Fields -> Sports section, and they're used in Sports block and filtering the listings.
 
 ```php
+<?php
+
+
 add_filter( 'kemoku_sportsbook_sorts', function( array $defaults ) {
 
 	$defaults['football'] = 'American Football';

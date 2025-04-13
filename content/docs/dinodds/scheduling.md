@@ -46,6 +46,9 @@ This ensures that no matter what WP-Cron will be called periodically and WP sche
 To do this, open your `wp-config.php` file (it is in your website's root directory), add the following line and save it. And we're done here, WP-Cron is disabled.
 
 ```php
+<?php
+
+
 define( 'DISABLE_WP_CRON', true );
 ```
 

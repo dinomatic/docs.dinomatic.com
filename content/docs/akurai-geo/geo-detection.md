@@ -23,6 +23,9 @@ If your server provides an HTTP header named differently, you can instruct Akura
 In this case I assume your custom header is called `HTTP-Country-Code`. You should replace it with its actual name.
 
 ```php
+<?php
+
+
 add_filter('akurai_geo_header_name', fn () => 'HTTP-Country-Code');
 ```
 
@@ -36,6 +39,9 @@ If a custom header is not available to you and you want to use your own country 
 You need to use the `akurai_geo_country_code` filter provided by Akurai Geo plugin. Here's what it may look like:
 
 ```php
+<?php
+
+
 add_filter('akurai_geo_country_code', function() {
 
   // your country code detection script

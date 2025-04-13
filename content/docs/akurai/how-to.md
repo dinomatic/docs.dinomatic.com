@@ -26,6 +26,9 @@ For more details check out <code>inc/modules/review-filters.php</code> file.
 #### How To Modify Keys
 
 ```php
+<?php
+
+
 if ( ! function_exists( 'set_akurai_review_filters_keys' ) ) {
   /**
    * Modify review filters keys.
@@ -52,7 +55,7 @@ if ( ! function_exists( 'set_akurai_review_filters_keys' ) ) {
 
 These are all available filters to modify review filters headings:
 
-```
+```toml
 'akurai_review_filters__heading__popular'
 'akurai_review_filters__heading__rating'
 'akurai_review_filters__heading__offers'
@@ -64,6 +67,9 @@ These are all available filters to modify review filters headings:
 The below example changes offers block heading from <code>Offers</code> to <code>Services</code>.
 
 ```php
+<?php
+
+
 add_filter(
   'akurai_review_filters__heading__offers',
   fn () => __( 'Services', 'akurai' )
@@ -76,7 +82,7 @@ add_filter(
 
 These are all available filters to modify review filters values:
 
-```
+```toml
 'akurai_review_filters__values__popular'
 'akurai_review_filters__values__rating'
 'akurai_review_filters__values__offer'
@@ -88,6 +94,9 @@ These are all available filters to modify review filters values:
 The below example modifies ratings block. Instead of <code>6+, 7+, 8+, 9+, 10</code> it will change it to just <code>8 and more, 9 and more, 10</code>.
 
 ```php
+<?php
+
+
 add_filter(
   'akurai_review_filters__values__rating',
   fn () => array( '8' => '8 and more', '9' => '9 and more', '10' => '10' )
@@ -97,6 +106,9 @@ add_filter(
 This next example modifies offers block. Instead of <code>Sportsbook, Casino, Live Casino, Poker, Bingo, Lottery</code> it will change it to just <code>Sportsbook, Casino</code>.
 
 ```php
+<?php
+
+
 add_filter(
   'akurai_review_filters__values__offers',
   fn () => array( 'sportsbook' => 'Sportsbook', 'casino' => 'Casino' )
@@ -109,7 +121,7 @@ add_filter(
 
 To do that, first we need to create the following directory structure in the child theme and upload all the logo images to that directory:
 
-```php
+```yaml
 /assets/images/gambling-logos/
 ```
 
@@ -118,6 +130,9 @@ It helps if you resize the images beforehand so that they all have the same heig
 Next we need to use a filter to update the logo files. Add this to your child theme's `functions.php` file and replace the values with actual image names, dimensions, alt texts and URLs (optional). Those should be the images you uploaded at the previous step. The example uses just 2 images, but you can add as many images as you want.
 
 ```php
+<?php
+
+
 function change_akurai_gambling_logos( $logos ) {
 
   return array(
@@ -159,6 +174,9 @@ Depending on what kind of logos you upload, you may want to use different images
 You can change which logo to use on the blocks by using the below filters, copy only the ones that you want to change and add them to your child theme.
 
 ```php
+<?php
+
+
 add_filter( 'akurai_table_logo_size', fn() => 'large' );
 add_filter( 'akurai_table_flex_logo_size', fn() => 'small' );
 add_filter( 'akurai_table_extended_logo_size', fn() => 'small' );

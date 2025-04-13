@@ -36,6 +36,9 @@ There are 2 bell icons used, one with and another without a red dot. The one wit
 If you want to change the icons, get your SVG icons, add `bell-unread` and `bell-read` classes to them and use the below example by replacing the placeholder icons with your actual SVG codes.
 
 ```php
+<?php
+
+
 add_filter( 'spinoko_n10ns_icons', function () {
   return '<svg class="bell-unread">...</svg><svg class="bell-read">...</svg>';
 } );
@@ -49,6 +52,7 @@ Replace the file path if your custom file is somewhere else, also change the con
 1. create a file at `/spinoko-child/views/notifications/custom.php`
 
 ```php
+
 <?php
 /**
  * My custom notifications block.
@@ -63,6 +67,9 @@ Replace the file path if your custom file is somewhere else, also change the con
 2. add this to your child theme's `functions.php`
 
 ```php
+<?php
+
+
 function spinoko_custom_n10ns_layout() {
 	include get_stylesheet_directory() . '/views/notifications/custom.php';
 }

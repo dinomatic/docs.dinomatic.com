@@ -23,6 +23,9 @@ By default in any WordPress installation archive page titles contain a label plu
 If you want to remove those labels and just have the actual titles only, add the below function to your [child theme](/docs/spinoko/child-theme)'s `functions.php` file.
 
 ```php
+<?php
+
+
 /**
  * Removes labels (category, tag, author) from archive page titles.
  */
@@ -53,6 +56,9 @@ add_filter( 'get_the_archive_title', 'spinoko_child_archive_titles' );
 By default comments are only available on posts, however, you can enable it on custom post types by adding the below code snippet to your [child theme](/docs/spinoko/child-theme)'s `functions.php` file:
 
 ```php
+<?php
+
+
 /**
 * Enables comments for casino and game custom post types.
 */
@@ -88,6 +94,9 @@ However, you can define your custom software providers once and use them on any 
 Use the below example in your child theme's `functions.php` file by adding any provider you need.
 
 ```php
+<?php
+
+
 function spinoko_custom_game_providers(): array {
 
     return array(
@@ -109,6 +118,9 @@ However, you can define your custom payment methods once and use them on any cas
 Use the below example in your child theme's `functions.php` file by adding any method you need.
 
 ```php
+<?php
+
+
 function spinoko_custom_payment_methods(): array {
 
     return array(
@@ -179,6 +191,9 @@ All the above fields are in casino edit pages to be filled in.
 To change the keys, use the following function and modify it in your child theme's `functions.php` file.
 
 ```php
+<?php
+
+
 function spinoko__change_table_sort_keys() {
 
     return array(
@@ -198,6 +213,9 @@ It currently includes the 5 sort keys + a default/reset key, remove the ones you
 For example, if you need only `name` and `year` keys, and you want to change **Year** to **Year established** the function would look like this:
 
 ```php
+<?php
+
+
 function spinoko__change_table_sort_keys() {
 
     return array(
@@ -214,6 +232,9 @@ add_filter( 'spinoko_table_sorting_keys', 'spinoko__change_table_sort_keys' );
 **Change order** - if you want to move the **default/reset** button to the end, or change the order of the buttons, you can do it here by changing the order of `'key' => 'Label'` pairs:
 
 ```php
+<?php
+
+
 function spinoko__change_table_sort_keys() {
 
     return array(
@@ -241,6 +262,9 @@ By using `spinoko_table_filters_keys` filter you can remove any key or change th
 To change a name:
 
 ```php
+<?php
+
+
 function spinoko__change_table_filters( $filters ) {
 
     $filters['games'] = 'Casino Games';
@@ -253,6 +277,9 @@ add_filter( 'spinoko_table_filters_keys', 'spinoko__change_table_filters' );
 To remove a key:
 
 ```php
+<?php
+
+
 function spinoko__change_table_filters( $filters ) {
 
     return array_filter( $filters, fn ( $filter ) => $filter !== 'games', ARRAY_FILTER_USE_KEY );
@@ -263,6 +290,9 @@ add_filter( 'spinoko_table_filters_keys', 'spinoko__change_table_filters' );
 In general, `$filters` is a PHP array and you can modify it the way you want. Here's the default array:
 
 ```php
+<?php
+
+
 $filter = array(
     'countries'       => __( 'Countries', 'spinoko' ),
     'games'           => __( 'Games', 'spinoko' ),
@@ -279,6 +309,9 @@ $filter = array(
 By default table filters include only main payment methods provided by the theme. However, if you want to include the custom ones that you added, simply use this filter in your child theme.
 
 ```php
+<?php
+
+
 add_filter( 'spinoko_table_filters_custom_payments', '__return_true', 10 );
 ```
 
@@ -293,6 +326,9 @@ Also, you can use this method to display country names in a different language.
 To change the names, you need to use the following filter in your child theme's `functions.php` file:
 
 ```php
+<?php
+
+
 function spinoko__change_country_names( $countries ) {
 
     $countries['gb'] = 'United Kingdom';
@@ -306,6 +342,9 @@ add_filter( 'spinoko_country_custom_names', 'spinoko__change_country_names' );
 For translation, use the same filter and add the country names in your language, for example:
 
 ```php
+<?php
+
+
 // Spanish
 $countries['de'] = 'Alemania';
 $countries['nl'] = 'Países Bajos';
@@ -314,6 +353,9 @@ $countries['nl'] = 'Países Bajos';
 Use any country code (lower case) from the above mentioned ISO 3166 list and customize the country names by adding as many lines as you want:
 
 ```php
+<?php
+
+
 $countries['TWO-TETTER-CODE'] = 'COUNTRY-NAME';
 ```
 
@@ -328,6 +370,9 @@ You can change the names of casino games provided by the theme.
 To do that, you need to use the following filter in your child theme's `functions.php` file:
 
 ```php
+<?php
+
+
 function spinoko__change_game_names( $games ) {
 
     return array_map( function( $game ) {
@@ -344,6 +389,9 @@ add_filter( 'spinoko_game_names', 'spinoko__change_game_names' );
 Using a function similar to this, you can change and translate their names. This is the list of all games provided by the theme.
 
 ```php
+<?php
+
+
 array(
     array( 'name' => 'slots',        'title' => 'Slots' ),
     array( 'name' => 'blackjack',    'title' => 'Blackjack' ),
@@ -377,6 +425,9 @@ Once your directory is created you need to upload all the logo files into it.
 Once that's done, too, you can add the below functions into your child theme.
 
 ```php
+<?php
+
+
 /** Change the logos' image directory */
 function sch_footer_logos_directory( $path ) {
     return get_stylesheet_directory_uri() . '/assets/images/footer-logos/';
@@ -415,6 +466,9 @@ however, in that case the links would still be there, just hidden.
 If you want to remove them entirely, use the below code snippet in your child theme.
 
 ```php
+<?php
+
+
 /**
  * Removes review links from table/grid blocks.
  */

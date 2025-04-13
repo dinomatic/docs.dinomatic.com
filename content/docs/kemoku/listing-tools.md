@@ -25,6 +25,9 @@ The listings can be sorted by name, rating or date in ascending and descending o
 You can use a function like this one to modify sorting key labels, this example changes "Recently Added" to "Date".
 
 ```php
+<?php
+
+
 function update_listing_sorting_keys( array $defaults ): array {
 
   $defaults['date'] = __( 'Date', 'kemoku' );
@@ -39,6 +42,9 @@ add_filter( 'kemoku_table_sorting__keys', 'update_listing_sorting_keys' );
 This function removed "Recently Added" option:
 
 ```php
+<?php
+
+
 function update_listing_sorting_keys( array $defaults ): array {
 
   unset( $defaults['date'] );
@@ -53,6 +59,9 @@ add_filter( 'kemoku_table_sorting__keys', 'update_listing_sorting_keys' );
 By default there are 6 filter groups: Rating, Features, Services, Licenses, Countries, Payment Methods, Sports. You can disable each one of them or change the group heading. These are the default values:
 
 ```php
+<?php
+
+
 array(
     'rating'          => __( 'Rating', 'kemoku' ),
     'features'        => __( 'Features', 'kemoku' ),
@@ -70,6 +79,9 @@ array(
 To remove any group from filters, use a function like the one below. Change 'us_states' to any other key to remove those.
 
 ```php
+<?php
+
+
 function remove_us_states_from_listing_filters( array $defaults ): array {
 
   unset( $defaults['us_states'] );
@@ -84,6 +96,9 @@ add_filter( 'kemoku_listing_filters__keys', 'remove_us_states_from_listing_filte
 To change the group heading, use a function like the one below. This example is for Payment Methods, and you can adjust the values to change any other heading.
 
 ```php
+<?php
+
+
 function update_listing_filters_pm_heading( array $defaults ): array {
 
   $defaults['payment_methods'] = 'Deposit Methods';
@@ -98,6 +113,9 @@ add_filter( 'kemoku_listing_filters__keys', 'update_listing_filters_pm_heading' 
 By default there are 5 rating options: 6+, 7+, 8+, 9+ and 10. You can use a function like the example below to modify the rating options. This one removes "6+" option.
 
 ```php
+<?php
+
+
 function update_listing_filters_ratings( array $defaults ): array {
 
   unset( $defaults[6] );
@@ -112,6 +130,9 @@ add_filter( 'kemoku_listing_filters__values__rating', 'update_listing_filters_ra
 By default there are 5 rating options: 'New', 'Popular', 'Fast Payouts', 'Mobile Friendly' and 'Good Reputation'. You can use a function like the example below to modify the rating options. This one removes "Good Reputation" option and renames "Mobile Friendly" to "Mobile Apps.
 
 ```php
+<?php
+
+
 function update_listing_filters_features( array $defaults ): array {
 
   unset( $defaults['feature_5'] );
@@ -124,6 +145,9 @@ add_filter( 'kemoku_listing_filters__values__rating', 'update_listing_filters_fe
 This function changes "Mobile Friendly" to "Mobile Apps.
 
 ```php
+<?php
+
+
 function update_listing_filters_features( array $defaults ): array {
 
   $defaults['feature_4'] = __( 'Mobile Apps', 'kemoku' );
@@ -136,6 +160,9 @@ add_filter( 'kemoku_listing_filters__values__rating', 'update_listing_filters_fe
 If you need multiple changes, you can add them all into a single function. For example, remove "Fast Payouts" and translate into Spanish.
 
 ```php
+<?php
+
+
 function update_listing_filters_features( array $defaults ): array {
 
   return array(
@@ -153,6 +180,9 @@ add_filter( 'kemoku_listing_filters__values__rating', 'update_listing_filters_fe
 By default there are 8 services and here are their default values:
 
 ```php
+<?php
+
+
 array(
     'sportsbook'     => __( 'Sportsbook', 'kemoku' ),
     'casino'         => __( 'Casino', 'kemoku' ),
@@ -168,6 +198,9 @@ array(
 You can use a function like the example below to modify the rating options. This one removes "Bingo" and "Lottery" options and renames "Fantasy Sports" to "Daily Fantasy Sports".
 
 ```php
+<?php
+
+
 function update_listing_filters_services( array $defaults ): array {
 
   unset( $defaults['bingo'] );
@@ -185,6 +218,9 @@ add_filter( 'kemoku_listing_filters__values__services', 'update_listing_filters_
 Country, State, Payment Method, Currency and License values on filters are generated from the fields you fill in when editing review pages. There will be only values that you already selected. However, if for some reason you need to modify them, you can use the below filters:
 
 ```php
+<?php
+
+
 kemoku_listing_filters__values__licenses
 kemoku_listing_filters__values__countries
 kemoku_listing_filters__values__us_states
