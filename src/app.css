@@ -15,7 +15,7 @@
       @apply mt-16 mb-4 text-purple-800;
 
       &:before {
-        @apply block h-16 content-[''];
+        @apply block h-24 content-[''];
       }
     }
 

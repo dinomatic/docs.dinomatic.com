@@ -5,12 +5,14 @@
   "scripts": {
     "css:watch": "npx @tailwindcss/cli -i ./src/app.css -o ./static/app.css --watch",
     "css:build": "npx @tailwindcss/cli -i ./src/app.css -o ./static/app.css --minify",
-    "js:watch": "esbuild src/search.js --bundle --outfile=static/docsearch.js --watch",
-    "js:build": "esbuild src/search.js --bundle --minify --outfile=static/docsearch.js",
+    "js:watch": "esbuild src/app.js --bundle --outfile=static/app.js --watch",
+    "js:build": "esbuild src/app.js --bundle --minify --outfile=static/app.js",
+    "docsearch:watch": "esbuild src/search.js --bundle --outfile=static/docsearch.js --watch",
+    "docsearch:build": "esbuild src/search.js --bundle --minify --outfile=static/docsearch.js",
     "zola:dev": "zola serve",
     "lint": "prettier --write .",
-    "dev": "concurrently \"npm run css:watch\" \"npm run js:watch\" \"npm run zola:dev\"",
-    "build": "npm run css:build && npm run js:build && zola build"
+    "dev": "concurrently \"npm run css:watch\" \"npm run js:watch\" \"npm run docsearch:watch\" \"npm run zola:dev\"",
+    "build": "npm run css:build && npm run js:build && npm run docsearch:build && zola build"
   },
   "repository": {
     "type": "git",
