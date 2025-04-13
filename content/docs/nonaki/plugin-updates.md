@@ -1,6 +1,9 @@
 ---
 title: Plugin Updates
 description: Nonaki Plugin Updates
+weight: 30
+extra:
+  order: 30
 ---
 
 # Nonaki Plugin Updates

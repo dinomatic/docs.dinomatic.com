@@ -1,6 +1,9 @@
 ---
 title: Theme Navigation Menus
 description: Spinoko Theme Navigation Menus
+weight: 160
+extra:
+  order: 160
 ---
 
 # Spinoko Navigation Menus

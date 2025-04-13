@@ -1,6 +1,9 @@
 ---
 title: Akurai Theme Updates
 description: Akurai Theme Updates
+weight: 150
+extra:
+  order: 150
 ---
 
 # Akurai Theme Updates

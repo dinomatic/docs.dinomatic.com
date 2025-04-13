@@ -1,6 +1,9 @@
 ---
 title: Review Page Slug
 description: Spinoko Review Page Slug
+weight: 30
+extra:
+  order: 30
 ---
 
 # Casino Review Page Slug

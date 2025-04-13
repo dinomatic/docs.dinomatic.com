@@ -1,6 +1,9 @@
 ---
 title: Akurai Theme
 description: Getting Started with Akurai Theme
+weight: 10
+extra:
+  order: 10
 ---
 
 # Akurai Theme

@@ -1,6 +1,9 @@
 ---
 title: Theme Customizations
 description: Sikika Theme Customizations
+weight: 40
+extra:
+  order: 40
 ---
 
 # Theme Customizations

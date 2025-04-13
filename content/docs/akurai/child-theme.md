@@ -1,6 +1,9 @@
 ---
 title: Akurai Child Theme
 description: Akurai Child Theme
+weight: 160
+extra:
+  order: 160
 ---
 
 # Akurai Child Theme

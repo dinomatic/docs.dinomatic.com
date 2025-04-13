@@ -1,6 +1,9 @@
 ---
 title: AMP Support
 description: Akurai Theme AMP Support
+weight: 130
+extra:
+  order: 130
 ---
 
 # AMP Support

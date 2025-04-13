@@ -1,6 +1,9 @@
 ---
 title: Demo Import
 description: Akurai Theme Demo Import
+weight: 140
+extra:
+  order: 140
 ---
 
 # Demo Import

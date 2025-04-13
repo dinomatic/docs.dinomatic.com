@@ -1,6 +1,9 @@
 ---
 title: Game Review Page Slug
 description: Spinoko Game Review Page Slug
+weight: 70
+extra:
+  order: 70
 ---
 
 # Game Review Page Slug

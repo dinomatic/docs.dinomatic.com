@@ -1,6 +1,9 @@
 ---
 title: Game Page Templates
 description: Game Page Templates | Spinoko Theme
+weight: 90
+extra:
+  order: 90
 ---
 
 # Game Page Templates

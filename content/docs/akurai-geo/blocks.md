@@ -1,6 +1,9 @@
 ---
 title: Plugin Blocks
 description: AkuraiGeo Plugin Blocks
+weight: 30
+extra:
+  order: 30
 ---
 
 # Plugin Blocks

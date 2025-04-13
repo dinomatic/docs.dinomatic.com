@@ -1,6 +1,9 @@
 ---
 title: Theme Breadcrumbs
 description: Akurai Theme Breadcrumbs
+weight: 110
+extra:
+  order: 110
 ---
 
 # Akurai Breadcrumbs

@@ -1,6 +1,9 @@
 ---
 title: Using Hello Cookie Plugin
 description: Using Hello Cookie Plugin
+weight: 20
+extra:
+  order: 20
 ---
 
 # Using Hello Cookie Plugin

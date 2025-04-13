@@ -1,6 +1,9 @@
 ---
 title: Review Page Slug
 description: Akurai Review Page Slug
+weight: 30
+extra:
+  order: 30
 ---
 
 # Review Page Slug

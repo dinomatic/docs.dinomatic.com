@@ -1,6 +1,9 @@
 ---
 title: Plugin Registration
 description: Kemoku Plugin Registration
+weight: 20
+extra:
+  order: 20
 ---
 
 # Plugin Registration

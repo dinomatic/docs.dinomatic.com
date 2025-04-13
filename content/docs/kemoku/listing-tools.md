@@ -1,6 +1,9 @@
 ---
 title: Listing Tools
 description: Kemoku Listing Tools
+weight: 100
+extra:
+  order: 100
 ---
 
 # Customizing Listing Tools

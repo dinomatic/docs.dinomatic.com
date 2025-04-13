@@ -1,6 +1,9 @@
 ---
 title: Sikika Theme
 description: Getting Started with Sikika Theme
+weight: 100
+extra:
+  order: 100
 ---
 
 # Sikika Theme

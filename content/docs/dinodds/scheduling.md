@@ -1,6 +1,9 @@
 ---
 title: Scheduling
 description: DinOdds Scheduling
+weight: 80
+extra:
+  order: 80
 ---
 
 # Scheduling

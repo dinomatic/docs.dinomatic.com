@@ -1,6 +1,9 @@
 ---
 title: Banners
 description: Sikika Banners
+weight: 50
+extra:
+  order: 50
 ---
 
 # Banners

@@ -1,6 +1,9 @@
 ---
 title: API Settings
 description: DinoFeeds API Settings
+weight: 10
+extra:
+  order: 10
 ---
 
 # DinoFeeds API

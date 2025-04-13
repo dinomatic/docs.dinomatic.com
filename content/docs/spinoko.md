@@ -1,6 +1,9 @@
 ---
 title: Spinoko Theme
 description: Getting Started with Spinoko Theme
+weight: 20
+extra:
+  order: 20
 ---
 
 # Spinoko Theme

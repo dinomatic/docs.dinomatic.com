@@ -1,6 +1,9 @@
 ---
 title: Using Nonaki Plugin
 description: Using Nonaki Plugin
+weight: 20
+extra:
+  order: 20
 ---
 
 # Using Nonaki Plugin

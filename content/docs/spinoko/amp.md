@@ -1,6 +1,9 @@
 ---
 title: AMP Support
 description: Spinoko Theme AMP Support
+weight: 180
+extra:
+  order: 180
 ---
 
 # AMP Support

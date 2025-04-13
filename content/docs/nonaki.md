@@ -1,6 +1,9 @@
 ---
 title: Nonaki Plugin
 description: Getting Started with Nonaki Plugin
+weight: 70
+extra:
+  order: 70
 ---
 
 # Nonaki Plugin

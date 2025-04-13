@@ -1,6 +1,9 @@
 ---
 title: Shortcodes
 description: Kemoku Plugin - Shortcodes
+weight: 70
+extra:
+  order: 70
 ---
 
 # Kemoku Plugin Shortcodes

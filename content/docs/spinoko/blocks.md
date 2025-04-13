@@ -1,6 +1,9 @@
 ---
 title: Blocks & Shortcodes
 description: Spinoko Theme - Blocks
+weight: 110
+extra:
+  order: 110
 ---
 
 # Spinoko Theme Blocks

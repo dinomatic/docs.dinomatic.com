@@ -1,6 +1,9 @@
 ---
 title: Review Page Blocks
 description: Spinoko Theme Review Page Blocks
+weight: 50
+extra:
+  order: 50
 ---
 
 # Casino Review Page Blocks

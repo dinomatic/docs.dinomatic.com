@@ -1,6 +1,9 @@
 ---
 title: Theme Widgets
 description: Spinoko Theme Widgets
+weight: 130
+extra:
+  order: 130
 ---
 
 # Spinoko Widgets

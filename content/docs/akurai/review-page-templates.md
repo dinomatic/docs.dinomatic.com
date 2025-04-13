@@ -1,6 +1,9 @@
 ---
 title: Review Page Templates
 description: Review Page Templates for Akurai Theme
+weight: 50
+extra:
+  order: 50
 ---
 
 # Review Page Templates

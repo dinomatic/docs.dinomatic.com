@@ -1,6 +1,9 @@
 ---
 title: Theme Registration
 description: Akurai Theme Registration
+weight: 20
+extra:
+  order: 20
 ---
 
 # Theme Registration

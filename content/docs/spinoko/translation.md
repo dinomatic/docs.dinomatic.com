@@ -1,6 +1,9 @@
 ---
 title: Translating Spinoko Theme
 description: Translating Spinoko Theme
+weight: 190
+extra:
+  order: 190
 ---
 
 # Translating The Theme

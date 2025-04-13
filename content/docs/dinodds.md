@@ -1,6 +1,9 @@
 ---
 title: DinOdds Plugin
 description: Getting Started with DinOdds Plugin
+weight: 40
+extra:
+  order: 40
 ---
 
 # DinOdds Plugin

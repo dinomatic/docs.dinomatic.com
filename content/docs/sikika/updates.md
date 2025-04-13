@@ -1,6 +1,9 @@
 ---
 title: Sikika Theme Updates
 description: Sikika Theme Updates
+weight: 70
+extra:
+  order: 70
 ---
 
 # Sikika Theme Updates

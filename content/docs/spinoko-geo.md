@@ -1,6 +1,9 @@
 ---
 title: SpinokoGeo Plugin
 description: Getting Started with SpinokoGeo Plugin
+weight: 60
+extra:
+  order: 60
 ---
 
 # SpinokoGeo Plugin

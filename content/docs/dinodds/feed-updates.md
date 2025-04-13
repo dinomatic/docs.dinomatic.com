@@ -1,6 +1,9 @@
 ---
 title: Feed Updates
 description: DinOdds Feed Updates
+weight: 70
+extra:
+  order: 70
 ---
 
 # Feed Updates

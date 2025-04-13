@@ -1,6 +1,9 @@
 ---
 title: Widgets
 description: Kemoku Plugin - Widgets
+weight: 80
+extra:
+  order: 80
 ---
 
 # Kemoku Plugin Widgets

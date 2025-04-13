@@ -1,6 +1,9 @@
 ---
 title: AMP Support
 description: Sikika Theme AMP Support
+weight: 60
+extra:
+  order: 60
 ---
 
 # AMP Support

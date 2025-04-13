@@ -1,6 +1,9 @@
 ---
 title: Plugin Settings
 description: DinOdds Plugin Settings
+weight: 40
+extra:
+  order: 40
 ---
 
 # Plugin Settings

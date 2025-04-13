@@ -1,6 +1,9 @@
 ---
 title: Creating Review Pages
 description: Creating Review Pages with Akurai Theme
+weight: 40
+extra:
+  order: 40
 ---
 
 # Creating Review Pages

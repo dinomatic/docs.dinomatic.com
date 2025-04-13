@@ -1,36 +1,41 @@
-{% extends "base.html" %} {% block title %} {{ page.title }} | {{ config.title
-}} {% endblock %} {% block content %} {{ page.content | safe }} {% endblock
-content %} {% block aside_left %}
-<aside>ASIDE LEFT</aside>
-{% endblock %} {% block aside_right %}
-<aside class="aside-left">
-  {% if page.toc %} {#
-  <ul>
-    #} {% for h1 in page.toc %} {#
-    <li>
-      #} {# <a href="{{ h1.permalink | safe }}">{{ h1.title }}</a> #} {% if
-      h1.children %}
-      <ul>
-        {% for h2 in h1.children %}
-        <li>
-          <a href="{{ h2.permalink | safe }}">{{ h2.title }}</a>
+{% extends "base.html" %}
 
-          {% if h2.children %}
-          <ul>
-            {% for h3 in h2.children %}
-            <li>
-              <a href="{{ h3.permalink | safe }}">{{ h3.title }}</a>
-            </li>
-            {% endfor %}
-          </ul>
-          {% endif %}
-        </li>
-        {% endfor %}
-      </ul>
-      {% endif %} {#
-    </li>
-    #} {% endfor %} {#
-  </ul>
-  #} {% endif %}
-</aside>
+{% import "macros/toc.html" as toc_macros %}
+{% import "macros/version.html" as version_macros %}
+{% import "macros/navigation.html" as navigation_macros %}
+{% block main_styles %}
+    <style>
+        main {
+            --main-columns: 1fr;
+            @media (min-width: 1024px) {
+                --main-columns: 256px 1fr;
+            }
+            @media (min-width: 1280px) {
+                --main-columns: 256px 1fr 256px;
+            }
+        }
+    </style>
+{% endblock %}
+
+{% block title %} {{ page.title }} | {{ config.title }} {% endblock %}
+
+{% block content %}
+    {{ page.content | safe }}
+{% endblock content %}
+
+{% block aside_left %}
+    <aside class="nav-menu hidden lg:block absolute inset-0 lg:static bg-zinc-200 lg:bg-transparent pl-4 sm:pl-0">
+        <div class="sticky top-32 h-[calc(100vh-192px)] overflow-y-auto container mx-auto">
+            {{ navigation_macros::navigation() }}
+        </div>
+    </aside>
+{% endblock %}
+
+{% block aside_right %}
+    <aside class="hidden xl:block bg-white">
+        <div class="sticky top-32">
+            {{ version_macros::version(page=page) }}
+            {{ toc_macros::table_of_contents(toc=page.toc) }}
+        </div>
+    </aside>
 {% endblock %}

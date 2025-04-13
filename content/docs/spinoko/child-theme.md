@@ -1,6 +1,9 @@
 ---
 title: Spinoko Child Theme
 description: Spinoko Child Theme
+weight: 220
+extra:
+  order: 220
 ---
 
 # Spinoko Child Theme

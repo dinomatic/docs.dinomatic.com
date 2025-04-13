@@ -1,6 +1,9 @@
 ---
 title: Plugin Updates
 description: Hello Cookie Plugin Updates
+weight: 30
+extra:
+  order: 30
 ---
 
 # Hello Cookie Plugin Updates

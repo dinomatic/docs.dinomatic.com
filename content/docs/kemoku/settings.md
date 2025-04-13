@@ -1,6 +1,9 @@
 ---
 title: Plugin Settings
 description: Kemoku Plugin Settings
+weight: 90
+extra:
+  order: 90
 ---
 
 # Plugin Settings

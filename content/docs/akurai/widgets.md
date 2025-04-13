@@ -1,6 +1,9 @@
 ---
 title: Theme Widgets
 description: Akurai Theme Widgets
+weight: 100
+extra:
+  order: 100
 ---
 
 # Akurai Widgets

@@ -1,6 +1,9 @@
 ---
 title: Plugin Updates
 description: DinOdds Plugin Updates
+weight: 100
+extra:
+  order: 100
 ---
 
 # DinOdds Plugin Updates

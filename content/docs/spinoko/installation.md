@@ -1,6 +1,9 @@
 ---
 title: Installation
 description: Spinoko Theme Installation
+weight: 10
+extra:
+  order: 10
 ---
 
 # Theme Installation

@@ -1,6 +1,9 @@
 ---
 title: Spinoko Theme Updates
 description: Spinoko Theme Updates
+weight: 210
+extra:
+  order: 210
 ---
 
 # Spinoko Theme Updates

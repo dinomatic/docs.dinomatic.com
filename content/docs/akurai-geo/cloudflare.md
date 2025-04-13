@@ -1,6 +1,9 @@
 ---
 title: Cloudflare
 description: AkuraiGeo - Cloudflare
+weight: 50
+extra:
+  order: 50
 ---
 
 # Cloudflare

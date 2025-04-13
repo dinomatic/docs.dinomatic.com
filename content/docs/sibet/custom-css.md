@@ -23,7 +23,7 @@ All colors used correspond to CSS custom properties:
 
   --se-color-match-bg: transparent;
   --se-color-match-text: inherit;
-  --se-color-match-border: #e1e8ec;
+  --se-color-match-bweight: #e1e8ec;
 
   --se-color-match-time-bg: #e1e8ec;
   --se-color-match-time-text: #1e293b;

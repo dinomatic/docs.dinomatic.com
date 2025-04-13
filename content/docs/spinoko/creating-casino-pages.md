@@ -1,6 +1,9 @@
 ---
 title: Creating Casino Pages
 description: Creating Casino Pages with Spinoko Theme
+weight: 40
+extra:
+  order: 40
 ---
 
 # Creating Casino Pages

@@ -1,6 +1,9 @@
 ---
 title: How To ...
 description: How To ...
+weight: 170
+extra:
+  order: 170
 ---
 
 # How To ...

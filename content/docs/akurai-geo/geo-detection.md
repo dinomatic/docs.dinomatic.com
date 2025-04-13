@@ -1,6 +1,9 @@
 ---
 title: Custom Geo Location Detection Integration
 description: AkuraiGeo - Custom Geo Location Detection Integration
+weight: 60
+extra:
+  order: 60
 ---
 
 # Custom Geo Location Detection Integration

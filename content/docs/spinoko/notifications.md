@@ -1,6 +1,9 @@
 ---
 title: Header Notifications
 description: Spinoko Header Notifications
+weight: 170
+extra:
+  order: 170
 ---
 
 # Header Notifications

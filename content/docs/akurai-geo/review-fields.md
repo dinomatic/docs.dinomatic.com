@@ -1,6 +1,9 @@
 ---
 title: Review Geo Fields
 description: AkuraiGeo - Review Geo Fields
+weight: 40
+extra:
+  order: 40
 ---
 
 # Review Geo Fields

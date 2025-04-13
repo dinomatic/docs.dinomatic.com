@@ -1,6 +1,9 @@
 ---
 title: Page Templates
 description: Spinoko Page Templates
+weight: 120
+extra:
+  order: 120
 ---
 
 # Page Templates

@@ -1,6 +1,9 @@
 ---
 title: Creating Game Pages
 description: Creating Game Pages with Spinoko Theme
+weight: 80
+extra:
+  order: 80
 ---
 
 # Creating Game Pages

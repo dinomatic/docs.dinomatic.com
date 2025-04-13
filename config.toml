@@ -1,19 +1,34 @@
 # The URL the site will be built for
 base_url = "https://doca.dinomatic.com"
 
+# Site title
 title = "DinoMatic Docs"
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = false
 
+# Render emoji
+render_emoji = true
+
 # Whether to build a search index to be used later on by a JavaScript library
 build_search_index = true
 
 [markdown]
-# Whether to do syntax highlighting
-# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
 highlight_code = true
-highlight_theme = "kronuz"
+highlight_theme = "monokai"
 
 [extra]
-# Put all your custom variables here
+products = [
+  "akurai", "spinoko", "sikika", "kemoku", "dinodds", "akurai-geo", "spinoko-geo", "nonaki", "hello-cookie"
+]
+[extra.versions]
+akurai = "4.2.0"
+spinoko = "2.7.5"
+sikika = "1.0.2"
+kemoku = "1.6.10"
+sibet = "2.1.0"
+dinodds = "1.4.2"
+akurai-geo = "2.0.0"
+spinoko-geo = "1.0.0"
+nonaki = "1.0.4"
+hello-cookie = "1.0.2"

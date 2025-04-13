@@ -1,6 +1,9 @@
 ---
 title: Plugin Affiliate Settings
 description: DinOdds Plugin Affiliate Settings
+weight: 60
+extra:
+  order: 60
 ---
 
 # Plugin Affiliate Settings

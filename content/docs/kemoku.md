@@ -1,6 +1,9 @@
 ---
 title: Kemoku Plugin
 description: Getting Started with Kemoku Plugin
+weight: 30
+extra:
+  order: 30
 ---
 
 # Kemoku Plugin

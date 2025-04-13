@@ -1,6 +1,9 @@
 ---
 title: Plugin Shortcodes
 description: DinOdds Plugin Shortcodes
+weight: 50
+extra:
+  order: 50
 ---
 
 # Plugin Shortcodes

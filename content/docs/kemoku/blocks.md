@@ -1,6 +1,9 @@
 ---
 title: Kemoku Blocks
 description: Kemoku Plugin - Blocks
+weight: 60
+extra:
+  order: 60
 ---
 
 # Kemoku Plugin Blocks

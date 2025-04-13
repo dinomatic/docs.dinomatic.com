@@ -1,6 +1,9 @@
 ---
 title: Kemoku Review Page Blocks
 description: Kemoku Plugin - Review Page Blocks
+weight: 50
+extra:
+  order: 50
 ---
 
 # Kemoku Plugin Blocks

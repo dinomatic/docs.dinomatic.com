@@ -1,6 +1,9 @@
 ---
 title: Hello Cookie Plugin
 description: Getting Started with Hello Cookie Plugin
+weight: 80
+extra:
+  order: 80
 ---
 
 # Hello Cookie Plugin

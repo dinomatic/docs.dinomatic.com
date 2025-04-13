@@ -1,6 +1,9 @@
 ---
 title: Theme Breadcrumbs
 description: Spinoko Theme Breadcrumbs
+weight: 140
+extra:
+  order: 140
 ---
 
 # Spinoko Breadcrumbs

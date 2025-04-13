@@ -1,6 +1,9 @@
 ---
 title: Sikika Child Theme
 description: Sikika Child Theme
+weight: 80
+extra:
+  order: 80
 ---
 
 # Sikika Child Theme

@@ -1,6 +1,9 @@
 ---
 title: Widget Areas
 description: Sikika Theme Widget Areas
+weight: 30
+extra:
+  order: 30
 ---
 
 # Widget Areas

@@ -1,6 +1,9 @@
 ---
 title: Blocks & Shortcodes
 description: Akurai Theme - Blocks & Shortcodes
+weight: 80
+extra:
+  order: 80
 ---
 
 # Akurai Theme Blocks &amp; Shortcodes

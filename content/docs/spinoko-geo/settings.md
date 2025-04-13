@@ -1,6 +1,9 @@
 ---
 title: Plugin Settings
 description: SpinokoGeo Plugin Settings
+weight: 20
+extra:
+  order: 20
 ---
 
 # Plugin Settings

@@ -1,6 +1,9 @@
 ---
 title: Changing Colors
 description: DinOdds Plugin Colors
+weight: 90
+extra:
+  order: 90
 ---
 
 # Changing Colors

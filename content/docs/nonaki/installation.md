@@ -1,6 +1,9 @@
 ---
 title: Installation
 description: Nonaki Plugin Installation
+weight: 10
+extra:
+  order: 10
 ---
 
 # Plugin Installation

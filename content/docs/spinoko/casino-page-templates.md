@@ -1,6 +1,9 @@
 ---
 title: Casino Page Templates
 description: Casino Page Templates | Spinoko Theme
+weight: 60
+extra:
+  order: 60
 ---
 
 # Casino Page Templates

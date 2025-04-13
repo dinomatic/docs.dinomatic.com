@@ -1,6 +1,9 @@
 ---
 title: Plugin Updates
 description: AkuraiGeo Plugin Updates
+weight: 70
+extra:
+  order: 70
 ---
 
 # AkuraiGeo Plugin Updates

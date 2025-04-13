@@ -1,6 +1,9 @@
 ---
 title: Review Page Blocks
 description: Akurai Theme Review Page Blocks
+weight: 60
+extra:
+  order: 60
 ---
 
 # Review Page Blocks

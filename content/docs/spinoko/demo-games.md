@@ -1,6 +1,9 @@
 ---
 title: Demo Games
 description: Demo Games | Spinoko Theme
+weight: 100
+extra:
+  order: 100
 ---
 
 # Demo Games

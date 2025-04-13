@@ -1,6 +1,9 @@
 ---
 title: Widget Areas
 description: Akurai Widget Areas
+weight: 90
+extra:
+  order: 90
 ---
 
 # Widget Areas

@@ -1,6 +1,9 @@
 ---
 title: Installation
 description: DinOdds Plugin Installation
+weight: 20
+extra:
+  order: 20
 ---
 
 # Plugin Installation

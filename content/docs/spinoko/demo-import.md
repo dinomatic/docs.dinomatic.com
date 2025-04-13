@@ -1,6 +1,9 @@
 ---
 title: Demo Import
 description: Spinoko Theme Demo Import
+weight: 200
+extra:
+  order: 200
 ---
 
 # Demo Import

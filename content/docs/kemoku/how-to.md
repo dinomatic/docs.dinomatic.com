@@ -1,6 +1,9 @@
 ---
 title: How To ...
 description: Kemoku How-tos
+weight: 110
+extra:
+  order: 110
 ---
 
 # How To ...

@@ -1,6 +1,9 @@
 ---
 title: Theme Customizations
 description: Akurai Theme Customizations
+weight: 120
+extra:
+  order: 120
 ---
 
 # Theme Customizations

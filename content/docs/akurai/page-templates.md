@@ -1,6 +1,9 @@
 ---
 title: Page Templates
 description: Akurai Page Templates
+weight: 70
+extra:
+  order: 70
 ---
 
 # Page Templates

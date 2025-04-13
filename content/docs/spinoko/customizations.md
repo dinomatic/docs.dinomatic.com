@@ -1,6 +1,9 @@
 ---
 title: Theme Customizations
 description: Spinoko Theme Customizations
+weight: 150
+extra:
+  order: 150
 ---
 
 # Theme Customizations

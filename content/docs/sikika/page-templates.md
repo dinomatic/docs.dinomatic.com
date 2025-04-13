@@ -1,6 +1,9 @@
 ---
 title: Page Templates
 description: Sikika Page Templates
+weight: 20
+extra:
+  order: 20
 ---
 
 # Page Templates
