@@ -3,4 +3,5 @@
 /build_staging/
 /node_modules/
 /vendor/
+/public/
 .DS_Store

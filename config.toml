@@ -15,7 +15,7 @@ render_emoji = true
 
 [markdown]
 highlight_code = true
-highlight_theme = "monokai"
+highlight_theme = "dracula"
 
 [extra]
 products = [
@@ -32,3 +32,8 @@ akurai-geo = "2.0.0"
 spinoko-geo = "1.0.0"
 nonaki = "1.0.4"
 hello-cookie = "1.0.2"
+
+[extra.links]
+website = "https://dinomatic.com"
+telegram = "https://t.me/dinomatic"
+github = "https://github.com/dinomatic"
