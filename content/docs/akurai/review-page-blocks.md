@@ -14,6 +14,8 @@ Akurai theme comes with built-in review page blocks (and shortcodes) that you ca
 
 ## Using Blocks & Shortcodes
 
+General and some specific blocks are available on Akurai review pages. Check them out below.
+
 ### Blocks
 
 There are 7 review blocks available for you to use in review pages:

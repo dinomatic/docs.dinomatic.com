@@ -1,0 +1,728 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <title>DinoMatic Docs</title>
+  <meta name="description" content="Sikika Theme Installation" />
+
+  <link rel="preconnect" href="https://53EFS57BTW-dsn.algolia.net" crossorigin />
+
+  <meta property="og:site_name" content="DinoMatic Docs" />
+  <meta
+    property="og:title"
+    content=" Installation | DinoMatic Docs " />
+  <meta property="og:description" content="Sikika Theme Installation" />
+  <meta
+    property="og:url"
+    content=" https://doca.dinomatic.com/docs/sikika/installation/ " />
+  <meta property="og:image" content="https:&#x2F;&#x2F;doca.dinomatic.com/images/dinomatic.jpg" />
+  <meta property="og:type" content="website" />
+
+  <meta name="twitter:image:alt" content="DinoMatic Docs" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <link rel="home" href="https:&#x2F;&#x2F;doca.dinomatic.com" />
+  <link rel="icon" href="https:&#x2F;&#x2F;doca.dinomatic.com/favicon.jpg" />
+  <link
+    rel="canonical"
+    href=" https://doca.dinomatic.com/docs/sikika/installation/ " />
+
+  <link rel="stylesheet" href="https://doca.dinomatic.com/app.css" />
+  <link rel="stylesheet" href="https://doca.dinomatic.com/docsearch.css" />
+</head>
+
+
+<body class="font-display scroll-smooth text-base antialiased bg-white">
+    <header class="sticky top-0 z-50 bg-white p-4 shadow-sm">
+    <div class="container mx-auto flex items-center justify-between">
+        <a href="https:&#x2F;&#x2F;doca.dinomatic.com"
+            class="text-3xl/6 font-bold bg-gradient-to-l from-purple-500 to-slate-500 text-transparent bg-clip-text">
+            DinoMatic Docs
+        </a>
+
+        <div class="flex items-center lg:gap-8">
+            <div class="flex items-center gap-4 order-first lg:order-last">
+                <a href="#">
+                    <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" class="size-8 fill-slate-400 hover:fill-purple-500">
+                        <path d="M22.122 10.040c0.006-0 0.014-0 0.022-0 0.209 0 0.403 0.065 0.562 0.177l-0.003-0.002c0.116 0.101 0.194 0.243 0.213 0.403l0 0.003c0.020 0.122 0.031 0.262 0.031 0.405 0 0.065-0.002 0.129-0.007 0.193l0-0.009c-0.225 2.369-1.201 8.114-1.697 10.766-0.21 1.123-0.623 1.499-1.023 1.535-0.869 0.081-1.529-0.574-2.371-1.126-1.318-0.865-2.063-1.403-3.342-2.246-1.479-0.973-0.52-1.51 0.322-2.384 0.221-0.23 4.052-3.715 4.127-4.031 0.004-0.019 0.006-0.040 0.006-0.062 0-0.078-0.029-0.149-0.076-0.203l0 0c-0.052-0.034-0.117-0.053-0.185-0.053-0.045 0-0.088 0.009-0.128 0.024l0.002-0.001q-0.198 0.045-6.316 4.174c-0.445 0.351-1.007 0.573-1.619 0.599l-0.006 0c-0.867-0.105-1.654-0.298-2.401-0.573l0.074 0.024c-0.938-0.306-1.683-0.467-1.619-0.985q0.051-0.404 1.114-0.827 6.548-2.853 8.733-3.761c1.607-0.853 3.47-1.555 5.429-2.010l0.157-0.031zM15.93 1.025c-8.302 0.020-15.025 6.755-15.025 15.060 0 8.317 6.742 15.060 15.060 15.060s15.060-6.742 15.060-15.060c0-8.305-6.723-15.040-15.023-15.060h-0.002q-0.035-0-0.070 0z"></path>
+                    </svg>
+                </a>
+
+                <a href="#">
+                    <svg aria-hidden="true" viewBox="0 0 16 16" class="size-8 fill-slate-400 hover:fill-purple-500"><path d="M8 0C3.58 0 0 3.58 0 8C0 11.54 2.29 14.53 5.47 15.59C5.87 15.66 6.02 15.42 6.02 15.21C6.02 15.02 6.01 14.39 6.01 13.72C4 14.09 3.48 13.23 3.32 12.78C3.23 12.55 2.84 11.84 2.5 11.65C2.22 11.5 1.82 11.13 2.49 11.12C3.12 11.11 3.57 11.7 3.72 11.94C4.44 13.15 5.59 12.81 6.05 12.6C6.12 12.08 6.33 11.73 6.56 11.53C4.78 11.33 2.92 10.64 2.92 7.58C2.92 6.71 3.23 5.99 3.74 5.43C3.66 5.23 3.38 4.41 3.82 3.31C3.82 3.31 4.49 3.1 6.02 4.13C6.66 3.95 7.34 3.86 8.02 3.86C8.7 3.86 9.38 3.95 10.02 4.13C11.55 3.09 12.22 3.31 12.22 3.31C12.66 4.41 12.38 5.23 12.3 5.43C12.81 5.99 13.12 6.7 13.12 7.58C13.12 10.65 11.25 11.33 9.47 11.53C9.76 11.78 10.01 12.26 10.01 13.01C10.01 14.08 10 14.94 10 15.21C10 15.42 10.15 15.67 10.55 15.59C13.71 14.53 16 11.53 16 8C16 3.58 12.42 0 8 0Z"></path></svg>
+                </a>
+            </div>
+
+            <div class="flex items-center gap-4 order-last lg:order-first">
+                <button id="docsearch"></button>
+
+                <button class="nav-toggle lg:hidden">
+                    <svg
+                    class="size-[2.4rem] stroke-current"
+                    stroke-width="1"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24">
+                    <path
+                        class="open opacity-100 transition-opacity duration-200 ease-linear"
+                        d="M3 6h18m-10 6h10M6 18h15"></path>
+                    <path class="close opacity-0 transition-opacity duration-200 ease-linear" d="M20 20L4 4m16 0L4 20"></path>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </div>
+</header>
+ 
+<style>
+main {
+    --main-columns: 1fr;
+    @media (min-width: 1024px) {
+    --main-columns: 256px 1fr;
+    }
+    @media (min-width: 1280px) {
+    --main-columns: 256px 1fr 256px;
+    }
+}
+</style>
+
+    <main class="relative">
+        <div class="container mx-auto grid grid-cols-(--main-columns) gap-12">
+            
+<aside class="nav-menu relative inset-0 hidden bg-purple-100 py-8 pl-4 sm:pl-0 lg:block lg:bg-transparent">
+    <div class="absolute inset-y-0 right-0 w-[100vw] bg-purple-100"></div>
+    <div class="sticky top-32 container mx-auto l-screen lg:h-[calc(100vh-192px)] overflow-y-auto">
+         
+
+<nav>
+  <ul>
+     
+
+    <li class="mb-8">
+      <a href="https://doca.dinomatic.com/docs/akurai/_index.md"
+        class="sticky top-0 block pl-8 py-1 font-bold uppercase bg-white rounded-t-md rounded-r-none">
+        akurai
+      </a>
+
+      <ul class="border-l border-white pl-6">
+        
+
+        <li class="pt-3">
+          <a href="https://doca.dinomatic.com/docs/akurai/installation/" class="text-md text-black hover:text-blue-900"> Installation </a>
+        </li>
+        
+
+        <li class="pt-3">
+          <a href="https://doca.dinomatic.com/docs/akurai/registration/" class="text-md text-black hover:text-blue-900"> Theme Registration </a>
+        </li>
+        
+
+        <li class="pt-3">
+          <a href="https://doca.dinomatic.com/docs/akurai/setting-review-page-slug/" class="text-md text-black hover:text-blue-900"> Review Page Slug </a>
+        </li>
+        
+
+        <li class="pt-3">
+          <a href="https://doca.dinomatic.com/docs/akurai/creating-review-pages/" class="text-md text-black hover:text-blue-900"> Creating Review Pages </a>
+        </li>
+        
+
+        <li class="pt-3">
+          <a href="https://doca.dinomatic.com/docs/akurai/review-page-templates/" class="text-md text-black hover:text-blue-900"> Review Page Templates </a>
+        </li>
+        
+
+        <li class="pt-3">
+          <a href="https://doca.dinomatic.com/docs/akurai/review-page-blocks/" class="text-md text-black hover:text-blue-900"> Review Page Blocks </a>
+        </li>
+        
+
+        <li class="pt-3">
+          <a href="https://doca.dinomatic.com/docs/akurai/page-templates/" class="text-md text-black hover:text-blue-900"> Page Templates </a>
+        </li>
+        
+
+        <li class="pt-3">
+          <a href="https://doca.dinomatic.com/docs/akurai/blocks-shortcodes/" class="text-md text-black hover:text-blue-900"> Blocks &amp; Shortcodes </a>
+        </li>
+        
+
+        <li class="pt-3">
+          <a href="https://doca.dinomatic.com/docs/akurai/widget-areas/" class="text-md text-black hover:text-blue-900"> Widget Areas </a>
+        </li>
+        
+
+        <li class="pt-3">
+          <a href="https://doca.dinomatic.com/docs/akurai/widgets/" class="text-md text-black hover:text-blue-900"> Theme Widgets </a>
+        </li>
+        
+
+        <li class="pt-3">
+          <a href="https://doca.dinomatic.com/docs/akurai/breadcrumbs/" class="text-md text-black hover:text-blue-900"> Theme Breadcrumbs </a>
+        </li>
+        
+
+        <li class="pt-3">
+          <a href="https://doca.dinomatic.com/docs/akurai/customizations/" class="text-md text-black hover:text-blue-900"> Theme Customizations </a>
+        </li>
+        
+
+        <li class="pt-3">
+          <a href="https://doca.dinomatic.com/docs/akurai/amp/" class="text-md text-black hover:text-blue-900"> AMP Support </a>
+        </li>
+        
+
+        <li class="pt-3">
+          <a href="https://doca.dinomatic.com/docs/akurai/demo-import/" class="text-md text-black hover:text-blue-900"> Demo Import </a>
+        </li>
+        
+
+        <li class="pt-3">
+          <a href="https://doca.dinomatic.com/docs/akurai/updates/" class="text-md text-black hover:text-blue-900"> Akurai Theme Updates </a>
+        </li>
+        
+
+        <li class="pt-3">
+          <a href="https://doca.dinomatic.com/docs/akurai/child-theme/" class="text-md text-black hover:text-blue-900"> Akurai Child Theme </a>
+        </li>
+        
+
+        <li class="pt-3">
+          <a href="https://doca.dinomatic.com/docs/akurai/how-to/" class="text-md text-black hover:text-blue-900"> How To ... </a>
+        </li>
+        
+      </ul>
+    </li>
+     
+
+    <li class="mb-8">
+      <a href="https://doca.dinomatic.com/docs/spinoko/_index.md"
+        class="sticky top-0 block pl-8 py-1 font-bold uppercase bg-white rounded-t-md rounded-r-none">
+        spinoko
+      </a>
+
+      <ul class="border-l border-white pl-6">
+        
+
+        <li class="pt-3">
+          <a href="https://doca.dinomatic.com/docs/spinoko/installation/" class="text-md text-black hover:text-blue-900"> Installation </a>
+        </li>
+        
+
+        <li class="pt-3">
+          <a href="https://doca.dinomatic.com/docs/spinoko/registration/" class="text-md text-black hover:text-blue-900"> Theme Registration </a>
+        </li>
+        
+
+        <li class="pt-3">
+          <a href="https://doca.dinomatic.com/docs/spinoko/setting-casino-page-slug/" class="text-md text-black hover:text-blue-900"> Review Page Slug </a>
+        </li>
+        
+
+        <li class="pt-3">
+          <a href="https://doca.dinomatic.com/docs/spinoko/creating-casino-pages/" class="text-md text-black hover:text-blue-900"> Creating Casino Pages </a>
+        </li>
+        
+
+        <li class="pt-3">
+          <a href="https://doca.dinomatic.com/docs/spinoko/casino-page-blocks/" class="text-md text-black hover:text-blue-900"> Review Page Blocks </a>
+        </li>
+        
+
+        <li class="pt-3">
+          <a href="https://doca.dinomatic.com/docs/spinoko/casino-page-templates/" class="text-md text-black hover:text-blue-900"> Casino Page Templates </a>
+        </li>
+        
+
+        <li class="pt-3">
+          <a href="https://doca.dinomatic.com/docs/spinoko/setting-game-page-slug/" class="text-md text-black hover:text-blue-900"> Game Review Page Slug </a>
+        </li>
+        
+
+        <li class="pt-3">
+          <a href="https://doca.dinomatic.com/docs/spinoko/creating-game-pages/" class="text-md text-black hover:text-blue-900"> Creating Game Pages </a>
+        </li>
+        
+
+        <li class="pt-3">
+          <a href="https://doca.dinomatic.com/docs/spinoko/game-page-templates/" class="text-md text-black hover:text-blue-900"> Game Page Templates </a>
+        </li>
+        
+
+        <li class="pt-3">
+          <a href="https://doca.dinomatic.com/docs/spinoko/demo-games/" class="text-md text-black hover:text-blue-900"> Demo Games </a>
+        </li>
+        
+
+        <li class="pt-3">
+          <a href="https://doca.dinomatic.com/docs/spinoko/blocks/" class="text-md text-black hover:text-blue-900"> Blocks &amp; Shortcodes </a>
+        </li>
+        
+
+        <li class="pt-3">
+          <a href="https://doca.dinomatic.com/docs/spinoko/page-templates/" class="text-md text-black hover:text-blue-900"> Page Templates </a>
+        </li>
+        
+
+        <li class="pt-3">
+          <a href="https://doca.dinomatic.com/docs/spinoko/widgets/" class="text-md text-black hover:text-blue-900"> Theme Widgets </a>
+        </li>
+        
+
+        <li class="pt-3">
+          <a href="https://doca.dinomatic.com/docs/spinoko/breadcrumbs/" class="text-md text-black hover:text-blue-900"> Theme Breadcrumbs </a>
+        </li>
+        
+
+        <li class="pt-3">
+          <a href="https://doca.dinomatic.com/docs/spinoko/customizations/" class="text-md text-black hover:text-blue-900"> Theme Customizations </a>
+        </li>
+        
+
+        <li class="pt-3">
+          <a href="https://doca.dinomatic.com/docs/spinoko/navigation/" class="text-md text-black hover:text-blue-900"> Theme Navigation Menus </a>
+        </li>
+        
+
+        <li class="pt-3">
+          <a href="https://doca.dinomatic.com/docs/spinoko/notifications/" class="text-md text-black hover:text-blue-900"> Header Notifications </a>
+        </li>
+        
+
+        <li class="pt-3">
+          <a href="https://doca.dinomatic.com/docs/spinoko/amp/" class="text-md text-black hover:text-blue-900"> AMP Support </a>
+        </li>
+        
+
+        <li class="pt-3">
+          <a href="https://doca.dinomatic.com/docs/spinoko/translation/" class="text-md text-black hover:text-blue-900"> Translating Spinoko Theme </a>
+        </li>
+        
+
+        <li class="pt-3">
+          <a href="https://doca.dinomatic.com/docs/spinoko/demo-import/" class="text-md text-black hover:text-blue-900"> Demo Import </a>
+        </li>
+        
+
+        <li class="pt-3">
+          <a href="https://doca.dinomatic.com/docs/spinoko/updates/" class="text-md text-black hover:text-blue-900"> Spinoko Theme Updates </a>
+        </li>
+        
+
+        <li class="pt-3">
+          <a href="https://doca.dinomatic.com/docs/spinoko/child-theme/" class="text-md text-black hover:text-blue-900"> Spinoko Child Theme </a>
+        </li>
+        
+
+        <li class="pt-3">
+          <a href="https://doca.dinomatic.com/docs/spinoko/how-to/" class="text-md text-black hover:text-blue-900"> How To ... </a>
+        </li>
+        
+      </ul>
+    </li>
+     
+
+    <li class="mb-8">
+      <a href="https://doca.dinomatic.com/docs/sikika/_index.md"
+        class="sticky top-0 block pl-8 py-1 font-bold uppercase bg-white rounded-t-md rounded-r-none">
+        sikika
+      </a>
+
+      <ul class="border-l border-white pl-6">
+        
+
+        <li class="pt-3">
+          <a href="https://doca.dinomatic.com/docs/sikika/installation/" class="text-md text-black hover:text-blue-900"> Installation </a>
+        </li>
+        
+
+        <li class="pt-3">
+          <a href="https://doca.dinomatic.com/docs/sikika/page-templates/" class="text-md text-black hover:text-blue-900"> Page Templates </a>
+        </li>
+        
+
+        <li class="pt-3">
+          <a href="https://doca.dinomatic.com/docs/sikika/widget-areas/" class="text-md text-black hover:text-blue-900"> Widget Areas </a>
+        </li>
+        
+
+        <li class="pt-3">
+          <a href="https://doca.dinomatic.com/docs/sikika/customizations/" class="text-md text-black hover:text-blue-900"> Theme Customizations </a>
+        </li>
+        
+
+        <li class="pt-3">
+          <a href="https://doca.dinomatic.com/docs/sikika/banners/" class="text-md text-black hover:text-blue-900"> Banners </a>
+        </li>
+        
+
+        <li class="pt-3">
+          <a href="https://doca.dinomatic.com/docs/sikika/amp/" class="text-md text-black hover:text-blue-900"> AMP Support </a>
+        </li>
+        
+
+        <li class="pt-3">
+          <a href="https://doca.dinomatic.com/docs/sikika/updates/" class="text-md text-black hover:text-blue-900"> Sikika Theme Updates </a>
+        </li>
+        
+
+        <li class="pt-3">
+          <a href="https://doca.dinomatic.com/docs/sikika/child-theme/" class="text-md text-black hover:text-blue-900"> Sikika Child Theme </a>
+        </li>
+        
+      </ul>
+    </li>
+     
+
+    <li class="mb-8">
+      <a href="https://doca.dinomatic.com/docs/kemoku/_index.md"
+        class="sticky top-0 block pl-8 py-1 font-bold uppercase bg-white rounded-t-md rounded-r-none">
+        kemoku
+      </a>
+
+      <ul class="border-l border-white pl-6">
+        
+
+        <li class="pt-3">
+          <a href="https://doca.dinomatic.com/docs/kemoku/installation/" class="text-md text-black hover:text-blue-900"> Installation </a>
+        </li>
+        
+
+        <li class="pt-3">
+          <a href="https://doca.dinomatic.com/docs/kemoku/registration/" class="text-md text-black hover:text-blue-900"> Plugin Registration </a>
+        </li>
+        
+
+        <li class="pt-3">
+          <a href="https://doca.dinomatic.com/docs/kemoku/review-pages/" class="text-md text-black hover:text-blue-900"> Creating Review Pages </a>
+        </li>
+        
+
+        <li class="pt-3">
+          <a href="https://doca.dinomatic.com/docs/kemoku/review-page-blocks/" class="text-md text-black hover:text-blue-900"> Kemoku Review Page Blocks </a>
+        </li>
+        
+
+        <li class="pt-3">
+          <a href="https://doca.dinomatic.com/docs/kemoku/blocks/" class="text-md text-black hover:text-blue-900"> Kemoku Blocks </a>
+        </li>
+        
+
+        <li class="pt-3">
+          <a href="https://doca.dinomatic.com/docs/kemoku/shortcodes/" class="text-md text-black hover:text-blue-900"> Shortcodes </a>
+        </li>
+        
+
+        <li class="pt-3">
+          <a href="https://doca.dinomatic.com/docs/kemoku/widgets/" class="text-md text-black hover:text-blue-900"> Widgets </a>
+        </li>
+        
+
+        <li class="pt-3">
+          <a href="https://doca.dinomatic.com/docs/kemoku/settings/" class="text-md text-black hover:text-blue-900"> Plugin Settings </a>
+        </li>
+        
+
+        <li class="pt-3">
+          <a href="https://doca.dinomatic.com/docs/kemoku/listing-tools/" class="text-md text-black hover:text-blue-900"> Listing Tools </a>
+        </li>
+        
+
+        <li class="pt-3">
+          <a href="https://doca.dinomatic.com/docs/kemoku/how-to/" class="text-md text-black hover:text-blue-900"> How To ... </a>
+        </li>
+        
+
+        <li class="pt-3">
+          <a href="https://doca.dinomatic.com/docs/kemoku/plugin-updates/" class="text-md text-black hover:text-blue-900"> Plugin Updates </a>
+        </li>
+        
+      </ul>
+    </li>
+     
+
+    <li class="mb-8">
+      <a href="https://doca.dinomatic.com/docs/dinodds/_index.md"
+        class="sticky top-0 block pl-8 py-1 font-bold uppercase bg-white rounded-t-md rounded-r-none">
+        dinodds
+      </a>
+
+      <ul class="border-l border-white pl-6">
+        
+
+        <li class="pt-3">
+          <a href="https://doca.dinomatic.com/docs/dinodds/api/" class="text-md text-black hover:text-blue-900"> API Settings </a>
+        </li>
+        
+
+        <li class="pt-3">
+          <a href="https://doca.dinomatic.com/docs/dinodds/installation/" class="text-md text-black hover:text-blue-900"> Installation </a>
+        </li>
+        
+
+        <li class="pt-3">
+          <a href="https://doca.dinomatic.com/docs/dinodds/plugin-setup/" class="text-md text-black hover:text-blue-900"> Plugin Setup </a>
+        </li>
+        
+
+        <li class="pt-3">
+          <a href="https://doca.dinomatic.com/docs/dinodds/plugin-settings/" class="text-md text-black hover:text-blue-900"> Plugin Settings </a>
+        </li>
+        
+
+        <li class="pt-3">
+          <a href="https://doca.dinomatic.com/docs/dinodds/plugin-shortcodes/" class="text-md text-black hover:text-blue-900"> Plugin Shortcodes </a>
+        </li>
+        
+
+        <li class="pt-3">
+          <a href="https://doca.dinomatic.com/docs/dinodds/affiliate-settings/" class="text-md text-black hover:text-blue-900"> Plugin Affiliate Settings </a>
+        </li>
+        
+
+        <li class="pt-3">
+          <a href="https://doca.dinomatic.com/docs/dinodds/feed-updates/" class="text-md text-black hover:text-blue-900"> Feed Updates </a>
+        </li>
+        
+
+        <li class="pt-3">
+          <a href="https://doca.dinomatic.com/docs/dinodds/scheduling/" class="text-md text-black hover:text-blue-900"> Scheduling </a>
+        </li>
+        
+
+        <li class="pt-3">
+          <a href="https://doca.dinomatic.com/docs/dinodds/colors/" class="text-md text-black hover:text-blue-900"> Changing Colors </a>
+        </li>
+        
+
+        <li class="pt-3">
+          <a href="https://doca.dinomatic.com/docs/dinodds/plugin-updates/" class="text-md text-black hover:text-blue-900"> Plugin Updates </a>
+        </li>
+        
+      </ul>
+    </li>
+     
+
+    <li class="mb-8">
+      <a href="https://doca.dinomatic.com/docs/akurai-geo/_index.md"
+        class="sticky top-0 block pl-8 py-1 font-bold uppercase bg-white rounded-t-md rounded-r-none">
+        akurai-geo
+      </a>
+
+      <ul class="border-l border-white pl-6">
+        
+
+        <li class="pt-3">
+          <a href="https://doca.dinomatic.com/docs/akurai-geo/installation/" class="text-md text-black hover:text-blue-900"> Installation </a>
+        </li>
+        
+
+        <li class="pt-3">
+          <a href="https://doca.dinomatic.com/docs/akurai-geo/settings/" class="text-md text-black hover:text-blue-900"> Plugin Settings </a>
+        </li>
+        
+
+        <li class="pt-3">
+          <a href="https://doca.dinomatic.com/docs/akurai-geo/blocks/" class="text-md text-black hover:text-blue-900"> Plugin Blocks </a>
+        </li>
+        
+
+        <li class="pt-3">
+          <a href="https://doca.dinomatic.com/docs/akurai-geo/review-fields/" class="text-md text-black hover:text-blue-900"> Review Geo Fields </a>
+        </li>
+        
+
+        <li class="pt-3">
+          <a href="https://doca.dinomatic.com/docs/akurai-geo/cloudflare/" class="text-md text-black hover:text-blue-900"> Cloudflare </a>
+        </li>
+        
+
+        <li class="pt-3">
+          <a href="https://doca.dinomatic.com/docs/akurai-geo/geo-detection/" class="text-md text-black hover:text-blue-900"> Custom Geo Location Detection Integration </a>
+        </li>
+        
+
+        <li class="pt-3">
+          <a href="https://doca.dinomatic.com/docs/akurai-geo/plugin-updates/" class="text-md text-black hover:text-blue-900"> Plugin Updates </a>
+        </li>
+        
+      </ul>
+    </li>
+     
+
+    <li class="mb-8">
+      <a href="https://doca.dinomatic.com/docs/spinoko-geo/_index.md"
+        class="sticky top-0 block pl-8 py-1 font-bold uppercase bg-white rounded-t-md rounded-r-none">
+        spinoko-geo
+      </a>
+
+      <ul class="border-l border-white pl-6">
+        
+
+        <li class="pt-3">
+          <a href="https://doca.dinomatic.com/docs/spinoko-geo/installation/" class="text-md text-black hover:text-blue-900"> Installation </a>
+        </li>
+        
+
+        <li class="pt-3">
+          <a href="https://doca.dinomatic.com/docs/spinoko-geo/settings/" class="text-md text-black hover:text-blue-900"> Plugin Settings </a>
+        </li>
+        
+
+        <li class="pt-3">
+          <a href="https://doca.dinomatic.com/docs/spinoko-geo/blocks/" class="text-md text-black hover:text-blue-900"> Plugin Blocks </a>
+        </li>
+        
+
+        <li class="pt-3">
+          <a href="https://doca.dinomatic.com/docs/spinoko-geo/cloudflare/" class="text-md text-black hover:text-blue-900"> Cloudflare </a>
+        </li>
+        
+
+        <li class="pt-3">
+          <a href="https://doca.dinomatic.com/docs/spinoko-geo/plugin-updates/" class="text-md text-black hover:text-blue-900"> Plugin Updates </a>
+        </li>
+        
+      </ul>
+    </li>
+     
+
+    <li class="mb-8">
+      <a href="https://doca.dinomatic.com/docs/nonaki/_index.md"
+        class="sticky top-0 block pl-8 py-1 font-bold uppercase bg-white rounded-t-md rounded-r-none">
+        nonaki
+      </a>
+
+      <ul class="border-l border-white pl-6">
+        
+
+        <li class="pt-3">
+          <a href="https://doca.dinomatic.com/docs/nonaki/installation/" class="text-md text-black hover:text-blue-900"> Installation </a>
+        </li>
+        
+
+        <li class="pt-3">
+          <a href="https://doca.dinomatic.com/docs/nonaki/using-plugin/" class="text-md text-black hover:text-blue-900"> Using Nonaki Plugin </a>
+        </li>
+        
+
+        <li class="pt-3">
+          <a href="https://doca.dinomatic.com/docs/nonaki/plugin-updates/" class="text-md text-black hover:text-blue-900"> Plugin Updates </a>
+        </li>
+        
+      </ul>
+    </li>
+     
+
+    <li class="mb-8">
+      <a href="https://doca.dinomatic.com/docs/hello-cookie/_index.md"
+        class="sticky top-0 block pl-8 py-1 font-bold uppercase bg-white rounded-t-md rounded-r-none">
+        hello-cookie
+      </a>
+
+      <ul class="border-l border-white pl-6">
+        
+
+        <li class="pt-3">
+          <a href="https://doca.dinomatic.com/docs/hello-cookie/installation/" class="text-md text-black hover:text-blue-900"> Installation </a>
+        </li>
+        
+
+        <li class="pt-3">
+          <a href="https://doca.dinomatic.com/docs/hello-cookie/using-plugin/" class="text-md text-black hover:text-blue-900"> Using Hello Cookie Plugin </a>
+        </li>
+        
+
+        <li class="pt-3">
+          <a href="https://doca.dinomatic.com/docs/hello-cookie/plugin-updates/" class="text-md text-black hover:text-blue-900"> Plugin Updates </a>
+        </li>
+        
+      </ul>
+    </li>
+    
+  </ul>
+</nav>
+
+    </div>
+</aside>
+
+
+            <article class="page-content py-16 px-4 md:px-8 max-w-full min-w-0 bg-white">
+                 <h1 id="theme-installation">Theme Installation</h1>
+<p>You can install the theme either through WordPress dashboard (recommended) or via FTP.</p>
+<hr />
+<h2 id="before-installation">Before Installation</h2>
+<p>Please make sure your server meets the minimum system requirements and download the theme file from your <a href="https://dinomatic.com/account">DinoMatic account</a>.</p>
+<h3 id="install-through-wordpress-dashboard">Install through WordPress Dashboard</h3>
+<ol>
+<li>Visit WordPress dashboard → Themes and click <code>Add New</code> and <code>Upload Theme</code> after that</li>
+<li>Click <code>Choose File</code>, select the theme file <code>sikika.zip</code> and click <code>Install Now</code></li>
+<li>Activate the theme</li>
+</ol>
+<h3 id="install-via-ftp">Install via FTP</h3>
+<ol>
+<li>Log in to your server with your FTP credentials, using an FTP client, cPanel or similar</li>
+<li>Navigate to <code>themes</code> directory from your WordPress website root</li>
+<li>Upload the theme file <code>sikika.zip</code> and unzip the archive</li>
+<li>Visit WordPress dashboard → Themes and activate the theme</li>
+</ol>
+<hr />
+<h3 id="next-step">Next step</h3>
+<p><a href="/docs/sikika/page-templates/">Page Templates</a></p>
+ 
+            </article>
+
+            
+<aside class="hidden xl:block">
+    <div class="sticky top-32">
+        
+
+
+    
+
+    <div class="mb-6 border-4 border-purple-300 p-6 text-center text-xl font-medium bg-white">
+        <span class="uppercase">sikika</span>
+        v1.0.2
+    </div>
+
+
+
+          
+<p class="mb-2 text-sm font-bold">On this page:</p>
+
+<ul class="text-sm">
+  
+  <li class="mt-2">
+    <a href="https:&#x2F;&#x2F;doca.dinomatic.com&#x2F;docs&#x2F;sikika&#x2F;installation&#x2F;#before-installation" class="text-zinc-500 hover:text-zinc-700">Before Installation</a>
+
+    
+    <ul class="ml-4">
+      
+      <li class="mt-2">
+        <a href="https:&#x2F;&#x2F;doca.dinomatic.com&#x2F;docs&#x2F;sikika&#x2F;installation&#x2F;#install-through-wordpress-dashboard" class="text-zinc-500 hover:text-zinc-700">Install through WordPress Dashboard</a>
+      </li>
+      
+      <li class="mt-2">
+        <a href="https:&#x2F;&#x2F;doca.dinomatic.com&#x2F;docs&#x2F;sikika&#x2F;installation&#x2F;#install-via-ftp" class="text-zinc-500 hover:text-zinc-700">Install via FTP</a>
+      </li>
+      
+      <li class="mt-2">
+        <a href="https:&#x2F;&#x2F;doca.dinomatic.com&#x2F;docs&#x2F;sikika&#x2F;installation&#x2F;#next-step" class="text-zinc-500 hover:text-zinc-700">Next step</a>
+      </li>
+      
+    </ul>
+    
+  </li>
+  
+</ul>
+  
+    </div>
+</aside>
+
+        </div>
+    </main>
+
+    <script src="https://doca.dinomatic.com/app.js" defer></script>
+    <script src="https://doca.dinomatic.com/docsearch.js" defer></script>
+</body>
+</html>

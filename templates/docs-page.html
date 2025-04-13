@@ -1,27 +1,41 @@
-{% extends "base.html" %} {% import "macros/toc.html" as toc_macros %} {% import "macros/version.html" as version_macros
-%} {% import "macros/navigation.html" as navigation_macros %} {% block main_styles %}
+{% extends "base.html" %}
+
+{% import "macros/toc.html" as toc_macros %}
+{% import "macros/version.html" as version_macros %}
+{% import "macros/navigation.html" as navigation_macros %}
+
+{% block main_styles %}
 <style>
-  main {
+main {
     --main-columns: 1fr;
     @media (min-width: 1024px) {
-      --main-columns: 256px 1fr;
+    --main-columns: 256px 1fr;
     }
     @media (min-width: 1280px) {
-      --main-columns: 256px 1fr 256px;
+    --main-columns: 256px 1fr 256px;
     }
-  }
+}
 </style>
-{% endblock %} {% block title %} {{ page.title }} | {{ config.title }} {% endblock %} {% block content %} {{
-page.content | safe }} {% endblock content %} {% block aside_left %}
-<aside class="nav-menu absolute inset-0 hidden bg-zinc-200 pl-4 sm:pl-0 lg:static lg:block lg:bg-transparent">
-  <div class="sticky top-32 container mx-auto h-[calc(100vh-192px)] overflow-y-auto">
-    {{ navigation_macros::navigation() }}
-  </div>
+{% endblock %}
+
+{% block title %} {{ page.title }} | {{ config.title }} {% endblock %}
+
+{% block content %} {{ page.content | safe }} {% endblock content %}
+
+{% block aside_left %}
+<aside class="nav-menu relative inset-0 hidden bg-purple-100 py-8 pl-4 sm:pl-0 lg:block lg:bg-transparent">
+    <div class="absolute inset-y-0 right-0 w-[100vw] bg-purple-100"></div>
+    <div class="sticky top-32 container mx-auto l-screen lg:h-[calc(100vh-192px)] overflow-y-auto">
+        {{ navigation_macros::navigation() }}
+    </div>
 </aside>
-{% endblock %} {% block aside_right %}
-<aside class="hidden bg-white xl:block">
-  <div class="sticky top-32">
-    {{ version_macros::version(page=page) }} {{ toc_macros::table_of_contents(toc=page.toc) }}
-  </div>
+{% endblock %}
+
+{% block aside_right %}
+<aside class="hidden xl:block">
+    <div class="sticky top-32">
+        {{ version_macros::version(page=page) }}
+        {{ toc_macros::table_of_contents(toc=page.toc) }}
+    </div>
 </aside>
 {% endblock %}

@@ -1,19 +1,22 @@
 <!doctype html>
 <html lang="en">
-  {% include "_head.html" %}
+{% include "_head.html" %}
 
-  <body class="font-display scroll-smooth text-base antialiased">
+<body class="font-display scroll-smooth text-base antialiased bg-white">
     {% include "_header.html" %} {% block main_styles %} {% endblock %}
-    <main class="relative px-4 pt-16 pb-16">
-      <div class="container mx-auto grid grid-cols-(--main-columns) gap-12">
-        {% block aside_left %} {% endblock %}
+    <main class="relative">
+        <div class="container mx-auto grid grid-cols-(--main-columns) gap-12">
+            {% block aside_left %} {% endblock %}
 
-        <article class="page-content bg-white">{% block content %} {{ content | safe }} {% endblock %}</article>
+            <article class="page-content py-16 px-4 md:px-8 max-w-full min-w-0 bg-white">
+                {% block content %} {{ content | safe }} {% endblock %}
+            </article>
 
-        {% block aside_right %} {% endblock %}
-      </div>
+            {% block aside_right %} {% endblock %}
+        </div>
     </main>
 
     <script src="{{ get_url(path='app.js') }}" defer></script>
-  </body>
+    <script src="{{ get_url(path='docsearch.js') }}" defer></script>
+</body>
 </html>
