@@ -1,12 +1,17 @@
 <head>
     {% set url = page.permalink | default(value=config.base_url) | safe %}
 
+    <link rel="preconnect" href="https://media.dinomatic.com" crossorigin />
+    <link rel="preconnect" href="https://53EFS57BTW-dsn.algolia.net" crossorigin />
+    <link rel="preconnect" href="https://fonts.bunny.net" crossorigin />
+
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <script async defer data-domain="docs.dinomatic.com" src="https://plausible.io/js/plausible.js"></script>
+
     <title>{% block title %}{{ config.title | safe }}{% endblock %}</title>
     <meta name="description" content="{{ page.description | default(value='') | safe }}" />
-
-    <link rel="preconnect" href="https://53EFS57BTW-dsn.algolia.net" crossorigin />
 
     <meta property="og:site_name" content="{{ config.title | safe }}" />
     <meta property="og:title" content="{{ page.title | default(value=config.title) | safe }}" />
