@@ -1,42 +1,46 @@
-{% extends "base.html" %}
+{% extends "base.html" %} {% import "macros/toc.html" as toc_macros %} {% import "macros/version.html" as version_macros
+%} {% import "macros/navigation.html" as navigation_macros %}
 
-{% import "macros/toc.html" as toc_macros %}
-{% import "macros/version.html" as version_macros %}
-{% import "macros/navigation.html" as navigation_macros %}
-
-{% block main_styles %}
-<style>
-  main {
-    --main-columns: 1fr;
-    @media (min-width: 1024px) {
-      --main-columns: 256px 1fr;
-    }
-    @media (min-width: 1280px) {
-      --main-columns: 256px 1fr 256px;
-    }
-  }
-</style>
-{% endblock %}
-
+<!-- ... -->
 {% block title %} {{ page.title | safe }} | {{ config.title | safe }} {% endblock %}
 
+<!-- ... -->
 {% block content %}
-<article class="page-content max-w-full min-w-0 bg-white px-4 py-16 md:px-8">
-    {{ page.content | safe }}
-</article>
+<article class="page-content max-w-full min-w-0 bg-white px-4 py-16 md:px-8">{{ page.content | safe }}</article>
 {% endblock content %}
 
+<!-- ... -->
 {% block aside_left %}
 <aside class="nav-menu relative inset-0 hidden bg-purple-100 py-8 pl-4 sm:pl-0 lg:block lg:bg-transparent">
-  <div class="absolute inset-y-0 right-0 w-[100vw] bg-purple-100"></div>
-  <div class="l-screen sticky top-32 container mx-auto overflow-y-auto lg:h-[calc(100vh-192px)]">
-    {{ navigation_macros::navigation() }}
-  </div>
+    <div class="absolute inset-y-0 right-0 w-[100vw] bg-purple-100"></div>
+    <div class="scrollbar sticky top-32 container mx-auto overflow-y-auto lg:h-[calc(100vh-192px)]">
+        {{ navigation_macros::navigation() }}
+    </div>
 </aside>
-{% endblock %} {% block aside_right %}
+{% endblock %}
+
+<!-- ... -->
+{% block aside_right %}
 <aside class="hidden xl:block">
-  <div class="sticky top-32">
-    {{ version_macros::version(page=page) }} {{ toc_macros::table_of_contents(toc=page.toc) }}
-  </div>
+    <div class="sticky top-32">
+        {{ version_macros::version(page=page) }}
+        <!-- ... -->
+        {{ toc_macros::table_of_contents(toc=page.toc) }}
+    </div>
 </aside>
+{% endblock %}
+
+<!-- ... -->
+{% block main_styles %}
+<style>
+    main {
+        --main-columns: 1fr;
+        @media (min-width: 1024px) {
+            --main-columns: 256px 1fr;
+        }
+        @media (min-width: 1280px) {
+            --main-columns: 256px 1fr 256px;
+        }
+    }
+</style>
 {% endblock %}

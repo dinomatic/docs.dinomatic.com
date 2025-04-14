@@ -3,9 +3,35 @@
 
 @theme {
   --font-display: 'Instrument Sans', sans-serif;
+  --animate-border-shift: border-shift 8s linear infinite;
+
+  @keyframes border-shift {
+    0% {
+      background-position: 0% 50%;
+    }
+    100% {
+      background-position: 200% 50%;
+    }
+  }
 }
 
 @layer base {
+  .scrollbar::-webkit-scrollbar {
+    @apply w-0 bg-transparent;
+  }
+
+  .scrollbar:hover::-webkit-scrollbar {
+    @apply w-1;
+  }
+
+  .scrollbar::-webkit-scrollbar-thumb {
+    @apply rounded-sm bg-gray-400;
+  }
+
+  .scrollbar::-webkit-scrollbar-track {
+    @apply bg-transparent;
+  }
+
   h1 {
     @apply relative z-10 mt-0 mb-4 max-w-max px-8 py-2 text-4xl font-bold text-slate-900;
 

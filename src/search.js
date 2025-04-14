@@ -1,7 +1,7 @@
 import docsearch from '@docsearch/js'
 
 // styles are copied to /static/docsearch.css
-// and included in _head.html
+// and included in partials/head.html
 docsearch({
   container: '#docsearch',
   appId: '53EFS57BTW',

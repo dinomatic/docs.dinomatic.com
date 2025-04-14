@@ -1,26 +1,28 @@
 {% macro navigation() %} {% set products = config.extra.products %}
 
 <nav>
-  <ul>
-    {% for product in products %} {% set product_docs = get_section(path='docs/' ~ product ~ '/_index.md') %}
+    <ul>
+        {% for product in products %} {% set product_docs = get_section(path='docs/' ~ product ~ '/_index.md') %}
 
-    <li class="mb-8" data-product="{{ product }}">
-      <a
-        href="{{ get_url(path='docs/' ~ product) }}"
-        class="sticky top-0 block rounded-t-md rounded-r-none bg-white py-1 pl-8 font-bold uppercase">
-        {{ product }}
-      </a>
+        <li class="mb-8" data-product="{{ product }}">
+            <a
+                href="{{ get_url(path='docs/' ~ product) }}"
+                class="sticky top-0 block rounded-t-md rounded-r-none bg-white py-1 pl-8 font-bold uppercase">
+                {{ product }}
+            </a>
 
-      <ul class="border-l border-white pl-6">
-        {% for page in product_docs.pages | sort(attribute="extra.order") %}
+            <ul class="border-l border-white pl-6">
+                {% for page in product_docs.pages | sort(attribute="extra.order") %}
 
-        <li class="pt-3">
-          <a href="{{ page.permalink | safe }}" class="text-md text-black hover:text-blue-900"> {{ page.title }} </a>
+                <li class="pt-3">
+                    <a href="{{ page.permalink | safe }}" class="text-md text-black hover:text-blue-900">
+                        {{ page.title }}
+                    </a>
+                </li>
+                {% endfor %}
+            </ul>
         </li>
         {% endfor %}
-      </ul>
-    </li>
-    {% endfor %}
-  </ul>
+    </ul>
 </nav>
 {% endmacro navigation %}

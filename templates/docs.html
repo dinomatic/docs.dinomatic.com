@@ -1,5 +1,6 @@
 {% extends "base.html" %}
 
+<!-- ... -->
 {% block content %}
 <article class="bg-white px-4 py-16 md:px-8">
     <div class="mx-auto max-w-4xl">
@@ -8,13 +9,15 @@
         </div>
 
         <div class="mb-12 grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
-            {% include "_product_grid.html" %}
+            {% include "partials/product_grid.html" %}
         </div>
 
         <div class="text-center text-gray-600">
             <p>
                 Need help? Join our
-                <a href="{{ config.extra.links.telegram }}" class="text-blue-600 hover:underline">Telegram community</a>
+                <a href="{{ config.extra.links.telegram | safe }}" class="text-blue-600 hover:underline">
+                    Telegram community
+                </a>
             </p>
         </div>
     </div>
