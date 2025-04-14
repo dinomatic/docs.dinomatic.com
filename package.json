@@ -31,6 +31,7 @@
     "concurrently": "^9.1.2",
     "esbuild": "^0.25.2",
     "prettier": "^3.5.3",
+    "prettier-plugin-jinja-template": "^2.0.0",
     "prettier-plugin-tailwindcss": "^0.6.11",
     "tailwindcss": "^4.1.3"
   }

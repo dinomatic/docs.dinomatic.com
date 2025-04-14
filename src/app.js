@@ -3,8 +3,10 @@
   const navToggle = document.querySelector('.nav-toggle')
 
   if (navMenu) {
-    reorderNavSections()
-    highlightActiveLink()
+    const navSections = document.querySelectorAll('li[data-product]')
+    if (navSections.length > 0) {
+      reorderNavSections(navSections)
+    }
 
     if (navToggle) {
       navToggle.addEventListener('click', () => toggleNavMenu())
@@ -23,24 +25,7 @@
     })
   }
 
-  function highlightActiveLink() {
-    const getClassList = (link) => {
-      const classList = ['text-blue-600']
-      if (!link.classList.contains('sticky')) {
-        classList.push('-ml-6', 'pl-4', 'border-l-2', 'border-blue-600')
-      }
-      return classList
-    }
-
-    const pageUrl = window.location.href
-    navMenu.querySelectorAll('a').forEach((link) => {
-      if (link.href === pageUrl) {
-        link.classList.add(...getClassList(link))
-      }
-    })
-  }
-
-  function reorderNavSections() {
+  function reorderNavSections(navSections) {
     let pagePath = window.location.pathname
     pagePath = pagePath.startsWith('/') ? pagePath.slice(1) : pagePath
     pagePath = pagePath.endsWith('/') ? pagePath.slice(0, -1) : pagePath
@@ -51,14 +36,11 @@
       return
     }
 
-    const navSections = document.querySelectorAll('li[data-product]')
-    if (navSections.length > 0) {
-      const navParent = navSections[0].parentElement
-      let section = Array.from(navSections).find((section) => section.dataset.product === product)
-      if (section) {
-        section.parentElement.removeChild(section)
-        navParent.insertBefore(section, navParent.children[0])
-      }
+    const navParent = navSections[0].parentElement
+    let section = Array.from(navSections).find((section) => section.dataset.product === product)
+    if (section) {
+      section.parentElement.removeChild(section)
+      navParent.insertBefore(section, navParent.children[0])
     }
   }
 })()

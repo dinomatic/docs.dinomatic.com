@@ -1,28 +1,32 @@
-{% macro navigation() %} {% set products = config.extra.products %}
+{% macro navigation() %}
+    {% set products = config.extra.products %}
 
-<nav>
-    <ul>
-        {% for product in products %} {% set product_docs = get_section(path='docs/' ~ product ~ '/_index.md') %}
+    <nav>
+        <ul>
+            {% for product in products %}
+                {% set product_docs = get_section(path='docs/' ~ product ~ '/_index.md') %}
 
-        <li class="mb-8" data-product="{{ product }}">
-            <a
-                href="{{ get_url(path='docs/' ~ product) }}"
-                class="sticky top-0 block rounded-t-md rounded-r-none bg-white py-1 pl-8 font-bold uppercase">
-                {{ product }}
-            </a>
-
-            <ul class="border-l border-white pl-6">
-                {% for page in product_docs.pages | sort(attribute="extra.order") %}
-
-                <li class="pt-3">
-                    <a href="{{ page.permalink | safe }}" class="text-md text-black hover:text-blue-900">
-                        {{ page.title }}
+                <li class="mb-8" data-product="{{ product }}">
+                    <a
+                        href="{{ product_docs.permalink }}"
+                        class="uppercase{% if current_url == product_docs.permalink %}text-blue-600{% endif %} sticky top-0 block rounded-t-md rounded-r-none bg-white py-1 pl-8 font-bold">
+                        {{ product | replace(from='-', to=' ') }}
                     </a>
+
+                    <ul class="border-l border-white pl-6">
+                        {% for page in product_docs.pages | sort(attribute="extra.order") %}
+                            <li class="pt-3">
+                                {% set current_link_classes = " text-blue-600 border-blue-600 -ml-6 pl-4 border-l-2 border-blue-600" %}
+                                <a
+                                    href="{{ page.permalink | safe }}"
+                                    class="text-md hover:text-blue-900{% if current_url == page.permalink %}{{ current_link_classes }}{% endif %} text-black">
+                                    {{ page.title }}
+                                </a>
+                            </li>
+                        {% endfor %}
+                    </ul>
                 </li>
-                {% endfor %}
-            </ul>
-        </li>
-        {% endfor %}
-    </ul>
-</nav>
+            {% endfor %}
+        </ul>
+    </nav>
 {% endmacro navigation %}

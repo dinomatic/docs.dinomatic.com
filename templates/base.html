@@ -3,17 +3,20 @@
     {% include "partials/head.html" %}
 
     <body class="font-display scroll-smooth bg-white text-base antialiased">
-        {% include "partials/header.html" %} {% block main_styles %} {% endblock %}
+        {% include "partials/header.html" %}
+
+        {% block main_styles %}
+        {% endblock %}
 
         <main class="relative">
             <div class="container mx-auto grid gap-12 lg:grid-cols-(--main-columns)">
-                {% block aside_left %} {% endblock %}
+                {% block aside_left %}
+                {% endblock %}
 
-                <!-- ... -->
-                {% block content %} {{ content | safe }} {% endblock %}
+                {% block content %}{{ content | safe }}{% endblock %}
 
-                <!-- ... -->
-                {% block aside_right %} {% endblock %}
+                {% block aside_right %}
+                {% endblock %}
             </div>
         </main>
 

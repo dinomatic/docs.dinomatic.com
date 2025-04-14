@@ -1,11 +1,12 @@
 {% for product in config.extra.products %}
-<a href="/docs/{{ product }}" class="group">
-    <div class="h-full rounded-lg border border-gray-200 p-6 transition-colors duration-200 hover:border-purple-500">
-        <h2 class="mb-2 text-xl font-semibold uppercase group-hover:text-purple-600">
-            {{ product | replace(from="-", to=" ") }}
-        </h2>
-        <p class="mb-3 text-sm text-gray-500">Version {{ config.extra.versions[product] }}</p>
-        <p class="text-gray-600">View documentation →</p>
-    </div>
-</a>
+    <a href="/docs/{{ product }}" class="group">
+        <div
+            class="h-full rounded-lg border border-gray-200 p-6 transition-colors duration-200 hover:border-purple-500">
+            <h2 class="mb-2 text-xl font-semibold uppercase group-hover:text-purple-600">
+                {{ product | replace(from="-", to=" ") }}
+            </h2>
+            <p class="mb-3 text-sm text-gray-500">Version {{ config.extra.versions[product] }}</p>
+            <p class="text-gray-600">View documentation →</p>
+        </div>
+    </a>
 {% endfor %}
