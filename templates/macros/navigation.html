@@ -9,7 +9,7 @@
                 <li class="mb-8" data-product="{{ product }}">
                     <a
                         href="{{ product_docs.permalink }}"
-                        class="uppercase{% if current_url == product_docs.permalink %}text-blue-600{% endif %} sticky top-0 block rounded-t-md rounded-r-none bg-white py-1 pl-8 font-bold">
+                        class="{% if current_url == product_docs.permalink %}text-blue-600{% endif %} sticky top-0 block rounded-t-md rounded-r-none bg-white py-1 pl-8 font-bold uppercase">
                         {{ product | replace(from='-', to=' ') }}
                     </a>
 
