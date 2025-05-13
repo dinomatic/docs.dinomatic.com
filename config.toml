@@ -19,12 +19,13 @@ highlight_theme = "dracula"
 
 [extra]
 products = [
-  "akurai", "spinoko", "kemoku", "dinodds", "akurai-geo", "spinoko-geo", "nonaki", "hello-cookie", "sikika"
+  "akurai", "spinoko", "fxt", "kemoku", "dinodds", "akurai-geo", "spinoko-geo", "nonaki", "hello-cookie", "sikika"
 ]
 [extra.versions]
 akurai = "4.2.0"
 spinoko = "2.7.6"
 sikika = "1.0.2"
+fxt = "0.9.30"
 kemoku = "1.6.11"
 sibet = "2.1.0"
 dinodds = "1.4.2"
