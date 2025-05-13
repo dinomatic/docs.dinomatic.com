@@ -1,6 +1,6 @@
 {
   "name": "docs.dinomatic.com",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "main": "index.js",
   "scripts": {
     "css:watch": "npx @tailwindcss/cli -i ./src/app.css -o ./static/app.css --watch",
