@@ -2,6 +2,9 @@
   "name": "docs.dinomatic.com",
   "version": "3.0.1",
   "main": "index.js",
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "scripts": {
     "css:watch": "npx @tailwindcss/cli -i ./src/app.css -o ./static/app.css --watch",
     "css:build": "npx @tailwindcss/cli -i ./src/app.css -o ./static/app.css --minify",
