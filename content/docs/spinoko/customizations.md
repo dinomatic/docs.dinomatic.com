@@ -71,11 +71,17 @@ If you need to embed some scripts to your page, you can do it in **Additional Sc
 - Add scripts only if they are necessary.
 - You need to include the `<script> ... </script>` tags
 
-### Review Options
+### Casino Review Options
 
 All casino review options are here, you can set your affiliate links `rel` and `target` attributes, choose review design options, terms and conditions settings, etc.
 
 ![Theme Customizations](https://media.dinomatic.com/images/docs/spinoko/spinoko-customizer-reviews.png)
+
+### Game Review Options
+
+All game review options can be customized here. You can choose whether to enable game review/ratings snippet for rich results or not, choose it's author (person or organization). You can also hide sections on game review page that display a casino called where to play.
+
+![Theme Customizations](https://media.dinomatic.com/images/docs/spinoko/spinoko-customizer-game-reviews.png)
 
 ### Page Options
 
