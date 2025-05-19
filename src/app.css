@@ -2,6 +2,7 @@
 @import 'tailwindcss';
 
 @theme {
+  --breakpoint-xs: 412px;
   --font-display: 'Instrument Sans', sans-serif;
   --animate-border-shift: border-shift 8s linear infinite;
 
