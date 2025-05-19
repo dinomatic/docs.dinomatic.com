@@ -10,6 +10,8 @@ extra:
 
 FXT is a specialized WordPress theme for Forex affiliate websites, built-in features for broker reviews, comparison tables, listing blocks and more.
 
+Check out the public roadmap [here](https://trello.com/b/4XH9YJyB/fxt-roadmap).
+
 ---
 
 ## Getting Started
