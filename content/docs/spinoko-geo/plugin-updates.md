@@ -1,9 +1,9 @@
 ---
 title: Plugin Updates
 description: SpinokoGeo Plugin Updates
-weight: 50
+weight: 120
 extra:
-  order: 50
+  order: 120
 ---
 
 # SpinokoGeo Plugin Updates

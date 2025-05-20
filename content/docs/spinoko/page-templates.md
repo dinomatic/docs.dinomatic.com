@@ -14,7 +14,7 @@ You can define different templates for your pages in Spinoko.
 
 ## Using Page Templates
 
-There are 2 page templates available for displaying **Pages** in your website.
+There are 3 page templates available for displaying **Pages** in your website.
 
 1. Default Template
 2. Cover Template
