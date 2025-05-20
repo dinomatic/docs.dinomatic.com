@@ -1,9 +1,9 @@
 ---
 title: Cloudflare
 description: SpinokoGeo - Cloudflare
-weight: 40
+weight: 80
 extra:
-  order: 40
+  order: 80
 ---
 
 # Cloudflare

@@ -36,7 +36,7 @@ After that there's a new tab for each country you target, simply add casinos or 
 
 ![SpinokoGeo Blocks - Geo Listing](https://media.dinomatic.com/images/docs/spinoko-geo/spinoko-geo-blocks--geo-listing-manual.jpg)
 
-You can choose casinos manually, as shown in the image above, or filter them by category and/or tag. You can select a casino tag and all casinos with that tag will be displayed. You can also set a limit, for example, display just 6 casinos tagged as "usa".
+You can choose casinos manually, as shown in the image above, or filter them by category and/or tag. You can select a casino tag and all casinos with that tag will be displayed. You can also set a limit, for example, display all casinos in "Poker" category.
 
 ![SpinokoGeo Blocks - Geo Listing](https://media.dinomatic.com/images/docs/spinoko-geo/spinoko-geo-blocks--geo-listing-tax.jpg)
 
@@ -58,4 +58,4 @@ In the content editor a new message block edit section will appear. You can over
 
 ### Next step
 
-[Cloudflare](/docs/spinoko-geo/cloudflare/)
+[Geo Affiliate Links](/docs/spinoko-geo/affiliate-links/)
