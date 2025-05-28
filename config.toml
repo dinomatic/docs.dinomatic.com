@@ -24,8 +24,8 @@ products = [
 [extra.versions]
 akurai = "4.2.1"
 spinoko = "2.8.1"
-sikika = "1.0.2"
-fxt = "0.9.30"
+sikika = "2.0.0"
+fxt = "0.9.54"
 kemoku = "1.6.11"
 sibet = "2.1.0"
 dinodds = "1.4.2"
