@@ -25,7 +25,6 @@ If you want to remove those labels and just have the actual titles only, add the
 ```php
 <?php
 
-
 /**
  * Removes labels (category, tag, author) from archive page titles.
  */
@@ -482,7 +481,7 @@ add_filter( 'spinoko_display_review_links', '__return_false', 10 );
 These are the theme's default colors in case you want to restore any of them.
 Colors are in the same order that they appear in Customizer.
 
-```css
+```
 # Font Color: #23282d
 # Primary Color: #2563eb
 # Primary Color Hover: #1e3a8a

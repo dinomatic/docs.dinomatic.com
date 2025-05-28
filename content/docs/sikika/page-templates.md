@@ -8,43 +8,37 @@ extra:
 
 # Page Templates
 
-You can define different templates for your pages in Sikika.
+Sikika comes with several page templates to help you create different types of pages.
 
 ---
 
-## Using Page Templates
+### Available Templates
 
-There are 3 page templates available for displaying **Pages** in your website.
+Sikika includes the following page templates:
 
-1. Default Template
-2. Left Sidebar Template
-3. No Sidebar Template (Full Width)
+1. **Default Template**: Standard page layout with content and sidebar
+2. **Page Sidebar**: Alternative layout with sidebar on the left side
+3. **Sportsbook Sidebar**: Special template for sportsbook review pages with dedicated sidebar (requires Kemoku plugin)
 
-![Sikika Page Templates](https://media.dinomatic.com/images/docs/sikika/sikika-templates.png)
+### How to Use Templates
 
-### Default Template
+1. Create a new page or edit an existing one
+2. In the page editor, look for the "Page Attributes" section in the sidebar
+3. Under "Template", select your desired template from the dropdown
+4. Update or publish the page
 
-The default template layout has the content area on the left and the sidebar on the right.
-The sidebar used in default templates is called **Main Disebar**.
+### Sportsbook Template
 
-![Sikika Default Template](https://media.dinomatic.com/images/docs/sikika/sikika-templates-right-sidebar.png)
+The Sportsbook template is specifically designed for sportsbook review pages. It includes:
 
-### Left Sidebar Template
+- A dedicated sidebar for sportsbook-specific widgets
+- Optimized layout for review content
+- Special styling for sportsbook information
 
-The **Left Sidebar** template layout has the content area on the right and the sidebar on the left.
-The sidebar used in Left Sidebar templates is called **Left Sidebar**.
-
-![Sikika Left Sidebar Template](https://media.dinomatic.com/images/docs/sikika/sikika-templates-left-sidebar.png)
-
-### No Sidebar Template
-
-The **No Sidebar** or **Full Width** template layout has only content area covering its 100% width.
-There's no sidebar used.
-
-![Sikika No Sidebar Template](https://media.dinomatic.com/images/docs/sikika/sikika-templates-no-sidebar.png)
+> **Note:** The Sportsbook template is only available when the Kemoku Sportsbook Reviews plugin is installed and activated.
 
 ---
 
-### Next Step
+### Next step
 
-[Widget Areas](/docs/sikika/widget-areas/)
+[Hero Section](/docs/sikika/hero-section/)
