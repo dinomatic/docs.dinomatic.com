@@ -8,7 +8,7 @@ extra:
 
 # Akurai Theme
 
-Akurai is a versatile WordPress theme for creating and managing awesome sports betting affiliate websites. It's unique and modern and makes your website stand out among others.
+Akurai is a versatile WordPress theme for creating and managing awesome sports betting affiliate websites. It's unique and modern, making your website stand out among others.
 
 ---
 

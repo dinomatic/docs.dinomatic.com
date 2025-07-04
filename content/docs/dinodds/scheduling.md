@@ -39,7 +39,7 @@ Ok, to solve this, we need to:
 1. disable WP-Cron
 2. use system cron jobs to periodically call WP-Cron
 
-This ensures that no matter what WP-Cron will be called periodically and WP scheduled tasks will run on time. One of those tasks in updating the feeds.
+This ensures that no matter what WP-Cron will be called periodically and WP scheduled tasks will run on time. One of those tasks is updating the feeds.
 
 ### Disable WP-Cron
 
@@ -106,7 +106,7 @@ crontab -e
 
 Make sure to replace `MYDOMAIN.com` with your actual domain name.
 
-And that's all, now your WordPress scheduled tasks will run at the frequency you defined regardless page load.
+And that's all. Now your WordPress scheduled tasks will run at the frequency you defined regardless of page loads.
 
 ---
 

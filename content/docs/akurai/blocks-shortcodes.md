@@ -119,7 +119,7 @@ lazy_logo="true" load_more_enabled="true" count_initial="3" count_click="3"]
 
 ![akurai-blocks-grid](https://media.dinomatic.com/images/akurai/blocks/akurai-block--reviews-grid.jpg)
 
-To add a new gird simply click on the **+** (Add block) sign and select **Reviews Grid** in **Akurai Blocks** section.
+To add a new grid simply click on the **+** (Add block) sign and select **Reviews Grid** in **Akurai Blocks** section.
 
 In the content editor a new grid edit section will appear. There are 2 options to add reviews to the grid, manually or automatic, it's the same as for [tables].(#reviews-table-block)
 

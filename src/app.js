@@ -1,4 +1,14 @@
 ;(() => {
+  initColorTheme()
+
+  const themeToggle = document.querySelector('#theme-toggle')
+  if (themeToggle) {
+    themeToggle.addEventListener('click', () => {
+      const isDark = document.documentElement.classList.toggle('dark')
+      localStorage.setItem('theme', isDark ? 'dark' : 'light')
+    })
+  }
+
   const navMenu = document.querySelector('.nav-menu')
   const navToggle = document.querySelector('.nav-toggle')
 
@@ -44,3 +54,14 @@
     }
   }
 })()
+
+function initColorTheme() {
+  const storedTheme = localStorage.getItem('theme')
+  if (storedTheme === 'dark' || storedTheme === 'light') {
+    storedTheme === 'dark'
+      ? document.documentElement.classList.add('dark')
+      : document.documentElement.classList.remove('dark')
+  } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+    document.documentElement.classList.add('dark')
+  }
+}
