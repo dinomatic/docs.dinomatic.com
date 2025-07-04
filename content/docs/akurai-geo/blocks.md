@@ -8,7 +8,7 @@ extra:
 
 # Plugin Blocks
 
-There are a several blocks available for you to display your geo location based content on your website, check them out below.
+There are several blocks you can use to display your geo location based content on your website. Check them out below.
 
 ---
 
@@ -32,7 +32,7 @@ To add a new listing simply click on the + (Add block) sign and select Geo Listi
 
 In the content editor a new listing edit section will appear. On the 1st tab you select the listing options such as listing type (grid, table, etc.), terms and whether to display filters or not.
 
-The 2nd tab, called Default, is where you select all reviews that you want to display to user's from countries that are not in the list of your targeted ones.
+The 2nd tab, called Default, is where you select all reviews that you want to display to users from countries that are not in your list of targeted ones.
 
 After that there's a new tab for each country you target, simply add reviews or leave them empty to display the Default selection.
 
@@ -61,7 +61,7 @@ In the content editor a new message block edit section will appear. You can over
 Next you can select a style from the "Block Style" dropdown:
 2 options with just message and country flag (flag being either on left or right side) and 2 options with the message, the flag as well as a bonus text and affiliate link (only for cases where country is supported).
 
-There one more style called "No Styles" which will just print out the markup, and you can design your own message block by applying your CSS rules to it.
+There is one more style called "No Styles" which will just print out the markup, and you can design your own message block by applying your CSS rules to it.
 
 ### Next step
 

@@ -8,7 +8,7 @@ extra:
 
 # Spinoko Theme
 
-Spinoko is a modern WordPress theme for creating and managing awesome casino affiliate websites. It's unique and feature-rich and makes your website stand out among others.
+Spinoko is a modern WordPress theme for creating and managing awesome casino affiliate websites. It's unique and feature-rich, making your website stand out among others.
 
 ---
 

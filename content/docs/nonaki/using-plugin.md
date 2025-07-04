@@ -22,7 +22,7 @@ The only thing to do before using the plugin is to set up a **redirect slug** fo
 
 ### Creating Redirects
 
-Creating new redirect is quite straight-forward, you just add the **redirect key** and the **destination URL**. While typing the key and the URL will see the preview to be able to double check and add the new redirect.
+Creating new redirect is quite straightforward, you just add the **redirect key** and the **destination URL**. While typing the key and the URL will see the preview to be able to double check and add the new redirect.
 
 ![Nonaki settings](https://media.dinomatic.com/images/docs/nonaki/nonaki-links-add.png)
 
