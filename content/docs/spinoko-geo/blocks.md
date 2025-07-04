@@ -8,7 +8,7 @@ extra:
 
 # Plugin Blocks
 
-There are a several blocks available for you to display your geo location based content on your website, check them out below.
+There are several blocks you can use to display your geo location based content on your website. Check them out below.
 
 ---
 

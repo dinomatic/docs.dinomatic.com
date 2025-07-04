@@ -13,7 +13,7 @@ In admin dashboard visit **Appearance** &#8594; **Customize** select the options
 
 ### Customizer Options
 
-Below is the main WordPress Customizer view showing all the options you can customize and in continuation you can explanations and screenshots of all teh sections.
+Below is the main WordPress Customizer view showing all the options you can customize. In continuation you can find explanations and screenshots of all the sections.
 
 Select the options you want to customize and apply your changes, the preview will reflect your changes automatically. Once you're happy with the results, click the "Publish" button to save the changes.
 

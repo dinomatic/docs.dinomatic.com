@@ -95,7 +95,7 @@ Adjust general block settings and add as many bonuses as you want by filling in 
 
 There are 2 custom fields for you to use in this block. First you define the fields by setting their labels on top of the bonus list and then you fill in their respective values for each bonus.
 
-You can choose to display the casino logo or a simple bonus/gift icon on each row, you can also choose how to display the terms. One option is to not display them. The second option is "link" in which case you need to fill in the terms link URL in the "Terms" field in the bonus list. And the last and default option is "popover" in which case you add teh terms text in the "Terms" field.
+You can choose to display the casino logo or a simple bonus/gift icon on each row, you can also choose how to display the terms. One option is to not display them. The second option is "link" in which case you need to fill in the terms link URL in the "Terms" field in the bonus list. And the last and default option is "popover" in which case you add the terms text in the "Terms" field.
 
 ![spinoko-blocks-casino-bonuses](https://media.dinomatic.com/images/docs/spinoko/spinoko-casino-bonuses-admin.png)
 
