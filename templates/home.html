@@ -1,12 +1,12 @@
 {% extends "base.html" %}
 
 {% block content %}
-    <article class="grid grid-cols-1 gap-32 bg-white px-4 py-16 sm:px-0 lg:grid-cols-[1fr_320px]">
+    <article class="grid grid-cols-1 gap-32 bg-white px-4 py-16 sm:px-0 lg:grid-cols-[1fr_320px] dark:bg-slate-800">
         <div>
             <div class="mb-12 text-center lg:text-left">
                 <h1 class="title mb-4 text-4xl font-bold">Documentation</h1>
 
-                <p class="text-lg text-gray-600">
+                <p class="text-lg text-gray-600 dark:text-gray-400">
                     Welcome to the official documentation for DinoMatic products. Find comprehensive guides, tutorials,
                     and references for our suite of tools.
                 </p>
@@ -18,7 +18,7 @@
 
             {% include "partials/quick_links.html" %}
 
-            <div class="text-center text-gray-600 lg:text-left">
+            <div class="text-center text-gray-600 lg:text-left dark:text-gray-400">
                 <p>
                     &copy; <a href="https://dinomatic.com" class="text-blue-600 hover:underline">DinoMatic</a>. All
                     rights reserved.

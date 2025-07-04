@@ -34,10 +34,10 @@
   }
 
   h1 {
-    @apply relative z-10 mt-0 mb-4 max-w-max px-8 py-2 text-4xl font-bold text-slate-900;
+    @apply relative z-10 mt-0 mb-4 max-w-max px-8 py-2 text-4xl font-bold text-slate-900 dark:text-slate-100;
 
     &::after {
-      @apply absolute top-0 left-0 -z-1 block h-10 w-full bg-gradient-to-tr from-purple-100 to-purple-50 content-[''];
+      @apply absolute top-0 left-0 -z-1 block h-10 w-full bg-gradient-to-tr from-purple-100 to-purple-50 content-[''] dark:from-slate-700 dark:to-slate-600;
     }
   }
 
@@ -47,7 +47,7 @@
     h4,
     h5,
     h6 {
-      @apply mt-16 mb-4 text-purple-800;
+      @apply mt-16 mb-4 text-purple-800 dark:text-purple-300;
 
       &:before {
         @apply block h-24 content-[''];
@@ -75,7 +75,7 @@
     }
 
     hr {
-      @apply my-6 border-t border-blue-200;
+      @apply my-6 border-t border-blue-200 dark:border-slate-700;
     }
 
     p:not(:last-child) {
@@ -98,20 +98,20 @@
     }
 
     img {
-      @apply my-4 block rounded-md border border-purple-200 shadow-sm transition-shadow hover:shadow-md;
+      @apply my-4 block rounded-md border border-purple-200 shadow-sm transition-shadow hover:shadow-md dark:border-slate-700;
     }
 
     a {
-      @apply border-b-1 border-dotted border-purple-700 text-purple-700 hover:border-purple-600 hover:text-purple-600;
+      @apply border-b-1 border-dotted border-purple-700 text-purple-700 hover:border-purple-600 hover:text-purple-600 dark:border-purple-400 dark:text-purple-400 dark:hover:border-purple-300 dark:hover:text-purple-300;
     }
   }
 
   code {
-    @apply border-b-2 border-blue-500 bg-blue-100 px-2 pt-1 break-words whitespace-pre-wrap;
+    @apply border-b-2 border-blue-500 bg-blue-100 px-2 pt-1 break-words whitespace-pre-wrap dark:border-blue-400 dark:bg-slate-800;
   }
 
   pre {
-    @apply relative mt-3 mb-6 block w-full max-w-[calc(100vw-2rem)] overflow-x-auto px-3 py-3;
+    @apply relative mt-3 mb-6 block w-full max-w-[calc(100vw-2rem)] overflow-x-auto px-3 py-3 dark:bg-slate-800;
     code {
       @apply border-0 bg-inherit p-0 whitespace-pre;
     }

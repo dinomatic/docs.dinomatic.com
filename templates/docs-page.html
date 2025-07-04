@@ -5,12 +5,12 @@
 {% block title %}{{ page.title | safe }} | {{ config.title | safe }}{% endblock %}
 
 {% block content %}
-    <article class="page-content max-w-full min-w-0 bg-white px-4 py-16 md:px-8">{{ page.content | safe }}</article>
+    <article class="page-content max-w-full min-w-0 bg-white px-4 py-16 md:px-8 dark:bg-slate-800">{{ page.content | safe }}</article>
 {% endblock content %}
 
 {% block aside_left %}
-    <aside class="nav-menu relative inset-0 hidden bg-purple-100 py-8 pl-4 sm:pl-0 lg:block lg:bg-transparent">
-        <div class="absolute inset-y-0 right-0 w-[100vw] bg-purple-100"></div>
+    <aside class="nav-menu relative inset-0 hidden bg-purple-100 py-8 pl-4 sm:pl-0 lg:block lg:bg-transparent dark:bg-slate-800 lg:dark:bg-transparent">
+        <div class="absolute inset-y-0 right-0 w-[100vw] bg-purple-100 dark:bg-slate-800"></div>
         <div class="scrollbar sticky top-32 container mx-auto overflow-y-auto lg:h-[calc(100vh-192px)]">
             {{ navigation_macros::navigation() }}
         </div>

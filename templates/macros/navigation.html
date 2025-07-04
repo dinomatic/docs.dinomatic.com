@@ -9,17 +9,17 @@
                 <li class="mb-8" data-product="{{ product }}">
                     <a
                         href="{{ product_docs.permalink }}"
-                        class="{% if current_url == product_docs.permalink %}text-blue-800{% endif %} sticky top-0 block rounded-t-md rounded-r-none bg-white py-1 pl-8 font-bold uppercase">
+                        class="{% if current_url == product_docs.permalink %}text-blue-800{% endif %} sticky top-0 block rounded-t-md rounded-r-none bg-white py-1 pl-8 font-bold uppercase dark:bg-slate-700 dark:text-slate-200">
                         {{ product | replace(from='-', to=' ') }}
                     </a>
 
-                    <ul class="border-l border-white pl-6">
+                    <ul class="border-l border-white pl-6 dark:border-slate-700">
                         {% for page in product_docs.pages | sort(attribute="extra.order") %}
                             <li class="pt-3">
                                 {% set current_link_classes = " text-blue-800 border-l-2 border-blue-800 -ml-6 pl-4" %}
                                 <a
                                     href="{{ page.permalink | safe }}"
-                                    class="text-md hover:text-blue-900{% if current_url == page.permalink %}{{ current_link_classes }}{% endif %} text-black">
+                                    class="text-md hover:text-blue-900{% if current_url == page.permalink %}{{ current_link_classes }}{% endif %} text-black dark:text-slate-200">
                                     {{ page.title }}
                                 </a>
                             </li>
