@@ -413,6 +413,46 @@ array(
 
 ---
 
+### How To Edit Game Properties
+
+In Spinoko, game pages have several properties such as Release Date, RTP, Paylines, Volatility, etc.
+You update their values for each game when editing the game page. And you can change their "names" in Customizer -> Strings.
+For example, you can you could change "Release Date" to "Released on" in Customizer and be done with it.
+This way you will see "Release Date" when you edit the game page and fill in its value, but on the front-end it will be displayed as "Released on".
+
+However, some users want to completely change it and use those fields for other values, in which case you need to update the field "name" in page editor as well. For that, you can use a snippet similar to this using any of the commented available fields there:
+
+```php
+<?php
+
+add_filter('spinoko_game_properties', function($properties) {
+    $properties['wilds'] = 'Not wilds';
+    $properties['volatility'] = 'Not volatility';
+
+    return $properties;
+});
+
+/**
+ * Available fields:
+ * 'reels' => 'Reels',
+ * 'rows' => 'Rows',
+ * 'paylines' => 'Paylines',
+ * 'rtp' => 'RTP',
+ * 'wilds' => 'Wilds',
+ * 'free_spins' => 'Free Spins',
+ * 'progressive' => 'Progressive',
+ * 'mobile' => 'Mobile',
+ * 'theme' => 'Theme',
+ * 'release_date' => 'Release Date',
+ * 'max_win' => 'Max Win',
+ * 'bet_range' => 'Bet Range',
+ * 'volatility' => 'Volatility',
+ */
+
+```
+
+---
+
 ### How To Change Footer Gambling Logos
 
 By default Spinoko comes with 4 logo images that you can include in your site's footer. Those are 18+, BeGambleAware, GamCare and GamStop. This option is not enabled by default, you can enable it from Customizer -> Miscellaneous Options -> Footer Options -> "Display Footer Gambling Logos".

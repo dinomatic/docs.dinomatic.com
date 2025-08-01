@@ -4,15 +4,14 @@
         <a
             href="{{ config.base_url | safe }}"
             class="group flex text-xl/6 font-bold transition-all duration-300 ease-in-out hover:-translate-y-[1px] sm:text-3xl/6">
-            <span class="text-slate-600 dark:text-slate-200">Dino</span>
-            <span class="text-slate-600 dark:text-slate-200">Matic</span>
+            <span class="text-slate-600 dark:text-slate-200">DinoMatic</span>
             <span class="pl-1 text-purple-500 transition-colors duration-300 ease-in-out group-hover:text-purple-600">
                 Docs
             </span>
         </a>
 
-        <div class="flex items-center gap-2 lg:gap-8">
-            <div class="xs:flex order-first hidden items-center gap-6 lg:order-last">
+        <div class="flex items-center gap-6">
+            <div class="hidden items-center gap-6 sm:flex">
                 <a
                     href="{{ config.extra.links.telegram | safe }}"
                     target="_blank"
@@ -41,7 +40,7 @@
                 </a>
             </div>
 
-            <div class="order-last flex items-center gap-6 lg:order-first">
+            <div class="flex items-center gap-6">
                 <button id="docsearch"></button>
 
                 <button
