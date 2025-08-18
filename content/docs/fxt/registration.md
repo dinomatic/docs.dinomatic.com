@@ -1,9 +1,9 @@
 ---
 title: Theme Registration
 description: FXT Theme Registration
-weight: 20
+weight: 30
 extra:
-  order: 20
+  order: 30
 ---
 
 # Theme Registration
@@ -12,15 +12,15 @@ You need to register your theme to be able to receive new security and feature u
 
 ---
 
-## Product Key
+## License Key
 
-You can get your product key from your [DinoMatic account](https://dinomatic.com/account)
+You can get your license key from your [DinoMatic account](https://dinomatic.com/account)
 
-### Add Product Key
+### Add License Key
 
-1. In WordPress dashboard visit **Settings** &#8594; **Theme Setup**
-2. Enter the product code you got from your account
-3. Click `Submit`
+1. In WordPress dashboard visit **FXT Options** -> **Main Options**
+2. Enter the license key you got from your account
+3. Click `Activate License`
 4. A message confirming the theme registration will appear
 
 #### Handling possible issues
@@ -34,4 +34,4 @@ If you get an error that the license key is not correct and the registration fai
 
 ### Next step
 
-<!-- [Set Review Page Slug](/docs/fxt/setting-review-page-slug/) -->
+[Creating Broker Pages](/docs/fxt/creating-broker-pages/)
