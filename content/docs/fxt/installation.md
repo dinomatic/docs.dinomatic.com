@@ -1,9 +1,9 @@
 ---
 title: Installation
 description: FXT Theme Installation
-weight: 10
+weight: 20
 extra:
-  order: 10
+  order: 20
 ---
 
 # Theme Installation

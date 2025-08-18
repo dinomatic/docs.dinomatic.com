@@ -22,10 +22,10 @@ products = [
   "akurai", "spinoko", "fxt", "kemoku", "dinodds", "akurai-geo", "spinoko-geo", "nonaki", "hello-cookie", "sikika"
 ]
 [extra.versions]
-akurai = "4.2.4"
-spinoko = "2.8.2"
+akurai = "4.2.5"
+spinoko = "2.8.3"
 sikika = "2.0.0"
-fxt = "1.0"
+fxt = "1.1.1"
 kemoku = "1.6.11"
 sibet = "2.1.0"
 dinodds = "1.4.2"
