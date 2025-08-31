@@ -1,12 +1,12 @@
 ---
-title: How to...
+title: How To ...
 description: FXT Theme - How to Guide
-weight: 150
+weight: 200
 extra:
-  order: 150
+  order: 200
 ---
 
-# How to...
+# How To ...
 
 This guide provides step-by-step instructions for common tasks and customizations in FXT theme.
 

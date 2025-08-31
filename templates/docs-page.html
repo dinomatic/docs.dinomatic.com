@@ -2,8 +2,6 @@
 {% import "macros/version.html" as version_macros %}
 {% import "macros/navigation.html" as navigation_macros %}
 
-{% block title %}{{ page.title | safe }} | {{ config.title | safe }}{% endblock %}
-
 {% block content %}
     <article class="page-content max-w-full min-w-0 bg-white px-4 py-16 md:px-8 dark:bg-slate-900">
         {{ page.content | safe }}

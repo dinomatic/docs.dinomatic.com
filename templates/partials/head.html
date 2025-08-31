@@ -10,7 +10,13 @@
 
     <script async defer data-domain="docs.dinomatic.com" src="https://plausible.io/js/plausible.js"></script>
 
-    <title>{% block title %}{{ config.title | safe }}{% endblock %}</title>
+    <title>
+        {% if page.title %}{{ page.title | safe }} |{% endif %}
+        {{
+            config.title |
+            safe
+        }}
+    </title>
     <meta name="description" content="{{ page.description | default(value='') | safe }}" />
 
     <meta property="og:site_name" content="{{ config.title | safe }}" />
