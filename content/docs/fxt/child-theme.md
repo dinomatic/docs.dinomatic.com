@@ -81,4 +81,4 @@ And that's all. You can now activate your child theme.
 
 ## Next Step
 
-[How to...](/docs/fxt/how-to/)
+[Translating FXT](/docs/fxt/translation/)

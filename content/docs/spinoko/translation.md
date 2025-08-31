@@ -42,9 +42,7 @@ If you need further assistance with WPML, please visit their [support forum](htt
 
 #### Polylang
 
-Polylang is another popular WP multilingual plugin, and it can be used along with Spinoko to create multilingual WordPress websites. After installing and activating the plugin, going through the setup steps, you can translate all the post types (posts, pages, casinos, games) as usual. If you're not familiar with Polylang, I'd suggest you check out their "[Getting Starts](https://polylang.pro/doc-category/getting-started/)" series of articles.
-
-To be able to translate theme strings, Polylang requires a `wpml-config.xml` file that lists all the strings along with other options. Spinoko includes that file, you can translate the strings in the theme by visiting **Languages** &#8594; **Translations** page in your dashboard.
+Polylang is another popular WP multilingual plugin, and it can be used along with Spinoko to create multilingual WordPress websites. After installing and activating the plugin, going through the setup steps, you can translate all the post types (posts, pages, casinos, games) as usual. If you're not familiar with Polylang, I'd suggest you check out their "[Getting Started](https://polylang.pro/doc-category/getting-started/)" series of articles.
 
 If you need further assistance with Polylang, please visit their [support page](https://polylang.pro/doc/) where you can also submit a support request.
 
