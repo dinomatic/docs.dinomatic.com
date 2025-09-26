@@ -40,15 +40,15 @@ Here's how to enable deep linking for currencies. Use this code in child theme's
 ```php
 <?php
 
-// Enable deep linking for currenciesr( 'kemoku_deep_linking_enabled__currencies );
+// Enable deep linking for currencies
+add_filter( 'kemoku_deep_linking_enabled__currencies', '__return_true' );
+```
 
 Just enabling it is not enough, your currency pages have to have a specific URL structure. By default, the plugin expects the currency page URLs should have this structure:
 
 ```
-
 https://your-domain.com/currencies/{SLUG}
-
-````
+```
 
 \- where {SLUG} is the currency abbreviation, for example `/currencies/eur` or `/currencies/btc`.
 
@@ -60,7 +60,7 @@ If you use a different structure, you need to let the plugin know about it. Let'
 add_filter( 'kemoku_deep_linking_slug__currencies', function() {
     return 'currency';
 } );
-````
+```
 
 You can also remove the "parent" page slug if your currency pages don't have any and your currency page URLs look like `your-domian.com/{SLUG}`:
 
