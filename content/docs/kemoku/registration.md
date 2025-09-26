@@ -12,34 +12,65 @@ You need to register your plugin to be able to receive new security and feature 
 
 ---
 
-## Product Key
+## Setup Page
 
-You can get your product key from your [DinoMatic account](https://dinomatic.com/account)
+After activating the plugin you'll be prompted with a notice to add your product key and configure your review pages.
+
+Click on **the setup page** link to access the plugin setup interface.
+
+---
+
+## Plugin Registration
+
+The setup page includes three main sections. The first section is for plugin registration.
+
+![Kemoku Plugin Registration](https://media.dinomatic.com/images/docs/kemoku/kemoku-registration.webp)
 
 ### Add Product Key
 
-After activating the plugin you'll be prompted with a notice to add your product key.
+1. **Get Your Product Key**: You can find your product key in your [DinoMatic account dashboard](https://dinomatic.com/account)
+2. **Enter Product Key**: On the setup page, enter the product key you got from your DinoMatic account
+3. **Save**: Click "Save" to register the plugin
+4. **Confirmation**: A message confirming the plugin product key registration will appear
 
-![Kemoku Plugin registration](https://media.dinomatic.com/images/docs/kemoku/kemoku-registration.jpg)
-
-1. Click on `the setup page` link
-2. On setup page enter the product key you got from your DinoMatic account
-3. Click "Save"
-4. A message confirming the plugin product key registration will appear
-
-![Kemoku Plugin registration](https://media.dinomatic.com/images/docs/kemoku/kemoku-setup.jpg)
+### Troubleshooting Registration
 
 If you get an error that the license key is not correct and the registration fails:
 
-- make sure there are no white spaces in the beginning or at the end of the key
-- if you have firewall installed on your server, make sure requests to dinomatic.com are not being blocked
+- Make sure there are no white spaces at the beginning or end of the key
+- If you have a firewall installed on your server, make sure requests to dinomatic.com are not being blocked
+
+---
+
+## Review Page Slug
+
+The second section allows you to configure your review pages URL structure.
+
+![Kemoku Review Page Slug](https://media.dinomatic.com/images/docs/kemoku/kemoku-review-page-slug.webp)
 
 ### Set Reviews Page Slug
 
-On the same plugin setup page you can set up your reviews pages slug.
-Enter the the slug you want and click "Save" to set it.
+1. **Enter Slug**: Enter the slug you want for your review pages (default: "sportsbooks")
+2. **Preview URLs**: The setup page shows example URLs based on your slug choice
+3. **Save**: Click "Save" to set the slug
 
-At this point you're all set up to start using the plugin.
+**Example URLs with default slug:**
+
+- `https://your-domain.com/sportsbooks/bet365`
+- `https://your-domain.com/sportsbooks/bovada`
+
+---
+
+## Clear Cache
+
+The third section provides cache management functionality.
+
+![Kemoku Clear Cache](https://media.dinomatic.com/images/docs/kemoku/kemoku-setup-cache.webp)
+
+### Clear Plugin Cache
+
+- **Clear Cache**: Click "Clear Cache" to remove all cached plugin data
+- **Use When**: Clear cache if you experience display issues
 
 ---
 

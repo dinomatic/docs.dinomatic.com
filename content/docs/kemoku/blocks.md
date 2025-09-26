@@ -12,16 +12,14 @@ There are multiple blocks and shortcodes available for you to present your websi
 
 There are 2 groups of blocks:
 
-1. blocks you can use on all pages
-2. blocks you can use on review pages
+1. Blocks you can use on all pages
+2. Blocks you can use on review pages
 
 This page describes the blocks you can use on all pages.
 
 ---
 
 ## Using Blocks
-
-![Kemoku Blocks](https://media.dinomatic.com/images/docs/kemoku/kemoku-blocks.jpg)
 
 Below are the blocks available in Kemoku plugin you can use on all pages:
 
@@ -44,13 +42,11 @@ Besides categories, you can filter reviews by review tags as well. In difference
 
 `💁 since version 1.6.3` you can display terms in a popup.
 
+`💁 since version 2.0.0` you can display filter reviews by the visitor's country and display a country support badges on listing items.
+
 #### Table
 
-Preview:
 ![Kemoku Table Block](https://media.dinomatic.com/images/docs/kemoku/kemoku-reviews-table-block-frontend.jpg)
-
-Dashboard:
-![Kemoku Table Block](https://media.dinomatic.com/images/docs/kemoku/kemoku-reviews-table-block-backend.jpg)
 
 #### Table: Payments
 
@@ -58,19 +54,11 @@ Dashboard:
 
 New table design for showcasing review payment options such as different payment methods, payout speeds. You can use the filtering, sorting and limiting options with this table as well. The styles of this table can be easily customized, learn how to do that [here](/docs/kemoku/how-to#how-to-customize-"table:-payments"-block-design).
 
-Preview:
 ![Kemoku Table Payments Block](https://media.dinomatic.com/images/docs/kemoku/kemoku-reviews-table-payments-block-frontend.jpg)
-
-Dashboard:
-![Kemoku Table Payments Block](https://media.dinomatic.com/images/docs/kemoku/kemoku-reviews-table-payments-block-backend.jpg)
 
 #### Grid
 
-Preview:
 ![Kemoku Grid Block](https://media.dinomatic.com/images/docs/kemoku/kemoku-reviews-grid-block-frontend.jpg)
-
-Dashboard:
-![Kemoku Grid Block](https://media.dinomatic.com/images/docs/kemoku/kemoku-reviews-grid-block-backend.jpg)
 
 #### Grid: Bonus
 
@@ -78,11 +66,7 @@ Dashboard:
 
 New grid design for showcasing review bonuses. You can use the filtering, sorting and limiting options with this grid as well. The styles of this grid can be easily customized, learn how to do that [here](/docs/kemoku/how-to#how-to-customize-"grid:-bonus"-block-design).
 
-Preview:
 ![Kemoku Grid Bonus Block](https://media.dinomatic.com/images/docs/kemoku/kemoku-reviews-grid-bonus-block-frontend.jpg)
-
-Dashboard:
-![Kemoku Grid Bonus Block](https://media.dinomatic.com/images/docs/kemoku/kemoku-reviews-grid-bonus-block-backend.jpg)
 
 #### Filters and Sorting
 
@@ -94,11 +78,7 @@ Both for tables and grids, this is what the filters and sorting popup looks like
 
 Simply add the block, fill in the heading (optional), content and button/link fields and it's ready.
 
-Preview:
 ![Kemoku CTA Block](https://media.dinomatic.com/images/docs/kemoku/kemoku-review-cta-block-frontend.jpg)
-
-Dashboard:
-![Kemoku CTA Block](https://media.dinomatic.com/images/docs/kemoku/kemoku-review-cta-block-backend.jpg)
 
 ### Blocks vs Shortcodes
 

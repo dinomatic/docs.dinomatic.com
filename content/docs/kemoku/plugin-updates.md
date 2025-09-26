@@ -1,9 +1,9 @@
 ---
 title: Plugin Updates
 description: Kemoku Plugin Updates
-weight: 120
+weight: 140
 extra:
-  order: 120
+  order: 140
 ---
 
 # Kemoku Plugin Updates

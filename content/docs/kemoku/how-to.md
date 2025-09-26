@@ -1,9 +1,9 @@
 ---
 title: How To ...
 description: Kemoku How-tos
-weight: 110
+weight: 130
 extra:
-  order: 110
+  order: 130
 ---
 
 # How To ...
@@ -23,8 +23,7 @@ Use the below code snippet in your child theme's `functions.php` file and adjust
 ```php
 <?php
 
-
-add_filter( 'kemoku_country_custom_names', fn( array $names )  => array(
+add_filter( 'kemoku_country_custom_names', fn( array $names ) => array(
     'us' => 'Estados Unidos',
     'gb' => 'Reino Unido',
     'fr' => 'Francia',
@@ -42,13 +41,12 @@ Use the below code snippet in your child theme's `functions.php` file and adjust
 ```php
 <?php
 
-
-add_filter( 'kemoku_currency_custom_data', fn( array $data )  => array(
+add_filter( 'kemoku_currency_custom_data', fn( array $data ) => array(
     'usd' => array(
         'name' => 'USD',
         'symbol' => '$',
     ),
-    'usd' => array(
+    'eur' => array(
         'name' => 'EUR',
         'symbol' => '€',
     ),
@@ -59,6 +57,88 @@ add_filter( 'kemoku_currency_custom_data', fn( array $data )  => array(
 
 ---
 
+### How To Change/Translate Services
+
+To change or translate the service names you can use the following filter - `kemoku_sportsbook_services` in your child theme's `functions.php` file. The below example renames "Sportsbook" to "Bookmaker".
+
+```php
+<?php
+
+add_filter( 'kemoku_sportsbook_services', function( array $defaults ) {
+
+    $defaults['sportsbook'] = 'Bookamker';
+
+    return $defaults;
+} );
+```
+
+Find below teh default names of services.
+
+```php
+<?php
+
+[
+    'sportsbook'         => __('Sportsbook', 'kemoku'),
+    'casino'             => __('Casino', 'kemoku'),
+    'live_casino'        => __('Live Casino', 'kemoku'),
+    'poker'              => __('Poker', 'kemoku'),
+    'bingo'              => __('Bingo', 'kemoku'),
+    'lottery'            => __('Lottery', 'kemoku'),
+    'horse_racing'       => __('Horse Racing', 'kemoku'),
+    'fantasy_sports'     => __('Fantasy Sports', 'kemoku'),
+    'sweepstakes'        => __('Sweepstakes', 'kemoku'),
+    'exchange_betting'   => __('Exchange Betting', 'kemoku'),
+    'prediction_markets' => __('Prediction Markets', 'kemoku'),
+]
+```
+
+---
+
+### How To Change/Translate Sports
+
+To change or translate the sport names you can use the following filter - `kemoku_sportsbook_sports` in your child theme's `functions.php` file. The below example renames "American Football" to "Football" and "Football" to "Soccer".
+
+```php
+<?php
+
+add_filter( 'kemoku_sportsbook_sports', function( array $defaults ) {
+
+    $defaults['football'] = 'Football';
+    $defaults['soccer'] = 'Soccer';
+
+    return $defaults;
+} );
+```
+
+Find below the default sport names used in the plugin:
+
+```php
+<?php
+
+[
+    'baseball'     => __('Baseball', 'kemoku'),
+    'basketball'   => __('Basketball', 'kemoku'),
+    'boxing'       => __('Boxing', 'kemoku'),
+    'cricket'      => __('Cricket', 'kemoku'),
+    'cycling'      => __('Cycling', 'kemoku'),
+    'esports'      => __('Esports', 'kemoku'),
+    'football'     => __('Football', 'kemoku'),
+    'golf'         => __('Golf', 'kemoku'),
+    'hockey'       => __('Hockey', 'kemoku'),
+    'horse-racing' => __('Horse Racing', 'kemoku'),
+    'martial-arts' => __('Martial Arts', 'kemoku'),
+    'racing'       => __('Racing', 'kemoku'),
+    'soccer'       => __('Soccer', 'kemoku'),
+    'tennis'       => __('Tennis', 'kemoku'),
+    'volleyball'   => __('Volleyball', 'kemoku'),
+]
+
+```
+
+---
+
+---
+
 ### How To Change/Translate Features
 
 Use the below code snippet in your child theme's `functions.php` file and adjust the review features values. These values are set when editing a review page on Review Fields -> Details section, and they're used in filtering the listings.
@@ -66,33 +146,84 @@ Use the below code snippet in your child theme's `functions.php` file and adjust
 ```php
 <?php
 
-
 add_filter( 'kemoku_sportsbook_features', function( array $defaults ) {
 
-	$defaults['feature_1'] = 'Nuevo';
-	$defaults['feature_5'] = 'Buena reputación';
+    $defaults['feature_1'] = 'Nuevo';
+    $defaults['feature_5'] = 'Buena reputación';
 
-	return $defaults;
+    return $defaults;
 } );
 ```
 
----
+### How To Change SVG Icons
 
-### How To Change/Translate Sports
+Kemoku uses SVG icons for various content types like payment methods, sports, and countries. You can customize these icons by providing your own SVG files.
 
-Use the below code snippet in your child theme's `functions.php` file and adjust the review sports values. These values are set when editing a review page on Review Fields -> Sports section, and they're used in Sports block and filtering the listings.
+**General Approach:**
+Use the appropriate filter to specify a custom directory containing your SVG icons. The plugin will look for SVG files matching the content keys/slugs (e.g., `visa.svg`, `football.svg`, `us.svg`).
+
+#### Payment Method Icons
+
+Use the `kemoku_payment_icons_dir` filter to specify a custom directory for payment method icons.
 
 ```php
 <?php
 
-
-add_filter( 'kemoku_sportsbook_sorts', function( array $defaults ) {
-
-	$defaults['football'] = 'American Football';
-	$defaults['soccer'] = 'Football';
-
-	return $defaults;
+add_filter( 'kemoku_payment_icons_dir', function() {
+    return get_stylesheet_directory() . '/icons/payment-methods/';
 } );
+```
+
+**Icon File Names:**
+Your SVG files should match the payment method keys: `visa.svg`, `mastercard.svg`, `paypal.svg`, etc.
+
+#### Sports Icons
+
+Use the `kemoku_sport_icons_dir` filter to specify a custom directory for sports icons.
+
+```php
+<?php
+
+add_filter( 'kemoku_sport_icons_dir', function() {
+    return get_stylesheet_directory() . '/icons/sports/';
+} );
+```
+
+**Icon File Names:**
+Your SVG files should match the sport keys: `football.svg`, `soccer.svg`, `basketball.svg`, etc.
+
+#### Country Icons
+
+Use the `kemoku_country_icons_dir` filter to specify a custom directory for country icons.
+
+```php
+<?php
+
+add_filter( 'kemoku_country_icons_dir', function() {
+    return get_stylesheet_directory() . '/icons/countries/';
+} );
+```
+
+**Icon File Names:**
+Your SVG files should match the country codes: `us.svg`, `gb.svg`, `de.svg`, `fr.svg`, `es.svg`, etc. Use [ISO 3166 country codes](https://en.wikipedia.org/wiki/List_of_ISO_3166_country_codes).
+
+**Directory Structure with Example Icon Names:**
+
+```
+your-child-theme/
+├── icons/
+│   ├── payment-methods/
+│   │   ├── visa.svg
+│   │   ├── mastercard.svg
+│   │   └── paypal.svg
+│   ├── sports/
+│   │   ├── football.svg
+│   │   ├── soccer.svg
+│   │   └── basketball.svg
+│   └── countries/
+│       ├── us.svg
+│       ├── gb.svg
+│       └── de.svg
 ```
 
 ---
@@ -183,7 +314,7 @@ To change the gift-box icon background of the bonus section use:
   /* this will remove the background */
   background-image: none;
   /* this will set your own background image */
-  background-image: url('IMAGE URL OR BASE 64 ENCODED SVG');
+  background-image: url("IMAGE URL OR BASE 64 ENCODED SVG");
   /* this will set a background color, adjust the value to your liking */
   background-color: #075985;
 }
@@ -196,7 +327,7 @@ To remove or change the dollar-sign icon of the payout speed section use:
   /* this will remove the background */
   background-image: none;
   /* this will set your own background image */
-  background-image: url('IMAGE URL OR BASE 64 ENCODED SVG');
+  background-image: url("IMAGE URL OR BASE 64 ENCODED SVG");
 }
 ```
 
@@ -235,6 +366,93 @@ You can copy just the properties that you want to change, no need to copy them a
 ```
 
 Other styling options such as rounded borders, button background color, etc. are defined in [plugin settings](/docs/kemoku/settings).
+
+---
+
+### How To Customize Hero Section
+
+The Hero block has several filters that allow you to customize different sections of the block. Each filter receives the default HTML content of the corresponding section and allows you to modify or replace it entirely.
+
+#### Available Hero Filters
+
+**Image Section:**
+
+```php
+<?php
+
+add_filter( 'kemoku_review_hero_image', function( $content ) {
+    // Modify or replace the hero image HTML
+    return $content;
+} );
+```
+
+**Rating Section:**
+
+```php
+<?php
+
+add_filter( 'kemoku_review_hero_rating', function( $content ) {
+    // Modify or replace the rating stars HTML
+    return $content;
+} );
+```
+
+**Geo Section:**
+
+```php
+<?php
+
+add_filter( 'kemoku_review_hero_geo', function( $content ) {
+    // Modify or replace the geo-targeting message HTML
+    return $content;
+} );
+```
+
+**Bonus Section:**
+
+```php
+<?php
+
+add_filter( 'kemoku_review_hero_bonus', function( $content ) {
+    // Modify or replace the bonus text HTML
+    return $content;
+} );
+```
+
+**Button Section:**
+
+```php
+<?php
+
+add_filter( 'kemoku_review_hero_button', function( $content ) {
+    // Modify or replace the affiliate button HTML
+    return $content;
+} );
+```
+
+**Terms Section:**
+
+```php
+<?php
+
+add_filter( 'kemoku_review_hero_terms', function( $content ) {
+    // Modify or replace the terms and conditions HTML
+    return $content;
+} );
+```
+
+**Example: Customize Hero Button**
+
+```php
+<?php
+
+add_filter( 'kemoku_review_hero_button', function( $content ) {
+    // Replace the default button with a custom one
+    return '<a href="#" class="custom-hero-button">Get Started Today</a>';
+} );
+```
+
+---
 
 ### Next step
 
