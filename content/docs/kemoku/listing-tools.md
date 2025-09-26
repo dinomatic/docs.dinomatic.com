@@ -1,9 +1,9 @@
 ---
 title: Listing Tools
 description: Kemoku Listing Tools
-weight: 100
+weight: 120
 extra:
-  order: 100
+  order: 120
 ---
 
 # Customizing Listing Tools
@@ -27,7 +27,6 @@ You can use a function like this one to modify sorting key labels, this example 
 ```php
 <?php
 
-
 function update_listing_sorting_keys( array $defaults ): array {
 
   $defaults['date'] = __( 'Date', 'kemoku' );
@@ -39,11 +38,10 @@ add_filter( 'kemoku_table_sorting__keys', 'update_listing_sorting_keys' );
 
 ### Disabling Sorting Options
 
-This function removed "Recently Added" option:
+This function removes the "Recently Added" option:
 
 ```php
 <?php
-
 
 function update_listing_sorting_keys( array $defaults ): array {
 
@@ -60,7 +58,6 @@ By default there are 6 filter groups: Rating, Features, Services, Licenses, Coun
 
 ```php
 <?php
-
 
 array(
     'rating'          => __( 'Rating', 'kemoku' ),
@@ -81,7 +78,6 @@ To remove any group from filters, use a function like the one below. Change 'us_
 ```php
 <?php
 
-
 function remove_us_states_from_listing_filters( array $defaults ): array {
 
   unset( $defaults['us_states'] );
@@ -97,7 +93,6 @@ To change the group heading, use a function like the one below. This example is 
 
 ```php
 <?php
-
 
 function update_listing_filters_pm_heading( array $defaults ): array {
 
@@ -115,7 +110,6 @@ By default there are 5 rating options: 6+, 7+, 8+, 9+ and 10. You can use a func
 ```php
 <?php
 
-
 function update_listing_filters_ratings( array $defaults ): array {
 
   unset( $defaults[6] );
@@ -127,11 +121,10 @@ add_filter( 'kemoku_listing_filters__values__rating', 'update_listing_filters_ra
 
 ### Changing Feature Filters
 
-By default there are 5 rating options: 'New', 'Popular', 'Fast Payouts', 'Mobile Friendly' and 'Good Reputation'. You can use a function like the example below to modify the rating options. This one removes "Good Reputation" option and renames "Mobile Friendly" to "Mobile Apps.
+By default there are 5 feature options: 'New', 'Popular', 'Fast Payouts', 'Mobile Friendly' and 'Good Reputation'. You can use a function like the example below to modify the feature options. This one removes the "Good Reputation" option and renames "Mobile Friendly" to "Mobile Apps".
 
 ```php
 <?php
-
 
 function update_listing_filters_features( array $defaults ): array {
 
@@ -139,14 +132,13 @@ function update_listing_filters_features( array $defaults ): array {
 
   return $defaults;
 }
-add_filter( 'kemoku_listing_filters__values__rating', 'update_listing_filters_features' );
+add_filter( 'kemoku_listing_filters__values__features', 'update_listing_filters_features' );
 ```
 
-This function changes "Mobile Friendly" to "Mobile Apps.
+This function changes "Mobile Friendly" to "Mobile Apps":
 
 ```php
 <?php
-
 
 function update_listing_filters_features( array $defaults ): array {
 
@@ -154,14 +146,13 @@ function update_listing_filters_features( array $defaults ): array {
 
   return $defaults;
 }
-add_filter( 'kemoku_listing_filters__values__rating', 'update_listing_filters_features' );
+add_filter( 'kemoku_listing_filters__values__features', 'update_listing_filters_features' );
 ```
 
 If you need multiple changes, you can add them all into a single function. For example, remove "Fast Payouts" and translate into Spanish.
 
 ```php
 <?php
-
 
 function update_listing_filters_features( array $defaults ): array {
 
@@ -172,7 +163,7 @@ function update_listing_filters_features( array $defaults ): array {
 			'feature_5' => __( 'Buena reputación', 'kemoku' ),
   );
 }
-add_filter( 'kemoku_listing_filters__values__rating', 'update_listing_filters_features' );
+add_filter( 'kemoku_listing_filters__values__features', 'update_listing_filters_features' );
 ```
 
 ### Changing Service Filters
@@ -181,7 +172,6 @@ By default there are 8 services and here are their default values:
 
 ```php
 <?php
-
 
 array(
     'sportsbook'     => __( 'Sportsbook', 'kemoku' ),
@@ -195,23 +185,30 @@ array(
 );
 ```
 
-You can use a function like the example below to modify the rating options. This one removes "Bingo" and "Lottery" options and renames "Fantasy Sports" to "Daily Fantasy Sports".
+You can use a function like the example below to modify the service options. This one removes "Bingo" and "Lottery" options and renames "Fantasy Sports" to "Daily Fantasy Sports".
 
 ```php
 <?php
 
-
 function update_listing_filters_services( array $defaults ): array {
 
-  unset( $defaults['bingo'] );
-  unset( $defaults['lottery'] );
+    unset( $defaults['bingo'] );
+    nset( $defaults['lottery'] );
 
-  $defaults['fantasy_sports'] = __( 'Daily Fantasy Sports', 'kemoku' );
+    $defaults['fantasy_sports'] = __( 'Daily Fantasy Sports', 'kemoku' );
 
-  return $defaults;
+    return $defaults;
 }
 add_filter( 'kemoku_listing_filters__values__services', 'update_listing_filters_services' );
 ```
+
+### Geo Filtering
+
+`💁 since version 2.0`
+
+Kemoku includes geo-filtering capabilities that automatically filter listings based on visitor location. This feature works with the plugin's geo-targeting system to show only relevant reviews for each visitor's country.
+
+For detailed information about geo-targeting features, see the [Geo-Targeting](/docs/kemoku/geo-targeting/) documentation.
 
 ### Changing Country, State, License, Payment Method and Currency Filters
 

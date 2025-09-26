@@ -16,62 +16,54 @@ In your WordPress dashboard you will find a new menu called **Kemoku Reviews** r
 
 Besides adding your review title and content as usual, you'll find **Review Fields** section below page content. Here you can define properties for each review. The fields are in separate sections and have descriptions to make it easy for you to fill them in. To see what they look like you can check one of the demos available [here](https://demos.dinomatic.com/havana).
 
+![General Review Fields](https://media.dinomatic.com/images/docs/kemoku/kemoku-review-fields.webp)
+
 ### General Fields
 
-Define main review information such as the name, logo, affiliate URL, rating.
-
-![General Review Fields](https://media.dinomatic.com/images/docs/kemoku/kemoku-review-general.jpg)
+Define main review information such as the name, logo, affiliate URL, rating. All fields in this section are required.
 
 ### Bonus & Terms Fields
 
-Define bonus, bonus code (if any) and terms.
+Define bonus, bonus code (if any) and terms that can be the full terms and conditions text and/or a URL.
 
-![Review Fields Bonus](https://media.dinomatic.com/images/docs/kemoku/kemoku-review-bonus.jpg)
-
-### Payment Methods & Currencies
+### Payments & Currencies
 
 Define _Payment Methods_ and _Currencies_ for the reviewed item and display them in your content through `Review Payments` and `Currencies` block.
 Payment method and currency information is also used for filtering review listings.
 
-![Review Fields Payments](https://media.dinomatic.com/images/docs/kemoku/kemoku-review-payments.jpg)
-
 ### Details
 
-Define some details such as _Countries, US States, Services, Licenses, Features_ for the reviewed item and display them in your content through `Review Countries`, `Review US States`, `Review Services` blocks.
-
-![Review Fields Payments](https://media.dinomatic.com/images/docs/kemoku/kemoku-review-details.jpg)
+Define some details such as _Services, Sports, Licenses, Features_ for the reviewed item. Services and sports can be displayed using `Review Services` and `Review Sports` blocks. They can be also used in listing filters along with features.
 
 ### Hero Section
 
 Define whether the _Hero_ section at the top of the review page is enabled or not.
 Hero section settings can be adjusted on [plugin settings page](/docs/kemoku/settings#hero)
 
-![Review Fields Hero](https://media.dinomatic.com/images/docs/kemoku/kemoku-review-hero.jpg)
-
 ### CTA Section
 
 Define whether the _CTA_ section at the bottom of the review page is enabled or not, as well as fill in the CTA details.
 CTA section settings can be adjusted on [plugin settings page](/docs/kemoku/settings#cta)
 
-![Review Fields CTA](https://media.dinomatic.com/images/docs/kemoku/kemoku-review-cta.jpg)
-
 ### Pros & Cons
 
 Define _Pros & Cons_ of the reviewed item and display it in your content through `Review Pros & Cons` block.
-
-![Review Fields Pros Cons](https://media.dinomatic.com/images/docs/kemoku/kemoku-review-pros-cons.jpg)
 
 ### Ratings
 
 Define _Ratings_ of the reviewed item and display it in your content through `Review Ratings` block.
 
-![Review Fields Ratings](https://media.dinomatic.com/images/docs/kemoku/kemoku-review-ratings.jpg)
-
 ### Info
 
-Define _Review Info_ for the reviewed item and display it in your content through `Review Info` block.
+Define _Review Info_ fields for the reviewed item and display it in your content through `Review Info` block.
 
-![Review Fields Info](https://media.dinomatic.com/images/docs/kemoku/kemoku-review-info.jpg)
+### Geo Targeting
+
+Here you can define supported or restricted countries for the reviewed item. Fill just one of teh fields, whichever information is available to you. Do NOT fill in both fields, in that case "Restricted Countries" will be used.
+
+You can also define supported US States in this section.
+
+If the operators provide you with different affiliate links for different regions, you can use "Affiliate Links" field to add as many country-specific links as you want. Simply choose a country and add a link.
 
 ### Schema.org markup
 

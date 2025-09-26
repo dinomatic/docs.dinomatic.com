@@ -8,78 +8,93 @@ extra:
 
 # Kemoku Plugin Shortcodes
 
-All the plugin blocks are also available as shortcodes.
+All the plugin blocks are also available as shortcodes. This is useful if you're using WordPress versions below 5.0 or prefer to use shortcodes instead of blocks.
 
 ---
 
-## Using Shortcodes
+## General Shortcodes
 
-Here are the shortcodes available in Kemoku plugin you can use on all pages:
+Here are the general shortcodes available in Kemoku plugin you can use on all pages:
 
-- Reviews Table
-- Reviews Table: Payments
-- Reviews Grid
-- Reviews Grid: Bonus
-- Review CTA
-
-### Reviews Table
+**Reviews Table** \
 
 ```html
-[sb_table source="manual" ids="6, 9" style="no-terms|link-terms|popup-terms spacing altrows"] [sb_table source="tax"
-cat="42,43" tag="73,74" style="..."]
+[sb_table source="manual" ids="6, 9" style="no-terms|link-terms|popup-terms spacing altrows"]
 ```
-
-### Reviews Table: Payments
 
 ```html
-[sb_table_payments source="manual" ids="6, 9" style="short-terms|link-terms|popup-terms"] [sb_table_payments
-source="tax" cat="42,43" tag="73,74" style="..."]
+[sb_table source="tax" cat="42,43" tag="73,74" style="..."]
 ```
 
-### Reviews Grid
+**Reviews Grid** \
 
 ```html
-[sb_grid source="manual" ids="6, 9" style="no-terms|link-terms|popup-terms"] [sb_grid source="tax" cat="42,43"
-tag="73,74" style="..."]
+[sb_grid source="manual" ids="6, 9" style="no-terms|link-terms|popup-terms"]
 ```
-
-> You can use the Grid shortcode in sidebars as well.
-
-### Reviews Grid: Bonus
 
 ```html
-[sb_grid_bonus source="manual" ids="6, 9" style="no-terms|link-terms|popup-terms"] [sb_grid_bonus source="tax"
-cat="42,43" tag="73,74" style="..."]
+[sb_grid source="tax" cat="42,43" tag="73,74" style="..."]
 ```
 
-> You can use the Grid: Bonus shortcode in sidebars as well.
+**Reviews Table: Payments** \
 
-### Review CTA
+```html
+[sb_payments_table source="manual" ids="6, 9" style="short-terms|link-terms|popup-terms"]
+```
+
+```html
+[sb_payments_table source="tax" cat="42,43" tag="73,74" style="..."]
+```
+
+**Reviews Grid: Bonus** \
+
+```html
+[sb_bonus_grid source="manual" ids="6, 9" style="no-terms|link-terms|popup-terms"]
+```
+
+```html
+[sb_bonus_grid source="tax" cat="42,43" tag="73,74" style="..."]
+```
+
+**Review CTA** \
 
 ```html
 [sb_cta content="Content" button_url="#" button_text="Button Text" heading="Heading"]
 ```
 
-### Review Page Shortcodes
+To see the general shortcodes and the parameters they accept check the [Shortcode Generator](#shortcode-generator) in your WordPress dashboard.
+
+---
+
+## Review Page Shortcodes
 
 Here are the shortcodes available in Kemoku plugin you can use on review pages:
 
-```html
-[sb_info] [sb_ratings] [sb_pros_cons] [sb_countries] [sb_us_states] [sb_currencies] [sb_payment_methods] [sb_services
-heading="" bonus="" button_text=""]
-```
+- `[sb_hero]`
+- `[sb_info]`
+- `[sb_ratings]`
+- `[sb_pros_cons]`
+- `[sb_countries]`
+- `[sb_us_states]`
+- `[sb_currencies]`
+- `[sb_payment_methods]`
+- `[sb_services]`
+- `[sb_sports]`
+- `[sb_country_support]`
 
-Except for **Review Services**, there's noting to configure in the shortcodes, simply add the shortcodes where you want to display them, and they are ready.
+To see the review page shortcodes and the parameters they accept check the [Shortcode Generator](#shortcode-generator) in your WordPress dashboard.
 
-### Shortcode Generator
+---
 
-You can easily generate shortcodes by using the **shortcode generator** if you choose to use shortcodes instead of blocks. In WordPress dashboard visit **Kemoku Reviews** &#8594; **Shortcodes** and you'll find generators and information about all available shortcodes.
+## Shortcode Generator
+
+You can easily generate shortcodes by using the **Shortcode Generator** if you choose to use shortcodes instead of blocks. In WordPress dashboard visit **Kemoku Reviews** → **Shortcode Generator** and you'll find generators and information about all available shortcodes.
+
+The shortcode generator includes all the listing blocks, CTA and review page blocks.
 
 Generate the shortcode with a couple of mouse clicks, copy and paste the result where you need.
 
-#### Table shortcode generator
-
-![Kemoku Shortcode Generator](https://media.dinomatic.com/images/docs/kemoku/kemoku-shortcode-generator.png)
+---
 
 ### Next step
 

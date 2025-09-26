@@ -18,7 +18,7 @@ Since WordPress 5.8 update, blocks can be used as widgets, and that's the recomm
 
 However, if for some reason you want to use legacy widgets, you still do so as described below.
 
-### Legacy Widgets
+### Review Widgets
 
 Here are the widgets available in Kemoku plugin that you can use:
 

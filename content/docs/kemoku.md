@@ -8,29 +8,30 @@ extra:
 
 # Kemoku Plugin
 
-Kemoku is a WordPress plugin developed mostly for sportsbook affiliate websites. It gives opportunities to manage and promote sportsbook reviews easily.
+Kemoku is a WordPress plugin developed for gambling affiliate websites. It gives opportunities to manage and promote sportsbook and casino reviews easily.
 
 ---
 
 ## Getting Started
 
-It's easy to get started with Kemoku. Follow the documentations to install the plugin and create compelling sportsbook review.
+It's easy to get started with Kemoku. Follow the documentation to install the plugin and create compelling review pages.
 
 ### Requirements
 
 Before getting started make sure you have all the requirements met.
 
-To use the plugin, you must be running `WordPress 5.0` or higher and `PHP 7.4` or higher.
-Recommended `WordPress 6.6`.
+To use the plugin, you must be running `WordPress 6.0` or higher and `PHP 8.1` or higher. \
+Recommended `WordPress 6.8` and `PHP 8.4`.
 
-Also make sure your host has the minimum requirements to run WordPress and PHP `max_upload_size` is more than 8MB.
+Also make sure your host has the minimum requirements to run WordPress and PHP `max_upload_size` is more than `8MB`.
 
 ### Demo
 
-You can check out plugin demos to get ideas how to build your own website. Here are 2 demos for you:
+You can check out plugin demos to get ideas on how to build your own website. Here are 2 demos for you:
 
-1. [Demo #1](https://demos.dinomatic.com/havana)
-2. [Demo #2](https://demos.dinomatic.com/manila)
+1. [Demo Paris](https://demos.dinomatic.com/paris)
+1. [Demo Havana](https://demos.dinomatic.com/havana)
+1. [Demo Manila](https://demos.dinomatic.com/manila)
 
 ### Changelog
 
