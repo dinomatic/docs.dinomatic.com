@@ -23,10 +23,10 @@ products = [
 ]
 [extra.versions]
 akurai = "4.2.5"
-spinoko = "2.8.3"
+spinoko = "2.8.4"
 sikika = "2.0.0"
-fxt = "1.3.0"
-kemoku = "2.0.0"
+fxt = "1.3.4"
+kemoku = "2.0.2"
 sibet = "2.1.0"
 dinodds = "1.4.2"
 akurai-geo = "2.0.0"

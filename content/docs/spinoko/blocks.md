@@ -1,5 +1,5 @@
 ---
-title: Blocks & Shortcodes
+title: Blocks
 description: Spinoko Theme - Blocks
 weight: 110
 extra:
@@ -52,6 +52,8 @@ Casino Table block offers you multiple styles and options. You can display table
 
 `💁 since version 2.0.0` you can enable **table filtering** for your tables regardless of their styles. Casinos can be filtered by Country, Game, Game Provider, Payment Method, License.
 
+`💁 since version 2.8.4` you can add **Casinos Payment Methods** to tables.
+
 ![spinoko-blocks-table-admin](https://media.dinomatic.com/images/docs/spinoko/spinoko-blocks-table-admin.jpg)
 
 `💁 since version 2.5.8` you can select casinos by filtering them by category and/or tags.
@@ -81,6 +83,8 @@ Casino Grid block offers you multiple options for terms and conditions, you can 
 `💁 since version 2.5.8` you can select casinos by filtering them by category and/or tags.
 
 `💁 since version 2.6.0` you can display casinos using a compact layout.
+
+`💁 since version 2.8.4` you can add **Casinos Payment Methods** to tables.
 
 ![spinoko-blocks-grid-admin](https://media.dinomatic.com/images/docs/spinoko/spinoko-blocks-grid-admin.jpg)
 
