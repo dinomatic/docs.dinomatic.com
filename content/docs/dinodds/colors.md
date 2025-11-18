@@ -18,17 +18,18 @@ All colors used correspond to CSS custom properties:
 
 ```css
 .df-odds {
-  --color-settings__bg: #4a5568; /* settings dropdown background color */
-  --color-settings__text: #ffffff; /* settings dropdown text color */
+  --color-settings--bg: #4a5568; /* settings dropdown background color */
+  --color-settings--fg: #ffffff; /* settings dropdown text color */
 
-  --color-bookie: #cbd5e0; /* bookie logo background color */
-  --color-date: #cbd5e0; /* date row background color */
-  --color-time: #e2e8f0; /* time column background color */
-  --color-away: #f7fafc; /* away row background color */
-  --color-home: #edf2f7; /* home row background color */
+  --color-bookie--bg: #cbd5e0; /* bookie logo and link background color */
+  --color-date--bg: #cbd5e0; /* date row background color */
+  --color-not-found--bg: #cbd5e0; /* no matches section background color */
+  --color-time--bg: #e2e8f0; /* time column background color */
+  --color-away--bg: #f7fafc; /* away row background color */
+  --color-home--bg: #edf2f7; /* home row background color */
 
-  --color-arrow__bg: #cbd5e0; /* left & right arrows background color */
-  --color-arrow__text: #111; /* left & right arrows icon color */
+  --color-arrow--bg: #cbd5e0; /* left & right arrows background color */
+  --color-arrow--fg: #111; /* left & right arrows icon color */
 }
 ```
 
@@ -39,7 +40,7 @@ For example, to change the "date" color copy only:
 
 ```css
 .df-odds {
-  --color-date: #cbcbcb;
+  --color-date--bg: #cbcbcb;
 }
 ```
 
