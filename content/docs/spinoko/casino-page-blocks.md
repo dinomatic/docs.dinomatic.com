@@ -14,7 +14,7 @@ Spinoko theme comes with built-in casino page blocks that you can use to easily 
 
 ## Using Blocks
 
-There are 5 blocks available for you to use in casino pages:
+There are 9 blocks available for you to use in casino pages:
 
 1. Casino Ratings
 2. Casino Games
@@ -24,6 +24,7 @@ There are 5 blocks available for you to use in casino pages:
 6. Casino CTA
 7. Casino Info, Pros & Cons Table
 8. Casino Bonuses
+9. Featured Bonus
 
 ### Casino Ratings Block
 
@@ -99,7 +100,17 @@ You can choose to display the casino logo or a simple bonus/gift icon on each ro
 
 ![spinoko-blocks-casino-bonuses](https://media.dinomatic.com/images/docs/spinoko/spinoko-casino-bonuses-admin.png)
 
-...
+> Casino Bonuses block can also be used on other, not casino review, pages.
+
+---
+
+### Featured Bonus Block
+
+`💁 since version 2.9.0`
+
+You can create and display a featured bonus block on your review pages. It can feature the existing main bonus, or you can add a new one right in the block fields. You can customize the block fields such as button text, bonus heading, terms type, as well we overwrite the affiliate link.
+
+> Featured Bonus block can also be used on other, not casino review, pages.
 
 ---
 
