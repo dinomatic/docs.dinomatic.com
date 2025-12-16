@@ -31,6 +31,8 @@ Here are the blocks available in Spinoko theme:
 
 There are other blocks that are available in casino pages only: [Casino Page Blocks](/docs/spinoko/casino-page-blocks/)
 
+> Note that [Casino Bonuses](/docs/spinoko/casino-page-blocks/#casino-bonuses-block) and [Featured Bonus](/docs/spinoko/casino-page-blocks/#featured-bonus-block) blocks are available on all pages.
+
 ### Casinos Table Block
 
 ![spinoko-blocks-table](https://media.dinomatic.com/images/docs/spinoko/spinoko-blocks-table-frontend.png)
