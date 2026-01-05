@@ -32,6 +32,13 @@ At a minimum, you must choose a **league** and **bookies**. All other attributes
 
 If **both** `away` and `home` are provided, DinOdds will attempt to find and display that single upcoming match. If either is missing, DinOdds falls back to the **All League Odds** view.
 
+### Shortcode Styles
+
+`💁 since version 1.5` there are two layout styles you can use for displaying odds:
+
+- **Style 1 (Default)**: Navigate left and right using arrows
+- **Style 2**: Navigate left and right using the mouse and/or keyboard
+
 ### Examples
 
 - All league odds (default style and layout):
