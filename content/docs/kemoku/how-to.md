@@ -66,13 +66,13 @@ To change or translate the service names you can use the following filter - `kem
 
 add_filter( 'kemoku_sportsbook_services', function( array $defaults ) {
 
-    $defaults['sportsbook'] = 'Bookamker';
+    $defaults['sportsbook'] = 'Bookmaker';
 
     return $defaults;
 } );
 ```
 
-Find below teh default names of services.
+Find below the default names of services.
 
 ```php
 <?php

@@ -44,6 +44,10 @@ Besides categories, you can filter reviews by review tags as well. In difference
 
 `💁 since version 2.0.0` you can display filter reviews by the visitor's country and display a country support badges on listing items.
 
+`💁 since version 2.2.0` you can overwrite bonus codes for individual items in your tables and grids.
+
+`💁 since version 2.2.0` you can filter review tables and grids by specific custom fields like payment methods, currencies, sports, services, countries and US states.
+
 #### Table
 
 ![Kemoku Table Block](https://media.dinomatic.com/images/docs/kemoku/kemoku-reviews-table-block-frontend.jpg)

@@ -193,7 +193,7 @@ You can use a function like the example below to modify the service options. Thi
 function update_listing_filters_services( array $defaults ): array {
 
     unset( $defaults['bingo'] );
-    nset( $defaults['lottery'] );
+    unset( $defaults['lottery'] );
 
     $defaults['fantasy_sports'] = __( 'Daily Fantasy Sports', 'kemoku' );
 
@@ -246,7 +246,9 @@ Copy the values you want to change to a custom stylesheet or Additional CSS sect
   /* This is the popup headings background color. */
   --listing_tools_headings_bg_color: var(--section_bg_color);
   /* This is the popup headings border radius. */
-  --listing_tools_headings_border_radius: var(--listing_tools_popup_border_radius);
+  --listing_tools_headings_border_radius: var(
+    --listing_tools_popup_border_radius
+  );
   /* This is the popup button font color. */
   --listing_tools_button_font_color: #565f66;
   /* This is the popup button background color. */

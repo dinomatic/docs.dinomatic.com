@@ -20,14 +20,14 @@ It's easy to get started with Kemoku. Follow the documentation to install the pl
 
 Before getting started make sure you have all the requirements met.
 
-To use the plugin, you must be running `WordPress 6.0` or higher and `PHP 8.1` or higher. \
-Recommended `WordPress 6.8` and `PHP 8.4`.
+To use the plugin, you must be running `WordPress 6.0` or higher and `PHP 8.4` or higher. \
+Recommended `WordPress 6.9`.
 
 Also make sure your host has the minimum requirements to run WordPress and PHP `max_upload_size` is more than `8MB`.
 
 ### Demo
 
-You can check out plugin demos to get ideas on how to build your own website. Here are 2 demos for you:
+You can check out plugin demos to get ideas on how to build your own website. Here are 3 demos for you:
 
 1. [Demo Paris](https://demos.dinomatic.com/paris)
 1. [Demo Havana](https://demos.dinomatic.com/havana)

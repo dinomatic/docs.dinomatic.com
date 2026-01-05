@@ -30,6 +30,7 @@ These settings apply to all the plugin sections.
 - **Button Styling**: Customize button colors, font weight, and shadow effects
 - **Rating Stars**: Configure star colors and total number of stars
 - **Table Styling**: Set background and font colors for table rows and grid items
+- **Collapsed Lists**: Enable collapsed lists in review blocks and set initial item count
 
 ### Hero Section
 
@@ -64,6 +65,7 @@ These settings apply to CTA section only.
 - **Button Text**: CTA section button text
 - **Heading Font Size**: Font size for CTA headings
 - **Button Styling**: Colors and styling for CTA buttons
+- **Sticky CTA Section**: Display the CTA section as a sticky block at the bottom of the page on mobile devices
 
 ### Blocks (Table & Grid)
 

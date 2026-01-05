@@ -88,8 +88,9 @@ The Review Services block has 3 optional fields:
 
 ![Kemoku Review Countries Block](https://media.dinomatic.com/images/docs/kemoku/review-countries-block.webp)
 
-The Review Countries block has 1 configuration option:
+The Review Countries block has 2 configuration options:
 
+- **List Supported or Restricted Countries**: Choose whether to display supported countries or restricted countries
 - **Display a CTA Section**: Toggle to show/hide the call-to-action section
 
 ### Review US States Block
