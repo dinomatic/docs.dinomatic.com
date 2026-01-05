@@ -50,14 +50,14 @@ The second section allows you to configure your review pages URL structure.
 
 ### Set Reviews Page Slug
 
-1. **Enter Slug**: Enter the slug you want for your review pages (default: "sportsbooks")
+1. **Enter Slug**: Enter the slug you want for your review pages (default: "reviews")
 2. **Preview URLs**: The setup page shows example URLs based on your slug choice
 3. **Save**: Click "Save" to set the slug
 
 **Example URLs with default slug:**
 
-- `https://your-domain.com/sportsbooks/bet365`
-- `https://your-domain.com/sportsbooks/bovada`
+- `https://your-domain.com/reviews/bet365`
+- `https://your-domain.com/reviews/bovada`
 
 ---
 
