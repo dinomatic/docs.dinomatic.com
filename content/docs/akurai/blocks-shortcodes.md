@@ -23,10 +23,10 @@ Here are the blocks available in Akurai theme:
 5. Reviews List
 6. Review Offer (Featured Review)
 7. Review Finder
-8. Recent Posts
-9. Links Group
-10. FAQ
-11. Slider
+8. Comparison Table
+9. Recent Posts
+10. Links Group
+11. FAQ
 12. Lazy Image
 
 ### Reviews Table Block
@@ -195,6 +195,27 @@ You can use the default shortcode as above, or set your own options:
 not_found_label="..."]
 ```
 
+### Comparison Table Block
+
+`💁 since version 4.4.0`
+
+![akurai-blocks-comparison-table](https://media.dinomatic.com/images/akurai/blocks/akurai-block--comparison-table.jpg)
+
+To add a new comparison table simply click on the **+** (Add block) sign and select **Comparison Table** in **Akurai Blocks** section.
+
+In the content editor a new comparison table edit section will appear. Add 2 or 3 reviews to compare side-by-side. For each comparison row, select the field type and optionally provide a custom label to override the default.
+
+Available row types: Rating, Welcome Bonus, Min Deposit, Max Deposit, Established, License, Payment Methods, Features, Sportsbook, Casino, Live Casino, Poker, Bingo, Lottery.
+
+Below reviews you can configure additional display options: how to display **terms and conditions**, whether to show the **visit button** and **review link**, **content alignment** (centered or left), and whether to apply each review's **brand colors** to the header row.
+
+### Comparison Table Shortcode
+
+```html
+[comparison_table reviews="comma separated list of review page ids" rows="rating,bonus,min_deposit"
+terms="none|short|long|ajax|ajax-hover" centered="true" use_review_colors="false" show_visit="true" show_review="true"]
+```
+
 ### Recent Posts Block
 
 ![akurai-blocks-posts](https://media.dinomatic.com/images/akurai/blocks/akurai-block--recent-posts.jpg)
@@ -240,14 +261,6 @@ In the content editor a new FAQs edit section will appear. For each one add the 
 `💁 since version 2.0` By default schema.org markup for FAQ rich snippets will be included in all your FAQ blocks, however you can disable them if you need to.
 
 > Note that you can include only one markup on a page. If you have multiple FAQ blocks on a single, please enable this for one of them only.
-
-### Slider Block
-
-![akurai-blocks-slider](https://media.dinomatic.com/images/akurai/blocks/akurai-block--slider.jpg)
-
-To add a new slider simply click on the **+** (Add block) sign and select **Slider** in **Akurai Blocks** section.
-
-In the content editor a new slider edit section will appear. The first part is for defining the slider styles such as content font color, background colors, button colors, etc. The second part is where you define the slides and their contents. For each slide you can add a heading, small content, a button and background image or pattern.
 
 ### Lazy Image Block
 
