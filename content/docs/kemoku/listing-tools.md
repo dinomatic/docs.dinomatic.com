@@ -266,4 +266,4 @@ Copy the values you want to change to a custom stylesheet or Additional CSS sect
 
 ### Next step
 
-[How To ...](/docs/kemoku/how-to/)
+[Integrations](/docs/kemoku/integrations/)
