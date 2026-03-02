@@ -25,6 +25,7 @@ Below are the blocks available in Kemoku plugin you can use on all pages:
 
 - Reviews Listings (Tables and Grids)
 - Review CTA
+- Review Bonus
 
 ### Reviews Listings
 
@@ -83,6 +84,16 @@ Both for tables and grids, this is what the filters and sorting popup looks like
 Simply add the block, fill in the heading (optional), content and button/link fields and it's ready.
 
 ![Kemoku CTA Block](https://media.dinomatic.com/images/docs/kemoku/kemoku-review-cta-block-frontend.jpg)
+
+### Review Bonus
+
+`💁 since version 2.3.0`
+
+New card block for showcasing a single review's bonus offer. Displays the review logo, a bonus heading label, the bonus text, an optional copy-able bonus code, an affiliate link button, and optional terms.
+
+The block can target a specific review via the **Review** field, or leave it empty to automatically use the current review page. You can override the bonus text, bonus code, affiliate link, and terms directly in the block fields.
+
+![Kemoku Review Bonus Block](https://media.dinomatic.com/images/docs/kemoku/kemoku-review-bonus-block-frontend.jpg)
 
 ### Blocks vs Shortcodes
 
