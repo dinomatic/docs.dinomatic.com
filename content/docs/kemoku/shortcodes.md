@@ -62,6 +62,12 @@ Here are the general shortcodes available in Kemoku plugin you can use on all pa
 [sb_cta content="Content" button_url="#" button_text="Button Text" heading="Heading"]
 ```
 
+**Review Bonus** \
+
+```html
+[sb_bonus review_id="" bonus_heading="Welcome Bonus" terms="none" bonus="" bonus_code="" button_url=""]
+```
+
 To see the general shortcodes and the parameters they accept check the [Shortcode Generator](#shortcode-generator) in your WordPress dashboard.
 
 ---

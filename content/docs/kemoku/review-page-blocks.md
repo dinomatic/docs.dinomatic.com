@@ -37,7 +37,7 @@ Here are the blocks available in Kemoku plugin that you can use on any review pa
 
 In most cases, there's nothing to configure in these blocks, simply add the blocks where you want to display them, and they are ready.
 
-You can also use **[Review CTA](/docs/kemoku/blocks#review-cta)** block in review pages.
+You can also use **[Review CTA](/docs/kemoku/blocks#review-cta)** and **[Review Bonus](/docs/kemoku/blocks#review-bonus)** blocks in review pages.
 
 ### Review Hero Block
 
