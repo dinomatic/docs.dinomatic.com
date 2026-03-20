@@ -34,7 +34,6 @@ You can download a child theme for the FXT theme in your DinoMatic account.
 ### Method 2: Manual Creation
 
 1. **Create Child Theme Directory**
-
    - Navigate to your WordPress themes directory: `/wp-content/themes/`
    - Create a new folder named `fxt-child`
 
