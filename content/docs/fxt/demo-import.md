@@ -8,83 +8,30 @@ extra:
 
 # Demo Import
 
-FXT theme includes demo content that you can import to quickly set up your website with sample broker reviews, pages, and content structure.
+One Click Demo Import for FXT theme.
+
+## How to import demo content
+
+Instead of starting from scratch, with FXT you have options to import demo content and make your adjustments.
+
+### One Click Demo Import
+
+With **One Click Demo Import** option you can import demo content, as well as customizations and widgets exactly the way they are on demo websites.
+
+You need to install [One Click Demo Import](https://wordpress.org/plugins/one-click-demo-import/) plugin from WP plugin directory. Once it's installed and activated, there will be a new submenu item in your WP dashboard &#8594; Appearance called "**FXT Demo Import**".
+
+Visit that page, select the demo website and import it. You can also install optional plugins the during import process. Once the import is completed your website will like the demo you selected.
+
+If for some reason you get an error when trying to import the demo, try switching to manual method and upload the below files:
+
+- NYC demo - [content](https://media.dinomatic.com/demo/contents/nyc.xml), [customizer](https://media.dinomatic.com/demo/customizer/nyc.dat), [widgets](https://media.dinomatic.com/demo/widgets/nyc.wie)
+- DXB demo - [content](https://media.dinomatic.com/demo/contents/dxb.xml), [customizer](https://media.dinomatic.com/demo/customizer/dxb.dat), [widgets](https://media.dinomatic.com/demo/widgets/dxb.wie)
+
+### Manual Content Import
+
+If you prefer to customize the theme on your own, you can download a `.xml` file from your DinoMatic account that contains the demo content. After that you can import it to your new website using WP Importer following [simple steps](https://wordpress.org/support/article/importing-content/#wordpress). It will not import the customizations or widgets to your website.
 
 ---
-
-## Before You Begin
-
-**Important**: Make sure you have the FXT theme installed and activated before proceeding with the demo import.
-
----
-
-## Download Demo Content
-
-1. Download the [demo content file (nyc.xml)](https://media.dinomatic.com/demo/contents/nyc.xml) to your computer
-2. Save the file in a location you can easily access
-
----
-
-## Import Demo Content
-
-### Step 1: Access WordPress Importer
-
-1. In your WordPress dashboard, go to **Tools** → **Import**
-2. Look for the **WordPress** option (usually the last one in the list)
-
-### Step 2: Install/Run Importer
-
-- **If you see "Run Importer" link**: Click it directly
-- **If you see "Install Now"**: Click it, then click **Run Importer** once installed
-
-### Step 3: Upload and Import
-
-1. Click **Choose File** and select the downloaded `nyc.xml` file
-2. Click **Upload file and import**
-3. Follow the import process and wait for completion
-4. **Note**: The import may take a few minutes to fully complete
-
----
-
-## Configure After Content Import
-
-### Step 1: Set Up Menus
-
-1. Go to **Appearance** → **Customize**
-2. Click on **Menus** in the left sidebar
-3. Assign the newly created menus to their locations:
-   - **Header Menu**: Assign to header navigation
-   - **Footer Menu**: Assign to footer navigation
-
-### Step 2: Set Up Pages
-
-1. In the Customizer, click on **Homepage Settings**
-2. Configure your pages:
-   - **Homepage**: Select "Trusted Forex Brokers for 2025"
-   - **Posts page**: Select "Blog"
-
----
-
-## What's Included
-
-The demo import includes:
-
-- About 60 broker reviews
-- Posts and pages
-- Pre-configured menus
-- Sample content structure
-- Example layouts and formatting
-
----
-
-## After Import
-
-After importing the demo content:
-
-1. **Customize Content**: Replace demo content with your own broker information
-2. **Update Settings**: Configure theme options and customizer settings
-3. **Add Your Brokers**: Create your own broker review pages
-4. **Customize Design**: Adjust colors, fonts, and layout through the customizer
 
 ## Next Step
 
