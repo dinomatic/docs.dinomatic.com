@@ -1,13 +1,13 @@
 ---
 title: Plugin Updates
 description: Nonaki Plugin Updates
-weight: 30
+weight: 100
 extra:
-  order: 30
+  order: 100
 ---
 
-# Nonaki Plugin Updates
+# Plugin Updates
 
-Nonaki updates are baked into the plugin, meaning you will receive them in your WordPress dashboard as soon as they are available and you don't have to do anything more than just clicking the update button, no need to download the plugin and upload through FTP again.
+Nonaki updates are delivered automatically through the WordPress dashboard. When a new version is available, you will see the standard WordPress update notification and can apply it with one click — no need to download or re-upload anything.
 
-However, if for some reason you want to do that, you still can just download the plugin files from your account, remove the old plugin directory and upload the new one to your server.
+If you prefer to update manually, download the latest plugin file from your [DinoMatic account](https://dinomatic.com/account), deactivate and remove the current version, then upload and activate the new one via FTP or the WordPress dashboard uploader.

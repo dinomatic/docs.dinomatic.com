@@ -113,13 +113,23 @@
   }
 
   code {
-    @apply border-b-2 border-blue-500 bg-blue-100 px-2 pt-1 break-words whitespace-pre-wrap dark:border-blue-400 dark:bg-slate-800;
+    @apply rounded-sm bg-blue-100 px-2 pt-1 wrap-break-word whitespace-pre-wrap dark:bg-slate-800;
   }
 
   pre {
     @apply relative mt-3 mb-6 block w-full max-w-[calc(100vw-2rem)] overflow-x-auto px-3 py-3 dark:bg-slate-800;
     code {
       @apply border-0 bg-inherit p-0 whitespace-pre;
+    }
+  }
+
+  table {
+    border-collapse: collapse;
+    @apply mb-6 border border-slate-200 dark:border-slate-800;
+
+    th,
+    td {
+      @apply border border-slate-200 px-2 py-1 dark:border-slate-800;
     }
   }
 }

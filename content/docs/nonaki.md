@@ -8,22 +8,21 @@ extra:
 
 # Nonaki Plugin
 
-Nonaki gives WordPress site owners the tools to create and manage affiliate links without any hassle. It is a simple plugin letting you create redirects in your WordPress dashboard and use them in your website.
+Nonaki is a WordPress link management plugin built for site owners, marketers, and affiliates. Create clean redirect links, track clicks and impressions, detect broken destinations, and understand your audience — all from your WordPress dashboard.
 
 ---
 
 ## Getting Started
 
-It's easy to get started with Nonaki. Follow the documentations to install the plugin and create link redirects.
+Follow the documentation to install the plugin and start managing your links.
 
 ### Requirements
 
-Before getting started make sure you have all the requirements met.
+Before getting started make sure your server meets the minimum requirements.
 
-To use the plugin, you must be running `WordPress 5.0` or higher and `PHP 7.4` or higher.
-Recommended WordPress version is `WordPress 6.6`.
-
-Also make sure your host has the minimum requirements to run WordPress and PHP `max_upload_size` is more than 2MB.
+- `WordPress 6.0` or higher (recommended: latest stable)
+- `PHP 8.4` or higher
+- PHP `max_upload_size` above `4MB` (for import)
 
 ### Changelog
 

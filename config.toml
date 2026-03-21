@@ -31,7 +31,7 @@ sibet = "2.1.0"
 dinodds = "1.5.0"
 akurai-geo = "2.0.0"
 spinoko-geo = "1.1.5"
-nonaki = "1.0.4"
+nonaki = "2.0.0"
 hello-cookie = "1.0.2"
 
 [extra.links]
