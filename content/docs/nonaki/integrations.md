@@ -45,6 +45,35 @@ https://yoursite.com/wp-json/nonaki/v2/
 
 ---
 
+### GET /stats/links
+
+Returns a paginated list of all active links.
+
+**Query parameters:** same as `/stats/clicks` (`after_id`, `per_page`).
+
+**Response:**
+
+```json
+{
+  "data": [
+    {
+      "id": 12,
+      "link_key": "dinomatic",
+      "destination_url": "https://dinomatic.com/themes",
+      "redirect_type": "301",
+      "created_at": "2025-11-04 09:15:00"
+    }
+  ],
+  "meta": {
+    "per_page": 100,
+    "has_more": false,
+    "last_id": 12
+  }
+}
+```
+
+---
+
 ### GET /stats/clicks
 
 Returns a paginated list of raw click events.
@@ -150,7 +179,7 @@ Returns an aggregated summary for a single link.
 
 ## Pagination
 
-The clicks and impressions endpoints use cursor-based pagination via `after_id`. To retrieve all events:
+The links, clicks, and impressions endpoints use cursor-based pagination via `after_id`. To retrieve all records:
 
 1. Make an initial request (no `after_id`)
 2. If `meta.has_more` is `true`, make the next request with `after_id` set to `meta.last_id`
@@ -160,7 +189,7 @@ The clicks and impressions endpoints use cursor-based pagination via `after_id`.
 
 ## Efficient Polling with Last-Modified
 
-All three endpoints include a `Last-Modified` header in their responses indicating the timestamp of the most recent event in the queried range.
+All endpoints include a `Last-Modified` header in their responses indicating the timestamp of the most recent event in the queried range.
 
 On subsequent polls, send this value back as `If-Modified-Since`:
 
