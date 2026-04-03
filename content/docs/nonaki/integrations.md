@@ -8,18 +8,30 @@ extra:
 
 # Integrations
 
-Nonaki exposes a REST API that allows third-party tools and services to read your click and impression data. Access is controlled by an API key you manage from the **Integrations** tab in the plugin.
+Nonaki exposes a REST API that allows third-party tools and services to manage your redirects and read your click and impression data. Access is controlled by two separate API keys you manage from the **Integrations** tab in the plugin.
 
 ---
 
-## API Key
+## API Keys
 
-Go to **Nonaki Links** → **Integrations** to view and manage your API key.
+Go to **Nonaki Links** → **Integrations** to view and manage your API keys.
+
+For each key:
 
 - **Copy** — copy the key to your clipboard to paste into a third-party service
 - **Regenerate** — generate a new key immediately. The old key stops working as soon as you regenerate. Make sure to update any service using the old key.
 
-Keep your API key private. Anyone who has it can read all your click and impression data.
+### Links API Key
+
+Grants access to the redirects and tags endpoints. Use this to let external tools create, update, or delete your links.
+
+Keep this key private. Anyone who has it can read and modify all your redirects and tags.
+
+### Stats API Key
+
+Grants access to the stats endpoints. Use this to let external tools read your click and impression data.
+
+Keep this key private. Anyone who has it can read all your click and impression data.
 
 ---
 
@@ -35,15 +47,174 @@ Requests without a valid key receive a `401 Unauthorized` response.
 
 ---
 
-## Endpoints
+## Links Endpoints
 
-All endpoints are under:
+All endpoints are under `https://yoursite.com/wp-json/nonaki/v2/` and require the **Links API Key**.
 
+### The redirect object
+
+```json
+{
+  "id": 42,
+  "link_key": "dinomatic",
+  "destination_url": "https://dinomatic.com/themes",
+  "redirect_type": 301,
+  "status": "active",
+  "link_status": "ok",
+  "click_count": 1024,
+  "impression_count": 8820,
+  "tags": [{ "id": 3, "name": "Themes", "slug": "themes" }],
+  "created_at": "2025-11-04 09:15:00",
+  "updated_at": "2026-03-19 14:22:11"
+}
 ```
-https://yoursite.com/wp-json/nonaki/v2/
+
+`redirect_type` is `301`, `302`, or `307`. `status` is `active` or `trashed`. `link_status` is `ok`, `broken`, or `unchecked`.
+
+---
+
+### GET /redirects
+
+Returns a paginated list of redirects.
+
+**Query parameters:**
+
+| Parameter  | Default    | Description                                     |
+| ---------- | ---------- | ----------------------------------------------- |
+| `page`     | `1`        | Page number.                                    |
+| `per_page` | `20`       | Results per page (max `100`).                   |
+| `search`   | —          | Filter by key or destination URL.               |
+| `status`   | `active`   | Filter by status: `active` or `trashed`.        |
+| `tag_id`   | —          | Filter by tag ID.                               |
+
+**Response:**
+
+```json
+{
+  "data": [{ "id": 42, "link_key": "dinomatic", "..." : "..." }],
+  "total": 120,
+  "pages": 6
+}
 ```
 
 ---
+
+### POST /redirects
+
+Creates a new redirect.
+
+**Body:**
+
+| Field             | Required | Description                                        |
+| ----------------- | -------- | -------------------------------------------------- |
+| `link_key`        | Yes      | Short key used in the redirect URL (e.g. `promo`). |
+| `destination_url` | Yes      | The URL to redirect to.                            |
+| `redirect_type`   | Yes      | `301`, `302`, or `307`.                            |
+| `tag_ids`         | No       | Array of tag IDs to assign.                        |
+
+Returns the created redirect object with status `201 Created`.
+
+---
+
+### GET /redirects/{id}
+
+Returns a single redirect by ID.
+
+---
+
+### PATCH /redirects/{id}
+
+Updates a redirect. All fields are optional — only send what you want to change.
+
+**Body:** any combination of `link_key`, `destination_url`, `redirect_type`, `tag_ids`.
+
+Sending `tag_ids` replaces the redirect's tags entirely.
+
+---
+
+### DELETE /redirects/{id}
+
+Moves the redirect to trash. Returns `204 No Content`. Use `POST /redirects/{id}/restore` to undo.
+
+---
+
+### POST /redirects/{id}/restore
+
+Restores a trashed redirect back to active. Returns the redirect object.
+
+---
+
+### DELETE /redirects/{id}/force-delete
+
+Permanently deletes a redirect. This cannot be undone. Returns `204 No Content`.
+
+---
+
+### POST /redirects/bulk
+
+Applies an action to multiple redirects at once.
+
+**Body:**
+
+| Field      | Required                          | Description                                          |
+| ---------- | --------------------------------- | ---------------------------------------------------- |
+| `action`   | Yes                               | One of: `trash`, `restore`, `force-delete`, `tag-add`, `tag-remove`. |
+| `ids`      | Yes                               | Array of redirect IDs.                               |
+| `tag_ids`  | For `tag-add` / `tag-remove` only | Array of tag IDs to add or remove.                   |
+
+**Response:**
+
+```json
+{ "affected": 5 }
+```
+
+---
+
+### GET /tags
+
+Returns all tags.
+
+**Response:**
+
+```json
+{
+  "data": [
+    { "id": 3, "name": "Themes", "slug": "themes", "link_count": 12 }
+  ]
+}
+```
+
+---
+
+### POST /tags
+
+Creates a new tag.
+
+**Body:** `name` (required).
+
+Returns the created tag object with status `201 Created`:
+
+```json
+{ "data": { "id": 4, "name": "Plugins", "slug": "plugins" } }
+```
+
+---
+
+### PATCH /tags/{id}
+
+Updates a tag's name. **Body:** `name` (required). Returns the updated tag object.
+
+---
+
+### DELETE /tags/{id}
+
+Permanently deletes a tag. Returns `204 No Content`.
+
+---
+
+## Stats Endpoints
+
+All endpoints are under `https://yoursite.com/wp-json/nonaki/v2/` and require the **Stats API Key**.
 
 ### GET /stats/links
 
