@@ -1,37 +1,36 @@
----
-title: Sikika Theme
-description: Getting Started with Sikika Theme
-weight: 100
-extra:
-  order: 100
----
+______________________________________________________________________
+
+## title: Sikika Theme description: Getting Started with Sikika Theme weight: 100 extra: order: 100
 
 # Sikika Theme
 
-Sikika is a simple and clean WordPress theme that's been developed to be used with Kemoku Reviews plugin, however it can be used a standalone theme as well.
+Sikika is a simple and clean WordPress theme that's been developed to be used
+with Kemoku Reviews plugin, however it can be used a standalone theme as well.
 
----
+______________________________________________________________________
 
 ## Getting Started
 
-It's easy to get started with Sikika. Follow the documentations to install the theme and create compelling websites.
+It's easy to get started with Sikika. Follow the documentations to install the
+theme and create compelling websites.
 
 ### Requirements
 
 Before getting started make sure you have all the requirements met.
 
-To use the theme, you must be running `WordPress 5.0` or higher and `PHP 7.4` or higher.
-Recommended `WordPress 6.6`.
+To use the theme, you must be running `WordPress 6.0` or higher and `PHP 8.4` or
+higher. Recommended `WordPress 6.9`.
 
-Also make sure your host has the minimum requirements to run WordPress and PHP `max_upload_size` is more than 2MB.
+Also make sure your host has the minimum requirements to run WordPress and PHP
+`max_upload_size` is more than 2MB.
 
 ### Demo
 
-You can check out theme demos to get ideas how to build your own website.
-Here are 2 demos for you:
+You can check out theme demos to get ideas how to build your own website. Here
+are 2 demos for you:
 
 1. [Demo #1](https://demos.dinomatic.com/manila)
-2. [Demo #2](https://demos.dinomatic.com/havana)
+1. [Demo #2](https://demos.dinomatic.com/havana)
 
 ### Changelog
 
