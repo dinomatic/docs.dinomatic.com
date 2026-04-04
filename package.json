@@ -14,14 +14,17 @@
   },
   "author": "DinoMatic",
   "license": "ISC",
+  "overrides": {
+    "esbuild": "^0.25.0"
+  },
   "devDependencies": {
     "@types/js-yaml": "^4.0.9",
     "@types/node": "^25.5.2",
     "js-yaml": "^4.1.1",
-    "prettier": "^3.5.3",
-    "prettier-plugin-tailwindcss": "^0.6.11",
-    "tailwindcss": "^4.1.6",
-    "vitepress": "^1.6.3",
-    "vue": "^3.5.13"
+    "prettier": "^3.8.1",
+    "prettier-plugin-tailwindcss": "^0.7.2",
+    "tailwindcss": "^4.2.2",
+    "vitepress": "^1.6.4",
+    "vue": "^3.5.32"
   }
 }
