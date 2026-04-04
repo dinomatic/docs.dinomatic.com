@@ -1,6 +1,6 @@
 # DinoMatic Docs
 
-Documentation site for [DinoMatic](https://dinomatic.com), built with [Zola](https://www.getzola.org/) and enhanced with [TailwindCSS](https://tailwindcss.com).
+Documentation site for [DinoMatic](https://dinomatic.com), built with [VitePress](https://vitepress.dev/) and enhanced with [TailwindCSS](https://tailwindcss.com).
 
 ## Development
 
@@ -15,13 +15,6 @@ Documentation site for [DinoMatic](https://dinomatic.com), built with [Zola](htt
    npm run dev
    ```
 
-This will start concurrent processes for:
-
-- Zola static site server
-- TailwindCSS watcher
-- JavaScript bundling
-- Search functionality
-
 ## Building
 
 To create a production build:
@@ -30,4 +23,4 @@ To create a production build:
 npm run build
 ```
 
-The built site will be in the `public` directory.
+The built site will be in the `.vitepress/dist` directory.

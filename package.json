@@ -1,21 +1,12 @@
 {
   "name": "docs.dinomatic.com",
   "version": "3.0.2",
-  "main": "index.js",
-  "engines": {
-    "node": ">=18.0.0"
-  },
+  "type": "module",
   "scripts": {
-    "css:watch": "npx @tailwindcss/cli -i ./src/app.css -o ./static/app.css --watch",
-    "css:build": "npx @tailwindcss/cli -i ./src/app.css -o ./static/app.css --minify",
-    "js:watch": "esbuild src/app.js --bundle --outfile=static/app.js --watch",
-    "js:build": "esbuild src/app.js --bundle --minify --outfile=static/app.js",
-    "docsearch:watch": "esbuild src/search.js --bundle --outfile=static/docsearch.js --watch",
-    "docsearch:build": "esbuild src/search.js --bundle --minify --outfile=static/docsearch.js",
-    "zola:dev": "zola serve",
-    "lint": "prettier --write .",
-    "dev": "concurrently \"npm run css:watch\" \"npm run js:watch\" \"npm run docsearch:watch\" \"npm run zola:dev\"",
-    "build": "npm run css:build && npm run js:build && npm run docsearch:build && zola build"
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "preview": "vitepress preview",
+    "lint": "prettier --write ."
   },
   "repository": {
     "type": "git",
@@ -23,19 +14,14 @@
   },
   "author": "DinoMatic",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/dinomatic/docs.dinomatic.com/issues"
-  },
-  "homepage": "https://github.com/dinomatic/docs.dinomatic.com#readme",
-  "description": "",
   "devDependencies": {
-    "@docsearch/js": "^3.9.0",
-    "@tailwindcss/cli": "^4.1.6",
-    "concurrently": "^9.1.2",
-    "esbuild": "^0.25.2",
+    "@types/js-yaml": "^4.0.9",
+    "@types/node": "^25.5.2",
+    "js-yaml": "^4.1.1",
     "prettier": "^3.5.3",
-    "prettier-plugin-jinja-template": "^2.0.0",
     "prettier-plugin-tailwindcss": "^0.6.11",
-    "tailwindcss": "^4.1.6"
+    "tailwindcss": "^4.1.6",
+    "vitepress": "^1.6.3",
+    "vue": "^3.5.13"
   }
 }
