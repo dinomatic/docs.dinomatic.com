@@ -6,16 +6,69 @@ import { fileURLToPath } from 'url'
 const __dirname = fileURLToPath(new URL('.', import.meta.url))
 
 export const products = [
-  { slug: 'akurai', name: 'Akurai', version: '4.4.0', description: 'A versatile WordPress theme for creating and managing awesome sports betting affiliate websites.' },
-  { slug: 'spinoko', name: 'Spinoko', version: '2.9.2', description: 'A modern WordPress theme for creating and managing awesome casino affiliate websites.' },
-  { slug: 'fxt', name: 'FXT', version: '1.4.1', description: 'A specialized WordPress theme for Forex affiliate websites, featuring built-in broker reviews, comparison tables, and listing blocks.' },
-  { slug: 'kemoku', name: 'Kemoku', version: '2.3.0', description: 'A WordPress plugin for gambling affiliate websites to manage and promote sportsbook and casino reviews.' },
-  { slug: 'dinodds', name: 'DinOdds', version: '1.5.0', description: 'Display odds comparison tables for major leagues on your website with just a couple of clicks.' },
-  { slug: 'akurai-geo', name: 'Akurai Geo', version: '2.0.0', description: 'A WordPress plugin built specifically for Akurai Theme to add powerful geo-targeting functionalities.' },
-  { slug: 'spinoko-geo', name: 'Spinoko Geo', version: '1.1.5', description: 'A WordPress plugin built specifically for Spinoko Theme to add geo-targeting functionalities.' },
-  { slug: 'nonaki', name: 'Nonaki', version: '2.0.0', description: 'A WordPress link management plugin for creating clean redirects and tracking audience performance.' },
-  { slug: 'sikika', name: 'Sikika', version: '2.1.0', description: 'A simple and clean WordPress theme built to work with the Kemoku Reviews plugin, or standalone.' },
-  { slug: 'hello-cookie', name: 'Hello Cookie', version: '1.0.2', description: 'A simple and lightweight cookie consent notice plugin for WordPress websites.' },
+  {
+    slug: 'akurai',
+    name: 'Akurai',
+    version: '4.4.0',
+    description: 'A versatile WordPress theme for creating and managing awesome sports betting affiliate websites.',
+  },
+  {
+    slug: 'spinoko',
+    name: 'Spinoko',
+    version: '2.9.2',
+    description: 'A modern WordPress theme for creating and managing awesome casino affiliate websites.',
+  },
+  {
+    slug: 'fxt',
+    name: 'FXT',
+    version: '1.5.0',
+    description:
+      'A specialized WordPress theme for Forex affiliate websites, featuring built-in broker reviews, comparison tables, and listing blocks.',
+  },
+  {
+    slug: 'kemoku',
+    name: 'Kemoku',
+    version: '2.3.0',
+    description:
+      'A WordPress plugin for gambling affiliate websites to manage and promote sportsbook and casino reviews.',
+  },
+  {
+    slug: 'dinodds',
+    name: 'DinOdds',
+    version: '1.5.0',
+    description: 'Display odds comparison tables for major leagues on your website with just a couple of clicks.',
+  },
+  {
+    slug: 'akurai-geo',
+    name: 'Akurai Geo',
+    version: '2.0.0',
+    description:
+      'A WordPress plugin built specifically for Akurai Theme to add powerful geo-targeting functionalities.',
+  },
+  {
+    slug: 'spinoko-geo',
+    name: 'Spinoko Geo',
+    version: '1.1.5',
+    description: 'A WordPress plugin built specifically for Spinoko Theme to add geo-targeting functionalities.',
+  },
+  {
+    slug: 'nonaki',
+    name: 'Nonaki',
+    version: '2.0.0',
+    description: 'A WordPress link management plugin for creating clean redirects and tracking audience performance.',
+  },
+  {
+    slug: 'sikika',
+    name: 'Sikika',
+    version: '2.1.0',
+    description: 'A simple and clean WordPress theme built to work with the Kemoku Reviews plugin, or standalone.',
+  },
+  {
+    slug: 'hello-cookie',
+    name: 'Hello Cookie',
+    version: '1.0.2',
+    description: 'A simple and lightweight cookie consent notice plugin for WordPress websites.',
+  },
 ]
 
 const sidebarCache = new Map<string, ReturnType<typeof readSidebarItems>>()

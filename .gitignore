@@ -1,7 +1,8 @@
 /build_local/
 /build_staging/
-/build_staging/
 /node_modules/
 /vendor/
 /public/
+.vitepress/cache/
+.vitepress/dist/
 .DS_Store

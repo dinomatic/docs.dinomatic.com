@@ -1,13 +1,17 @@
-______________________________________________________________________
-
-## title: DinOdds Plugin description: Getting Started with DinOdds Plugin weight: 40 extra: order: 40
+---
+title: DinOdds Plugin
+description: Getting Started with DinOdds Plugin
+weight: 40
+extra:
+  order: 40
+---
 
 # DinOdds Plugin
 
 DinOdds lets display odds comparison tables for major leagues on your website
 super easily, just a couple of clicks.
 
-______________________________________________________________________
+---
 
 ## Getting Started
 
