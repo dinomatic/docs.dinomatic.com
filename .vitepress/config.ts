@@ -12,7 +12,7 @@ export default defineConfig({
   ignoreDeadLinks: true,
 
   sitemap: {
-    hostname: "https://docs.dinomatic.com",
+    hostname: 'https://docs.dinomatic.com',
     lastmodDateOnly: false,
   },
 

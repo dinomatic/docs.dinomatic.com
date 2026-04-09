@@ -1,6 +1,10 @@
-______________________________________________________________________
-
-## title: Akurai Theme description: Getting Started with Akurai Theme weight: 10 extra: order: 10
+---
+title: Akurai Theme
+description: Getting Started with Akurai Theme
+weight: 10
+extra:
+  order: 10
+---
 
 # Akurai Theme
 
@@ -8,7 +12,7 @@ Akurai is a versatile WordPress theme for creating and managing awesome sports
 betting affiliate websites. It's unique and modern, making your website stand
 out among others.
 
-______________________________________________________________________
+---
 
 ## Getting Started
 

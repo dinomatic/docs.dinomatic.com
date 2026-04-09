@@ -1,15 +1,17 @@
-______________________________________________________________________
-
-## title: FXT Theme description: Getting Started with FXT Theme weight: 25 extra: order: 25
+---
+title: FXT Theme
+description: Getting Started with FXT Theme
+weight: 25
+extra:
+  order: 25
+---
 
 # FXT Theme
 
 FXT is a specialized WordPress theme for Forex affiliate websites, built-in
 features for broker reviews, comparison tables, listing blocks and more.
 
-Check out the public roadmap [here](https://trello.com/b/4XH9YJyB/fxt-roadmap).
-
-______________________________________________________________________
+---
 
 ## Getting Started
 

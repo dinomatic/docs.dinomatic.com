@@ -1,6 +1,10 @@
-______________________________________________________________________
-
-## title: Spinoko Theme description: Getting Started with Spinoko Theme weight: 20 extra: order: 20
+---
+title: Spinoko Theme
+description: Getting Started with Spinoko Theme
+weight: 20
+extra:
+  order: 20
+---
 
 # Spinoko Theme
 
@@ -8,7 +12,7 @@ Spinoko is a modern WordPress theme for creating and managing awesome casino
 affiliate websites. It's unique and feature-rich, making your website stand out
 among others.
 
-______________________________________________________________________
+---
 
 ## Getting Started
 

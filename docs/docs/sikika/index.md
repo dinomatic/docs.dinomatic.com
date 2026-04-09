@@ -1,13 +1,17 @@
-______________________________________________________________________
-
-## title: Sikika Theme description: Getting Started with Sikika Theme weight: 100 extra: order: 100
+---
+title: Sikika Theme
+description: Getting Started with Sikika Theme
+weight: 100
+extra:
+  order: 100
+---
 
 # Sikika Theme
 
 Sikika is a simple and clean WordPress theme that's been developed to be used
 with Kemoku Reviews plugin, however it can be used a standalone theme as well.
 
-______________________________________________________________________
+---
 
 ## Getting Started
 

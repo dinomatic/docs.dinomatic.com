@@ -1,13 +1,17 @@
-______________________________________________________________________
-
-## title: SpinokoGeo Plugin description: Getting Started with SpinokoGeo Plugin weight: 60 extra: order: 60
+---
+title: SpinokoGeo Plugin
+description: Getting Started with SpinokoGeo Plugin
+weight: 60
+extra:
+  order: 60
+---
 
 # SpinokoGeo Plugin
 
 SpinokoGeo is a WordPress plugin developed specifically for Spinoko Theme to add
 geo targeting functionalities.
 
-______________________________________________________________________
+---
 
 ## Getting Started
 

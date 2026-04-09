@@ -1,13 +1,17 @@
-______________________________________________________________________
-
-## title: AkuraiGeo Plugin description: Getting Started with AkuraiGeo Plugin weight: 50 extra: order: 50
+---
+title: AkuraiGeo Plugin
+description: Getting Started with AkuraiGeo Plugin
+weight: 50
+extra:
+  order: 50
+---
 
 # AkuraiGeo Plugin
 
 AkuraiGeo is a WordPress plugin developed specifically for Akurai Theme to add
 geo targeting functionalities.
 
-______________________________________________________________________
+---
 
 ## Getting Started
 

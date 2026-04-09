@@ -1,13 +1,17 @@
-______________________________________________________________________
-
-## title: Hello Cookie Plugin description: Getting Started with Hello Cookie Plugin weight: 80 extra: order: 80
+---
+title: Hello Cookie Plugin
+description: Getting Started with Hello Cookie Plugin
+weight: 80
+extra:
+  order: 80
+---
 
 # Hello Cookie Plugin
 
 Hello Cookie is a simple and lightweight cookie consent notice plugin for
 WordPress websites.
 
-______________________________________________________________________
+---
 
 ## Getting Started
 

@@ -1,13 +1,17 @@
-______________________________________________________________________
-
-## title: Kemoku Plugin description: Getting Started with Kemoku Plugin weight: 30 extra: order: 30
+---
+title: Kemoku Plugin
+description: Getting Started with Kemoku Plugin
+weight: 30
+extra:
+  order: 30
+---
 
 # Kemoku Plugin
 
 Kemoku is a WordPress plugin developed for gambling affiliate websites. It gives
 opportunities to manage and promote sportsbook and casino reviews easily.
 
-______________________________________________________________________
+---
 
 ## Getting Started
 
