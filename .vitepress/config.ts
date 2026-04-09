@@ -35,7 +35,7 @@ export default defineConfig({
   transformPageData(pageData) {
     const title = pageData.frontmatter.title || 'DinoMatic Docs'
     const description = pageData.frontmatter.description || 'DinoMatic Product Documentation'
-    const canonical = `https://docs.dinomatic.com/${pageData.relativePath.replace(/index\.md$/, '').replace(/\.md$/, '')}`
+    const canonical = `https://docs.dinomatic.com/${pageData.relativePath.replace(/index\.md$/, '').replace(/\.md$/, '/')}`
 
     pageData.frontmatter.head = [
       ...(pageData.frontmatter.head || []),

@@ -101,7 +101,7 @@ function readSidebarItems(product: string) {
       }
       return {
         text: title,
-        link: `/docs/${product}/${file.replace('.md', '')}`,
+        link: `/docs/${product}/${file.replace('.md', '')}/`,
         order,
       }
     })
