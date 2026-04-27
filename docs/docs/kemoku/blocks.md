@@ -85,6 +85,41 @@ Simply add the block, fill in the heading (optional), content and button/link fi
 
 ![Kemoku CTA Block](https://media.dinomatic.com/images/docs/kemoku/kemoku-review-cta-block-frontend.jpg)
 
+### Review Links
+
+`💁 since version 2.4.0`
+
+New list block for displaying links to review pages.
+
+![Kemoku Review Links Block](https://media.dinomatic.com/images/docs/kemoku/kemoku-review-links-block-frontend.jpg)
+
+To customize the block styles, override the below CSS custom properties in your Additional CSS section.
+
+```css
+.sb-review-links {
+  /* min width of each grid item */
+  --item-width: 280px;
+  /* grid item padding */
+  --item-padding: 1em;
+  /* gap between elements in grid items */
+  --item-gap: 1em;
+  /* the height of the log image */
+  --logo-height: 3rem;
+  /* the color of the border and right chevron */
+  --accent-color: #cad5e2;
+  /* the hover color of the border and right chevron */
+  --hover-color: #62748e;
+  /* grid item background color */
+  --item-bg-color: transparent;
+  /* logo image background color */
+  --logo-bg-color: #fcfcfc;
+  --text-color: #333;
+  --name-font-size: 1em;
+  --shadow: none;
+  --radius: var(--section_border_radius);
+}
+```
+
 ### Review Bonus
 
 `💁 since version 2.3.0`

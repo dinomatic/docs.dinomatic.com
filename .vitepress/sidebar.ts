@@ -28,7 +28,7 @@ export const products = [
   {
     slug: 'kemoku',
     name: 'Kemoku',
-    version: '2.3.0',
+    version: '2.4.0',
     description:
       'A WordPress plugin for gambling affiliate websites to manage and promote sportsbook and casino reviews.',
   },

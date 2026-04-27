@@ -16,7 +16,7 @@ All the plugin blocks are also available as shortcodes. This is useful if you're
 
 Here are the general shortcodes available in Kemoku plugin you can use on all pages:
 
-**Reviews Table** \
+**Reviews Table**
 
 ```html
 [sb_table source="manual" ids="6, 9" style="no-terms|link-terms|popup-terms spacing altrows"]
@@ -26,7 +26,7 @@ Here are the general shortcodes available in Kemoku plugin you can use on all pa
 [sb_table source="tax" cat="42,43" tag="73,74" style="..."]
 ```
 
-**Reviews Grid** \
+**Reviews Grid**
 
 ```html
 [sb_grid source="manual" ids="6, 9" style="no-terms|link-terms|popup-terms"]
@@ -36,7 +36,7 @@ Here are the general shortcodes available in Kemoku plugin you can use on all pa
 [sb_grid source="tax" cat="42,43" tag="73,74" style="..."]
 ```
 
-**Reviews Table: Payments** \
+**Reviews Table: Payments**
 
 ```html
 [sb_payments_table source="manual" ids="6, 9" style="short-terms|link-terms|popup-terms"]
@@ -46,7 +46,7 @@ Here are the general shortcodes available in Kemoku plugin you can use on all pa
 [sb_payments_table source="tax" cat="42,43" tag="73,74" style="..."]
 ```
 
-**Reviews Grid: Bonus** \
+**Reviews Grid: Bonus**
 
 ```html
 [sb_bonus_grid source="manual" ids="6, 9" style="no-terms|link-terms|popup-terms"]
@@ -56,13 +56,19 @@ Here are the general shortcodes available in Kemoku plugin you can use on all pa
 [sb_bonus_grid source="tax" cat="42,43" tag="73,74" style="..."]
 ```
 
-**Review CTA** \
+**Review CTA**
 
 ```html
 [sb_cta content="Content" button_url="#" button_text="Button Text" heading="Heading"]
 ```
 
-**Review Bonus** \
+**Review Links**
+
+```html
+[sb_review_links ids="6, 9"]
+```
+
+**Review Bonus**
 
 ```html
 [sb_bonus review_id="" bonus_heading="Welcome Bonus" terms="none" bonus="" bonus_code="" button_url=""]
