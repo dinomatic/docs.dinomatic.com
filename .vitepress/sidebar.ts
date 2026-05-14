@@ -9,7 +9,7 @@ export const products = [
   {
     slug: 'akurai',
     name: 'Akurai',
-    version: '4.4.0',
+    version: '4.5.0',
     description: 'A versatile WordPress theme for creating and managing awesome sports betting affiliate websites.',
   },
   {
