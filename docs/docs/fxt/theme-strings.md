@@ -108,6 +108,7 @@ Customize review and content-related text.
 - Author By Label
 - Author On Label
 - Author Posts Label
+- Second Author Label (default: "Fact-checked by")
 
 ---
 

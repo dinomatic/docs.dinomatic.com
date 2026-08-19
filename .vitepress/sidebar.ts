@@ -9,7 +9,7 @@ export const products = [
   {
     slug: 'akurai',
     name: 'Akurai',
-    version: '4.5.0',
+    version: '4.5.2',
     description: 'A versatile WordPress theme for creating and managing awesome sports betting affiliate websites.',
   },
   {
@@ -21,21 +21,21 @@ export const products = [
   {
     slug: 'fxt',
     name: 'FXT',
-    version: '1.5.0',
+    version: '1.7.0',
     description:
       'A specialized WordPress theme for Forex affiliate websites, featuring built-in broker reviews, comparison tables, and listing blocks.',
   },
   {
     slug: 'kemoku',
     name: 'Kemoku',
-    version: '2.4.0',
+    version: '2.4.1',
     description:
       'A WordPress plugin for gambling affiliate websites to manage and promote sportsbook and casino reviews.',
   },
   {
     slug: 'dinodds',
     name: 'DinOdds',
-    version: '1.5.0',
+    version: '1.6.0',
     description: 'Display odds comparison tables for major leagues on your website with just a couple of clicks.',
   },
   {
@@ -54,7 +54,7 @@ export const products = [
   {
     slug: 'nonaki',
     name: 'Nonaki',
-    version: '2.0.0',
+    version: '2.0.2',
     description: 'A WordPress link management plugin for creating clean redirects and tracking audience performance.',
   },
   {
