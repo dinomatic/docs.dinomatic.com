@@ -14,11 +14,13 @@ You can define different templates for broker review pages in FXT theme.
 
 ## Using Broker Page Templates
 
-There are 3 page templates available for displaying **Broker Review Pages** on your website.
+There are 5 page templates available for displaying **Broker Review Pages** on your website.
 
 1. **Default Template** - Standard broker review layout (used when no template is selected)
 2. **Overview Template** - Comprehensive broker information display
 3. **Trading Conditions Template** - Focused on trading parameters
+4. **Features Template** - Highlights key broker features, customer support, and education resources
+5. **Instruments Template** - Showcases the broker's tradable assets
 
 ---
 
@@ -88,13 +90,56 @@ The main content area displays the broker review content using the standard brok
 
 ---
 
+## Features Template
+
+The Features template highlights the broker's key trading features alongside customer support and education resources.
+
+### Header Section Features
+
+- **Broker Logo**: Large, prominent logo display (120px)
+- **Broker Name**: Main heading with title
+- **Author Information**: Author block (if enabled in theme options)
+- **Trading Features**: Negative Balance Protection, Swap-Free Accounts, Social Trading, VPS Services, PAMM Accounts, Bonuses & Promotions
+- **Customer Support**: Availability, support channels, response time, and supported languages
+- **Education**: Learning materials, market analysis, economic calendar, trading signals
+- **Country Support**: Geographic availability information
+- **Action Buttons**: Real account and demo account links
+- **Terms & Conditions**: Popover display of broker terms
+
+### Content Area
+
+The main content area displays the broker review content using the standard broker display template, with hooks for customization before and after the content.
+
+---
+
+## Instruments Template
+
+The Instruments template showcases the broker's tradable assets in detail.
+
+### Header Section Features
+
+- **Broker Logo**: Large, prominent logo display (120px)
+- **Broker Name**: Main heading with title
+- **Author Information**: Author block (if enabled in theme options)
+- **Trading Instruments**: Total instrument count and a breakdown by asset type (currency pairs, cryptocurrencies, precious metals, indices, stocks, commodities, energy, bonds, ETFs, options)
+- **Trading Platforms**: Supported platforms and mobile trading availability
+- **Country Support**: Geographic availability information
+- **Action Buttons**: Real account and demo account links
+- **Terms & Conditions**: Popover display of broker terms
+
+### Content Area
+
+The main content area displays the broker review content using the standard broker display template, with hooks for customization before and after the content.
+
+---
+
 ## Template Selection
 
 ### Setting a Broker Template
 
 1. Create or edit a broker page in WordPress
 2. In the Page Attributes section (right sidebar), look for **Template**
-3. Select either "Overview" or "Trading Conditions" from the dropdown
+3. Select "Overview", "Trading Conditions", "Features", or "Instruments" from the dropdown
 4. Leave as "Default Template" to use the standard broker layout
 5. Update or publish the broker page
 
@@ -103,6 +148,8 @@ The main content area displays the broker review content using the standard brok
 - **Default Template**: Standard broker review layout with rating focus
 - **Overview Template**: Best for comprehensive broker reviews with detailed information
 - **Trading Conditions Template**: Ideal for technical-focused reviews emphasizing trading parameters
+- **Features Template**: Best for highlighting trading features, customer support, and education resources
+- **Instruments Template**: Ideal for reviews emphasizing the range of tradable assets
 
 ---
 
@@ -123,6 +170,8 @@ The header sections are built using partial templates located in (relative to th
 - `resources/views/broker/default/header.php`
 - `resources/views/broker/overview/header.php`
 - `resources/views/broker/trading-conditions/header.php`
+- `resources/views/broker/features/header.php`
+- `resources/views/broker/instruments/header.php`
 
 ---
 

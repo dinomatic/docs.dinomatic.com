@@ -21,6 +21,17 @@ To access theme options:
 
 ---
 
+## Dashboard Widget
+
+A **FXT Theme** widget is added to your WordPress Dashboard (Dashboard → Home) for a quick overview without opening FXT Options:
+
+- **Broker Stats**: Total, published, and draft broker counts, each linking to the matching list
+- **Quick Links**: Shortcuts to add a new broker, open Theme Options, and open Integrations
+- **Incomplete Broker Data**: Flags published brokers missing a logo, rating, or account link, with a link to edit each one
+- **License Status**: Shows a renewal notice if your license has expired
+
+---
+
 ## Main Options Sections
 
 ### License Key
@@ -47,7 +58,23 @@ Configure broker-related settings and features.
 - Rich Snippet Author: Set the author for rich snippets
 - Author Block: Enable/disable author information blocks
 - Author Full Block: Enable/disable full author blocks
+- Second Author Block: Show the second author's (fact-checker's) full profile block after the main content. When a broker has a second author set, they're always shown in the page header regardless of this setting
 - Table of Contents: Enable/disable TOC on broker pages
+- Comments: Enable/disable comments on broker review pages
+- Breadcrumbs: Enable/disable breadcrumbs on broker review pages, and choose whether they appear in the header or in the content (only shown if breadcrumbs are enabled globally)
+
+### Affiliate Links
+
+Define additional named affiliate links, beyond each broker's main Real Account Link.
+
+**Location**: Affiliate Links section in FXT Options
+
+**Settings**:
+
+- Up to 10 link labels (e.g. "Crypto", "CFD") — only labeled slots are usable
+- Once a label is set here, a matching URL field appears on every broker's edit screen
+- Labeled links become selectable in the Listing block's Affiliate Link Override option, so a single listing can point to a different link than the broker's main Real Account Link
+- If a broker has no URL set for the chosen link, it falls back to the Real Account Link automatically
 
 ### Page Options
 

@@ -76,13 +76,18 @@ In the content editor a new listing edit section will appear. This is one of the
 - **Listing 6**: Section-based layout with multiple sections
 - **Listing 7**: Grid layout (3 columns)
 - **Listing 8**: Grid layout (3 columns) with different styling
+- **Listing 9**: Compact card with an expandable "More details" section showing extra fields, broker features, a description, and the review author
 
-**Field Options** (for applicable listing types):
+**Field Options** (Listing 2, 3, and 9 only):
 
 - Minimum Deposit, Deposit Fees, Minimum Trade Size
 - Average Spread, Maximum Leverage, Trading Instruments
 - Social Trading, Swap-free Accounts, Negative Balance Protection
 - VPS Program, PAMM Accounts
+
+**Details Field** (Listing 9 only):
+
+- A 4th field shown inside the expandable details panel, in addition to the three Field Options above — choose the broker's short or long description, or any of the Field Options fields
 
 **Section Options** (for Listing 6):
 
@@ -92,6 +97,7 @@ In the content editor a new listing edit section will appear. This is one of the
 **Display Options**:
 
 - **Logo Lazy Loading**: Enable/disable lazy loading for broker logos
+- **Affiliate Link Override**: Choose which affiliate link to use for this listing's buttons — defaults to the Real Account Link. Additional named links can be configured per broker in **FXT Options → Affiliate Links** (see [Theme Options](/docs/fxt/theme-options))
 
 ### FAQ Block
 
