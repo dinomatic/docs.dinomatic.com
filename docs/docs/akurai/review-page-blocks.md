@@ -28,8 +28,6 @@ There are 7 review blocks available for you to use in review pages:
 - Bonus List
 - Countries
 
-![akurai-review-blocks](https://media.dinomatic.com/images/docs/akurai/review-blocks.jpg)
-
 5 blocks, except Bonus List and Countries, require no configuration, all you need is to just add them to the content by clicking on the block name. The information is populated from [Review Fields](/docs/akurai/creating-review-pages) that you need to have filled in beforehand.
 
 ### Shortcodes
@@ -54,5 +52,3 @@ The same blocks are also available via shortcodes, and you can also use them in 
 ```
 
 ### Screenshots
-
-![akurai-review-blocks-content](https://media.dinomatic.com/images/docs/akurai/akurai-review-blocks-content.jpg)

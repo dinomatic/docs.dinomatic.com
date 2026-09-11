@@ -17,7 +17,6 @@ export default defineConfig({
   },
 
   head: [
-    ['link', { rel: 'preconnect', href: 'https://media.dinomatic.com', crossorigin: '' }],
     ['link', { rel: 'preconnect', href: 'https://fonts.bunny.net', crossorigin: '' }],
     [
       'script',

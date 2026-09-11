@@ -21,22 +21,21 @@ extra:
 
 Below filters allow to modify which filter groups to include (keys), what to call those groups (headings) and values to filter reviews. You can use them in your child theme.
 
-For more details check out <code>inc/modules/review-filters.php</code> file.
+For more details check out <code>inc/modules/listing-filters.php</code> file.
 
 #### How To Modify Keys
 
 ```php
 <?php
 
-
 if ( ! function_exists( 'set_akurai_review_filters_keys' ) ) {
   /**
    * Modify review filters keys.
    * Default value for $keys array is [
    *  'ai_additional_info',
+   *  'ai_ratings',
    *  'ai_offers',
-   *  'ai_rating',
-   *  'ai_license',
+   *  'ai_licenses',
    *  'ai_countries',
    *  'ai_payment_methods'
    * ]
@@ -45,7 +44,7 @@ if ( ! function_exists( 'set_akurai_review_filters_keys' ) ) {
    */
   function set_akurai_review_filters_keys( array $keys ): array {
 
-    return array_filter( $keys, fn( $key ) => $key !== 'ai_license' );
+    return array_filter( $keys, fn( $key ) => $key !== 'ai_licenses' );
   }
   add_filter( 'akurai_review_filters__keys', 'set_akurai_review_filters_keys' );
 }
@@ -57,7 +56,7 @@ These are all available filters to modify review filters headings:
 
 ```toml
 'akurai_review_filters__heading__popular'
-'akurai_review_filters__heading__rating'
+'akurai_review_filters__heading__ratings'
 'akurai_review_filters__heading__offers'
 'akurai_review_filters__heading__licenses'
 'akurai_review_filters__heading__countries'
@@ -68,7 +67,6 @@ The below example changes offers block heading from <code>Offers</code> to <code
 
 ```php
 <?php
-
 
 add_filter(
   'akurai_review_filters__heading__offers',
@@ -84,11 +82,11 @@ These are all available filters to modify review filters values:
 
 ```toml
 'akurai_review_filters__values__popular'
-'akurai_review_filters__values__rating'
-'akurai_review_filters__values__offer'
-'akurai_review_filters__values__license'
-'akurai_review_filters__values__country'
-'akurai_review_filters__values__payment_method'
+'akurai_review_filters__values__ratings'
+'akurai_review_filters__values__offers'
+'akurai_review_filters__values__licenses'
+'akurai_review_filters__values__countries'
+'akurai_review_filters__values__payment_methods'
 ```
 
 The below example modifies ratings block. Instead of <code>6+, 7+, 8+, 9+, 10</code> it will change it to just <code>8 and more, 9 and more, 10</code>.
@@ -96,9 +94,8 @@ The below example modifies ratings block. Instead of <code>6+, 7+, 8+, 9+, 10</c
 ```php
 <?php
 
-
 add_filter(
-  'akurai_review_filters__values__rating',
+  'akurai_review_filters__values__ratings',
   fn () => array( '8' => '8 and more', '9' => '9 and more', '10' => '10' )
 );
 ```
@@ -107,7 +104,6 @@ This next example modifies offers block. Instead of <code>Sportsbook, Casino, Li
 
 ```php
 <?php
-
 
 add_filter(
   'akurai_review_filters__values__offers',
@@ -131,7 +127,6 @@ Next we need to use a filter to update the logo files. Add this to your child th
 
 ```php
 <?php
-
 
 function change_akurai_gambling_logos( $logos ) {
 
@@ -162,20 +157,19 @@ add_filter( 'akurai_gambling_logos', 'change_akurai_gambling_logos' );
 For each review you can upload 2 logos (main/large and small), and there are 5 listing blocks and 2 widget blocks available in Akurai.
 By default blocks use the following logos:
 
-- Review Table - Small Logos
+- Review Table - Large Logos
 - Review Table Flex - Large Logos
 - Review Table Extended - Large Logos
 - Review Grid - Large Logos
 - Review List - Small Logos
-- Single Review Widget - Small Logos
-- Multiple Reviews Widget - Large Logos
+- Single Review Widget - Large Logos
+- Multiple Reviews Widget - Small Logos
 
 Depending on what kind of logos you upload, you may want to use different images on different blocks.
 You can change which logo to use on the blocks by using the below filters, copy only the ones that you want to change and add them to your child theme.
 
 ```php
 <?php
-
 
 add_filter( 'akurai_table_logo_size', fn() => 'large' );
 add_filter( 'akurai_table_flex_logo_size', fn() => 'small' );

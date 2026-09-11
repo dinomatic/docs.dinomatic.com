@@ -20,12 +20,11 @@ With **One Click Demo Import** option you can import demo content, as well as cu
 
 You need to install [One Click Demo Import](https://wordpress.org/plugins/one-click-demo-import/) plugin from WP plugin directory. Once it's installed and activated, there will be a new submenu item in your WP dashboard &#8594; Appearance called "**FXT Demo Import**".
 
-Visit that page, select the demo website and import it. You can also install optional plugins the during import process. Once the import is completed your website will like the demo you selected.
+Visit that page and import the FXT demo. Once the import is completed your website will look like the [demo](https://fxt.dinomatic.com).
 
 If for some reason you get an error when trying to import the demo, try switching to manual method and upload the below files:
 
-- NYC demo - [content](https://media.dinomatic.com/demo/contents/nyc.xml), [customizer](https://media.dinomatic.com/demo/customizer/nyc.dat), [widgets](https://media.dinomatic.com/demo/widgets/nyc.wie)
-- DXB demo - [content](https://media.dinomatic.com/demo/contents/dxb.xml), [customizer](https://media.dinomatic.com/demo/customizer/dxb.dat), [widgets](https://media.dinomatic.com/demo/widgets/dxb.wie)
+- FXT demo - [content](https://raw.githubusercontent.com/dinomatic/downloads/main/fxt/demo-import/fxt.xml), [customizer](https://raw.githubusercontent.com/dinomatic/downloads/main/fxt/demo-import/fxt.dat)
 
 ### Manual Content Import
 

@@ -86,6 +86,7 @@ Configure settings for regular pages.
 
 - Author Block: Enable/disable author information blocks on pages
 - Author Full Block: Enable/disable full author blocks on pages
+- Second Author Block: Show the second author's (fact-checker's) full profile block after the main content. When a page has a second author set, they're always shown in the page header regardless of this setting
 - Table of Contents: Enable/disable TOC on pages
 
 ### Post Options
@@ -98,6 +99,7 @@ Configure settings for blog posts.
 
 - Author Block: Enable/disable author information blocks on posts
 - Author Full Block: Enable/disable full author blocks on posts
+- Second Author Block: Show the second author's (fact-checker's) full profile block after the main content. When a post has a second author set, they're always shown in the post header regardless of this setting
 - Table of Contents: Enable/disable TOC on posts
 
 ### Social Media Options

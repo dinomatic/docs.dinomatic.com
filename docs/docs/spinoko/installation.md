@@ -1,20 +1,22 @@
 ---
 title: Installation
 description: Spinoko Theme Installation
-weight: 10
+weight: 20
 extra:
-  order: 10
+  order: 20
 ---
 
 # Theme Installation
 
-You can install the theme either through WordPress dashboard (recommended) or via FTP.
+You can install the theme either through the WordPress dashboard (recommended)
+or via FTP.
 
 ---
 
 ## Before Installation
 
-Please make sure your server meets the minimum system requirements and download the theme file from your [DinoMatic account](https://dinomatic.com/account).
+Please make sure your server meets the minimum system requirements and
+download the theme file from your [DinoMatic account](https://dinomatic.com/account).
 
 ### Install through WordPress Dashboard
 
@@ -30,3 +32,6 @@ Please make sure your server meets the minimum system requirements and download 
 4. Unzip the archive, you'll have a directory `spinoko` in themes
 5. Remove the `spinoko.zip` file
 6. Visit WordPress dashboard &#8594; Themes and activate the theme
+
+Next, [activate your license key](/docs/spinoko/license) so the theme can
+receive updates.

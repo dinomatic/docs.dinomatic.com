@@ -7,28 +7,29 @@ const __dirname = fileURLToPath(new URL('.', import.meta.url))
 
 export const products = [
   {
-    slug: 'akurai',
-    name: 'Akurai',
-    version: '4.5.2',
-    description: 'A versatile WordPress theme for creating and managing awesome sports betting affiliate websites.',
-  },
-  {
     slug: 'spinoko',
     name: 'Spinoko',
-    version: '2.9.2',
-    description: 'A modern WordPress theme for creating and managing awesome casino affiliate websites.',
+    version: '3.0.0',
+    description:
+      'A full-site-editing WordPress theme for casino affiliate and review publishers. Built entirely on core WordPress APIs — no third-party field or page-builder plugins required.',
+  },
+  {
+    slug: 'akurai',
+    name: 'Akurai',
+    version: '4.6.0',
+    description: 'A versatile WordPress theme for creating and managing awesome sports betting affiliate websites.',
   },
   {
     slug: 'fxt',
     name: 'FXT',
-    version: '1.7.0',
+    version: '1.8.0',
     description:
       'A specialized WordPress theme for Forex affiliate websites, featuring built-in broker reviews, comparison tables, and listing blocks.',
   },
   {
     slug: 'kemoku',
     name: 'Kemoku',
-    version: '2.4.1',
+    version: '2.4.2',
     description:
       'A WordPress plugin for gambling affiliate websites to manage and promote sportsbook and casino reviews.',
   },
@@ -37,19 +38,6 @@ export const products = [
     name: 'DinOdds',
     version: '1.6.0',
     description: 'Display odds comparison tables for major leagues on your website with just a couple of clicks.',
-  },
-  {
-    slug: 'akurai-geo',
-    name: 'Akurai Geo',
-    version: '2.0.0',
-    description:
-      'A WordPress plugin built specifically for Akurai Theme to add powerful geo-targeting functionalities.',
-  },
-  {
-    slug: 'spinoko-geo',
-    name: 'Spinoko Geo',
-    version: '1.1.5',
-    description: 'A WordPress plugin built specifically for Spinoko Theme to add geo-targeting functionalities.',
   },
   {
     slug: 'nonaki',
@@ -101,7 +89,7 @@ function readSidebarItems(product: string) {
       }
       return {
         text: title,
-        link: `/docs/${product}/${file.replace('.md', '')}/`,
+        link: `/docs/${product}/${file.replace('.md', '')}`,
         order,
       }
     })

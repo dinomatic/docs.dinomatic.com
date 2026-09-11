@@ -24,18 +24,14 @@ Before getting started make sure you have all the requirements met.
 
 To use the plugin, you must be running `WordPress 6.0` or higher and `PHP 8.4`
 or higher. \
-Recommended `WordPress 6.9`.
+Recommended `WordPress 7.1`.
 
 Also make sure your host has the minimum requirements to run WordPress and PHP
 `max_upload_size` is more than `8MB`.
 
 ### Demo
 
-You can check out plugin demos to get ideas on how to build your own website.
-Here are 3 demos for you:
-
-1. [Demo Paris](https://demos.dinomatic.com/paris)
-1. [Demo Manila](https://demos.dinomatic.com/manila)
+You can check out plugin demo to get ideas on how to build your own website - [Demo](https://sikika.dinomatic.com).
 
 ### Changelog
 

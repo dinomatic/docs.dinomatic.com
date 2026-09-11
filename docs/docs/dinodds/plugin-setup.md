@@ -20,8 +20,6 @@ After activating DinOdds plugin, you'll find a new menu item in your WordPress d
 
 You'll be prompted to add your Client ID, enter it and click the **Save** button.
 
-![DinOdds Plugin Setup](https://media.dinomatic.com/images/docs/dinodds/plugin-setup.jpg)
-
 If you get an error that the license key is not correct and the registration fails:
 
 - make sure there are no white spaces in the beginning or at the end of the key

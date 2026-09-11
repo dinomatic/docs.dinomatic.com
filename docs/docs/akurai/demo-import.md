@@ -24,8 +24,7 @@ Visit that page, select the demo website and import it. You can also install opt
 
 If for some reason you get an error when trying to import the demo, try switching to manual method and upload the below files:
 
-- Atlanta demo - [content](https://media.dinomatic.com/demo/contents/atlanta.xml), [customizer](https://media.dinomatic.com/demo/customizer/atlanta.dat), [widgets](https://media.dinomatic.com/demo/widgets/atlanta.wie)
-- Dortmund demo - [content](https://media.dinomatic.com/demo/contents/dortmund.xml), [customizer](https://media.dinomatic.com/demo/customizer/dortmund.dat), [widgets](https://media.dinomatic.com/demo/widgets/dortmund.wie)
+- Akurai demo - [content](https://raw.githubusercontent.com/dinomatic/downloads/main/akurai/demo-import/akurai.xml), [customizer](https://raw.githubusercontent.com/dinomatic/downloads/main/akurai/demo-import/akurai.dat), [widgets](https://raw.githubusercontent.com/dinomatic/downloads/main/akurai/demo-import/akurai.wie)
 
 ### Manual Content Import
 

@@ -23,7 +23,7 @@ start using the plugin.
 Before getting started make sure you have all the requirements met.
 
 To use the plugin, you must be running `WordPress 6.0` or higher and `PHP 8.4`
-or higher. Recommended `WordPress 6.9`.
+or higher. Recommended `WordPress 7.1`.
 
 Also make sure your host has the minimum requirements to run WordPress and PHP
 `max_upload_size` is more than 8MB.
@@ -44,7 +44,7 @@ Read more [here](/docs/dinodds/scheduling).
 ### Demo
 
 You can check out the plugin on demo website to get ideas how to build your own
-website - [Demo](https://demos.dinomatic.com/luanda)
+website - [Demo](https://sikika.dinomatic.com)
 
 ### Changelog
 

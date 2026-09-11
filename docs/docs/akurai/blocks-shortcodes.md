@@ -28,10 +28,11 @@ Here are the blocks available in Akurai theme:
 10. Links Group
 11. FAQ
 12. Lazy Image
+13. Geo Listing
+14. Geo Content
+15. Review Geo Message
 
 ### Reviews Table Block
-
-![akurai-blocks-table](https://media.dinomatic.com/images/akurai/blocks/akurai-block--reviews-table.jpg)
 
 To add a new table simply click on the **+** (Add block) sign and select **Reviews Table** in **Akurai Blocks** section.
 
@@ -62,8 +63,6 @@ load_more_enabled="true" count_initial="3" count_click="3"]
 
 ### Extended Table Block
 
-![akurai-blocks-table-extended](https://media.dinomatic.com/images/akurai/blocks/akurai-block--extended-table.jpg)
-
 To add a new extended table simply click on the **+** (Add block) sign and select **Extended Reviews Table** in **Akurai Blocks** section.
 
 In the content editor a new table edit section will appear. There are 2 options to add reviews to the grid, manually or automatic, it's the same as for [general tables](#reviews-table-block).
@@ -93,8 +92,6 @@ lazy_logo="true" load_more_enabled="true" count_initial="3" count_click="3"]
 
 `💁 since version 3.0.0`
 
-![akurai-blocks-table-flex](https://media.dinomatic.com/images/akurai/blocks/akurai-block--flex-table.jpg)
-
 To add a new flex table simply click on the **+** (Add block) sign and select **Flex Reviews Table** in **Akurai Blocks** section.
 
 In the content editor a new table edit section will appear. There are 2 options to add reviews to the grid, manually or automatic, it's the same as for [general tables](#reviews-table-block).
@@ -116,8 +113,6 @@ lazy_logo="true" load_more_enabled="true" count_initial="3" count_click="3"]
 ```
 
 ### Reviews Grid Block
-
-![akurai-blocks-grid](https://media.dinomatic.com/images/akurai/blocks/akurai-block--reviews-grid.jpg)
 
 To add a new grid simply click on the **+** (Add block) sign and select **Reviews Grid** in **Akurai Blocks** section.
 
@@ -145,8 +140,6 @@ load_more_enabled="true" count_initial="3" count_click="3"]
 
 ### Reviews List Block
 
-![akurai-blocks-list](https://media.dinomatic.com/images/akurai/blocks/akurai-block--reviews-list.jpg)
-
 To add a new list simply click on the **+** (Add block) sign and select **Reviews List** in **Akurai Blocks** section.
 
 In the content editor a new list edit section will appear. Click **Add Review** to add the 4 reviews.
@@ -158,8 +151,6 @@ In the content editor a new list edit section will appear. Click **Add Review** 
 ```
 
 ### Review Offer Block
-
-![akurai-blocks-offer](https://media.dinomatic.com/images/akurai/blocks/akurai-block--review-offer.jpg)
 
 To add a new offer simply click on the **+** (Add block) sign and select **Review Offer** in **Akurai Blocks** section.
 
@@ -175,8 +166,6 @@ button_text="..."] ... content here ... [/review_block]
 ### Review Finder Block
 
 `💁 since version 3.0.0`
-
-![akurai-blocks-review-finder](https://media.dinomatic.com/images/akurai/blocks/akurai-block--review-finder.jpg)
 
 To add a new review finder simply click on the **+** (Add block) sign and select **Review Finder** in **Akurai Blocks** section.
 
@@ -199,8 +188,6 @@ not_found_label="..."]
 
 `💁 since version 4.4.0`
 
-![akurai-blocks-comparison-table](https://media.dinomatic.com/images/akurai/blocks/akurai-block--comparison-table.jpg)
-
 To add a new comparison table simply click on the **+** (Add block) sign and select **Comparison Table** in **Akurai Blocks** section.
 
 In the content editor a new comparison table edit section will appear. Add 2 or 3 reviews to compare side-by-side. For each comparison row, select the field type and optionally provide a custom label to override the default.
@@ -217,8 +204,6 @@ terms="none|short|long|ajax|ajax-hover" centered="true" use_review_colors="false
 ```
 
 ### Recent Posts Block
-
-![akurai-blocks-posts](https://media.dinomatic.com/images/akurai/blocks/akurai-block--recent-posts.jpg)
 
 To add a new posts block simply click on the **+** (Add block) sign and select **Recent Posts** in **Akurai Blocks** section.
 
@@ -239,8 +224,6 @@ style="no_excerpt"]
 
 `💁 since version 2.0.1`
 
-![akurai-blocks-links-group](https://media.dinomatic.com/images/akurai/blocks/akurai-block--links-group.jpg)
-
 To add a new links group simply click on the **+** (Add block) sign and select **Links Group** in **Akurai Blocks** section.
 
 Select the links that can be posts, pages or reviews. If you want you can overwrite the titles and featured images.
@@ -251,8 +234,6 @@ You can use this for posts, pages, reviews or as a mix of all, as you find it us
 On the right-side panel you can click on "Switch to Preview" to preview the slider block in your editor.
 
 ### FAQs Block
-
-![akurai-blocks-faqs](https://media.dinomatic.com/images/akurai/blocks/akurai-block--faq.jpg)
 
 To add a new FAQs block simply click on the **+** (Add block) sign and select **FAQs** in **Akurai Blocks** section.
 
@@ -271,3 +252,33 @@ To add a new lazy image simply click on the **+** (Add block) sign and select **
 Select or upload an image, set the alt text and you're ready.
 You can specify any CSS class names you want to add to the `img` tag
 Also select the shape of the image, whether it's wide, tall or square. This helps reserve space similar to the image and not cause document "rearrangement".
+
+### Geo Blocks
+
+`💁 since version 4.6.0`
+
+The Geo Listing, Geo Content and Review Geo Message blocks let you tailor content to visitors based on their country. Before using them, set up your target countries on [Settings → Theme Setup → Geo Targeting](/docs/akurai/geo-targeting#settings).
+
+#### Geo Listing Block
+
+To add a new listing simply click on the **+** (Add block) sign and select **Geo Listing** in **Akurai Blocks** section.
+
+On the 1st tab you select the listing options such as listing type (grid, table, etc.), terms and whether to display filters or not.
+
+The 2nd tab, called **Default**, is where you select all reviews that you want to display to users from countries that are not in your list of targeted ones.
+
+After that there's a new tab for each country you target, simply add reviews or leave them empty to display the Default selection. You can choose reviews manually or filter them by category and/or by tag — select a review tag and all reviews with that tag will be displayed, and optionally set a limit, for example, display just 6 reviews tagged as "usa".
+
+#### Geo Content Block
+
+To add a new content block simply click on the **+** (Add block) sign and select **Geo Content** in **Akurai Blocks** section.
+
+Add your content to the rich-text editor and simply select the countries by toggling them on or off.
+
+#### Review Geo Message Block
+
+To add a new message block simply click on the **+** (Add block) sign and select **Review Geo Message** in **Akurai Blocks** section.
+
+You can overwrite the default supported/not-supported texts (set in [Geo Targeting settings](/docs/akurai/geo-targeting#default-support-messages)) or keep the defaults.
+
+Next you can select a style from the **Block Style** dropdown: 2 options with just message and country flag (flag being either on left or right side) and 2 options with the message, the flag as well as a bonus text and affiliate link (only for cases where country is supported). There is one more style called "No Styles" which just prints out the markup, so you can design your own message block by applying your own CSS rules to it.
