@@ -23,13 +23,7 @@ the plugin and adjust the settings.
 Before getting started make sure you have all the requirements met.
 
 To use the plugin, you must be running `WordPress 6.0` and `PHP 8.4` or higher.
-Recommended `WordPress 6.9`.
-
-### Demo
-
-You can check out Sikika theme demo to get an idea how Hello Cookie plugin
-works. Here's the demo website link for you -
-[Demo](https://demos.dinomatic.com/manila)
+Recommended `WordPress 7.1`.
 
 ### Changelog
 

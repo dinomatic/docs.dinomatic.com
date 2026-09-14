@@ -17,8 +17,6 @@ To customize the plugin options visit **Kemoku Reviews** → **Settings** in you
 All default plugin settings are defined in this page. Take your time to go over each field and set the value you need.
 If you find a field name unclear, check the detailed information right below it.
 
-![Kemoku Plugin Settings](https://media.dinomatic.com/images/docs/kemoku/kemoku-settings-page.webp)
-
 ### General Settings
 
 These settings apply to all the plugin sections.

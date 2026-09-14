@@ -63,6 +63,18 @@ Author blocks display author information on your content pages.
 
 ---
 
+## How to Set a Second Author (Fact-Checker)
+
+Brokers, pages, and posts can each have a second author — useful for crediting a fact-checker or co-reviewer.
+
+1. Edit the broker, page, or post
+2. In the right sidebar, find the **Second Author** field and choose a user
+3. Update or publish
+
+Once set, the second author's name appears next to the main author with a "Fact-checked by" label. Whether their full profile block also appears at the end of the content is controlled by the **Second Author Block** toggle in **FXT Options** — see [How to Enable/Disable Author Blocks](#how-to-enabledisable-author-blocks) above.
+
+---
+
 ## How to Enable/Disable Table of Contents
 
 Table of Contents (TOC) provides navigation for long-form content.
@@ -74,6 +86,47 @@ Table of Contents (TOC) provides navigation for long-form content.
    - **Post Options**: For blog posts
 3. Toggle the **Table of Contents** option
 4. Click **Save**
+
+---
+
+## How to Add or Customize Regulations, Countries, Payment Methods, Platforms, and Languages
+
+The dropdown lists used on broker pages — regulations, supported/restricted countries, deposit/withdrawal methods, trading platforms, and supported languages — can be extended or edited using filters. Add the code below to your [child theme's](/docs/fxt/child-theme) `functions.php`.
+
+Each filter receives the current list as an associative array (`value => Label`) and must return an array in the same shape. Values are what gets stored; labels are what's shown in the broker edit screen and on the front end.
+
+**Example — add a custom regulation**:
+
+```php
+add_filter('fxt_regulations_list', function ($regulations) {
+    $regulations['my_regulator'] = 'My Regulator (Country)';
+
+    return $regulations;
+});
+```
+
+**Example — rename or remove an existing option** (e.g. shorten a label, or drop a country you'll never use):
+
+```php
+add_filter('fxt_countries_list', function ($countries) {
+    $countries['us'] = 'USA'; // rename
+    unset($countries['ru']); // remove
+
+    return $countries;
+});
+```
+
+**Available filters**:
+
+| List | Filter |
+| --- | --- |
+| Regulations | `fxt_regulations_list` |
+| Countries (supported/restricted) | `fxt_countries_list` |
+| Payment methods (deposit & withdrawal) | `fxt_payment_methods_list` |
+| Trading platforms | `fxt_platforms_list` |
+| Supported languages | `fxt_languages_list` |
+
+Once added, your changes appear immediately in the corresponding dropdown on the broker edit screen, and on the front end wherever that list is displayed.
 
 ---
 

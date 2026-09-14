@@ -14,9 +14,7 @@ In your WordPress dashboard you will find a new menu called **Kemoku Reviews** r
 
 ## Review Fields
 
-Besides adding your review title and content as usual, you'll find **Review Fields** section below page content. Here you can define properties for each review. The fields are in separate sections and have descriptions to make it easy for you to fill them in. To see what they look like you can check one of the demos available [here](https://demos.dinomatic.com/havana).
-
-![General Review Fields](https://media.dinomatic.com/images/docs/kemoku/kemoku-review-fields.webp)
+Besides adding your review title and content as usual, you'll find **Review Fields** section below page content. Here you can define properties for each review. The fields are in separate sections and have descriptions to make it easy for you to fill them in.
 
 ### General Fields
 

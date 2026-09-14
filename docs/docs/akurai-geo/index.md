@@ -23,18 +23,10 @@ the plugin and start using it right away.
 Before getting started make sure you have all the requirements met.
 
 To use the plugin, you must be running `WordPress 6.0` or higher and `PHP 8.4`
-or higher. Recommended `WordPress 6.9`.
+or higher. Recommended `WordPress 7.1`.
 
 Also make sure your host has the minimum requirements to run WordPress and PHP
 `max_upload_size` is more than 2MB.
-
-### Demo
-
-You can check out Akurai theme demos to get an idea how AkuraiGeo plugin works.
-Here are 3 demos for you:
-
-1. [Demo #1](https://demos.dinomatic.com/atlanta/akurai-geo)
-1. [Demo #2](https://demos.dinomatic.com/dortmund/akurai-geo)
 
 ### Changelog
 

@@ -25,8 +25,6 @@ Here are the widgets available in Kemoku plugin that you can use:
 - Kemoku Review Widget
 - Kemoku Reviews Widget
 
-![kemoku-widgets](https://media.dinomatic.com/images/docs/kemoku/kemoku-widgets.png)
-
 `💁 since version 1.0.8` you can choose to:
 
 - display terms and conditions in full,
@@ -35,8 +33,5 @@ Here are the widgets available in Kemoku plugin that you can use:
 
 #### Kemoku Review Widget
 
-![kemoku-single-kemoku-review-widget](https://media.dinomatic.com/images/docs/kemoku/kemoku-review-widget.png)
-
 #### Kemoku Reviews Widget
 
-![kemoku-multiple-kemoku-reviews-widget](https://media.dinomatic.com/images/docs/kemoku/kemoku-reviews-widget.png)

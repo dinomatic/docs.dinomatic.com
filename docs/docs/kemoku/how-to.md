@@ -232,8 +232,6 @@ your-child-theme/
 
 You have total control over the block's design, all you need to do is adjust some CSS properties and values. Here's a screenshot for easy reference:
 
-![Kemoku Table Payment Row](https://media.dinomatic.com/images/docs/kemoku/kemoku-table-payments-row.jpg)
-
 #### Colors
 
 Let's start with colors. To adjust them, simply use the below snippet in your Additional CSS section and change the color values to your liking. The snippet below contains the default values.
@@ -334,8 +332,6 @@ To remove or change the dollar-sign icon of the payout speed section use:
 ### How To Customize "Grid: Bonus" Block Design
 
 You have total control over the block's design, all you need to do is adjust some CSS properties and values. Here's a screenshot for easy reference:
-
-![Kemoku Grid Bonus](https://media.dinomatic.com/images/docs/kemoku/kemoku-reviews-grid-bonus-block-frontend.jpg)
 
 To adjust any value, simply use the below snippet in your Additional CSS section and change the values to your liking. The snippet below contains the default values.
 You can copy just the properties that you want to change, no need to copy them all.

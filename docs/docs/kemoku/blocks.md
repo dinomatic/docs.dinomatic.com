@@ -51,19 +51,13 @@ Besides categories, you can filter reviews by review tags as well. In difference
 
 #### Table
 
-![Kemoku Table Block](https://media.dinomatic.com/images/docs/kemoku/kemoku-reviews-table-block-frontend.jpg)
-
 #### Table: Payments
 
 `💁 since version 1.6.5`
 
 New table design for showcasing review payment options such as different payment methods, payout speeds. You can use the filtering, sorting and limiting options with this table as well. The styles of this table can be easily customized, learn how to do that [here](/docs/kemoku/how-to#how-to-customize-"table:-payments"-block-design).
 
-![Kemoku Table Payments Block](https://media.dinomatic.com/images/docs/kemoku/kemoku-reviews-table-payments-block-frontend.jpg)
-
 #### Grid
-
-![Kemoku Grid Block](https://media.dinomatic.com/images/docs/kemoku/kemoku-reviews-grid-block-frontend.jpg)
 
 #### Grid: Bonus
 
@@ -71,27 +65,19 @@ New table design for showcasing review payment options such as different payment
 
 New grid design for showcasing review bonuses. You can use the filtering, sorting and limiting options with this grid as well. The styles of this grid can be easily customized, learn how to do that [here](/docs/kemoku/how-to#how-to-customize-"grid:-bonus"-block-design).
 
-![Kemoku Grid Bonus Block](https://media.dinomatic.com/images/docs/kemoku/kemoku-reviews-grid-bonus-block-frontend.jpg)
-
 #### Filters and Sorting
 
 Both for tables and grids, this is what the filters and sorting popup looks like. And you can customize every part of it as described [here](/docs/kemoku/listing-tools).
 
-![Kemoku Listing Filters and Sorting](https://media.dinomatic.com/images/docs/kemoku/kemoku-reviews-listing-tools.jpg)
-
 ### Review CTA
 
 Simply add the block, fill in the heading (optional), content and button/link fields and it's ready.
-
-![Kemoku CTA Block](https://media.dinomatic.com/images/docs/kemoku/kemoku-review-cta-block-frontend.jpg)
 
 ### Review Links
 
 `💁 since version 2.4.0`
 
 New list block for displaying links to review pages.
-
-![Kemoku Review Links Block](https://media.dinomatic.com/images/docs/kemoku/kemoku-review-links-block-frontend.jpg)
 
 To customize the block styles, override the below CSS custom properties in your Additional CSS section.
 
@@ -127,8 +113,6 @@ To customize the block styles, override the below CSS custom properties in your 
 New card block for showcasing a single review's bonus offer. Displays the review logo, a bonus heading label, the bonus text, an optional copy-able bonus code, an affiliate link button, and optional terms.
 
 The block can target a specific review via the **Review** field, or leave it empty to automatically use the current review page. You can override the bonus text, bonus code, affiliate link, and terms directly in the block fields.
-
-![Kemoku Review Bonus Block](https://media.dinomatic.com/images/docs/kemoku/kemoku-review-bonus-block-frontend.jpg)
 
 ### Blocks vs Shortcodes
 

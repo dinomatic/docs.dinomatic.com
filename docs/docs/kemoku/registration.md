@@ -24,8 +24,6 @@ Click on **the setup page** link to access the plugin setup interface.
 
 The setup page includes three main sections. The first section is for plugin registration.
 
-![Kemoku Plugin Registration](https://media.dinomatic.com/images/docs/kemoku/kemoku-registration.webp)
-
 ### Add Product Key
 
 1. **Get Your Product Key**: You can find your product key in your [DinoMatic account dashboard](https://dinomatic.com/account)
@@ -46,8 +44,6 @@ If you get an error that the license key is not correct and the registration fai
 
 The second section allows you to configure your review pages URL structure.
 
-![Kemoku Review Page Slug](https://media.dinomatic.com/images/docs/kemoku/kemoku-review-page-slug.webp)
-
 ### Set Reviews Page Slug
 
 1. **Enter Slug**: Enter the slug you want for your review pages (default: "reviews")
@@ -64,8 +60,6 @@ The second section allows you to configure your review pages URL structure.
 ## Clear Cache
 
 The third section provides cache management functionality.
-
-![Kemoku Clear Cache](https://media.dinomatic.com/images/docs/kemoku/kemoku-setup-cache.webp)
 
 ### Clear Plugin Cache
 

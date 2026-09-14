@@ -16,8 +16,6 @@ Akurai theme comes with built-in breadcrumbs since version 1.0.9.
 
 To add breadcrumbs to your website you need to enable them. In your WordPress dashboard visit **Appearance** &#8594; **Customizer** &#8594; **Breadcrumbs Options** to enable breadcrumbs as well as adjust settings.
 
-![Akurai Breadcrumbs](https://media.dinomatic.com/images/docs/akurai/customizer/breadcrumbs-options.png)
-
 ### Breadcrumbs Options
 
 **Reviews page Parent page**
