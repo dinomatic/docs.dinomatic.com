@@ -21,10 +21,10 @@
   h2 {
     margin-top: 64px;
     border-top: 0 none;
-    color: var(--vp-c-brand-3);
+    /* color: var(--vp-c-brand-3); */
   }
   h3 {
     margin-top: 48px;
-    color: var(--vp-c-brand-3);
+    /* color: var(--vp-c-brand-3); */
   }
 }
