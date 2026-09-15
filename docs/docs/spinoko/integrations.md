@@ -38,9 +38,3 @@ Requirements
 - The tablrr plugin installed and connected with an API key
 - Spinoko theme version 3.0.0 or later
 
-## Coming Soon
-
-- **tablrr** — a centralized listings platform for managing casino data
-  across multiple sites from one dashboard, keeping connected sites in
-  sync automatically.
-- **Slots Launch** — a casino games provider.
